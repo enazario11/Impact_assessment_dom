@@ -1,0 +1,142 @@
+---
+title: "Vessel cooperation ~ time preliminary exploration"
+author: "Emily Nazario"
+date: "`r Sys.Date()`"
+format:
+ html: 
+  self-contained: true
+editor: visual
+toc: TRUE
+toc-title: "On this page"
+theme: yeti
+fontcolor: "#134f5c"
+---
+
+```{r}
+#| warning: false
+#| include: false
+#| echo: false
+#| label: libraries and data
+
+library(tidyverse)
+library(lme4)
+library(here)
+
+vsr_dat <- read.csv(here("data/socal_vsr.csv"))
+
+```
+
+# Vessel compliance time series
+
+Pooled data across vessel types and took the average compliance per year+month. Plotted means represent average compliance across all ships per year and month.
+
+```{r}
+#| echo: false
+#| warning: false
+#| label: compliance time series
+
+vsr_dat <- vsr_dat %>% 
+  mutate(date = as.Date(date, format = "%m/%d/%Y"), 
+         year = year(date), 
+         mo = month(date),
+         yr_mo = zoo::as.yearmon(date))
+
+vsr_dat %>% 
+  group_by(yr_mo) %>%
+  summarise(mean_co = mean(cooperation, na.rm = TRUE), 
+            sd_co = sd(cooperation, na.rm = TRUE)) %>%
+ggplot(aes(yr_mo, mean_co)) +
+  geom_point(size = 3)+
+  tidyquant::theme_tq()+
+  geom_path(size = 1, alpha = 0.5)+
+  xlab("")+
+  ylab("Mean monthly cooperation (%)")+
+  theme(legend.position = "none", 
+        axis.title.y = element_text(size = 16, color = "black"), 
+        axis.text = element_text(size = 14, color = "black"))
+```
+
+# Vessel compliance time series w/ points per ship type 
+
+Pooled data across ship types and year. Black plotted points represent the mean annual cooperation rate across all ship types, while the grey points are the mean annual cooperation rate per ship type.
+
+```{r}
+#| echo: false
+#| warning: false
+#| label: compliance time series per year w/ ship type
+
+vsr_dat_ship <- vsr_dat %>%
+  group_by(year, ship_type) %>%
+  summarise(mean_co = mean(cooperation, na.rm = TRUE), 
+            sd_co = sd(cooperation, na.rm = TRUE))
+
+vsr_dat %>% 
+  group_by(year) %>%
+  summarise(mean_co = mean(cooperation, na.rm = TRUE), 
+            sd_co = sd(cooperation, na.rm = TRUE)) %>%
+ggplot(aes(year, mean_co)) +
+  geom_point(data = vsr_dat_ship, aes(year, mean_co), color = "grey")+
+  geom_point(size = 3)+
+  tidyquant::theme_tq()+
+  geom_path(size = 1, alpha = 0.5)+
+  xlab("")+
+  ylab("Mean annual cooperation (%)") +
+  theme(legend.position = "none", 
+        axis.title.y = element_text(size = 16, color = "black"), 
+        axis.text = element_text(size = 14, color = "black"))
+
+```
+
+# Vessel compliance \~ time GLMMs
+
+## Wilcox normality test
+```{r}
+#| warning: false
+
+wilcox.test(vsr_dat$cooperation)
+
+```
+
+
+::: panel-tabset
+
+## Vessel compliance \~ year_month
+
+```{r}
+#| warning: false
+#| label: compliance ~ yr_mo glmm
+
+comp_time_yr_mo <- glmer(cooperation/100 ~ yr_mo + (1|ship_type), data = vsr_dat, family = "binomial");summary(comp_time_yr_mo)
+
+plot(comp_time_yr_mo)
+lattice::qqmath(comp_time_yr_mo)
+
+```
+
+## Vessel compliance \~ year
+
+```{r}
+#| warning: false
+#| label: compliance ~ year glmm
+
+comp_time_yr <- glmer(cooperation/100 ~ year + (1|ship_type), data = vsr_dat, family = "binomial");summary(comp_time_yr)
+
+plot(comp_time_yr)
+lattice::qqmath(comp_time_yr)
+
+```
+
+## Vessel compliance \~ month
+
+```{r}
+#| warning: false
+#| label: compliance ~ month glmm
+
+comp_time_mo <- glmer(cooperation/100 ~ mo + (1|ship_type), data = vsr_dat, family = "binomial");summary(comp_time_mo)
+
+plot(comp_time_mo)
+lattice::qqmath(comp_time_mo)
+
+```
+
+:::
