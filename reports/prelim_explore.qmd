@@ -56,7 +56,7 @@ ggplot(aes(yr_mo, mean_co)) +
         axis.text = element_text(size = 14, color = "black"))
 ```
 
-# Vessel compliance time series w/ points per ship type 
+# Vessel compliance time series w/ points per ship type
 
 Pooled data across ship types and year. Black plotted points represent the mean annual cooperation rate across all ship types, while the grey points are the mean annual cooperation rate per ship type.
 
@@ -90,6 +90,7 @@ ggplot(aes(year, mean_co)) +
 # Vessel compliance \~ time GLMMs
 
 ## Wilcox normality test
+
 ```{r}
 #| warning: false
 
@@ -97,9 +98,7 @@ wilcox.test(vsr_dat$cooperation)
 
 ```
 
-
 ::: panel-tabset
-
 ## Vessel compliance \~ year_month
 
 ```{r}
@@ -138,5 +137,4 @@ plot(comp_time_mo)
 lattice::qqmath(comp_time_mo)
 
 ```
-
 :::

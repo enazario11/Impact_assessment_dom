@@ -1,0 +1,317 @@
+---
+title: "Whale Safe Impact"
+author: "Emily Nazario"
+date: "`r Sys.Date()`"
+format:
+ html: 
+  self-contained: true
+editor: visual
+toc: TRUE
+toc-title: "On this page"
+theme: yeti
+fontcolor: "#134f5c"
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r}
+#| warning: false
+#| include: false
+#| echo: false
+#| label: libraries and data
+
+library(tidyverse)
+library(here)
+library(Manu)
+library(tidyquant)
+library(patchwork)
+library(kableExtra)
+
+ms_theme <- function(){
+  theme_tq() %+replace%
+            theme(axis.title = element_text(size = 16), 
+                  axis.text = element_text(size = 12, color = "black"), 
+                  strip.text = element_text(size = 16, color = "white"), 
+                  legend.title = element_text(size = 16), 
+                  legend.text = element_text(size = 14))
+}
+
+# whale presence rating (wpr) data
+sf_wpr <- read.csv(here("data/wpr/sf_whale_data.csv"))
+socal_wpr <- read.csv(here("data/wpr/socal_whale_data.csv"))
+
+wpr <- rbind(sf_wpr, socal_wpr)
+
+#vessel speed reduction (vsr) data
+mb_vsr <- read.csv(here("data/vsr/monterey_vsr.csv")) 
+sf_vsr <- read.csv(here("data/vsr/sf_vsr.csv")) %>% mutate(cooperation = cooperation/100)
+socal_vsr <- read.csv(here("data/vsr/socal_vsr.csv")) %>% mutate(cooperation = cooperation/100)
+
+vsr <- rbind(mb_vsr, sf_vsr, socal_vsr)
+vsr <- vsr %>% 
+  mutate(date = as.Date(date, format = "%m/%d/%Y"), 
+         year = year(date), 
+         mo = month(date),
+         yr_mo = zoo::as.yearmon(date))
+
+```
+
+# Voluntary Vessel Speed Reduction (VSR) Zone & Whale Safe background
+
+## VSR data notes
+
+San Francisco data does not include the Monterey Bay National Marine Sanctuary, which was added to the VSR program in 2023. The Whale Safe system that was launched in San Francisco was designed to give whale presence in the San Francisco portion of the VSR zones so we are reporting on them separately here for now. The Monterey Bay stats come from a different data pipeline and the offseason stats are not tracked as regularly.
+
+### **Whale Safe System Launch Dates**
+
+Southern California: September 17, 2020
+
+San Francisco: September 21, 2022
+
+### **Vessel Speed Reduction Zones**
+
+::: {layout-ncol="2"}
+![](images/norcal_vsr-01.jpg){fig-align="center" width="500"}
+
+![](images/socal_vsr.jpg){fig-align="center" width="500"}
+:::
+
+### **Vessel Speed Reduction Season Dates:**
+
+Southern California:
+
+-   June 4 - December 31, 2018:
+
+-   May 15 - December 15, 2019
+
+-   May 15 - December 15, 2020
+
+-   May 15 - December 15, 2021
+
+-   May 1 - December 15, 2022
+
+-   May 1 - December 15, 2023
+
+-   May 1 , 2024 - January 15, 2025
+
+San Francisco
+
+-   May 1 - November 15, 2019
+
+-   May 1 - November 15, 2020
+
+-   May 1 - November 15, 2021
+
+-   May 1 - December 15, 2022
+
+-   May 1 - December 15, 2023
+
+-   May 1 , 2024 - January 15, 2025
+
+## WPR data notes
+
+Blue whale model data might have been retroactively filled in after periods where the server was down. We don’t have this tracked in our data so there may be days where the Whale Presence Rating didn’t take the blue whale model value into account.
+
+Each species has a threshold for each data stream see [Methodology](https://whalesafe.com/methodology/) for what is considered low-high (0-1). The Whale Presence Rating considers the highest rating of any of the data streams over 5 days. Two species need to have a *high* rating in order for the overall Whale Presence Rating to be 'Very High'.
+
+# Vessel compliance/cooperation level
+
+## Cooperation time series w.r.t. VSR status
+
+Time series grouped by region where grey shaded bars represent time periods when the VSR zone in each respective region was active. Points represent year-month averages pooled across vessel types for each region.
+
+```{r}
+#| warning: false
+#| echo: false
+#| fig-width: 7
+#| fig-height: 12
+#| fig-align: "center"
+#| label: compliance time series
+
+col_pal <- get_pal("Pepetuna") #5 discrete values
+
+#create dataframes for dates VSR was active
+vsr_dates <- data.frame(
+  zone = c(rep("Socal VSR", 7), rep("SF VSR", 6), rep("Monterey Bay VSR", 2)),
+  start = c("06/04/2018", "05/15/2019", "05/15/2020", "05/15/2021", "05/01/2022", "05/01/2023", "05/01/2024", "05/01/2019", "05/01/2020", "05/01/2021", "05/01/2022","05/01/2023", "05/01/2025", "05/01/2023", "05/01/2025"), 
+  end = c("12/31/2018", "12/15/2019", "12/15/2020", "12/15/2021", "12/15/2022", "12/15/2023", "01/15/2025", "11/15/2019", "11/15/2020", "11/15/2021", "12/15/2022", "12/15/2023", "01/15/2025", "12/15/2023", "01/15/2025"))
+
+vsr_dates <- vsr_dates %>% 
+  mutate(start = as.Date(start, format = "%m/%d/%Y"), 
+         end = as.Date(end, format = "%m/%d/%Y"),
+         yr_mo_s = zoo::as.yearmon(start), 
+         yr_mo_e = zoo::as.yearmon(end))
+
+vsr_dat_ship <- vsr %>%
+  group_by(yr_mo, zone, ship_category) %>%
+  summarise(mean_co = mean(cooperation, na.rm = TRUE), 
+            sd_co = sd(cooperation, na.rm = TRUE))
+
+#get vsr active dates
+sf_vsr_on <- vsr_dates %>% filter(zone == "SF VSR")
+socal_vsr_on <- vsr_dates %>% filter(zone == "Socal VSR")
+mb_vsr_on <- vsr_dates %>% filter(zone == "Monterey Bay VSR")
+
+#mb
+mb <- vsr %>% 
+  group_by(yr_mo, zone) %>%
+  summarise(mean_co = mean(cooperation, na.rm = TRUE), 
+            sd_co = sd(cooperation, na.rm = TRUE)) %>%
+  filter(zone == "Monterey Bay VSR") %>%
+ggplot(aes(yr_mo, mean_co, color = zone)) +
+  geom_rect(data = mb_vsr_on, aes(ymin = -Inf, ymax = Inf, xmin = yr_mo_s, xmax = yr_mo_e), inherit.aes = FALSE, fill = "grey", alpha = 0.5)+
+  geom_point(size = 3)+
+  geom_path(size = 1.5, alpha = 0.8)+
+  xlab("")+
+  ylab("Mean year-month cooperation (%)") +
+  scale_color_manual(values = col_pal[5])+
+  facet_wrap(~zone)+
+  guides(color = "none")+
+  ylim(20, 85)+
+  ms_theme()
+
+#sf
+sf <- vsr %>% 
+  group_by(yr_mo, zone) %>%
+  summarise(mean_co = mean(cooperation, na.rm = TRUE), 
+            sd_co = sd(cooperation, na.rm = TRUE)) %>%
+  filter(zone == "SF VSR") %>%
+ggplot(aes(yr_mo, mean_co, color = zone)) +
+  geom_rect(data = sf_vsr_on, aes(ymin = -Inf, ymax = Inf, xmin = yr_mo_s, xmax = yr_mo_e), inherit.aes = FALSE, fill = "grey", alpha = 0.5)+
+  geom_point(size = 3)+
+  geom_path(size = 1.5, alpha = 0.8)+
+  xlab("")+
+  ylab("Mean year-month cooperation (%)") +
+  scale_color_manual(values = col_pal[5])+
+  facet_wrap(~zone)+
+  guides(color = "none")+
+  ylim(20, 85)+
+  ms_theme()
+
+#socal
+socal <- vsr %>% 
+  group_by(yr_mo, zone) %>%
+  summarise(mean_co = mean(cooperation, na.rm = TRUE), 
+            sd_co = sd(cooperation, na.rm = TRUE)) %>%
+  filter(zone == "Socal VSR") %>%
+ggplot(aes(yr_mo, mean_co, color = zone)) +
+  geom_rect(data = socal_vsr_on, aes(ymin = -Inf, ymax = Inf, xmin = yr_mo_s, xmax = yr_mo_e), inherit.aes = FALSE, fill = "grey", alpha = 0.5)+
+  geom_point(size = 3)+
+  geom_path(size = 1.5, alpha = 0.8)+
+  xlab("")+
+  ylab("Mean year-month cooperation (%)") +
+  scale_color_manual(values = col_pal[5])+
+  facet_wrap(~zone)+
+  guides(color = "none")+
+  ylim(20, 85)+
+  ms_theme()
+
+mb/sf/socal
+
+```
+
+## Cooperation table: Zone x Ship category
+
+Table displaying % cooperation grouped by region and ship category. Values in the active and inactive columns represent cooperation by VSR status, and the final column represents the change in cooperation between periods when the VSR is active vs. inactive.
+
+```{r}
+#| warning: false
+#| echo: false
+#| label: average compliance by vsr activity
+
+#provide column with in season, out season, and % change btwn (all years pooled)
+vsr_ship_seas <- vsr %>%
+  group_by(zone, ship_category, vsr_season) %>%
+  summarise(mean_co = mean(cooperation, na.rm = TRUE)) %>%
+  pivot_wider(names_from = "vsr_season", 
+              values_from = "mean_co") %>%
+  mutate('% change' = inactive-active)
+
+colnames(vsr_ship_seas) <- c("Zone", "Ship category", "VSR active cooperation (%)", "VSR inactive cooperation (%)", "Change (%)")
+
+kbl(vsr_ship_seas[,2:5]) %>%
+  kable_styling(bootstrap_options = c("striped", "hover")) %>%
+  pack_rows("Monterey Bay", 1, 11, label_row_css = "background-color: #425266 ; color: #fff;") %>%
+  pack_rows("San Francisco", 12, 22, label_row_css = "background-color: #425266 ; color: #fff;") %>%
+  pack_rows("Southern California", 23, 33, label_row_css = "background-color: #425266 ; color: #fff;")
+
+```
+
+## Changes in cooperation by ship category 
+
+Monterey Bay is not included in this analysis given that no data on cooperation rates during inactive VSR seasons are available.
+
+```{r}
+#| warning: false
+#| echo: false
+#| fig-width: 12
+#| fig-height: 6
+#| fig-align: "center"
+#| label: average compliance by ship category
+
+vsr %>% 
+  filter(zone != "Monterey Bay VSR") %>%
+  group_by(zone, ship_category, vsr_season) %>%
+  summarise(mean_co = mean(cooperation, na.rm = TRUE), 
+            sd_co = sd(cooperation, na.rm = TRUE)) %>%
+ggplot(aes(ship_category, mean_co, color = vsr_season)) + 
+  geom_errorbar(aes(ymin = mean_co - sd_co, ymax = mean_co + sd_co), size = 1, width = 0, position = position_dodge(width = 0.5))+
+  geom_point(size = 3.5, position = position_dodge(width = 0.5))+
+  facet_wrap(~zone, scales = "free_x", nrow = 2) + 
+  ylab("Cooperation (%)")+
+  xlab("")+
+  labs(color = "VSR season status")+
+  scale_color_manual(values = c(col_pal[5], col_pal[4]))+
+  ms_theme()+
+    theme(legend.position = "top", 
+          legend.justification = "left")
+  
+```
+
+## Changes in cooperation time series
+
+Monterey Bay is not included in this analysis given that no data on cooperation rates during inactive VSR seasons are available.
+
+```{r}
+#| warning: false
+#| echo: false
+#| fig-width: 12
+#| fig-height: 9
+#| fig-align: "center"
+#| label: change in compliance time series
+
+vsr_ship_ts <- vsr %>%
+  group_by(year, zone, ship_category, vsr_season) %>%
+  summarise(mean_co = mean(cooperation, na.rm = TRUE)) %>%
+  pivot_wider(names_from = "vsr_season", 
+              values_from = "mean_co") %>%
+  mutate('% change' = inactive-active) %>%
+  filter(zone != "Monterey Bay VSR")
+
+ggplot(vsr_ship_ts, aes(year, `% change`, group = zone, color = zone)) +
+  geom_point(size = 3)+
+  geom_path(size = 1.5, alpha = 0.8)+
+  xlab("")+
+  ylab("Mean change in annual cooperation (%)") +
+  labs(color = "Zone") + 
+  facet_wrap(~ship_category)+
+  scale_color_manual(values = c(col_pal[3], col_pal[4]))+
+  ms_theme()+
+  theme(legend.position = "top", 
+        legend.justification = "left")
+
+
+```
+
+# Whale presence rating and vessel compliance
+
+Section tbd...
+
+```{r}
+#| warning: false
+#| echo: false
+#| label: tbd...
+
+
+
+```
