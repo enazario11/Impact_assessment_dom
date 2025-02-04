@@ -22,10 +22,10 @@ editor_options:
 
 library(tidyverse)
 library(here)
-library(Manu)
 library(tidyquant)
 library(patchwork)
-library(kableExtra)
+library(kableExtra) #table
+library(webr) #donut plot
 
 ms_theme <- function(){
   theme_tq() %+replace%
@@ -41,6 +41,11 @@ sf_wpr <- read.csv(here("data/wpr/sf_whale_data.csv"))
 socal_wpr <- read.csv(here("data/wpr/socal_whale_data.csv"))
 
 wpr <- rbind(sf_wpr, socal_wpr)
+wpr <- wpr %>%
+  mutate(date_pt = as.Date(date_pt, format = "%m/%d/%Y"), 
+         year = year(date_pt), 
+         mo = month(date_pt),
+         yr_mo = zoo::as.yearmon(date_pt))
 
 #vessel speed reduction (vsr) data
 mb_vsr <- read.csv(here("data/vsr/monterey_vsr.csv")) 
@@ -128,12 +133,10 @@ Time series grouped by region where grey shaded bars represent time periods when
 #| fig-align: "center"
 #| label: compliance time series
 
-col_pal <- get_pal("Pepetuna") #5 discrete values
-
 #create dataframes for dates VSR was active
 vsr_dates <- data.frame(
   zone = c(rep("Socal VSR", 7), rep("SF VSR", 6), rep("Monterey Bay VSR", 2)),
-  start = c("06/04/2018", "05/15/2019", "05/15/2020", "05/15/2021", "05/01/2022", "05/01/2023", "05/01/2024", "05/01/2019", "05/01/2020", "05/01/2021", "05/01/2022","05/01/2023", "05/01/2025", "05/01/2023", "05/01/2025"), 
+  start = c("06/04/2018", "05/15/2019", "05/15/2020", "05/15/2021", "05/01/2022", "05/01/2023", "05/01/2024", "05/01/2019", "05/01/2020", "05/01/2021", "05/01/2022","05/01/2023", "05/01/2024", "05/01/2023", "05/01/2024"), 
   end = c("12/31/2018", "12/15/2019", "12/15/2020", "12/15/2021", "12/15/2022", "12/15/2023", "01/15/2025", "11/15/2019", "11/15/2020", "11/15/2021", "12/15/2022", "12/15/2023", "01/15/2025", "12/15/2023", "01/15/2025"))
 
 vsr_dates <- vsr_dates %>% 
@@ -164,7 +167,7 @@ ggplot(aes(yr_mo, mean_co, color = zone)) +
   geom_path(size = 1.5, alpha = 0.8)+
   xlab("")+
   ylab("Mean year-month cooperation (%)") +
-  scale_color_manual(values = col_pal[5])+
+  scale_color_manual(values = "#1F2D3D")+
   facet_wrap(~zone)+
   guides(color = "none")+
   ylim(20, 85)+
@@ -182,7 +185,7 @@ ggplot(aes(yr_mo, mean_co, color = zone)) +
   geom_path(size = 1.5, alpha = 0.8)+
   xlab("")+
   ylab("Mean year-month cooperation (%)") +
-  scale_color_manual(values = col_pal[5])+
+  scale_color_manual(values = "#1F2D3D")+
   facet_wrap(~zone)+
   guides(color = "none")+
   ylim(20, 85)+
@@ -200,7 +203,7 @@ ggplot(aes(yr_mo, mean_co, color = zone)) +
   geom_path(size = 1.5, alpha = 0.8)+
   xlab("")+
   ylab("Mean year-month cooperation (%)") +
-  scale_color_manual(values = col_pal[5])+
+  scale_color_manual(values = "#1F2D3D")+
   facet_wrap(~zone)+
   guides(color = "none")+
   ylim(20, 85)+
@@ -231,13 +234,13 @@ colnames(vsr_ship_seas) <- c("Zone", "Ship category", "VSR active cooperation (%
 
 kbl(vsr_ship_seas[,2:5]) %>%
   kable_styling(bootstrap_options = c("striped", "hover")) %>%
-  pack_rows("Monterey Bay", 1, 11, label_row_css = "background-color: #425266 ; color: #fff;") %>%
-  pack_rows("San Francisco", 12, 22, label_row_css = "background-color: #425266 ; color: #fff;") %>%
-  pack_rows("Southern California", 23, 33, label_row_css = "background-color: #425266 ; color: #fff;")
+  pack_rows("Monterey Bay", 1, 11, label_row_css = "background-color: #134f5c ; color: #fff;") %>%
+  pack_rows("San Francisco", 12, 22, label_row_css = "background-color: #134f5c ; color: #fff;") %>%
+  pack_rows("Southern California", 23, 33, label_row_css = "background-color: #134f5c ; color: #fff;")
 
 ```
 
-## Changes in cooperation by ship category 
+## Changes in cooperation by ship category
 
 Monterey Bay is not included in this analysis given that no data on cooperation rates during inactive VSR seasons are available.
 
@@ -261,7 +264,7 @@ ggplot(aes(ship_category, mean_co, color = vsr_season)) +
   ylab("Cooperation (%)")+
   xlab("")+
   labs(color = "VSR season status")+
-  scale_color_manual(values = c(col_pal[5], col_pal[4]))+
+  scale_color_manual(values = c("#4682B4", "#E25B32"))+
   ms_theme()+
     theme(legend.position = "top", 
           legend.justification = "left")
@@ -295,7 +298,7 @@ ggplot(vsr_ship_ts, aes(year, `% change`, group = zone, color = zone)) +
   ylab("Mean change in annual cooperation (%)") +
   labs(color = "Zone") + 
   facet_wrap(~ship_category)+
-  scale_color_manual(values = c(col_pal[3], col_pal[4]))+
+  scale_color_manual(values = c("#1F2D3D", "#4682B4"))+
   ms_theme()+
   theme(legend.position = "top", 
         legend.justification = "left")
@@ -305,13 +308,235 @@ ggplot(vsr_ship_ts, aes(year, `% change`, group = zone, color = zone)) +
 
 # Whale presence rating and vessel compliance
 
-Section tbd...
+## Whale presence rating and VSR zone activity
+
+Percent of data where the VSR zone was active vs. inactive, and within VSR status groupings, what the whale presence rating was.
 
 ```{r}
 #| warning: false
 #| echo: false
-#| label: tbd...
+#| fig-width: 7
+#| fig-height: 7
+#| fig-align: "center"
+#| label: wpr and vsr activity
+
+#possibly a donut plot showing wpr proportions when vsr is active vs. inactive
+source(here("functions/pd_func.R"))
+
+PD <- wpr %>%
+  group_by(vsr_season, whale_presence_rating) %>% 
+  summarise(n = n()) %>%
+  mutate(whale_presence_rating = as.factor(whale_presence_rating))
+
+PD$whale_presence_rating <- fct_relevel(PD$whale_presence_rating, c("Low", "Medium", "High" , "Very High"))
+  
+colnames(PD) <- c("VSR_status", "Whale_presence_rating", "count")
+
+PieDonut_c(PD, aes(VSR_status, Whale_presence_rating, count = count), showDonutName = TRUE)
+```
+
+## Whale presence rating and vessel cooperation
+
+Percent cooperation grouped by VSR status (inactive vs. active) and whale presence rating
+
+```{r}
+#| warning: false
+#| echo: false
+#| fig-width: 12
+#| fig-height: 8
+#| fig-align: "center"
+#| label: whale presence rating and vessel speed cooperation
+
+sub_vsr <- vsr %>% 
+  mutate(id = paste(date, zone, sep = "_")) %>%
+  subset(select = c(id, cooperation))
+
+wpr_join <- wpr %>%
+  mutate(id = paste(date_pt, zone, sep = "_"))
+wpr_join <- wpr_join %>% inner_join(sub_vsr, by = join_by(id == id)) %>% mutate(whale_present_rating = as.factor(whale_presence_rating))
+
+wpr_join$whale_presence_rating <- fct_relevel(wpr_join$whale_presence_rating, c("Low", "Medium", "High" , "Very High"))
+
+#sf
+wpr_join %>%
+  filter(zone == "SF VSR") %>%
+  ggplot(aes(whale_presence_rating, cooperation, fill = whale_presence_rating)) +
+  geom_boxplot(color = "black") +
+  facet_wrap(~vsr_season) +
+  scale_fill_manual(values = c("#1F2D3D", "#4682B4", "#F6EDD3", "#F29E1F")) +
+  xlab("Whale presence rating") +
+  ylab("Cooperation (%)") + 
+  guides(fill = "none")+
+  ms_theme() 
+
+```
+
+## Whale sightings data and vessel cooperation time series
+
+```{r}
+#| warning: false
+#| echo: false
+#| fig-width: 12
+#| fig-height: 8
+#| fig-align: "center"
+#| label: whale sightings and vessel speed cooperation time series
+
+#sf
+sf_vsr_on2 <- sf_vsr_on[4:6,]
+
+sf_whale <- wpr_join %>% 
+  group_by(yr_mo, zone) %>%
+  summarise(mean_co = mean(cooperation, na.rm = TRUE), 
+            sight_fin = mean(s_fincount, na.rm = TRUE), 
+            sight_hump = mean(s_humpbackcount, na.rm = TRUE), 
+            sight_blu = mean(s_bluecount, na.rm = TRUE)) %>%
+  pivot_longer(cols = sight_fin:sight_blu, 
+               names_to = "whale", 
+               values_to = "mean_s") %>%
+  filter(zone == "SF VSR") %>%
+  ggplot(aes(x = yr_mo, y = mean_s, color = whale)) +
+  geom_rect(data = sf_vsr_on2, aes(ymin = -Inf, ymax = Inf, xmin = yr_mo_s, xmax = yr_mo_e), inherit.aes = FALSE, fill = "grey", alpha = 0.5)+
+  geom_point(size = 3)+
+  geom_path(size = 1.5, alpha = 0.8)+
+  xlab("")+
+  ylab("Mean year-month whale sightings") +
+  labs(title = "SF VSR") +
+  scale_color_manual(values = c("#1F2D3D", "#4682B4", "#F29E1F"))+
+  facet_wrap(~whale, scales = "free_y")+
+  ms_theme()
+
+sf2 <- vsr %>% 
+  group_by(yr_mo, zone) %>%
+  summarise(mean_co = mean(cooperation, na.rm = TRUE), 
+            sd_co = sd(cooperation, na.rm = TRUE)) %>%
+  filter(zone == "SF VSR" & as.Date(yr_mo) >= as.Date(c("2022/07/01"), format = "%Y/%m/%d")) %>%
+ggplot(aes(yr_mo, mean_co, color = zone)) +
+  geom_rect(data = sf_vsr_on2, aes(ymin = -Inf, ymax = Inf, xmin = yr_mo_s, xmax = yr_mo_e), inherit.aes = FALSE, fill = "grey", alpha = 0.5)+
+  geom_point(size = 3)+
+  geom_path(size = 1.5, alpha = 0.8)+
+  xlab("")+
+  ylab("Mean year-month cooperation (%)") +
+  scale_color_manual(values = "#1F2D3D")+
+  facet_wrap(~zone)+
+  guides(color = "none")+
+  ylim(20, 85)+
+  ms_theme()
+
+sf2/sf_whale
+
+#socal
+socal_vsr_on2 <- socal_vsr_on[3:7,]
+
+socal_whale <- wpr_join %>% 
+  group_by(yr_mo, zone) %>%
+  summarise(mean_co = mean(cooperation, na.rm = TRUE), 
+            sight_fin = mean(s_fincount, na.rm = TRUE), 
+            sight_hump = mean(s_humpbackcount, na.rm = TRUE), 
+            sight_blu = mean(s_bluecount, na.rm = TRUE)) %>%
+  pivot_longer(cols = sight_fin:sight_blu, 
+               names_to = "whale", 
+               values_to = "mean_s") %>%
+  filter(zone == "Socal VSR") %>%
+  ggplot(aes(x = yr_mo, y = mean_s, color = whale)) +
+  geom_rect(data = socal_vsr_on2, aes(ymin = -Inf, ymax = Inf, xmin = yr_mo_s, xmax = yr_mo_e), inherit.aes = FALSE, fill = "grey", alpha = 0.5)+
+  geom_point(size = 3)+
+  geom_path(size = 1.5, alpha = 0.8)+
+  xlab("")+
+  ylab("Mean year-month whale sightings") +
+  labs(title = "Socal VSR") +
+  scale_color_manual(values = c("#1F2D3D", "#4682B4", "#F29E1F"))+
+  facet_wrap(~whale, scales = "free_y")+
+  ms_theme()
+
+socal2 <- vsr %>% 
+  group_by(yr_mo, zone) %>%
+  summarise(mean_co = mean(cooperation, na.rm = TRUE), 
+            sd_co = sd(cooperation, na.rm = TRUE)) %>%
+  filter(zone == "Socal VSR" & as.Date(yr_mo) >= as.Date(c("2020/05/01"), format = "%Y/%m/%d")) %>%
+ggplot(aes(yr_mo, mean_co, color = zone)) +
+  geom_rect(data = socal_vsr_on2, aes(ymin = -Inf, ymax = Inf, xmin = yr_mo_s, xmax = yr_mo_e), inherit.aes = FALSE, fill = "grey", alpha = 0.5)+
+  geom_point(size = 3)+
+  geom_path(size = 1.5, alpha = 0.8)+
+  xlab("")+
+  ylab("Mean year-month cooperation (%)") +
+  scale_color_manual(values = "#1F2D3D")+
+  facet_wrap(~zone)+
+  guides(color = "none")+
+  ylim(20, 85)+
+  ms_theme()
+
+socal2/socal_whale
+
+```
+
+## Whale watch and blue whale sightings time series
+
+```{r}
+#| warning: false
+#| echo: false
+#| fig-width: 9
+#| fig-height: 8
+#| fig-align: "center"
+#| label: whale watch and vessel speed cooperation
+
+#sf
+sf_sight <- wpr_join %>% 
+  group_by(yr_mo, zone) %>%
+  summarise(sight_blu = mean(s_bluecount, na.rm = TRUE), 
+            ww_blu = mean(bwmv, na.rm = TRUE)) %>%
+  filter(zone == "SF VSR") %>%
+  ggplot(aes(x = yr_mo)) +
+  geom_rect(data = sf_vsr_on2, aes(ymin = -Inf, ymax = Inf, xmin = yr_mo_s, xmax = yr_mo_e), inherit.aes = FALSE, fill = "grey", alpha = 0.5)+
+  geom_point(aes(y = sight_blu), size = 3, color = "#1F2D3D")+
+  geom_path(aes(y = sight_blu), size = 1.5, alpha = 0.8, color = "#1F2D3D")+
+  xlab("")+
+  labs(title = "SF VSR")+
+  ylab("Mean year-month blue whale sightings") +
+  ms_theme()
+
+sf_ww <- wpr_join %>% 
+  group_by(yr_mo, zone) %>%
+  summarise(sight_blu = mean(s_bluecount, na.rm = TRUE), 
+            ww_blu = mean(bwmv, na.rm = TRUE)) %>%
+  filter(zone == "SF VSR") %>%
+  ggplot(aes(x = yr_mo)) +
+  geom_rect(data = sf_vsr_on2, aes(ymin = -Inf, ymax = Inf, xmin = yr_mo_s, xmax = yr_mo_e), inherit.aes = FALSE, fill = "grey", alpha = 0.5)+
+  geom_point(aes(y = ww_blu), size = 3, color = "#1F2D3D")+
+  geom_path(aes(y = ww_blu), size = 1.5, alpha = 0.8, color = "#1F2D3D")+
+  xlab("")+
+  ylab("Mean year-month blue whale habitat model") +
+  ms_theme()
+
+sf_sight/sf_ww
 
 
+#socal
+socal_sight <- wpr_join %>% 
+  group_by(yr_mo, zone) %>%
+  summarise(sight_blu = mean(s_bluecount, na.rm = TRUE), 
+            ww_blu = mean(bwmv, na.rm = TRUE)) %>%
+  filter(zone == "Socal VSR") %>%
+  ggplot(aes(x = yr_mo)) +
+  geom_rect(data = socal_vsr_on2, aes(ymin = -Inf, ymax = Inf, xmin = yr_mo_s, xmax = yr_mo_e), inherit.aes = FALSE, fill = "grey", alpha = 0.5)+
+  geom_point(aes(y = sight_blu), size = 3, color = "#1F2D3D")+
+  geom_path(aes(y = sight_blu), size = 1.5, alpha = 0.8, color = "#1F2D3D")+
+  xlab("")+
+  labs(title = "Socal VSR")+
+  ylab("Mean year-month blue whale sightings") +
+  ms_theme()
 
+socal_ww <- wpr_join %>% 
+  group_by(yr_mo, zone) %>%
+  summarise(sight_blu = mean(s_bluecount, na.rm = TRUE), 
+            ww_blu = mean(bwmv, na.rm = TRUE)) %>%
+  filter(zone == "Socal VSR") %>%
+  ggplot(aes(x = yr_mo)) +
+  geom_rect(data = socal_vsr_on2, aes(ymin = -Inf, ymax = Inf, xmin = yr_mo_s, xmax = yr_mo_e), inherit.aes = FALSE, fill = "grey", alpha = 0.5)+
+  geom_point(aes(y = ww_blu), size = 3, color = "#1F2D3D")+
+  geom_path(aes(y = ww_blu), size = 1.5, alpha = 0.8, color = "#1F2D3D")+
+  xlab("")+
+  ylab("Mean year-month blue whale habitat model") +
+  ms_theme()
+
+socal_sight/socal_ww
 ```
