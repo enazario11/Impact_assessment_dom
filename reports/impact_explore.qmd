@@ -319,25 +319,37 @@ Percent of data where the VSR zone was active vs. inactive, and within VSR statu
 #| fig-height: 7
 #| fig-align: "center"
 #| label: wpr and vsr activity
+#| include: false
 
 #possibly a donut plot showing wpr proportions when vsr is active vs. inactive
 source(here("functions/pd_func.R"))
 
 PD <- wpr %>%
-  group_by(vsr_season, whale_presence_rating) %>% 
+  group_by(zone, vsr_season, whale_presence_rating) %>% 
   summarise(n = n()) %>%
   mutate(whale_presence_rating = as.factor(whale_presence_rating))
-
 PD$whale_presence_rating <- fct_relevel(PD$whale_presence_rating, c("Low", "Medium", "High" , "Very High"))
-  
-colnames(PD) <- c("VSR_status", "Whale_presence_rating", "count")
+colnames(PD) <- c("Zone", "VSR_status", "Whale_presence_rating", "count")
 
-PieDonut_c(PD, aes(VSR_status, Whale_presence_rating, count = count), showDonutName = TRUE)
+# separate by region 
+#PD SF
+PD_SF <- PD %>% filter(Zone == "SF VSR")
+PD_SF_plot <- PieDonut_c(PD_SF, aes(VSR_status, Whale_presence_rating, count = count), showDonutName = FALSE, showPieName = FALSE)
+
+#PD Socal
+PD_SC <- PD %>% filter(Zone == "Socal VSR")
+PD_SC_plot <- PieDonut_c(PD_SC, aes(VSR_status, Whale_presence_rating, count = count), showDonutName = FALSE, showPieName = FALSE)
+
+#export size is 586x586
 ```
+
+![](images/PD_adobe.png)
 
 ## Whale presence rating and vessel cooperation
 
-Percent cooperation grouped by VSR status (inactive vs. active) and whale presence rating
+Percent cooperation grouped by VSR status (inactive vs. active) and whale presence rating. Here, we are only plotting cooperation data between 15-85% to remove those who never cooperate, and those who might always "cooperate" due to external factors (i.e., vessel speed capacity).
+
+### San Francisco
 
 ```{r}
 #| warning: false
@@ -345,7 +357,7 @@ Percent cooperation grouped by VSR status (inactive vs. active) and whale presen
 #| fig-width: 12
 #| fig-height: 8
 #| fig-align: "center"
-#| label: whale presence rating and vessel speed cooperation
+#| label: SF whale presence rating and vessel speed cooperation
 
 sub_vsr <- vsr %>% 
   mutate(id = paste(date, zone, sep = "_")) %>%
@@ -359,7 +371,31 @@ wpr_join$whale_presence_rating <- fct_relevel(wpr_join$whale_presence_rating, c(
 
 #sf
 wpr_join %>%
-  filter(zone == "SF VSR") %>%
+  filter(zone == "SF VSR" & cooperation >= 15 & cooperation <= 85) %>%
+  ggplot(aes(whale_presence_rating, cooperation, fill = whale_presence_rating)) +
+  geom_boxplot(color = "black") +
+  facet_wrap(~vsr_season) +
+  scale_fill_manual(values = c("#1F2D3D", "#4682B4", "#F6EDD3", "#F29E1F")) +
+  xlab("Whale presence rating") +
+  ylab("Cooperation (%)") + 
+  guides(fill = "none")+
+  ms_theme() 
+
+```
+
+### Southern California
+
+```{r}
+#| warning: false
+#| echo: false
+#| fig-width: 12
+#| fig-height: 8
+#| fig-align: "center"
+#| label: SC whale presence rating and vessel speed cooperation
+
+#socail
+wpr_join %>%
+  filter(zone == "Socal VSR" & cooperation >= 15 & cooperation <= 85) %>%
   ggplot(aes(whale_presence_rating, cooperation, fill = whale_presence_rating)) +
   geom_boxplot(color = "black") +
   facet_wrap(~vsr_season) +
@@ -403,7 +439,8 @@ sf_whale <- wpr_join %>%
   labs(title = "SF VSR") +
   scale_color_manual(values = c("#1F2D3D", "#4682B4", "#F29E1F"))+
   facet_wrap(~whale, scales = "free_y")+
-  ms_theme()
+  ms_theme()+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
 
 sf2 <- vsr %>% 
   group_by(yr_mo, zone) %>%
@@ -446,7 +483,8 @@ socal_whale <- wpr_join %>%
   labs(title = "Socal VSR") +
   scale_color_manual(values = c("#1F2D3D", "#4682B4", "#F29E1F"))+
   facet_wrap(~whale, scales = "free_y")+
-  ms_theme()
+  ms_theme()+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
 
 socal2 <- vsr %>% 
   group_by(yr_mo, zone) %>%
@@ -471,13 +509,36 @@ socal2/socal_whale
 
 ## Whale watch and blue whale sightings time series
 
+Across metrics, data points represent the year-month average for blue whales.
+
+For the acoustics panels, year-month averages were done by assigning a "Low Rating" a 1, a "Medium Rating" a 2, a "High Rating" a 3, and "offline" an NA. Then, averages were taken of these scores, and the means were plotted as they fit across the ranges of these three bins.
+
 ```{r}
 #| warning: false
 #| echo: false
 #| fig-width: 9
-#| fig-height: 8
+#| fig-height: 12
 #| fig-align: "center"
-#| label: whale watch and vessel speed cooperation
+#| label: blue whale data stream comparison
+
+# wpr_join$bw_ac_score <- NA
+# for(i in 1:nrow(wpr_join)){
+#   if(wpr_join$blue_acoustic[i] == "offline"){
+#     wpr_join$bw_ac_score[i] = NA
+#   }
+#   if(wpr_join$blue_acoustic[i] == "Low Rating"){
+#     wpr_join$bw_ac_score[i] = 1
+#   }
+#   if(wpr_join$blue_acoustic[i] == "Medium Rating"){
+#     wpr_join$bw_ac_score[i] = 2
+#   }
+#   if(wpr_join$blue_acoustic[i] == "High Rating"){
+#     wpr_join$bw_ac_score[i] = 3
+#   }
+# }
+
+#saveRDS(wpr_join, here(file = "data/wpr_join.rds"))
+wpr_join <- readRDS(here(file = "data/wpr_join.rds"))
 
 #sf
 sf_sight <- wpr_join %>% 
@@ -491,7 +552,22 @@ sf_sight <- wpr_join %>%
   geom_path(aes(y = sight_blu), size = 1.5, alpha = 0.8, color = "#1F2D3D")+
   xlab("")+
   labs(title = "SF VSR")+
-  ylab("Mean year-month blue whale sightings") +
+  ylab("Sightings") +
+  ms_theme()
+
+sf_ac <- wpr_join %>% 
+  group_by(yr_mo, zone) %>%
+  summarise(sight_blu = mean(bw_ac_score, na.rm = TRUE)) %>%
+  filter(zone == "SF VSR") %>%
+  ggplot(aes(x = yr_mo)) +
+  geom_rect(data = sf_vsr_on2, aes(ymin = -Inf, ymax = Inf, xmin = yr_mo_s, xmax = yr_mo_e), inherit.aes = FALSE, fill = "grey", alpha = 0.5)+
+  geom_point(aes(y = sight_blu), size = 3, color = "#1F2D3D")+
+  geom_path(aes(y = sight_blu), size = 1.5, alpha = 0.8, color = "#1F2D3D")+
+  xlab("")+
+  scale_y_continuous(name = "Acoustics rating", 
+                     breaks = c(1, 2, 3),
+                     labels = c("Low Rating", "Medium Rating", "High Rating"), 
+                     limits = c(0.7, 3.3))+
   ms_theme()
 
 sf_ww <- wpr_join %>% 
@@ -504,10 +580,10 @@ sf_ww <- wpr_join %>%
   geom_point(aes(y = ww_blu), size = 3, color = "#1F2D3D")+
   geom_path(aes(y = ww_blu), size = 1.5, alpha = 0.8, color = "#1F2D3D")+
   xlab("")+
-  ylab("Mean year-month blue whale habitat model") +
+  ylab("Habitat suitability") +
   ms_theme()
 
-sf_sight/sf_ww
+sf_sight/sf_ac/sf_ww
 
 
 #socal
@@ -522,7 +598,22 @@ socal_sight <- wpr_join %>%
   geom_path(aes(y = sight_blu), size = 1.5, alpha = 0.8, color = "#1F2D3D")+
   xlab("")+
   labs(title = "Socal VSR")+
-  ylab("Mean year-month blue whale sightings") +
+  ylab("Sightings") +
+  ms_theme()
+
+socal_ac <- wpr_join %>% 
+  group_by(yr_mo, zone) %>%
+  summarise(sight_blu = mean(bw_ac_score, na.rm = TRUE)) %>%
+  filter(zone == "Socal VSR") %>%
+  ggplot(aes(x = yr_mo)) +
+  geom_rect(data = socal_vsr_on2, aes(ymin = -Inf, ymax = Inf, xmin = yr_mo_s, xmax = yr_mo_e), inherit.aes = FALSE, fill = "grey", alpha = 0.5)+
+  geom_point(aes(y = sight_blu), size = 3, color = "#1F2D3D")+
+  geom_path(aes(y = sight_blu), size = 1.5, alpha = 0.8, color = "#1F2D3D")+
+  xlab("")+
+  scale_y_continuous(name = "Acoustics rating", 
+                     breaks = c(1, 2, 3),
+                     labels = c("Low Rating", "Medium Rating", "High Rating"), 
+                     limits = c(0.7, 3.3))+
   ms_theme()
 
 socal_ww <- wpr_join %>% 
@@ -535,8 +626,8 @@ socal_ww <- wpr_join %>%
   geom_point(aes(y = ww_blu), size = 3, color = "#1F2D3D")+
   geom_path(aes(y = ww_blu), size = 1.5, alpha = 0.8, color = "#1F2D3D")+
   xlab("")+
-  ylab("Mean year-month blue whale habitat model") +
+  ylab("Habitat suitability") +
   ms_theme()
 
-socal_sight/socal_ww
+socal_sight/socal_ac/socal_ww
 ```
