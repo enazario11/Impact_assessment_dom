@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Emily Nazario">
-<meta name="dcterms.date" content="2025-02-18">
+<meta name="dcterms.date" content="2025-03-11">
 
 <title>Whale Safe Impact</title>
 <style>
@@ -3370,7 +3370,7 @@ border: 0;
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">February 18, 2025</p>
+      <p class="date">March 11, 2025</p>
     </div>
   </div>
   
@@ -3812,6 +3812,8 @@ border: 0;
 </section>
 <section id="correlation-analysis-for-both-zones-acoustics-data-and-whalewatch-predictions" class="level3">
 <h3 class="anchored" data-anchor-id="correlation-analysis-for-both-zones-acoustics-data-and-whalewatch-predictions">Correlation analysis for both zones: Acoustics data and WhaleWatch predictions</h3>
+<section id="pearsons" class="level4">
+<h4 class="anchored" data-anchor-id="pearsons">Pearson’s</h4>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>sf_corr <span class="ot">&lt;-</span> wpr_join <span class="sc">%&gt;%</span> <span class="fu">filter</span>(zone <span class="sc">==</span> <span class="st">&quot;SF VSR&quot;</span>)</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>socal_corr <span class="ot">&lt;-</span> wpr_join <span class="sc">%&gt;%</span> <span class="fu">filter</span>(zone <span class="sc">==</span> <span class="st">&quot;Socal VSR&quot;</span>)</span>
@@ -3847,6 +3849,41 @@ sample estimates:
 0.1233394 </code></pre>
 </div>
 </div>
+</section>
+<section id="spearmans" class="level4">
+<h4 class="anchored" data-anchor-id="spearmans">Spearman’s</h4>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>sf_corr <span class="ot">&lt;-</span> wpr_join <span class="sc">%&gt;%</span> <span class="fu">filter</span>(zone <span class="sc">==</span> <span class="st">&quot;SF VSR&quot;</span>)</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>socal_corr <span class="ot">&lt;-</span> wpr_join <span class="sc">%&gt;%</span> <span class="fu">filter</span>(zone <span class="sc">==</span> <span class="st">&quot;Socal VSR&quot;</span>)</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="co">#SF</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="fu">cor.test</span>(sf_corr<span class="sc">$</span>bwmv, sf_corr<span class="sc">$</span>bw_ac_score, <span class="at">method =</span> <span class="st">&quot;spearman&quot;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+    Spearman&#39;s rank correlation rho
+
+data:  sf_corr$bwmv and sf_corr$bw_ac_score
+S = 4472725166, p-value &lt; 2.2e-16
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+      rho 
+0.6589084 </code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Socal</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="fu">cor.test</span>(socal_corr<span class="sc">$</span>bwmv, socal_corr<span class="sc">$</span>bw_ac_score, <span class="at">method =</span> <span class="st">&quot;spearman&quot;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+    Spearman&#39;s rank correlation rho
+
+data:  socal_corr$bwmv and socal_corr$bw_ac_score
+S = 7.2923e+13, p-value &lt; 2.2e-16
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+      rho 
+0.1606363 </code></pre>
+</div>
+</div>
+</section>
 </section>
 </section>
 </section>

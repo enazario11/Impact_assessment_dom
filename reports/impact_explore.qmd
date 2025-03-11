@@ -689,9 +689,11 @@ socal_sight/socal_ac/socal_ww
 
 ### Correlation analysis for both zones: Acoustics data and WhaleWatch predictions
 
+#### Pearson's
+
 ```{r}
 #| warning: false
-#| label: blue whale data stream comparison corr test
+#| label: blue whale data stream comparison corr test, pear
 
 sf_corr <- wpr_join %>% filter(zone == "SF VSR")
 socal_corr <- wpr_join %>% filter(zone == "Socal VSR")
@@ -704,3 +706,22 @@ cor.test(socal_corr$bwmv, socal_corr$bw_ac_score)
 
 
 ```
+
+#### Spearman's
+
+```{r}
+#| warning: false
+#| label: blue whale data stream comparison corr test, spear
+
+sf_corr <- wpr_join %>% filter(zone == "SF VSR")
+socal_corr <- wpr_join %>% filter(zone == "Socal VSR")
+
+#SF
+cor.test(sf_corr$bwmv, sf_corr$bw_ac_score, method = "spearman")
+
+
+#Socal
+cor.test(socal_corr$bwmv, socal_corr$bw_ac_score, method = "spearman")
+
+```
+
