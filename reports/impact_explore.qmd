@@ -26,6 +26,8 @@ library(tidyquant)
 library(patchwork)
 library(kableExtra) #table
 library(webr) #donut plot
+library(MetBrewer)
+library(ggridges)
 
 ms_theme <- function(){
   theme_tq() %+replace%
@@ -312,7 +314,7 @@ PD <- wpr %>%
 PD$whale_presence_rating <- fct_relevel(PD$whale_presence_rating, c("Low", "Medium", "High" , "Very High"))
 colnames(PD) <- c("Zone", "VSR_status", "Whale_presence_rating", "count")
 
-# separate by region 
+# separate by region
 #PD SF
 PD_SF <- PD %>% filter(Zone == "SF VSR")
 PD_SF_plot <- PieDonut_c(PD_SF, aes(VSR_status, Whale_presence_rating, count = count), showDonutName = FALSE, showPieName = FALSE)
@@ -389,7 +391,6 @@ socal_wpr_score <- wpr_join %>%
 sf_wpr_score/socal_wpr_score
 ```
 
-
 ## Whale presence rating and vessel cooperation
 
 Percent cooperation grouped by VSR status (inactive vs. active) and whale presence rating. Here, we are only plotting cooperation data between 15-85% to remove those who never cooperate, and those who might always "cooperate" due to external factors (i.e., vessel speed capacity).
@@ -465,6 +466,23 @@ wpr_join %>%
 wpr_join <- readRDS(here(file = "data/wpr_join.rds"))
 
 #sf
+sf2 <- vsr %>% 
+  group_by(yr_mo, zone) %>%
+  summarise(mean_co = mean(cooperation, na.rm = TRUE), 
+            sd_co = sd(cooperation, na.rm = TRUE)) %>%
+  filter(zone == "SF VSR" & as.Date(yr_mo) >= as.Date(c("2022/07/01"), format = "%Y/%m/%d")) %>%
+ggplot(aes(yr_mo, mean_co, color = zone)) +
+  geom_rect(data = sf_vsr_on2, aes(ymin = -Inf, ymax = Inf, xmin = yr_mo_s, xmax = yr_mo_e), inherit.aes = FALSE, fill = "grey", alpha = 0.5)+
+  geom_point(size = 3)+
+  geom_path(size = 1.5, alpha = 0.8)+
+  xlab("")+
+  ylab("Mean year-month cooperation (%)") +
+  scale_color_manual(values = "#1F2D3D")+
+  facet_wrap(~zone)+
+  guides(color = "none")+
+  ylim(20, 85)+
+  ms_theme()
+
 sf_whale <- wpr_join %>% 
   group_by(yr_mo, zone) %>%
   summarise(mean_co = mean(cooperation, na.rm = TRUE), 
@@ -485,15 +503,40 @@ sf_whale <- wpr_join %>%
   scale_color_manual(values = c("#1F2D3D", "#4682B4", "#F29E1F"))+
   facet_wrap(~whale, scales = "free_y")+
   ms_theme()+
-  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+  theme(axis.text.x = element_text(angle = 45, hjust = 1), legend.position = "none")
 
-sf2 <- vsr %>% 
+sf_acou <- wpr_join %>% 
+  group_by(yr_mo, zone) %>%
+  summarise(mean_co = mean(cooperation, na.rm = TRUE), 
+            ac_fin = mean(fn_ac_score, na.rm = TRUE), 
+            ac_hump = mean(hm_ac_score, na.rm = TRUE), 
+            ac_blu = mean(bw_ac_score, na.rm = TRUE)) %>%
+  pivot_longer(cols = ac_fin:ac_blu, 
+               names_to = "whale", 
+               values_to = "mean_s") %>%
+  filter(zone == "SF VSR") %>%
+  ggplot(aes(x = yr_mo, y = mean_s, color = whale)) +
+  geom_rect(data = sf_vsr_on2, aes(ymin = -Inf, ymax = Inf, xmin = yr_mo_s, xmax = yr_mo_e), inherit.aes = FALSE, fill = "grey", alpha = 0.5)+
+  geom_point(size = 3)+
+  geom_path(size = 1.5, alpha = 0.8)+
+  xlab("")+
+  ylab("Whale acoustic scores") +
+  labs(title = "SF VSR") +
+  scale_color_manual(values = c("#1F2D3D", "#4682B4", "#F29E1F"))+
+  facet_wrap(~whale, scales = "free_y")+
+  ms_theme()+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1), legend.position = "none")
+
+sf2/sf_whale/sf_acou
+
+#socal
+socal2 <- vsr %>% 
   group_by(yr_mo, zone) %>%
   summarise(mean_co = mean(cooperation, na.rm = TRUE), 
             sd_co = sd(cooperation, na.rm = TRUE)) %>%
-  filter(zone == "SF VSR" & as.Date(yr_mo) >= as.Date(c("2022/07/01"), format = "%Y/%m/%d")) %>%
+  filter(zone == "Socal VSR" & as.Date(yr_mo) >= as.Date(c("2020/05/01"), format = "%Y/%m/%d")) %>%
 ggplot(aes(yr_mo, mean_co, color = zone)) +
-  geom_rect(data = sf_vsr_on2, aes(ymin = -Inf, ymax = Inf, xmin = yr_mo_s, xmax = yr_mo_e), inherit.aes = FALSE, fill = "grey", alpha = 0.5)+
+  geom_rect(data = socal_vsr_on2, aes(ymin = -Inf, ymax = Inf, xmin = yr_mo_s, xmax = yr_mo_e), inherit.aes = FALSE, fill = "grey", alpha = 0.5)+
   geom_point(size = 3)+
   geom_path(size = 1.5, alpha = 0.8)+
   xlab("")+
@@ -504,9 +547,6 @@ ggplot(aes(yr_mo, mean_co, color = zone)) +
   ylim(20, 85)+
   ms_theme()
 
-sf2/sf_whale
-
-#socal
 socal_whale <- wpr_join %>% 
   group_by(yr_mo, zone) %>%
   summarise(mean_co = mean(cooperation, na.rm = TRUE), 
@@ -527,26 +567,31 @@ socal_whale <- wpr_join %>%
   scale_color_manual(values = c("#1F2D3D", "#4682B4", "#F29E1F"))+
   facet_wrap(~whale, scales = "free_y")+
   ms_theme()+
-  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+  theme(axis.text.x = element_text(angle = 45, hjust = 1), legend.position = "none")
 
-socal2 <- vsr %>% 
+socal_acou <- wpr_join %>% 
   group_by(yr_mo, zone) %>%
   summarise(mean_co = mean(cooperation, na.rm = TRUE), 
-            sd_co = sd(cooperation, na.rm = TRUE)) %>%
-  filter(zone == "Socal VSR" & as.Date(yr_mo) >= as.Date(c("2020/05/01"), format = "%Y/%m/%d")) %>%
-ggplot(aes(yr_mo, mean_co, color = zone)) +
+            ac_fin = mean(fn_ac_score, na.rm = TRUE), 
+            ac_hump = mean(hm_ac_score, na.rm = TRUE), 
+            ac_blu = mean(bw_ac_score, na.rm = TRUE)) %>%
+  pivot_longer(cols = ac_fin:ac_blu, 
+               names_to = "whale", 
+               values_to = "mean_s") %>%
+  filter(zone == "Socal VSR") %>%
+  ggplot(aes(x = yr_mo, y = mean_s, color = whale)) +
   geom_rect(data = socal_vsr_on2, aes(ymin = -Inf, ymax = Inf, xmin = yr_mo_s, xmax = yr_mo_e), inherit.aes = FALSE, fill = "grey", alpha = 0.5)+
   geom_point(size = 3)+
   geom_path(size = 1.5, alpha = 0.8)+
   xlab("")+
-  ylab("Mean year-month cooperation (%)") +
-  scale_color_manual(values = "#1F2D3D")+
-  facet_wrap(~zone)+
-  guides(color = "none")+
-  ylim(20, 85)+
-  ms_theme()
+  ylab("Whale acoustic scores") +
+  labs(title = "Socal VSR") +
+  scale_color_manual(values = c("#1F2D3D", "#4682B4", "#F29E1F"))+
+  facet_wrap(~whale, scales = "free_y")+
+  ms_theme()+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1), legend.position = "none")
 
-socal2/socal_whale
+socal2/socal_whale/socal_acou
 
 ```
 
@@ -567,22 +612,53 @@ For the acoustics panels, year-month averages were done by assigning a "Low Rati
 #| label: blue whale data stream comparison sf
 
 # wpr_join$bw_ac_score <- NA
-# for(i in 1:nrow(wpr_join)){
-#   if(wpr_join$blue_acoustic[i] == "offline"){
-#     wpr_join$bw_ac_score[i] = NA
-#   }
-#   if(wpr_join$blue_acoustic[i] == "Low Rating"){
-#     wpr_join$bw_ac_score[i] = 1
-#   }
-#   if(wpr_join$blue_acoustic[i] == "Medium Rating"){
-#     wpr_join$bw_ac_score[i] = 2
-#   }
-#   if(wpr_join$blue_acoustic[i] == "High Rating"){
-#     wpr_join$bw_ac_score[i] = 3
+# wpr_join$hm_ac_score <- NA  
+# wpr_join$fn_ac_score <- NA
+
+ #for(i in 1:nrow(wpr_join)){
+   #bw scores
+   # if(wpr_join$blue_acoustic[i] == "offline"){
+   #   wpr_join$bw_ac_score[i] = NA
+   # }
+   # if(wpr_join$blue_acoustic[i] == "Low Rating"){
+   #   wpr_join$bw_ac_score[i] = 1
+   # }
+   # if(wpr_join$blue_acoustic[i] == "Medium Rating"){
+   #   wpr_join$bw_ac_score[i] = 2
+   # }
+   # if(wpr_join$blue_acoustic[i] == "High Rating"){
+   #   wpr_join$bw_ac_score[i] = 3
+   # }
+    #humpback scores
+#    if(wpr_join$humpback_acoustic[i] == "offline"){
+#      wpr_join$hm_ac_score[i] = NA
+#    }
+#    if(wpr_join$humpback_acoustic[i] == "Low Rating"){
+#      wpr_join$hm_ac_score[i] = 1
+#    }
+#    if(wpr_join$humpback_acoustic[i] == "Medium Rating"){
+#      wpr_join$hm_ac_score[i] = 2
+#    }
+#    if(wpr_join$humpback_acoustic[i] == "High Rating"){
+#      wpr_join$hm_ac_score[i] = 3
+#    }
+#    
+#    #fin scores
+#    if(wpr_join$fin_acoustic[i] == "offline"){
+#      wpr_join$fn_ac_score[i] = NA
+#    }
+#    if(wpr_join$fin_acoustic[i] == "Low Rating"){
+#      wpr_join$fn_ac_score[i] = 1
+#    }
+#    if(wpr_join$fin_acoustic[i] == "Medium Rating"){
+#      wpr_join$fn_ac_score[i] = 2
+#    }
+#    if(wpr_join$fin_acoustic[i] == "High Rating"){
+#      wpr_join$fn_ac_score[i] = 3
 #   }
 # }
-
-#saveRDS(wpr_join, here(file = "data/wpr_join.rds"))
+# 
+# saveRDS(wpr_join, here(file = "data/wpr_join.rds"))
 
 #sf
 sf_sight <- wpr_join %>% 
@@ -687,7 +763,165 @@ socal_sight/socal_ac/socal_ww
 
 ```
 
-### Correlation analysis for both zones: Acoustics data and WhaleWatch predictions
+### Blue whale data stream timeseries x year
+
+::: {.panel-tabset}
+
+#### Sightings
+
+```{r}
+#| warning: false
+#| echo: false
+#| fig-width: 8
+#| fig-height: 6
+#| fig-align: "center"
+#| label: blue whale data timeseries, sight
+
+wpr_join %>% 
+  distinct(id, .keep_all = TRUE) %>%
+  filter(s_bluecount > 0) %>%
+  mutate(year = as.factor(year)) %>%
+  group_by(mo, year, zone) %>%
+  summarise(mean_co = mean(s_bluecount)) %>%
+  ggplot(aes(x = as.factor(mo), y = mean_co, group = as.factor(year)))+
+  geom_path(aes(color = year), size = 1, alpha = 0.4)+
+  geom_point(aes(color = year), size = 4)+
+  xlab("") +
+  ylab("Blue whale sightings (No. whales)")+
+  scale_color_manual(values = met.brewer("Hokusai2", n = 5)) +
+  scale_fill_manual(values = met.brewer("Hokusai2", n = 5)) + 
+  facet_wrap(~zone)+
+  ms_theme()
+
+```
+
+As an example, we could also plot the data as a ridgeline plot. This is presenting data across years for just the Southern California VSR zone. This plot style is repeated below and only shows data for the SoCal zone. 
+
+```{r}
+#| warning: false
+#| echo: false
+#| fig-width: 8
+#| fig-height: 6
+#| fig-align: "center"
+#| label: blue whale data timeseries, sight ridge
+
+wpr_join %>% 
+  distinct(id, .keep_all = TRUE) %>%
+  filter(s_bluecount < 5 & zone == "Socal VSR" & year != 2025) %>%
+  ggplot(aes(x = s_bluecount, y = as.factor(mo), fill = stat(x))) +
+  geom_density_ridges_gradient(scale = 3, rel_min_height = 0.01) +
+  scale_fill_viridis_c(name = "Blue whale sightings (No. whales)", option = "C") +
+  facet_wrap(~year, scales = "free")+
+  xlim(0, 6)+
+  ms_theme()+
+  theme(axis.title.y = element_blank())
+
+```
+
+#### Acoustics
+
+```{r}
+#| warning: false
+#| echo: false
+#| fig-width: 8
+#| fig-height: 6
+#| fig-align: "center"
+#| label: blue whale data timeseries, acou
+
+wpr_join %>% 
+  distinct(id, .keep_all = TRUE) %>%
+  mutate(year = as.factor(year)) %>%
+  group_by(mo, year, zone) %>%
+  summarise(mean_co = mean(bw_ac_score)) %>%
+  ggplot(aes(x = as.factor(mo), y = mean_co, group = as.factor(year)))+
+  geom_path(aes(color = year), size = 1, alpha = 0.4)+
+  geom_point(aes(color = year), size = 4)+
+  xlab("") +
+  ylab("Blue whale acoustic rating")+
+  scale_color_manual(values = met.brewer("Hokusai2", n = 6)) +
+  scale_fill_manual(values = met.brewer("Hokusai2", n = 6)) + 
+  facet_wrap(~zone)+
+  ms_theme()
+
+wpr_join %>% 
+  distinct(id, .keep_all = TRUE) %>%
+  filter(zone == "Socal VSR") %>%
+  ggplot(aes(x = bw_ac_score, y = as.factor(mo), fill = stat(x))) +
+  geom_density_ridges_gradient(scale = 3, rel_min_height = 0.01) +
+  scale_fill_viridis_c(name = "Blue acoustic score", option = "C") +
+  facet_wrap(~year, scales = "free")+
+  xlim(0, 4)+
+  ms_theme()+
+  theme(axis.title.y = element_blank())
+
+```
+
+#### Whale Watch
+
+```{r}
+#| warning: false
+#| echo: false
+#| fig-width: 8
+#| fig-height: 6
+#| fig-align: "center"
+#| label: blue whale data timeseries, ww
+
+wpr_join %>% 
+  distinct(id, .keep_all = TRUE) %>%
+  mutate(year = as.factor(year)) %>%
+  group_by(mo, year, zone) %>%
+  summarise(mean_co = mean(bwmv)) %>%
+  ggplot(aes(x = as.factor(mo), y = mean_co, group = as.factor(year)))+
+  geom_path(aes(color = year), size = 1, alpha = 0.4)+
+  geom_point(aes(color = year), size = 4)+
+  xlab("") +
+  ylab("Blue whale HSI score")+
+  scale_color_manual(values = met.brewer("Hokusai2", n = 6)) +
+  scale_fill_manual(values = met.brewer("Hokusai2", n = 6)) + 
+  facet_wrap(~zone)+
+  ms_theme()
+
+wpr_join %>% 
+  distinct(id, .keep_all = TRUE) %>%
+  filter(zone == "Socal VSR") %>%
+  ggplot(aes(x = bwmv, y = as.factor(mo), fill = stat(x))) +
+  geom_density_ridges_gradient(scale = 3, rel_min_height = 0.01) +
+  scale_fill_viridis_c(name = "Blue whale HSI score", option = "C") +
+  facet_wrap(~year, scales = "free")+
+  xlim(0, 1)+
+  ms_theme()+
+  theme(axis.title.y = element_blank())
+
+```
+:::
+
+## Correlation analysis for both zones: Acoustics data and WhaleWatch predictions
+
+#### Plot smoothed relationship
+
+```{r}
+#| warning: false
+#| echo: false
+#| label: blue whale data stream comparison corr test, plot
+
+
+#HSI scores need to be on x-axis for gam to run
+wpr_join %>% 
+  distinct(id, .keep_all = TRUE) %>%
+  ggplot(aes(bwmv, bw_ac_score, color = zone)) + 
+  geom_point()+ 
+  geom_smooth(method = "gam")+
+  scale_color_manual(values = c("#1F2D3D", "#4682B4"))+
+  facet_wrap(~zone)+
+  ylab("Acoustinc rating")+
+  xlab("Whale Watch HSI score") + 
+  labs(color = "") +
+  ms_theme()+
+  theme(legend.position = "none")
+
+```
+
+
 
 #### Pearson's
 
@@ -713,15 +947,26 @@ cor.test(socal_corr$bwmv, socal_corr$bw_ac_score)
 #| warning: false
 #| label: blue whale data stream comparison corr test, spear
 
-sf_corr <- wpr_join %>% filter(zone == "SF VSR")
-socal_corr <- wpr_join %>% filter(zone == "Socal VSR")
-
 #SF
 cor.test(sf_corr$bwmv, sf_corr$bw_ac_score, method = "spearman")
 
 
 #Socal
 cor.test(socal_corr$bwmv, socal_corr$bw_ac_score, method = "spearman")
+
+```
+
+#### Kendall's 
+
+```{r}
+#| warning: false
+#| label: blue whale data stream comparison corr test, ken
+
+#SF
+cor.test(sf_corr$bwmv, sf_corr$bw_ac_score, method = "kendall")
+
+#Socal
+cor.test(socal_corr$bwmv, socal_corr$bw_ac_score, method = "kendall")
 
 ```
 
