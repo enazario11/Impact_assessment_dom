@@ -458,7 +458,7 @@ wpr_join %>%
 ```{r}
 #| warning: false
 #| echo: false
-#| fig-width: 12
+#| fig-width: 9
 #| fig-height: 8
 #| fig-align: "center"
 #| label: whale sightings and vessel speed cooperation time series
@@ -476,7 +476,7 @@ ggplot(aes(yr_mo, mean_co, color = zone)) +
   geom_point(size = 3)+
   geom_path(size = 1.5, alpha = 0.8)+
   xlab("")+
-  ylab("Mean year-month cooperation (%)") +
+  ylab("Cooperation (%)") +
   scale_color_manual(values = "#1F2D3D")+
   facet_wrap(~zone)+
   guides(color = "none")+
@@ -498,7 +498,7 @@ sf_whale <- wpr_join %>%
   geom_point(size = 3)+
   geom_path(size = 1.5, alpha = 0.8)+
   xlab("")+
-  ylab("Mean year-month whale sightings") +
+  ylab("Sightings") +
   labs(title = "SF VSR") +
   scale_color_manual(values = c("#1F2D3D", "#4682B4", "#F29E1F"))+
   facet_wrap(~whale, scales = "free_y")+
@@ -520,7 +520,7 @@ sf_acou <- wpr_join %>%
   geom_point(size = 3)+
   geom_path(size = 1.5, alpha = 0.8)+
   xlab("")+
-  ylab("Whale acoustic scores") +
+  ylab("Acoustic scores") +
   labs(title = "SF VSR") +
   scale_color_manual(values = c("#1F2D3D", "#4682B4", "#F29E1F"))+
   facet_wrap(~whale, scales = "free_y")+
@@ -540,7 +540,7 @@ ggplot(aes(yr_mo, mean_co, color = zone)) +
   geom_point(size = 3)+
   geom_path(size = 1.5, alpha = 0.8)+
   xlab("")+
-  ylab("Mean year-month cooperation (%)") +
+  ylab("Cooperation (%)") +
   scale_color_manual(values = "#1F2D3D")+
   facet_wrap(~zone)+
   guides(color = "none")+
@@ -562,7 +562,7 @@ socal_whale <- wpr_join %>%
   geom_point(size = 3)+
   geom_path(size = 1.5, alpha = 0.8)+
   xlab("")+
-  ylab("Mean year-month whale sightings") +
+  ylab("Sightings") +
   labs(title = "Socal VSR") +
   scale_color_manual(values = c("#1F2D3D", "#4682B4", "#F29E1F"))+
   facet_wrap(~whale, scales = "free_y")+
@@ -584,7 +584,7 @@ socal_acou <- wpr_join %>%
   geom_point(size = 3)+
   geom_path(size = 1.5, alpha = 0.8)+
   xlab("")+
-  ylab("Whale acoustic scores") +
+  ylab("Acoustic scores") +
   labs(title = "Socal VSR") +
   scale_color_manual(values = c("#1F2D3D", "#4682B4", "#F29E1F"))+
   facet_wrap(~whale, scales = "free_y")+
@@ -606,8 +606,8 @@ For the acoustics panels, year-month averages were done by assigning a "Low Rati
 ```{r}
 #| warning: false
 #| echo: false
-#| fig-width: 9
-#| fig-height: 10
+#| fig-width: 7
+#| fig-height: 7
 #| fig-align: "center"
 #| label: blue whale data stream comparison sf
 
@@ -711,8 +711,8 @@ sf_sight/sf_ac/sf_ww
 ```{r}
 #| warning: false
 #| echo: false
-#| fig-width: 9
-#| fig-height: 10
+#| fig-width: 7
+#| fig-height: 7
 #| fig-align: "center"
 #| label: blue whale data stream comparison socal
 
@@ -772,18 +772,21 @@ socal_sight/socal_ac/socal_ww
 ```{r}
 #| warning: false
 #| echo: false
-#| fig-width: 8
-#| fig-height: 6
+#| fig-width: 7
+#| fig-height: 5
 #| fig-align: "center"
 #| label: blue whale data timeseries, sight
+
+wpr_join <- wpr_join %>% 
+  mutate(mo_nm = lubridate::month(mo, label = TRUE, abbr = TRUE))
 
 wpr_join %>% 
   distinct(id, .keep_all = TRUE) %>%
   filter(s_bluecount > 0) %>%
   mutate(year = as.factor(year)) %>%
-  group_by(mo, year, zone) %>%
+  group_by(mo_nm, year, zone) %>%
   summarise(mean_co = mean(s_bluecount)) %>%
-  ggplot(aes(x = as.factor(mo), y = mean_co, group = as.factor(year)))+
+  ggplot(aes(x = as.factor(mo_nm), y = mean_co, group = as.factor(year)))+
   geom_path(aes(color = year), size = 1, alpha = 0.4)+
   geom_point(aes(color = year), size = 4)+
   xlab("") +
@@ -791,7 +794,8 @@ wpr_join %>%
   scale_color_manual(values = met.brewer("Hokusai2", n = 5)) +
   scale_fill_manual(values = met.brewer("Hokusai2", n = 5)) + 
   facet_wrap(~zone)+
-  ms_theme()
+  ms_theme()+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
 
 ```
 
@@ -800,18 +804,18 @@ As an example, we could also plot the data as a ridgeline plot. This is presenti
 ```{r}
 #| warning: false
 #| echo: false
-#| fig-width: 8
-#| fig-height: 6
+#| fig-width: 7
+#| fig-height: 7
 #| fig-align: "center"
 #| label: blue whale data timeseries, sight ridge
 
 wpr_join %>% 
   distinct(id, .keep_all = TRUE) %>%
-  filter(s_bluecount < 5 & zone == "Socal VSR" & year != 2025) %>%
-  ggplot(aes(x = s_bluecount, y = as.factor(mo), fill = stat(x))) +
+  filter(zone == "Socal VSR" & year != 2025) %>%
+  ggplot(aes(x = s_bluecount, y = as.factor(mo_nm), fill = stat(x))) +
   geom_density_ridges_gradient(scale = 3, rel_min_height = 0.01) +
   scale_fill_viridis_c(name = "Blue whale sightings (No. whales)", option = "C") +
-  facet_wrap(~year, scales = "free")+
+  facet_wrap(~year, scales = "free_x")+
   xlim(0, 6)+
   ms_theme()+
   theme(axis.title.y = element_blank())
@@ -823,17 +827,17 @@ wpr_join %>%
 ```{r}
 #| warning: false
 #| echo: false
-#| fig-width: 8
-#| fig-height: 6
+#| fig-width: 7
+#| fig-height: 5
 #| fig-align: "center"
 #| label: blue whale data timeseries, acou
 
 wpr_join %>% 
   distinct(id, .keep_all = TRUE) %>%
   mutate(year = as.factor(year)) %>%
-  group_by(mo, year, zone) %>%
+  group_by(mo_nm, year, zone) %>%
   summarise(mean_co = mean(bw_ac_score)) %>%
-  ggplot(aes(x = as.factor(mo), y = mean_co, group = as.factor(year)))+
+  ggplot(aes(x = as.factor(mo_nm), y = mean_co, group = as.factor(year)))+
   geom_path(aes(color = year), size = 1, alpha = 0.4)+
   geom_point(aes(color = year), size = 4)+
   xlab("") +
@@ -841,15 +845,26 @@ wpr_join %>%
   scale_color_manual(values = met.brewer("Hokusai2", n = 6)) +
   scale_fill_manual(values = met.brewer("Hokusai2", n = 6)) + 
   facet_wrap(~zone)+
-  ms_theme()
+  ms_theme()+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+```
+
+```{r}
+#| warning: false
+#| echo: false
+#| fig-width: 7
+#| fig-height: 7
+#| fig-align: "center"
+#| label: blue whale data timeseries, acou ridge
 
 wpr_join %>% 
   distinct(id, .keep_all = TRUE) %>%
-  filter(zone == "Socal VSR") %>%
-  ggplot(aes(x = bw_ac_score, y = as.factor(mo), fill = stat(x))) +
+  filter(zone == "Socal VSR" & year != 2025) %>%
+  ggplot(aes(x = bw_ac_score, y = as.factor(mo_nm), fill = stat(x))) +
   geom_density_ridges_gradient(scale = 3, rel_min_height = 0.01) +
   scale_fill_viridis_c(name = "Blue acoustic score", option = "C") +
-  facet_wrap(~year, scales = "free")+
+  facet_wrap(~year, scales = "free_x")+
   xlim(0, 4)+
   ms_theme()+
   theme(axis.title.y = element_blank())
@@ -861,17 +876,17 @@ wpr_join %>%
 ```{r}
 #| warning: false
 #| echo: false
-#| fig-width: 8
-#| fig-height: 6
+#| fig-width: 7
+#| fig-height: 5
 #| fig-align: "center"
 #| label: blue whale data timeseries, ww
 
 wpr_join %>% 
   distinct(id, .keep_all = TRUE) %>%
   mutate(year = as.factor(year)) %>%
-  group_by(mo, year, zone) %>%
+  group_by(mo_nm, year, zone) %>%
   summarise(mean_co = mean(bwmv)) %>%
-  ggplot(aes(x = as.factor(mo), y = mean_co, group = as.factor(year)))+
+  ggplot(aes(x = as.factor(mo_nm), y = mean_co, group = as.factor(year)))+
   geom_path(aes(color = year), size = 1, alpha = 0.4)+
   geom_point(aes(color = year), size = 4)+
   xlab("") +
@@ -879,20 +894,34 @@ wpr_join %>%
   scale_color_manual(values = met.brewer("Hokusai2", n = 6)) +
   scale_fill_manual(values = met.brewer("Hokusai2", n = 6)) + 
   facet_wrap(~zone)+
-  ms_theme()
+  ms_theme()+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+```
+
+```{r}
+#| warning: false
+#| echo: false
+#| fig-width: 7
+#| fig-height: 7
+#| fig-align: "center"
+#| label: blue whale data timeseries, ww ridge 
 
 wpr_join %>% 
   distinct(id, .keep_all = TRUE) %>%
-  filter(zone == "Socal VSR") %>%
-  ggplot(aes(x = bwmv, y = as.factor(mo), fill = stat(x))) +
+  filter(zone == "Socal VSR" & year != 2025) %>%
+  ggplot(aes(x = bwmv, y = as.factor(mo_nm), fill = stat(x))) +
   geom_density_ridges_gradient(scale = 3, rel_min_height = 0.01) +
   scale_fill_viridis_c(name = "Blue whale HSI score", option = "C") +
-  facet_wrap(~year, scales = "free")+
+  facet_wrap(~year, scales = "free_x")+
   xlim(0, 1)+
   ms_theme()+
-  theme(axis.title.y = element_blank())
+  theme(axis.title.y = element_blank(), 
+        legend.title = element_text(size = 14), 
+        legend.text = element_text(size = 12))
 
 ```
+
 :::
 
 ## Correlation analysis for both zones: Acoustics data and WhaleWatch predictions
