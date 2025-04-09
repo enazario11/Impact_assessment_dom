@@ -1,0 +1,360 @@
+---
+title: "Whale Safe Impact"
+author: "Emily Nazario"
+date: "`r Sys.Date()`"
+format:
+ html: 
+  self-contained: true
+editor: visual
+toc: TRUE
+toc-title: "On this page"
+theme: yeti
+fontcolor: "#134f5c"
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r}
+#| warning: false
+#| include: false
+#| echo: false
+#| label: libraries and data
+
+library(tidyverse)
+library(here)
+library(tidyquant)
+library(patchwork)
+library(kableExtra) #table
+library(webr) #donut plot
+library(MetBrewer)
+library(ggridges)
+
+ms_theme <- function(){
+  theme_tq() %+replace%
+            theme(axis.title = element_text(size = 16), 
+                  axis.text = element_text(size = 12, color = "black"), 
+                  strip.text = element_text(size = 16, color = "white"), 
+                  legend.title = element_text(size = 16), 
+                  legend.text = element_text(size = 14))
+}
+
+# whale presence rating (wpr) data
+sf_wpr <- read.csv(here("data/wpr/sf_whale_data.csv"))
+socal_wpr <- read.csv(here("data/wpr/socal_whale_data.csv"))
+
+wpr <- rbind(sf_wpr, socal_wpr)
+wpr <- wpr %>%
+  mutate(date_pt = as.Date(date_pt, format = "%m/%d/%Y"), 
+         year = year(date_pt), 
+         mo = month(date_pt),
+         yr_mo = zoo::as.yearmon(date_pt))
+
+#vessel speed reduction (vsr) data
+mb_vsr <- read.csv(here("data/vsr/monterey_vsr.csv")) 
+sf_vsr <- read.csv(here("data/vsr/sf_vsr.csv")) %>% mutate(cooperation = cooperation/100)
+socal_vsr <- read.csv(here("data/vsr/socal_vsr.csv")) %>% mutate(cooperation = cooperation/100)
+
+vsr <- rbind(mb_vsr, sf_vsr, socal_vsr)
+vsr <- vsr %>% 
+  mutate(date = as.Date(date, format = "%m/%d/%Y"), 
+         year = year(date), 
+         mo = month(date),
+         yr_mo = zoo::as.yearmon(date))
+
+```
+
+# Voluntary Vessel Speed Reduction (VSR) Zone & Whale Safe background
+
+## VSR data notes
+
+San Francisco data does not include the Monterey Bay National Marine Sanctuary, which was added to the VSR program in 2023. The Whale Safe system that was launched in San Francisco was designed to give whale presence in the San Francisco portion of the VSR zones so we are reporting on them separately here for now. The Monterey Bay stats come from a different data pipeline and the offseason stats are not tracked as regularly.
+
+### **Whale Safe System Launch Dates**
+
+Southern California: September 17, 2020
+
+San Francisco: September 21, 2022
+
+### **Vessel Speed Reduction Zones**
+
+![](images/norcal_vsr-01.jpg){fig-align="center" width="500"}
+
+![](images/socal_vsr.jpg){fig-align="center" width="500"}
+
+### **Vessel Speed Reduction Season Dates:**
+
+Southern California:
+
+-   June 4 - December 31, 2018:
+
+-   May 15 - December 15, 2019
+
+-   May 15 - December 15, 2020
+
+-   May 15 - December 15, 2021
+
+-   May 1 - December 15, 2022
+
+-   May 1 - December 15, 2023
+
+-   May 1 , 2024 - January 15, 2025
+
+San Francisco
+
+-   May 1 - November 15, 2019
+
+-   May 1 - November 15, 2020
+
+-   May 1 - November 15, 2021
+
+-   May 1 - December 15, 2022
+
+-   May 1 - December 15, 2023
+
+-   May 1 , 2024 - January 15, 2025
+
+## WPR data notes
+
+Blue whale model data might have been retroactively filled in after periods where the server was down. We don’t have this tracked in our data so there may be days where the Whale Presence Rating didn’t take the blue whale model value into account.
+
+Each species has a threshold for each data stream see [Methodology](https://whalesafe.com/methodology/) for what is considered low-high (0-1). The Whale Presence Rating considers the highest rating of any of the data streams over 5 days. Two species need to have a *high* rating in order for the overall Whale Presence Rating to be 'Very High'.
+
+# Blue whale data stream time series
+
+Across metrics, data points represent the year-month average for blue whales. Light grey shaded regions represent seasons when the VSR is active, while the striped regions represent when data was unavailable from the respective source.
+
+For the acoustics panels, year-month averages were done by assigning a "Low Rating" a 1, a "Medium Rating" a 2, a "High Rating" a 3, and "offline" an NA. Then, averages were taken of these scores, and the means were plotted as they fit across the ranges of these three bins.
+
+![](images/blue_ts_data-01.png){fig-align="center" width="718"}
+
+```{r}
+#| warning: false
+#| label: NA count blue data stream
+#| echo: false
+
+wpr_join <- readRDS(here(file = "data/wpr_join.rds"))
+
+sf_zone <- wpr_join %>% filter(zone == "SF VSR") %>% distinct(date_pt, .keep_all = TRUE)
+sf_length <- length(unique(sf_zone$date_pt))
+
+socal_zone <- wpr_join %>% filter(zone == "Socal VSR") %>% distinct(date_pt, .keep_all = TRUE)
+socal_length <- length(unique(socal_zone$date_pt))
+
+sf_ac_na <- as.data.frame(table(sf_zone$blue_acoustic)) %>%
+  mutate(prop_time = Freq/sf_length)
+socal_ac_na <- as.data.frame(table(socal_zone$blue_acoustic))%>%
+  mutate(prop_time = Freq/socal_length)
+
+sf_ww_na <- as.data.frame(table(sf_zone$bwmv_rating)) %>%
+  mutate(prop_time = Freq/sf_length)
+socal_ww_na <- as.data.frame(table(socal_zone$bwmv_rating)) %>%
+  mutate(prop_time = Freq/socal_length)
+
+```
+
+| Region (n = all days)          | Data system | Percent days offline |
+|--------------------------------|:------------|:---------------------|
+| San Francisco (n = 846)        | Acoustics   | 56.03%               |
+| Southern California (n = 1579) | Acoustics   | 24.64%               |
+| San Francisco (n = 846)        | Whale Watch | 20.09%               |
+| Southern California (n = 1579) | Whale Watch | 11.40%               |
+
+: Proportion of days per region data was offline
+
+# Correlation analysis
+
+::: panel-tabset
+## Plot of relationships
+
+```{r}
+#| warning: false
+#| echo: false
+#| label: blue whale data stream comparison corr test, plot
+
+
+#HSI scores need to be on x-axis for gam to run
+wpr_join %>% 
+  distinct(id, .keep_all = TRUE) %>%
+  ggplot(aes(bwmv, bw_ac_score, color = zone)) + 
+  geom_point()+ 
+  geom_smooth(method = "gam")+
+  scale_color_manual(values = c("#1F2D3D", "#4682B4"))+
+  facet_wrap(~zone)+
+  ylab("Acoustinc rating")+
+  xlab("Whale Watch HSI score") + 
+  labs(color = "") +
+  ms_theme()+
+  theme(legend.position = "none")
+
+wpr_join %>% 
+  distinct(id, .keep_all = TRUE) %>%
+  ggplot(aes(bwmv, s_bluecount, color = zone)) + 
+  geom_point()+ 
+  geom_smooth(method = "gam")+
+  scale_color_manual(values = c("#1F2D3D", "#4682B4"))+
+  facet_wrap(~zone, scales = "free")+
+  ylab("Sightings (No. whales)")+
+  xlab("Whale Watch HSI score") + 
+  labs(color = "") +
+  ms_theme()+
+  theme(legend.position = "none")
+
+```
+
+## Acoustics \~ WhaleWatch
+
+**Pearson's**
+
+```{r}
+#| warning: false
+#| label: blue whale data stream comparison corr test, pear acou
+
+sf_corr <- wpr_join %>% filter(zone == "SF VSR")
+socal_corr <- wpr_join %>% filter(zone == "Socal VSR")
+
+#SF
+cor.test(sf_corr$bwmv, sf_corr$bw_ac_score)
+
+#Socal
+cor.test(socal_corr$bwmv, socal_corr$bw_ac_score)
+
+
+```
+
+**Spearman's**
+
+```{r}
+#| warning: false
+#| label: blue whale data stream comparison corr test, spear acou
+
+#SF
+cor.test(sf_corr$bwmv, sf_corr$bw_ac_score, method = "spearman")
+
+
+#Socal
+cor.test(socal_corr$bwmv, socal_corr$bw_ac_score, method = "spearman")
+
+```
+
+**Kendall's**
+
+```{r}
+#| warning: false
+#| label: blue whale data stream comparison corr test, ken acou
+
+#SF
+cor.test(sf_corr$bwmv, sf_corr$bw_ac_score, method = "kendall")
+
+#Socal
+cor.test(socal_corr$bwmv, socal_corr$bw_ac_score, method = "kendall")
+
+```
+
+## Sightings \~ WhaleWatch
+
+**Pearson's**
+
+```{r}
+#| warning: false
+#| label: blue whale data stream comparison corr test, pear sight
+
+#SF
+cor.test(sf_corr$bwmv, sf_corr$s_bluecount)
+
+#Socal
+cor.test(socal_corr$bwmv, socal_corr$s_bluecount)
+
+```
+
+**Spearman's**
+
+```{r}
+#| warning: false
+#| label: blue whale data stream comparison corr test, spear sight
+
+#SF
+cor.test(sf_corr$bwmv, sf_corr$s_bluecount, method = "spearman")
+
+
+#Socal
+cor.test(socal_corr$bwmv, socal_corr$s_bluecount, method = "spearman")
+
+```
+
+**Kendall's**
+
+```{r}
+#| warning: false
+#| label: blue whale data stream comparison corr test, ken sight
+
+#SF
+cor.test(sf_corr$bwmv, sf_corr$s_bluecount, method = "kendall")
+
+#Socal
+cor.test(socal_corr$bwmv, socal_corr$s_bluecount, method = "kendall")
+
+```
+:::
+
+## Summary table
+
+```{r}
+#| warning: false
+#| echo: false
+#| label: blue whale data stream comparison corr test, table
+
+cor_suite_test <- function(col1, col2, df){
+  #split df by region
+  sf_corr <- df %>% filter(zone == "SF VSR")
+  socal_corr <- df %>% filter(zone == "Socal VSR")
+  
+  #create empty df to store results
+  corr_results <- NULL
+  corr_temp <- data.frame(matrix(ncol = 4, nrow = 1))
+  colnames(corr_temp) <- c("Region", "Correlation", "Method", "Correlation metric")
+  
+  #run each correlation method: SF
+  cor_methods <- c("pearson", "kendall", "spearman")
+  for(i in 1:3){
+    sf <- cor.test(sf_corr[[col1]], sf_corr[[col2]], method = cor_methods[i])
+
+    corr_temp$Region <- "San Francisco"
+    corr_temp$Correlation <- paste0(col1, "~", col2)
+    corr_temp$Method <- cor_methods[i]
+    corr_temp$`Correlation metric` <- sf$estimate
+    
+    corr_results <- rbind(corr_results, corr_temp)
+  } #end for loop
+  
+  #run each correlation method: Socal
+  for(i in 1:3){
+    socal <- cor.test(socal_corr[[col1]], socal_corr[[col2]], method = cor_methods[i])
+    
+    corr_temp$Region <- "Southern California"
+    corr_temp$Correlation <- paste0(col1, "~", col2)
+    corr_temp$Method <- cor_methods[i]
+    corr_temp$`Correlation metric` <- socal$estimate
+    
+    corr_results <- rbind(corr_results, corr_temp)
+  } #end for loop
+  
+  return(corr_results)
+  
+} #end function
+
+#run function for both correlations
+acous_ww_corr <- cor_suite_test(col1 = "bw_ac_score", col2 = "bwmv", df = wpr_join)
+sight_ww_corr <- cor_suite_test(col1 = "s_bluecount", col2 = "bwmv", df = wpr_join)
+
+#print as tables
+kbl(acous_ww_corr[,2:4], caption = "Acoustics & WhaleWatch Correlation") %>%
+  kable_styling(bootstrap_options = c("striped", "hover")) %>%
+  pack_rows("San Francisco", 1,3, label_row_css = "background-color: #134f5c ; color: #fff;") %>%
+  pack_rows("Southern California", 4, 6, label_row_css = "background-color: #134f5c ; color: #fff;") 
+
+kbl(sight_ww_corr[,2:4], caption = "Sightings & WhaleWatch Correlation") %>%
+  kable_styling(bootstrap_options = c("striped", "hover")) %>%
+  pack_rows("San Francisco", 1,3, label_row_css = "background-color: #134f5c ; color: #fff;") %>%
+  pack_rows("Southern California", 4, 6, label_row_css = "background-color: #134f5c ; color: #fff;") 
+
+```
