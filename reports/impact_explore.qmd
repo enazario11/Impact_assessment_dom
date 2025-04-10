@@ -692,52 +692,87 @@ socal_ww_na <- as.data.frame(table(socal_zone$bwmv_rating)) %>%
 # 
 # saveRDS(wpr_join, here(file = "data/wpr_join.rds"))
 
+
+
 #sf
-# sf_sight <- wpr_join %>% 
+# sf_sight <- wpr_join %>%
 #   group_by(yr_mo, zone) %>%
-#   summarise(sight_blu = mean(s_bluecount, na.rm = TRUE), 
+#     summarise(sight_blu = mean(s_bluecount, na.rm = TRUE),
 #             ww_blu = mean(bwmv, na.rm = TRUE)) %>%
 #   filter(zone == "SF VSR") %>%
-#   ggplot(aes(x = yr_mo)) +
-#   geom_rect(data = sf_vsr_on2, aes(ymin = -Inf, ymax = Inf, xmin = yr_mo_s, xmax = yr_mo_e), inherit.aes = FALSE, fill = "grey", alpha = 0.5)+
+#   ggplot(aes(x = as.Date(yr_mo))) +
+#   geom_rect(data = sf_vsr_on2, aes(ymin = -Inf, ymax = Inf, xmin = as.Date(yr_mo_s), xmax = as.Date(yr_mo_e)), inherit.aes = FALSE, fill = "grey", alpha = 0.5)+
 #   geom_point(aes(y = sight_blu), size = 3, color = "#1F2D3D")+
 #   geom_path(aes(y = sight_blu), size = 1.5, alpha = 0.8, color = "#1F2D3D")+
 #   xlab("")+
 #   labs(title = "SF VSR")+
-#   ylab("Sightings") +
-#   ms_theme()
+# ylab("Sightings") +
+# scale_x_date(date_breaks = "5 month",
+#                date_labels = "%b %Y",
+#                oob = scales::oob_keep,
+#                limits = as.Date(c('2022-09-01','2025-01-01'), format = "%Y-%m-%d"))+
+#   ms_theme()+
+#   theme(
+#          panel.background = element_rect(fill='transparent'),
+#          plot.background = element_rect(fill='transparent', color=NA),
+#          panel.grid.major = element_blank(),
+#          panel.grid.minor = element_blank(),
+#          legend.background = element_rect(fill='transparent'),
+#          legend.box.background = element_rect(fill='transparent'))
 # 
-# sf_ac <- wpr_join %>% 
+# sf_ac <- wpr_join %>%
 #   group_by(yr_mo, zone) %>%
 #   summarise(sight_blu = mean(bw_ac_score, na.rm = TRUE)) %>%
 #   filter(zone == "SF VSR") %>%
-#   ggplot(aes(x = yr_mo)) +
-#   geom_rect(data = sf_vsr_on2, aes(ymin = -Inf, ymax = Inf, xmin = yr_mo_s, xmax = yr_mo_e), inherit.aes = FALSE, fill = "grey", alpha = 0.5)+
+#   ggplot(aes(x = as.Date(yr_mo))) +
+#   geom_rect(data = sf_vsr_on2, aes(ymin = -Inf, ymax = Inf, xmin = as.Date(yr_mo_s), xmax = as.Date(yr_mo_e)), inherit.aes = FALSE, fill = "grey", alpha = 0.5)+
 #   geom_point(aes(y = sight_blu), size = 3, color = "#1F2D3D")+
 #   geom_path(aes(y = sight_blu), size = 1.5, alpha = 0.8, color = "#1F2D3D")+
 #   xlab("")+
-#   scale_y_continuous(name = "Acoustics rating", 
+#   scale_y_continuous(name = "Acoustics rating",
 #                      breaks = c(1, 2, 3),
-#                      labels = c("Low Rating", "Medium Rating", "High Rating"), 
+#                      labels = c("Low Rating", "Medium Rating", "High Rating"),
 #                      limits = c(0.7, 3.3))+
-#   ms_theme()
+#   scale_x_date(date_breaks = "5 month",
+#                  date_labels = "%b %Y",
+#                  oob = scales::oob_keep,
+#                  limits = as.Date(c('2022-09-01','2025-01-01'), format = "%Y-%m-%d"))+
+#   ms_theme()+
+#   theme(
+#          panel.background = element_rect(fill='transparent'),
+#          plot.background = element_rect(fill='transparent', color=NA),
+#          panel.grid.major = element_blank(),
+#          panel.grid.minor = element_blank(),
+#          legend.background = element_rect(fill='transparent'),
+#          legend.box.background = element_rect(fill='transparent'))
 # 
-# sf_ww <- wpr_join %>% 
+# sf_ww <- wpr_join %>%
 #   group_by(yr_mo, zone) %>%
-#   summarise(sight_blu = mean(s_bluecount, na.rm = TRUE), 
+#   summarise(sight_blu = mean(s_bluecount, na.rm = TRUE),
 #             ww_blu = mean(bwmv, na.rm = TRUE)) %>%
 #   filter(zone == "SF VSR") %>%
-#   ggplot(aes(x = yr_mo)) +
-#   geom_rect(data = sf_vsr_on2, aes(ymin = -Inf, ymax = Inf, xmin = yr_mo_s, xmax = yr_mo_e), inherit.aes = FALSE, fill = "grey", alpha = 0.5)+
+#   ggplot(aes(x = as.Date(yr_mo))) +
+#   geom_rect(data = sf_vsr_on2, aes(ymin = -Inf, ymax = Inf, xmin = as.Date(yr_mo_s), xmax = as.Date(yr_mo_e)), inherit.aes = FALSE, fill = "grey", alpha = 0.5)+
 #   geom_point(aes(y = ww_blu), size = 3, color = "#1F2D3D")+
 #   geom_path(aes(y = ww_blu), size = 1.5, alpha = 0.8, color = "#1F2D3D")+
 #   xlab("")+
 #   ylab("Habitat suitability") +
-#   ms_theme()
+#   scale_x_date(date_breaks = "5 month",
+#                  date_labels = "%b %Y",
+#                  oob = scales::oob_keep,
+#                  limits = as.Date(c('2022-09-01','2025-01-01'), format = "%Y-%m-%d"))+
+#   ms_theme()+
+#   theme(
+#          panel.background = element_rect(fill='transparent'),
+#          plot.background = element_rect(fill='transparent', color=NA),
+#          panel.grid.major = element_blank(),
+#          panel.grid.minor = element_blank(),
+#          legend.background = element_rect(fill='transparent'),
+#          legend.box.background = element_rect(fill='transparent'))
 # 
 # all_sf <- sf_sight/sf_ac/sf_ww
 # all_sf
-# ggsave(here("figs/blue_ts/sf.png"), all_sf, height = 6, width = 7, units = c("in"))
+# ggsave(here("figs/blue_ts/sf.png"), all_sf, height = 6, width = 7, units = c("in"), bg= 'transparent')
 ```
 
 ```{r}
@@ -749,51 +784,84 @@ socal_ww_na <- as.data.frame(table(socal_zone$bwmv_rating)) %>%
 #| label: blue whale data stream comparison socal
 
 #socal
-# socal_sight <- wpr_join %>% 
+# socal_sight <- wpr_join %>%
 #   group_by(yr_mo, zone) %>%
-#   summarise(sight_blu = mean(s_bluecount, na.rm = TRUE), 
+#   summarise(sight_blu = mean(s_bluecount, na.rm = TRUE),
 #             ww_blu = mean(bwmv, na.rm = TRUE)) %>%
 #   filter(zone == "Socal VSR") %>%
-#   ggplot(aes(x = yr_mo)) +
-#   geom_rect(data = socal_vsr_on2, aes(ymin = -Inf, ymax = Inf, xmin = yr_mo_s, xmax = yr_mo_e), inherit.aes = FALSE, fill = "grey", alpha = 0.5)+
+#   ggplot(aes(x = as.Date(yr_mo))) +
+#   geom_rect(data = socal_vsr_on2, aes(ymin = -Inf, ymax = Inf, xmin = as.Date(yr_mo_s), xmax = as.Date(yr_mo_e)), inherit.aes = FALSE, fill = "grey", alpha = 0.5)+
 #   geom_point(aes(y = sight_blu), size = 3, color = "#1F2D3D")+
 #   geom_path(aes(y = sight_blu), size = 1.5, alpha = 0.8, color = "#1F2D3D")+
 #   xlab("")+
 #   labs(title = "Socal VSR")+
 #   ylab("Sightings") +
-#   ms_theme()
+#   scale_x_date(date_breaks = "9 month",
+#                  date_labels = "%b %Y",
+#                  oob = scales::oob_keep,
+#                  limits = as.Date(c('2020-10-01','2025-01-01'), format = "%Y-%m-%d"))+
+#   ms_theme()+
+#   theme(
+#          panel.background = element_rect(fill='transparent', color = NA),
+#          plot.background = element_rect(fill='transparent', color=NA),
+#          panel.grid.major = element_blank(),
+#          panel.grid.minor = element_blank(),
+#          legend.background = element_blank(),
+#          legend.box.background = element_rect(fill='transparent'))
 # 
-# socal_ac <- wpr_join %>% 
+# socal_ac <- wpr_join %>%
 #   group_by(yr_mo, zone) %>%
 #   summarise(sight_blu = mean(bw_ac_score, na.rm = TRUE)) %>%
 #   filter(zone == "Socal VSR") %>%
-#   ggplot(aes(x = yr_mo)) +
-#   geom_rect(data = socal_vsr_on2, aes(ymin = -Inf, ymax = Inf, xmin = yr_mo_s, xmax = yr_mo_e), inherit.aes = FALSE, fill = "grey", alpha = 0.5)+
+#   ggplot(aes(x = as.Date(yr_mo))) +
+#   geom_rect(data = socal_vsr_on2, aes(ymin = -Inf, ymax = Inf, xmin = as.Date(yr_mo_s), xmax = as.Date(yr_mo_e)), inherit.aes = FALSE, fill = "grey", alpha = 0.5)+
 #   geom_point(aes(y = sight_blu), size = 3, color = "#1F2D3D")+
 #   geom_path(aes(y = sight_blu), size = 1.5, alpha = 0.8, color = "#1F2D3D")+
 #   xlab("")+
-#   scale_y_continuous(name = "Acoustics rating", 
+#   scale_y_continuous(name = "Acoustics rating",
 #                      breaks = c(1, 2, 3),
-#                      labels = c("Low Rating", "Medium Rating", "High Rating"), 
+#                      labels = c("Low Rating", "Medium Rating", "High Rating"),
 #                      limits = c(0.7, 3.3))+
-#   ms_theme()
+#   scale_x_date(date_breaks = "9 month",
+#                  date_labels = "%b %Y",
+#                  oob = scales::oob_keep,
+#                  limits = as.Date(c('2020-10-01','2025-01-01'), format = "%Y-%m-%d"))+
+#   ms_theme()+
+#   theme(
+#          panel.background = element_rect(fill='transparent', color = NA),
+#          plot.background = element_rect(fill='transparent', color=NA),
+#          panel.grid.major = element_blank(),
+#          panel.grid.minor = element_blank(),
+#          legend.background = element_blank(),
+#          legend.box.background = element_rect(fill='transparent'))
 # 
-# socal_ww <- wpr_join %>% 
+# socal_ww <- wpr_join %>%
 #   group_by(yr_mo, zone) %>%
-#   summarise(sight_blu = mean(s_bluecount, na.rm = TRUE), 
+#   summarise(sight_blu = mean(s_bluecount, na.rm = TRUE),
 #             ww_blu = mean(bwmv, na.rm = TRUE)) %>%
 #   filter(zone == "Socal VSR") %>%
-#   ggplot(aes(x = yr_mo)) +
-#   geom_rect(data = socal_vsr_on2, aes(ymin = -Inf, ymax = Inf, xmin = yr_mo_s, xmax = yr_mo_e), inherit.aes = FALSE, fill = "grey", alpha = 0.5)+
+#   ggplot(aes(x = as.Date(yr_mo))) +
+#   geom_rect(data = socal_vsr_on2, aes(ymin = -Inf, ymax = Inf, xmin = as.Date(yr_mo_s), xmax = as.Date(yr_mo_e)), inherit.aes = FALSE, fill = "grey", alpha = 0.5)+
 #   geom_point(aes(y = ww_blu), size = 3, color = "#1F2D3D")+
 #   geom_path(aes(y = ww_blu), size = 1.5, alpha = 0.8, color = "#1F2D3D")+
 #   xlab("")+
 #   ylab("Habitat suitability") +
-#   ms_theme()
+#   scale_x_date(date_breaks = "9 month",
+#                  date_labels = "%b %Y",
+#                  oob = scales::oob_keep,
+#                  limits = as.Date(c('2020-10-01','2025-01-01'), format = "%Y-%m-%d"))+
+#   ms_theme()+
+#   theme(
+#          panel.background = element_rect(fill='transparent', color = NA),
+#          plot.background = element_rect(fill='transparent', color=NA),
+#          panel.grid.major = element_blank(),
+#          panel.grid.minor = element_blank(),
+#          legend.background = element_blank(),
+#          legend.box.background = element_rect(fill='transparent'))
 # 
 # all_socal <- socal_sight/socal_ac/socal_ww
 # all_socal
-# ggsave(here("figs/blue_ts/socal.png"), all_socal, height = 6, width = 7, units = c("in"))
+# ggsave(here("figs/blue_ts/socal.svg"), all_socal, height = 6, width = 7, units = c("in"),bg= 'transparent')
 ```
 
 ### Blue whale data stream time series x year

@@ -125,7 +125,7 @@ Across metrics, data points represent the year-month average for blue whales. Li
 
 For the acoustics panels, year-month averages were done by assigning a "Low Rating" a 1, a "Medium Rating" a 2, a "High Rating" a 3, and "offline" an NA. Then, averages were taken of these scores, and the means were plotted as they fit across the ranges of these three bins.
 
-![](images/blue_ts_data-01.png){fig-align="center" width="718"}
+![](images/blue_ts_data.png){fig-align="center"}
 
 ```{r}
 #| warning: false
@@ -347,14 +347,16 @@ acous_ww_corr <- cor_suite_test(col1 = "bw_ac_score", col2 = "bwmv", df = wpr_jo
 sight_ww_corr <- cor_suite_test(col1 = "s_bluecount", col2 = "bwmv", df = wpr_join)
 
 #print as tables
-kbl(acous_ww_corr[,2:4], caption = "Acoustics & WhaleWatch Correlation") %>%
+kbl(acous_ww_corr[,2:4]) %>%
+  kable_styling(bootstrap_options = c("striped", "hover")) %>%
+  pack_rows("San Francisco", 1,3, label_row_css = "background-color: #134f5c ; color: #fff;") %>%
+  pack_rows("Southern California", 4, 6, label_row_css = "background-color: #134f5c ; color: #fff;")
+
+
+kbl(sight_ww_corr[,2:4]) %>%
   kable_styling(bootstrap_options = c("striped", "hover")) %>%
   pack_rows("San Francisco", 1,3, label_row_css = "background-color: #134f5c ; color: #fff;") %>%
   pack_rows("Southern California", 4, 6, label_row_css = "background-color: #134f5c ; color: #fff;") 
 
-kbl(sight_ww_corr[,2:4], caption = "Sightings & WhaleWatch Correlation") %>%
-  kable_styling(bootstrap_options = c("striped", "hover")) %>%
-  pack_rows("San Francisco", 1,3, label_row_css = "background-color: #134f5c ; color: #fff;") %>%
-  pack_rows("Southern California", 4, 6, label_row_css = "background-color: #134f5c ; color: #fff;") 
 
 ```
