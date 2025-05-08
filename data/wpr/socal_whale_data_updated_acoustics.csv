@@ -1,0 +1,1583 @@
+date_pt,whale_presence_rating,vsr_season,s_fincount,fin_acoustic,s_humpbackcount,humpback_acoustic,s_bluecount,blue_acoustic,bwmv,bwmv_rating,blue_acoustic_count,fin_acoustic_count,humpback_acoustic_count,n_periods,blue_acoustic_percent,fin_acoustic_percent,humpback_acoustic_percent,zone
+9/17/2020,High,active,0,High Rating,2,High Rating,4,High Rating,0.79,medium,12,12,6,34,35,35,18,Socal VSR
+9/18/2020,Very High,active,0,High Rating,0,Medium Rating,10,Medium Rating,0.78,medium,1,19,5,42,2,45,12,Socal VSR
+9/19/2020,Very High,active,0,High Rating,0,High Rating,4,High Rating,0.78,medium,6,19,12,29,21,66,41,Socal VSR
+9/20/2020,Very High,active,0,Medium Rating,0,High Rating,0,Medium Rating,0.8,medium,1,3,8,51,2,6,16,Socal VSR
+9/21/2020,Very High,active,0,Medium Rating,0,High Rating,0,High Rating,0.78,medium,10,1,14,32,31,3,44,Socal VSR
+9/22/2020,Very High,active,0,Medium Rating,3,High Rating,0,High Rating,0.78,medium,19,2,21,28,68,7,75,Socal VSR
+9/23/2020,Very High,active,0,Medium Rating,0,High Rating,0,Medium Rating,0.76,medium,1,1,23,41,2,2,56,Socal VSR
+9/24/2020,Very High,active,0,High Rating,0,High Rating,0,Medium Rating,0.76,medium,2,6,18,37,5,16,49,Socal VSR
+9/25/2020,Very High,active,0,High Rating,4,High Rating,0,High Rating,0.75,medium,9,14,8,32,28,44,25,Socal VSR
+9/26/2020,Very High,active,0,High Rating,1,Low Rating,2,High Rating,0.76,medium,19,9,0,31,61,29,0,Socal VSR
+9/27/2020,Very High,active,0,High Rating,0,High Rating,0,High Rating,0.82,medium,15,8,8,48,31,17,17,Socal VSR
+9/28/2020,Very High,active,0,Low Rating,0,Medium Rating,0,High Rating,0.82,medium,16,0,3,50,32,0,6,Socal VSR
+9/29/2020,Very High,active,0,High Rating,0,Medium Rating,0,High Rating,0.8,medium,17,7,3,30,57,23,10,Socal VSR
+9/30/2020,Very High,active,0,High Rating,0,High Rating,8,Medium Rating,0.79,medium,2,9,10,40,5,22,25,Socal VSR
+10/1/2020,Very High,active,0,Low Rating,0,Medium Rating,0,High Rating,0.82,medium,15,0,4,64,23,0,6,Socal VSR
+10/2/2020,Very High,active,0,Low Rating,0,High Rating,0,High Rating,0.81,medium,17,0,9,61,28,0,15,Socal VSR
+10/3/2020,Very High,active,0,Low Rating,0,High Rating,4,High Rating,0.8,medium,32,0,7,44,73,0,16,Socal VSR
+10/4/2020,Very High,active,0,Low Rating,0,High Rating,0,High Rating,0.78,medium,19,0,11,36,53,0,31,Socal VSR
+10/5/2020,Very High,active,0,Low Rating,0,Low Rating,0,High Rating,0.74,low,26,0,0,33,79,0,0,Socal VSR
+10/6/2020,High,active,0,High Rating,0,Medium Rating,0,High Rating,0.77,medium,14,13,3,53,26,25,6,Socal VSR
+10/7/2020,Very High,active,0,High Rating,0,Medium Rating,1,High Rating,0.79,medium,16,16,5,35,46,46,14,Socal VSR
+10/8/2020,Very High,active,1,High Rating,4,High Rating,2,High Rating,0.81,medium,10,4,14,34,29,12,41,Socal VSR
+10/9/2020,Very High,active,0,Low Rating,0,Medium Rating,2,High Rating,0.82,medium,27,0,4,49,55,0,8,Socal VSR
+10/10/2020,Very High,active,0,Low Rating,0,Medium Rating,2,High Rating,0.82,medium,16,0,1,62,26,0,2,Socal VSR
+10/11/2020,Very High,active,0,Low Rating,0,High Rating,2,High Rating,0.81,medium,8,0,20,48,17,0,42,Socal VSR
+10/12/2020,Very High,active,0,Low Rating,0,High Rating,0,High Rating,0.8,medium,5,0,13,44,11,0,30,Socal VSR
+10/13/2020,Very High,active,0,Low Rating,0,High Rating,0,Medium Rating,0.81,medium,1,0,17,49,2,0,35,Socal VSR
+10/14/2020,Very High,active,0,Low Rating,0,High Rating,0,High Rating,0.81,medium,7,0,24,31,23,0,77,Socal VSR
+10/15/2020,Very High,active,0,Low Rating,26,High Rating,0,High Rating,0.81,medium,7,0,18,47,15,0,38,Socal VSR
+10/16/2020,Very High,active,0,Low Rating,7,High Rating,0,High Rating,0.79,medium,9,0,22,30,30,0,73,Socal VSR
+10/17/2020,Very High,active,0,Low Rating,0,High Rating,0,High Rating,0.71,low,10,0,20,29,34,0,69,Socal VSR
+10/18/2020,Very High,active,0,High Rating,0,High Rating,0,High Rating,0.64,low,15,12,8,45,33,27,18,Socal VSR
+10/19/2020,Very High,active,0,Medium Rating,0,High Rating,0,Low Rating,0.67,low,0,1,28,47,0,2,60,Socal VSR
+10/20/2020,Very High,active,0,High Rating,0,High Rating,0,Low Rating,0.73,low,0,9,11,47,0,19,23,Socal VSR
+10/21/2020,Very High,active,0,Low Rating,4,High Rating,0,Low Rating,0.79,medium,0,0,28,48,0,0,58,Socal VSR
+10/22/2020,Very High,active,0,Low Rating,0,High Rating,0,Low Rating,0.77,medium,0,0,25,25,0,0,100,Socal VSR
+10/23/2020,Very High,active,0,High Rating,10,High Rating,0,Low Rating,0.77,medium,0,8,18,34,0,24,53,Socal VSR
+10/24/2020,Very High,active,0,Medium Rating,13,High Rating,0,Low Rating,0.78,medium,0,2,21,35,0,6,60,Socal VSR
+10/25/2020,Very High,active,0,High Rating,0,Medium Rating,0,Low Rating,0.78,medium,0,18,6,43,0,42,14,Socal VSR
+10/26/2020,Very High,active,0,Medium Rating,0,Medium Rating,0,Low Rating,0.77,medium,0,6,7,77,0,8,9,Socal VSR
+10/27/2020,Very High,active,0,High Rating,0,High Rating,0,Low Rating,0.79,medium,0,9,10,55,0,16,18,Socal VSR
+10/28/2020,Very High,active,0,High Rating,0,High Rating,0,Low Rating,0.79,medium,0,7,15,44,0,16,34,Socal VSR
+10/29/2020,Very High,active,0,Medium Rating,5,High Rating,1,Low Rating,0.78,medium,0,1,25,26,0,4,96,Socal VSR
+10/30/2020,Very High,active,0,Medium Rating,7,High Rating,1,High Rating,0.78,medium,4,1,23,24,17,4,96,Socal VSR
+10/31/2020,Very High,active,0,Low Rating,4,High Rating,0,Medium Rating,0.78,medium,4,0,14,44,9,0,32,Socal VSR
+11/1/2020,Very High,active,0,High Rating,6,High Rating,0,High Rating,0.77,medium,12,7,13,37,32,19,35,Socal VSR
+11/2/2020,Very High,active,0,Low Rating,0,High Rating,0,High Rating,0.76,medium,8,0,18,44,18,0,41,Socal VSR
+11/3/2020,Very High,active,0,Low Rating,0,High Rating,0,High Rating,0.77,medium,5,0,20,28,18,0,71,Socal VSR
+11/4/2020,Very High,active,0,High Rating,9,High Rating,0,Medium Rating,0.76,medium,2,4,23,34,6,12,68,Socal VSR
+11/5/2020,Very High,active,0,High Rating,10,High Rating,0,Low Rating,0.75,medium,0,7,8,49,0,14,16,Socal VSR
+11/6/2020,Very High,active,0,High Rating,0,Medium Rating,0,Medium Rating,0.77,medium,1,19,2,47,2,40,4,Socal VSR
+11/7/2020,Very High,active,0,High Rating,0,High Rating,0,Medium Rating,0.77,medium,1,18,17,30,3,60,57,Socal VSR
+11/8/2020,Very High,active,0,High Rating,0,High Rating,0,Low Rating,0.7,low,0,7,9,55,0,13,16,Socal VSR
+11/9/2020,Very High,active,0,High Rating,0,High Rating,0,Low Rating,0.65,low,0,5,9,48,0,10,19,Socal VSR
+11/10/2020,Very High,active,0,Low Rating,0,High Rating,0,Low Rating,0.6,low,0,0,23,39,0,0,59,Socal VSR
+11/11/2020,High,active,1,Medium Rating,6,High Rating,1,Medium Rating,0.56,low,5,2,13,56,9,4,23,Socal VSR
+11/12/2020,Very High,active,0,Low Rating,4,High Rating,0,High Rating,0.54,low,13,0,8,50,26,0,16,Socal VSR
+11/13/2020,Very High,active,0,High Rating,0,Medium Rating,0,Low Rating,0.53,low,0,5,4,52,0,10,8,Socal VSR
+11/14/2020,Very High,active,1,High Rating,0,Medium Rating,0,High Rating,0.51,low,18,6,3,36,50,17,8,Socal VSR
+11/15/2020,Very High,active,0,High Rating,0,High Rating,0,Medium Rating,0.48,low,1,12,19,38,3,32,50,Socal VSR
+11/16/2020,Very High,active,0,Medium Rating,0,High Rating,0,Medium Rating,0.46,low,3,2,14,50,6,4,28,Socal VSR
+11/17/2020,Very High,active,0,Medium Rating,0,High Rating,0,High Rating,0.39,low,13,2,17,45,29,4,38,Socal VSR
+11/18/2020,Very High,active,0,Low Rating,0,High Rating,0,High Rating,0.45,low,24,0,10,43,56,0,23,Socal VSR
+11/19/2020,Very High,active,0,Low Rating,0,Medium Rating,2,High Rating,0.48,low,20,0,5,54,37,0,9,Socal VSR
+11/20/2020,Very High,active,0,Low Rating,2,High Rating,0,High Rating,0.45,low,23,0,6,32,72,0,19,Socal VSR
+11/21/2020,Very High,active,1,Low Rating,4,High Rating,4,High Rating,0.43,low,16,0,20,24,67,0,83,Socal VSR
+11/22/2020,Very High,active,0,Medium Rating,0,Medium Rating,1,High Rating,0.44,low,21,2,4,38,55,5,11,Socal VSR
+11/23/2020,Very High,active,0,High Rating,0,High Rating,0,High Rating,0.41,low,14,6,11,29,48,21,38,Socal VSR
+11/24/2020,Very High,active,0,Low Rating,0,High Rating,0,High Rating,0.28,low,15,0,19,24,62,0,79,Socal VSR
+11/25/2020,Very High,active,0,Low Rating,0,High Rating,0,High Rating,0.28,low,20,0,15,30,67,0,50,Socal VSR
+11/26/2020,Very High,active,0,Low Rating,0,High Rating,0,High Rating,0.27,low,10,0,16,28,36,0,57,Socal VSR
+11/27/2020,Very High,active,4,Low Rating,0,High Rating,12,High Rating,0.25,low,20,0,12,27,74,0,44,Socal VSR
+11/28/2020,Very High,active,1,Low Rating,0,Medium Rating,3,High Rating,0.23,low,24,0,2,29,83,0,7,Socal VSR
+11/29/2020,Very High,active,0,Medium Rating,0,High Rating,0,High Rating,0.2,low,25,1,7,28,89,4,25,Socal VSR
+11/30/2020,Very High,active,0,Medium Rating,0,Low Rating,0,High Rating,0.28,low,24,2,0,37,65,5,0,Socal VSR
+12/1/2020,Very High,active,0,Medium Rating,0,High Rating,0,High Rating,0.3,low,17,2,8,33,52,6,24,Socal VSR
+12/2/2020,Very High,active,0,Medium Rating,0,Low Rating,0,High Rating,0.28,low,16,4,0,49,33,8,0,Socal VSR
+12/3/2020,Very High,active,0,Low Rating,0,Low Rating,0,High Rating,0.23,low,6,0,0,43,14,0,0,Socal VSR
+12/4/2020,Very High,active,0,Medium Rating,0,Low Rating,0,High Rating,0.21,low,10,3,0,36,28,8,0,Socal VSR
+12/5/2020,Very High,active,0,Medium Rating,0,Low Rating,0,High Rating,0.15,low,14,1,0,52,27,2,0,Socal VSR
+12/6/2020,Very High,active,0,High Rating,0,Low Rating,0,High Rating,0.14,low,17,7,0,42,40,17,0,Socal VSR
+12/7/2020,Very High,active,0,High Rating,0,Low Rating,0,High Rating,0.16,low,9,9,0,66,14,14,0,Socal VSR
+12/8/2020,Very High,active,0,Medium Rating,0,Low Rating,0,High Rating,0.24,low,4,1,0,34,12,3,0,Socal VSR
+12/9/2020,Very High,active,0,Medium Rating,0,Low Rating,0,Low Rating,0.22,low,0,1,0,34,0,3,0,Socal VSR
+12/10/2020,Very High,active,0,Medium Rating,0,Low Rating,0,Low Rating,0.18,low,0,2,0,40,0,5,0,Socal VSR
+12/11/2020,Very High,active,0,High Rating,0,Low Rating,0,Medium Rating,0.19,low,3,6,0,45,7,13,0,Socal VSR
+12/12/2020,Very High,active,0,Low Rating,0,Low Rating,0,Low Rating,0.24,low,0,0,0,57,0,0,0,Socal VSR
+12/13/2020,Very High,active,0,High Rating,0,Medium Rating,0,High Rating,0.24,low,11,10,1,55,20,18,2,Socal VSR
+12/14/2020,Very High,active,0,Low Rating,0,Medium Rating,0,High Rating,0.24,low,20,0,2,44,45,0,5,Socal VSR
+12/15/2020,Very High,active,0,Medium Rating,0,Medium Rating,0,Medium Rating,0.21,low,2,1,2,43,5,2,5,Socal VSR
+12/16/2020,Very High,inactive,0,Low Rating,0,Medium Rating,0,High Rating,0.18,low,15,0,1,56,27,0,2,Socal VSR
+12/17/2020,Very High,inactive,0,Low Rating,0,Medium Rating,0,Medium Rating,0.19,low,5,0,5,77,6,0,6,Socal VSR
+12/18/2020,Very High,inactive,0,Low Rating,0,Low Rating,0,High Rating,0.21,low,6,0,0,54,11,0,0,Socal VSR
+12/19/2020,Very High,inactive,0,Low Rating,0,High Rating,0,High Rating,0.19,low,10,0,7,35,29,0,20,Socal VSR
+12/20/2020,Very High,inactive,0,Medium Rating,0,High Rating,0,High Rating,0.13,low,11,2,14,45,24,4,31,Socal VSR
+12/21/2020,Very High,inactive,0,Low Rating,0,Medium Rating,0,High Rating,0.11,low,17,0,5,54,31,0,9,Socal VSR
+12/22/2020,Very High,inactive,0,High Rating,0,Low Rating,0,High Rating,0.11,low,21,6,0,30,70,20,0,Socal VSR
+12/23/2020,Very High,inactive,0,High Rating,0,Low Rating,0,High Rating,0.11,low,25,5,0,30,83,17,0,Socal VSR
+12/24/2020,Very High,inactive,0,High Rating,0,Low Rating,0,High Rating,0.12,low,25,9,0,26,96,35,0,Socal VSR
+12/25/2020,Very High,inactive,0,High Rating,0,Low Rating,0,High Rating,0.11,low,22,17,0,26,85,65,0,Socal VSR
+12/26/2020,Very High,inactive,0,High Rating,0,Low Rating,0,High Rating,0.1,low,22,14,0,25,88,56,0,Socal VSR
+12/27/2020,Very High,inactive,0,High Rating,0,Low Rating,0,High Rating,0.1,low,20,11,0,36,56,31,0,Socal VSR
+12/28/2020,Very High,inactive,0,Low Rating,0,Low Rating,0,High Rating,0.09,low,24,0,0,26,92,0,0,Socal VSR
+12/29/2020,Very High,inactive,0,High Rating,0,Medium Rating,0,High Rating,0.07,low,4,18,2,39,10,46,5,Socal VSR
+12/30/2020,Very High,inactive,0,High Rating,0,Low Rating,0,High Rating,0.08,low,28,6,0,33,85,18,0,Socal VSR
+12/31/2020,Very High,inactive,0,High Rating,0,Low Rating,0,High Rating,0.08,low,10,25,0,64,16,39,0,Socal VSR
+1/1/2021,Very High,inactive,0,High Rating,0,Low Rating,0,High Rating,0.06,low,5,6,0,37,14,16,0,Socal VSR
+1/2/2021,Very High,inactive,0,High Rating,0,Low Rating,0,High Rating,0.05,low,12,5,0,34,35,15,0,Socal VSR
+1/3/2021,Very High,inactive,0,Low Rating,0,Low Rating,0,High Rating,0.05,low,11,0,0,35,31,0,0,Socal VSR
+1/4/2021,Very High,inactive,0,High Rating,0,Low Rating,0,High Rating,0.05,low,8,12,0,43,19,28,0,Socal VSR
+1/5/2021,Very High,inactive,0,High Rating,0,Low Rating,0,High Rating,0.05,low,11,18,0,36,31,50,0,Socal VSR
+1/6/2021,Very High,inactive,0,High Rating,0,Low Rating,0,High Rating,0.05,low,14,15,0,40,35,38,0,Socal VSR
+1/7/2021,Very High,inactive,0,High Rating,0,Low Rating,0,High Rating,0.06,low,8,20,0,34,24,59,0,Socal VSR
+1/8/2021,Very High,inactive,0,High Rating,0,Low Rating,0,Medium Rating,0.06,low,1,25,0,44,2,57,0,Socal VSR
+1/9/2021,Very High,inactive,0,High Rating,0,Low Rating,0,Medium Rating,0.05,low,2,21,0,33,6,64,0,Socal VSR
+1/10/2021,Very High,inactive,0,High Rating,0,High Rating,0,High Rating,0.06,low,12,7,7,43,28,16,16,Socal VSR
+1/11/2021,Very High,inactive,0,Medium Rating,0,Medium Rating,0,Low Rating,0.06,low,0,1,5,35,0,3,14,Socal VSR
+1/12/2021,Very High,inactive,0,Medium Rating,0,Low Rating,0,Low Rating,0.06,low,0,2,0,44,0,5,0,Socal VSR
+1/13/2021,Very High,inactive,0,High Rating,0,Low Rating,0,Low Rating,0.07,low,0,6,0,34,0,18,0,Socal VSR
+1/14/2021,Very High,inactive,0,Medium Rating,0,Medium Rating,0,Low Rating,0.07,low,0,4,1,57,0,7,2,Socal VSR
+1/15/2021,High,inactive,0,Medium Rating,0,Low Rating,0,Low Rating,0.07,low,0,2,0,63,0,3,0,Socal VSR
+1/16/2021,High,inactive,0,High Rating,0,Low Rating,0,Low Rating,0.08,low,0,17,0,67,0,25,0,Socal VSR
+1/17/2021,High,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.1,low,0,0,0,53,0,0,0,Socal VSR
+1/18/2021,High,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.13,low,0,0,0,69,0,0,0,Socal VSR
+1/19/2021,High,inactive,0,High Rating,0,Low Rating,0,Low Rating,0.13,low,0,15,0,61,0,25,0,Socal VSR
+1/20/2021,High,inactive,0,High Rating,0,Low Rating,0,Low Rating,0.11,low,0,7,0,64,0,11,0,Socal VSR
+1/21/2021,High,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.1,low,0,0,0,89,0,0,0,Socal VSR
+1/22/2021,High,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.09,low,0,0,0,85,0,0,0,Socal VSR
+1/23/2021,High,inactive,0,High Rating,0,Low Rating,0,Low Rating,0.08,low,0,5,0,48,0,10,0,Socal VSR
+1/24/2021,High,inactive,0,High Rating,0,Low Rating,0,High Rating,0.07,low,3,6,0,29,10,21,0,Socal VSR
+1/25/2021,High,inactive,0,High Rating,0,Low Rating,0,Low Rating,0.05,low,0,5,0,45,0,11,0,Socal VSR
+1/26/2021,Very High,inactive,0,High Rating,0,Low Rating,0,Low Rating,0.04,low,0,13,0,36,0,36,0,Socal VSR
+1/27/2021,Very High,inactive,0,High Rating,0,Low Rating,0,Low Rating,0.03,low,0,7,0,38,0,18,0,Socal VSR
+1/28/2021,Very High,inactive,0,Medium Rating,0,Low Rating,0,Low Rating,0.03,low,0,1,0,70,0,1,0,Socal VSR
+1/29/2021,High,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.03,low,0,0,0,57,0,0,0,Socal VSR
+1/30/2021,High,inactive,0,Medium Rating,0,Low Rating,0,Low Rating,0.03,low,0,4,0,64,0,6,0,Socal VSR
+1/31/2021,High,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.05,low,0,0,0,54,0,0,0,Socal VSR
+2/1/2021,High,inactive,0,Medium Rating,0,Low Rating,0,Low Rating,0.05,low,0,1,0,53,0,2,0,Socal VSR
+2/2/2021,High,inactive,0,Medium Rating,0,Low Rating,0,Low Rating,0.07,low,0,1,0,71,0,1,0,Socal VSR
+2/3/2021,High,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.07,low,0,0,0,92,0,0,0,Socal VSR
+2/4/2021,High,inactive,0,High Rating,0,Low Rating,0,Low Rating,0.08,low,0,10,0,50,0,20,0,Socal VSR
+2/5/2021,High,inactive,0,Medium Rating,0,Low Rating,0,Low Rating,0.06,low,0,2,0,80,0,3,0,Socal VSR
+2/6/2021,High,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.07,low,0,0,0,55,0,0,0,Socal VSR
+2/7/2021,High,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.06,low,0,0,0,50,0,0,0,Socal VSR
+2/8/2021,High,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.06,low,0,0,0,62,0,0,0,Socal VSR
+2/9/2021,High,inactive,0,Medium Rating,0,Low Rating,0,Low Rating,0.06,low,0,3,0,56,0,5,0,Socal VSR
+2/10/2021,Low,inactive,0,High Rating,0,Low Rating,0,Low Rating,0.06,low,0,13,0,44,0,30,0,Socal VSR
+2/11/2021,Low,inactive,0,High Rating,0,Low Rating,0,Low Rating,0.05,low,0,11,0,57,0,19,0,Socal VSR
+2/12/2021,High,inactive,0,High Rating,0,Low Rating,0,Low Rating,0.05,low,0,13,0,72,0,18,0,Socal VSR
+2/13/2021,High,inactive,0,High Rating,0,Low Rating,0,Low Rating,0.05,low,0,18,0,42,0,43,0,Socal VSR
+2/14/2021,High,inactive,0,High Rating,0,Low Rating,0,Low Rating,0.04,low,0,11,0,24,0,46,0,Socal VSR
+2/15/2021,High,inactive,0,High Rating,0,Low Rating,0,Low Rating,0.04,low,0,10,0,20,0,50,0,Socal VSR
+2/16/2021,High,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.04,low,0,0,0,4,0,0,0,Socal VSR
+2/17/2021,High,inactive,0,High Rating,0,Low Rating,0,Low Rating,0.04,low,0,4,0,5,0,80,0,Socal VSR
+2/18/2021,High,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.04,low,0,0,0,9,0,0,0,Socal VSR
+2/19/2021,High,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.04,low,0,0,0,82,0,0,0,Socal VSR
+2/20/2021,High,inactive,0,High Rating,0,Low Rating,0,Low Rating,0.04,low,0,12,0,55,0,22,0,Socal VSR
+2/21/2021,High,inactive,0,High Rating,0,Low Rating,0,Low Rating,0.04,low,0,7,0,25,0,28,0,Socal VSR
+2/22/2021,High,inactive,0,Medium Rating,0,Low Rating,0,Low Rating,0.04,low,0,1,0,51,0,2,0,Socal VSR
+2/23/2021,High,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.05,low,0,0,0,40,0,0,0,Socal VSR
+2/24/2021,High,inactive,0,Medium Rating,0,Low Rating,0,Low Rating,0.06,low,0,1,0,36,0,3,0,Socal VSR
+2/25/2021,High,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.07,low,0,0,0,54,0,0,0,Socal VSR
+2/26/2021,High,inactive,0,High Rating,0,Low Rating,0,Low Rating,0.08,low,0,6,0,63,0,10,0,Socal VSR
+2/27/2021,High,inactive,0,High Rating,0,Low Rating,0,Low Rating,NA,offline,0,6,0,48,0,12,0,Socal VSR
+2/28/2021,High,inactive,0,Medium Rating,0,Low Rating,0,Low Rating,0.08,low,0,4,0,58,0,7,0,Socal VSR
+3/1/2021,High,inactive,0,Medium Rating,0,Low Rating,0,Low Rating,0.08,low,0,1,0,61,0,2,0,Socal VSR
+3/2/2021,High,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.09,low,0,0,0,89,0,0,0,Socal VSR
+3/3/2021,High,inactive,0,Low Rating,0,Medium Rating,0,Low Rating,0.07,low,0,0,2,70,0,0,3,Socal VSR
+3/4/2021,High,inactive,0,Medium Rating,0,Medium Rating,0,Low Rating,0.09,low,0,1,2,83,0,1,2,Socal VSR
+3/5/2021,High,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.1,low,0,0,0,70,0,0,0,Socal VSR
+3/6/2021,High,inactive,0,Medium Rating,0,Low Rating,0,Low Rating,0.07,low,0,2,0,57,0,4,0,Socal VSR
+3/7/2021,High,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.07,low,0,0,0,49,0,0,0,Socal VSR
+3/8/2021,High,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.08,low,0,0,0,65,0,0,0,Socal VSR
+3/9/2021,High,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.08,low,0,0,0,85,0,0,0,Socal VSR
+3/10/2021,High,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.06,low,0,0,0,70,0,0,0,Socal VSR
+3/11/2021,Low,inactive,0,Medium Rating,0,Low Rating,0,Low Rating,0.06,low,0,1,0,60,0,2,0,Socal VSR
+3/12/2021,Low,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.05,low,0,0,0,71,0,0,0,Socal VSR
+3/13/2021,High,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.06,low,0,0,0,44,0,0,0,Socal VSR
+3/14/2021,High,inactive,0,Low Rating,0,Medium Rating,0,Low Rating,0.05,low,0,0,3,59,0,0,5,Socal VSR
+3/15/2021,High,inactive,0,Low Rating,0,Medium Rating,0,Low Rating,0.05,low,0,0,4,51,0,0,8,Socal VSR
+3/16/2021,Low,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.04,low,0,0,0,63,0,0,0,Socal VSR
+3/17/2021,Medium,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.04,low,0,0,0,72,0,0,0,Socal VSR
+3/18/2021,Medium,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.03,low,0,0,0,79,0,0,0,Socal VSR
+3/19/2021,Medium,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.03,low,0,0,0,83,0,0,0,Socal VSR
+3/20/2021,Medium,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.04,low,0,0,0,83,0,0,0,Socal VSR
+3/21/2021,Low,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.05,low,0,0,0,56,0,0,0,Socal VSR
+3/22/2021,Low,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.05,low,0,0,0,46,0,0,0,Socal VSR
+3/23/2021,Low,inactive,0,High Rating,0,Low Rating,0,Low Rating,0.04,low,0,8,0,44,0,18,0,Socal VSR
+3/24/2021,Low,inactive,0,Medium Rating,0,Low Rating,0,Low Rating,0.05,low,0,1,0,62,0,2,0,Socal VSR
+3/25/2021,Low,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.05,low,0,0,0,50,0,0,0,Socal VSR
+3/26/2021,High,inactive,0,Medium Rating,0,Medium Rating,0,Low Rating,0.04,low,0,2,3,57,0,4,5,Socal VSR
+3/27/2021,High,inactive,0,Medium Rating,1,Medium Rating,0,Low Rating,0.05,low,0,4,8,57,0,7,14,Socal VSR
+3/28/2021,High,inactive,0,Medium Rating,0,Medium Rating,0,Low Rating,0.05,low,0,2,1,51,0,4,2,Socal VSR
+3/29/2021,High,inactive,0,High Rating,2,Low Rating,0,Low Rating,0.07,low,0,4,0,7,0,57,0,Socal VSR
+3/30/2021,High,inactive,0,offline,0,offline,0,offline,0.09,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+3/31/2021,High,inactive,0,offline,0,offline,0,offline,0.16,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+4/1/2021,High,inactive,4,offline,0,offline,0,offline,0.27,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+4/2/2021,High,inactive,0,offline,0,offline,0,offline,0.27,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+4/3/2021,Low,inactive,0,offline,0,offline,0,offline,0.22,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+4/4/2021,Low,inactive,0,offline,6,offline,0,offline,0.18,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+4/5/2021,Medium,inactive,0,offline,1,offline,0,offline,0.2,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+4/6/2021,Medium,inactive,0,offline,4,offline,0,offline,0.2,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+4/7/2021,Medium,inactive,0,offline,0,offline,0,offline,0.17,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+4/8/2021,Medium,inactive,0,offline,0,offline,0,offline,0.16,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+4/9/2021,Medium,inactive,0,offline,0,offline,0,offline,0.2,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+4/10/2021,Medium,inactive,0,offline,0,offline,0,offline,0.29,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+4/11/2021,Medium,inactive,0,offline,5,offline,0,offline,0.27,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+4/12/2021,Medium,inactive,0,offline,2,offline,0,offline,0.28,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+4/13/2021,Medium,inactive,0,offline,0,offline,0,offline,0.26,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+4/14/2021,Medium,inactive,0,offline,0,offline,0,offline,0.2,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+4/15/2021,Medium,inactive,0,offline,0,offline,0,offline,0.22,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+4/16/2021,Medium,inactive,0,offline,16,offline,1,offline,0.22,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+4/17/2021,High,inactive,0,offline,0,offline,0,offline,0.23,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+4/18/2021,High,inactive,0,offline,2,offline,0,offline,0.27,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+4/19/2021,High,inactive,0,offline,0,offline,0,offline,0.28,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+4/20/2021,High,inactive,0,offline,0,offline,0,offline,0.33,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+4/21/2021,High,inactive,0,offline,10,offline,0,offline,0.25,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+4/22/2021,Medium,inactive,0,offline,0,offline,0,offline,0.17,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+4/23/2021,Medium,inactive,4,offline,3,offline,0,offline,0.24,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+4/24/2021,Medium,inactive,0,offline,4,offline,0,offline,0.25,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+4/25/2021,High,inactive,0,offline,12,offline,0,offline,0.24,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+4/26/2021,High,inactive,0,offline,0,offline,0,offline,0.22,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+4/27/2021,High,inactive,0,offline,2,offline,0,offline,0.18,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+4/28/2021,High,inactive,0,offline,12,offline,0,offline,0.16,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+4/29/2021,Medium,inactive,0,offline,4,offline,0,offline,0.2,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+4/30/2021,Medium,inactive,0,offline,0,offline,0,offline,0.28,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+5/1/2021,Medium,inactive,0,offline,5,offline,0,offline,0.35,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+5/2/2021,Medium,inactive,2,offline,0,offline,0,offline,0.31,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+5/3/2021,Medium,inactive,0,offline,1,offline,0,offline,0.29,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+5/4/2021,Low,inactive,0,offline,11,offline,2,offline,0.34,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+5/5/2021,Very High,inactive,0,offline,9,offline,0,offline,0.41,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+5/6/2021,Very High,inactive,0,Low Rating,0,Medium Rating,0,Low Rating,0.44,low,0,0,1,48,0,0,2,Socal VSR
+5/7/2021,Very High,inactive,0,Low Rating,0,Medium Rating,0,Low Rating,0.41,low,0,0,6,69,0,0,9,Socal VSR
+5/8/2021,Very High,inactive,0,Medium Rating,6,High Rating,0,Low Rating,0.41,low,0,1,10,67,0,1,15,Socal VSR
+5/9/2021,Very High,inactive,0,Low Rating,0,Medium Rating,0,Medium Rating,0.45,low,1,0,5,79,1,0,6,Socal VSR
+5/10/2021,High,inactive,2,Low Rating,0,Medium Rating,0,Medium Rating,0.52,low,1,0,7,78,1,0,9,Socal VSR
+5/11/2021,High,inactive,0,Low Rating,0,High Rating,0,Low Rating,0.52,low,0,0,15,50,0,0,30,Socal VSR
+5/12/2021,High,inactive,0,Low Rating,0,High Rating,0,Low Rating,0.52,low,0,0,11,66,0,0,17,Socal VSR
+5/13/2021,Very High,inactive,0,Low Rating,1,Medium Rating,0,Low Rating,0.59,low,0,0,8,87,0,0,9,Socal VSR
+5/14/2021,Medium,inactive,1,Medium Rating,0,Medium Rating,0,Low Rating,0.55,low,0,3,9,84,0,4,11,Socal VSR
+5/15/2021,High,active,0,Medium Rating,0,High Rating,0,Low Rating,0.5,low,0,1,13,81,0,1,16,Socal VSR
+5/16/2021,High,active,0,Medium Rating,0,Medium Rating,0,Low Rating,0.48,low,0,1,5,77,0,1,6,Socal VSR
+5/17/2021,High,active,0,Low Rating,0,Medium Rating,0,Low Rating,0.5,low,0,0,4,67,0,0,6,Socal VSR
+5/18/2021,High,active,0,Medium Rating,0,Low Rating,0,Low Rating,0.48,low,0,1,0,56,0,2,0,Socal VSR
+5/19/2021,High,active,0,Low Rating,0,Medium Rating,0,Low Rating,0.49,low,0,0,2,60,0,0,3,Socal VSR
+5/20/2021,High,active,0,Low Rating,0,Low Rating,0,Low Rating,0.46,low,0,0,0,42,0,0,0,Socal VSR
+5/21/2021,High,active,0,Medium Rating,0,Low Rating,0,Low Rating,0.42,low,0,3,0,51,0,6,0,Socal VSR
+5/22/2021,High,active,0,Medium Rating,4,Low Rating,0,Low Rating,0.37,low,0,3,0,69,0,4,0,Socal VSR
+5/23/2021,High,active,0,Medium Rating,0,Medium Rating,0,Low Rating,0.38,low,0,5,6,78,0,6,8,Socal VSR
+5/24/2021,High,active,0,Medium Rating,0,Medium Rating,0,Low Rating,0.43,low,0,1,4,83,0,1,5,Socal VSR
+5/25/2021,High,active,0,Low Rating,0,Medium Rating,0,Low Rating,0.39,low,0,0,3,63,0,0,5,Socal VSR
+5/26/2021,High,active,0,Medium Rating,2,High Rating,0,Low Rating,0.39,low,0,1,17,69,0,1,25,Socal VSR
+5/27/2021,Very High,active,0,Low Rating,0,High Rating,0,Low Rating,0.39,low,0,0,13,59,0,0,22,Socal VSR
+5/28/2021,Very High,active,0,High Rating,0,High Rating,0,Low Rating,0.42,low,0,9,13,57,0,16,23,Socal VSR
+5/29/2021,Very High,active,0,Low Rating,7,Medium Rating,0,Low Rating,0.37,low,0,0,3,74,0,0,4,Socal VSR
+5/30/2021,Very High,active,0,Medium Rating,0,Medium Rating,0,Low Rating,0.33,low,0,1,5,70,0,1,7,Socal VSR
+5/31/2021,High,active,1,Medium Rating,3,Medium Rating,0,Low Rating,0.36,low,0,1,4,75,0,1,5,Socal VSR
+6/1/2021,High,active,0,Medium Rating,2,Low Rating,0,Low Rating,0.41,low,0,1,0,71,0,1,0,Socal VSR
+6/2/2021,High,active,0,Low Rating,0,Medium Rating,0,Low Rating,0.42,low,0,0,6,67,0,0,9,Socal VSR
+6/3/2021,High,active,0,Low Rating,0,Medium Rating,0,Low Rating,0.44,low,0,0,2,66,0,0,3,Socal VSR
+6/4/2021,High,active,0,Low Rating,0,Low Rating,0,Low Rating,0.51,low,0,0,0,67,0,0,0,Socal VSR
+6/5/2021,High,active,0,Medium Rating,2,Low Rating,0,Low Rating,0.57,low,0,2,0,60,0,3,0,Socal VSR
+6/6/2021,High,active,1,Low Rating,1,Low Rating,0,Low Rating,0.62,low,0,0,0,56,0,0,0,Socal VSR
+6/7/2021,High,active,0,Low Rating,0,Low Rating,0,Low Rating,0.62,low,0,0,0,62,0,0,0,Socal VSR
+6/8/2021,High,active,0,Medium Rating,0,Low Rating,0,Low Rating,0.59,low,0,5,0,71,0,7,0,Socal VSR
+6/9/2021,High,active,0,Low Rating,0,Low Rating,0,Low Rating,NA,offline,0,0,0,54,0,0,0,Socal VSR
+6/10/2021,High,active,0,Medium Rating,0,Low Rating,0,Low Rating,0.5,low,0,3,0,65,0,5,0,Socal VSR
+6/11/2021,High,active,0,Low Rating,0,Low Rating,0,Low Rating,0.57,low,0,0,0,63,0,0,0,Socal VSR
+6/12/2021,High,active,0,Medium Rating,0,Low Rating,0,Medium Rating,0.59,low,3,6,0,67,4,9,0,Socal VSR
+6/13/2021,High,active,0,Low Rating,0,Low Rating,0,Low Rating,0.61,low,0,0,0,71,0,0,0,Socal VSR
+6/14/2021,High,active,0,Medium Rating,0,Low Rating,0,Low Rating,0.61,low,0,4,0,67,0,6,0,Socal VSR
+6/15/2021,High,active,0,Medium Rating,0,Low Rating,0,Low Rating,0.58,low,0,6,0,83,0,7,0,Socal VSR
+6/16/2021,High,active,0,Low Rating,1,Low Rating,0,Low Rating,0.63,low,0,0,0,64,0,0,0,Socal VSR
+6/17/2021,High,active,0,Low Rating,1,Low Rating,0,Low Rating,0.68,low,0,0,0,82,0,0,0,Socal VSR
+6/18/2021,High,active,0,Low Rating,4,Medium Rating,0,Medium Rating,0.67,low,3,0,2,66,5,0,3,Socal VSR
+6/19/2021,High,active,0,Low Rating,0,Low Rating,0,Low Rating,0.67,low,0,0,0,71,0,0,0,Socal VSR
+6/20/2021,High,active,0,Medium Rating,0,Low Rating,0,Medium Rating,0.7,low,2,6,0,67,3,9,0,Socal VSR
+6/21/2021,Medium,active,0,Medium Rating,0,Low Rating,0,Medium Rating,0.71,low,1,4,0,60,2,7,0,Socal VSR
+6/22/2021,High,active,0,High Rating,3,Low Rating,1,Medium Rating,0.75,medium,1,9,0,71,1,13,0,Socal VSR
+6/23/2021,High,active,0,Medium Rating,0,Low Rating,0,High Rating,0.75,medium,12,5,0,66,18,8,0,Socal VSR
+6/24/2021,Very High,active,0,Medium Rating,7,High Rating,0,Medium Rating,0.76,medium,4,5,13,76,5,7,17,Socal VSR
+6/25/2021,Very High,active,0,Low Rating,0,Medium Rating,0,Low Rating,0.76,medium,0,0,4,72,0,0,6,Socal VSR
+6/26/2021,Very High,active,0,Low Rating,6,Low Rating,0,High Rating,0.75,medium,9,0,0,75,12,0,0,Socal VSR
+6/27/2021,Very High,active,0,Medium Rating,0,Medium Rating,0,Low Rating,0.74,low,0,4,2,70,0,6,3,Socal VSR
+6/28/2021,Very High,active,0,Medium Rating,8,Medium Rating,0,Medium Rating,0.75,medium,2,3,4,76,3,4,5,Socal VSR
+6/29/2021,Very High,active,0,Low Rating,4,Medium Rating,0,Low Rating,0.73,low,0,0,6,58,0,0,10,Socal VSR
+6/30/2021,Very High,active,0,Medium Rating,11,High Rating,0,Medium Rating,0.7,low,1,4,13,66,2,6,20,Socal VSR
+7/1/2021,Very High,active,0,High Rating,1,High Rating,0,Low Rating,0.72,low,0,14,11,65,0,22,17,Socal VSR
+7/2/2021,Very High,active,0,Medium Rating,6,Medium Rating,0,Low Rating,0.73,low,0,6,2,65,0,9,3,Socal VSR
+7/3/2021,Very High,active,0,Low Rating,3,Low Rating,0,Medium Rating,0.73,low,2,0,0,55,4,0,0,Socal VSR
+7/4/2021,Very High,active,0,Medium Rating,0,Medium Rating,1,High Rating,0.77,medium,8,3,4,64,12,5,6,Socal VSR
+7/5/2021,Very High,active,0,Medium Rating,0,Low Rating,0,Medium Rating,0.76,medium,4,3,0,69,6,4,0,Socal VSR
+7/6/2021,Very High,active,0,Low Rating,0,Medium Rating,0,Low Rating,0.76,medium,0,0,7,57,0,0,12,Socal VSR
+7/7/2021,Very High,active,0,Medium Rating,0,Medium Rating,0,Low Rating,0.78,medium,0,1,3,55,0,2,5,Socal VSR
+7/8/2021,Very High,active,0,Low Rating,1,High Rating,0,Low Rating,0.75,medium,0,0,8,54,0,0,15,Socal VSR
+7/9/2021,High,active,0,High Rating,1,High Rating,0,Medium Rating,0.76,medium,3,9,17,56,5,16,30,Socal VSR
+7/10/2021,Very High,active,0,High Rating,0,High Rating,0,Low Rating,0.75,medium,0,11,9,61,0,18,15,Socal VSR
+7/11/2021,High,active,0,Medium Rating,4,Medium Rating,0,Low Rating,0.74,low,0,2,6,65,0,3,9,Socal VSR
+7/12/2021,High,active,0,Medium Rating,2,Medium Rating,0,Low Rating,0.77,medium,0,2,8,61,0,3,13,Socal VSR
+7/13/2021,High,active,0,High Rating,2,High Rating,0,Medium Rating,0.78,medium,4,13,21,53,8,25,40,Socal VSR
+7/14/2021,Very High,active,0,Medium Rating,6,Medium Rating,0,High Rating,0.78,medium,8,1,7,63,13,2,11,Socal VSR
+7/15/2021,Very High,active,0,High Rating,2,High Rating,1,Medium Rating,0.79,medium,4,11,13,57,7,19,23,Socal VSR
+7/16/2021,Very High,active,0,High Rating,1,Medium Rating,0,Low Rating,0.78,medium,0,9,2,71,0,13,3,Socal VSR
+7/17/2021,Very High,active,0,High Rating,0,Medium Rating,0,Low Rating,0.77,medium,0,9,2,52,0,17,4,Socal VSR
+7/18/2021,Very High,active,0,Medium Rating,4,Medium Rating,0,Low Rating,0.77,medium,0,1,8,64,0,2,12,Socal VSR
+7/19/2021,Very High,active,0,Medium Rating,9,Medium Rating,0,Low Rating,0.76,medium,0,3,9,63,0,5,14,Socal VSR
+7/20/2021,High,active,0,High Rating,2,Medium Rating,0,Low Rating,0.77,medium,0,12,3,70,0,17,4,Socal VSR
+7/21/2021,High,active,0,Medium Rating,0,Medium Rating,0,Medium Rating,0.76,medium,3,4,9,63,5,6,14,Socal VSR
+7/22/2021,High,active,0,Medium Rating,0,Medium Rating,0,Low Rating,0.76,medium,0,1,4,72,0,1,6,Socal VSR
+7/23/2021,High,active,0,Medium Rating,0,Medium Rating,0,Low Rating,0.77,medium,0,1,1,59,0,2,2,Socal VSR
+7/24/2021,High,active,0,Medium Rating,2,Medium Rating,1,High Rating,0.74,low,16,1,3,41,39,2,7,Socal VSR
+7/25/2021,High,active,0,Medium Rating,12,Medium Rating,0,Medium Rating,0.77,medium,1,6,1,67,1,9,1,Socal VSR
+7/26/2021,Very High,active,0,Medium Rating,8,High Rating,0,Medium Rating,0.76,medium,1,2,9,59,2,3,15,Socal VSR
+7/27/2021,Very High,active,0,High Rating,3,Medium Rating,0,Low Rating,0.76,medium,0,9,1,54,0,17,2,Socal VSR
+7/28/2021,Very High,active,0,High Rating,0,Low Rating,0,High Rating,0.79,medium,8,8,0,55,15,15,0,Socal VSR
+7/29/2021,Very High,active,0,Medium Rating,0,Low Rating,0,Low Rating,0.8,medium,0,4,0,67,0,6,0,Socal VSR
+7/30/2021,Very High,active,0,Medium Rating,3,Low Rating,0,Low Rating,0.79,medium,0,2,0,67,0,3,0,Socal VSR
+7/31/2021,Very High,active,0,Medium Rating,7,Medium Rating,0,Low Rating,0.79,medium,0,2,3,72,0,3,4,Socal VSR
+8/1/2021,Very High,active,0,Low Rating,0,Low Rating,0,Medium Rating,0.77,medium,1,0,0,65,2,0,0,Socal VSR
+8/2/2021,Very High,active,0,Low Rating,0,Medium Rating,0,High Rating,0.77,medium,26,0,1,54,48,0,2,Socal VSR
+8/3/2021,Very High,active,0,High Rating,2,Medium Rating,0,High Rating,0.76,medium,16,9,4,71,23,13,6,Socal VSR
+8/4/2021,Very High,active,0,Medium Rating,0,Low Rating,0,Medium Rating,0.78,medium,3,3,0,74,4,4,0,Socal VSR
+8/5/2021,Very High,active,0,Medium Rating,0,Medium Rating,0,Medium Rating,0.75,medium,4,6,3,71,6,8,4,Socal VSR
+8/6/2021,Very High,active,0,High Rating,0,Medium Rating,0,Low Rating,0.77,medium,0,16,2,58,0,28,3,Socal VSR
+8/7/2021,Very High,active,0,Medium Rating,1,Medium Rating,0,Low Rating,0.76,medium,0,4,7,72,0,6,10,Socal VSR
+8/8/2021,High,active,0,High Rating,0,Medium Rating,0,Low Rating,0.74,low,0,7,4,72,0,10,6,Socal VSR
+8/9/2021,High,active,0,High Rating,3,Medium Rating,0,Low Rating,0.75,medium,0,6,7,63,0,10,11,Socal VSR
+8/10/2021,High,active,0,High Rating,1,Medium Rating,0,High Rating,0.76,medium,7,13,7,63,11,21,11,Socal VSR
+8/11/2021,High,active,0,High Rating,0,Medium Rating,0,Low Rating,0.77,medium,0,13,6,63,0,21,10,Socal VSR
+8/12/2021,Very High,active,0,High Rating,0,Low Rating,0,Low Rating,0.78,medium,0,9,0,67,0,13,0,Socal VSR
+8/13/2021,Very High,active,0,High Rating,0,Medium Rating,0,Low Rating,0.77,medium,0,7,3,61,0,11,5,Socal VSR
+8/14/2021,Very High,active,0,High Rating,4,Medium Rating,0,Low Rating,0.77,medium,0,11,1,47,0,23,2,Socal VSR
+8/15/2021,Very High,active,0,High Rating,6,Medium Rating,0,Low Rating,0.79,medium,0,10,1,54,0,19,2,Socal VSR
+8/16/2021,High,active,0,Medium Rating,1,Low Rating,0,Low Rating,0.8,medium,0,4,0,57,0,7,0,Socal VSR
+8/17/2021,High,active,0,Medium Rating,3,Low Rating,0,Low Rating,0.78,medium,0,5,0,61,0,8,0,Socal VSR
+8/18/2021,High,active,0,Medium Rating,1,Medium Rating,0,Low Rating,0.78,medium,0,3,2,70,0,4,3,Socal VSR
+8/19/2021,High,active,0,Medium Rating,0,Medium Rating,0,Low Rating,0.79,medium,0,6,5,67,0,9,7,Socal VSR
+8/20/2021,High,active,0,High Rating,3,Medium Rating,0,Low Rating,0.8,medium,0,11,3,72,0,15,4,Socal VSR
+8/21/2021,High,active,0,Medium Rating,5,Medium Rating,0,Low Rating,0.79,medium,0,2,1,64,0,3,2,Socal VSR
+8/22/2021,High,active,0,Medium Rating,5,Medium Rating,0,Low Rating,0.78,medium,0,2,1,61,0,3,2,Socal VSR
+8/23/2021,High,active,0,Medium Rating,0,Medium Rating,0,Low Rating,0.77,medium,0,6,2,76,0,8,3,Socal VSR
+8/24/2021,High,active,0,Medium Rating,0,Low Rating,0,Low Rating,0.74,low,0,7,0,77,0,9,0,Socal VSR
+8/25/2021,High,active,0,High Rating,4,Low Rating,0,Low Rating,0.79,medium,0,9,0,59,0,15,0,Socal VSR
+8/26/2021,High,active,0,Medium Rating,2,Low Rating,0,Low Rating,0.8,medium,0,3,0,51,0,6,0,Socal VSR
+8/27/2021,High,active,0,High Rating,0,Medium Rating,0,Low Rating,0.78,medium,0,5,2,45,0,11,4,Socal VSR
+8/28/2021,High,active,0,Low Rating,12,Low Rating,0,Low Rating,0.78,medium,0,0,0,24,0,0,0,Socal VSR
+8/29/2021,High,active,0,Low Rating,4,Medium Rating,0,Low Rating,0.77,medium,0,0,1,46,0,0,2,Socal VSR
+8/30/2021,Very High,active,0,Low Rating,1,Low Rating,0,Low Rating,0.78,medium,0,0,0,56,0,0,0,Socal VSR
+8/31/2021,Very High,active,0,Low Rating,0,Low Rating,0,Low Rating,0.77,medium,0,0,0,52,0,0,0,Socal VSR
+9/1/2021,Very High,active,0,Medium Rating,0,Medium Rating,0,Low Rating,0.78,medium,0,1,4,56,0,2,7,Socal VSR
+9/2/2021,High,active,0,Medium Rating,12,Medium Rating,0,Low Rating,0.8,medium,0,4,6,71,0,6,8,Socal VSR
+9/3/2021,High,active,0,High Rating,7,Medium Rating,0,Low Rating,0.81,medium,0,13,7,53,0,25,13,Socal VSR
+9/4/2021,Very High,active,0,Medium Rating,7,Medium Rating,0,Medium Rating,0.81,medium,1,5,1,54,2,9,2,Socal VSR
+9/5/2021,Very High,active,0,Medium Rating,0,Medium Rating,0,Low Rating,0.81,medium,0,1,1,65,0,2,2,Socal VSR
+9/6/2021,Very High,active,0,High Rating,2,Medium Rating,0,Low Rating,0.77,medium,0,8,2,53,0,15,4,Socal VSR
+9/7/2021,Very High,active,0,High Rating,6,Medium Rating,0,Low Rating,0.77,medium,0,13,1,30,0,43,3,Socal VSR
+9/8/2021,Very High,active,0,High Rating,5,Medium Rating,0,Low Rating,0.78,medium,0,11,3,55,0,20,5,Socal VSR
+9/9/2021,Very High,active,0,Medium Rating,3,Medium Rating,0,Low Rating,0.79,medium,0,2,3,49,0,4,6,Socal VSR
+9/10/2021,Very High,active,0,High Rating,0,Low Rating,0,Low Rating,0.8,medium,0,3,0,6,0,50,0,Socal VSR
+9/11/2021,Very High,active,0,Low Rating,13,Low Rating,0,Low Rating,0.81,medium,0,0,0,10,0,0,0,Socal VSR
+9/12/2021,Very High,active,0,Low Rating,4,High Rating,0,Low Rating,0.79,medium,0,0,8,20,0,0,40,Socal VSR
+9/13/2021,Very High,active,0,Medium Rating,0,High Rating,0,Low Rating,0.75,medium,0,3,24,49,0,6,49,Socal VSR
+9/14/2021,Very High,active,0,Low Rating,11,High Rating,0,Low Rating,0.76,medium,0,0,13,24,0,0,54,Socal VSR
+9/15/2021,Very High,active,0,High Rating,1,High Rating,0,Low Rating,0.79,medium,0,12,19,47,0,26,40,Socal VSR
+9/16/2021,Very High,active,0,High Rating,0,High Rating,0,Low Rating,0.79,medium,0,12,16,35,0,34,46,Socal VSR
+9/17/2021,Very High,active,0,High Rating,18,High Rating,0,Low Rating,0.78,medium,0,9,16,43,0,21,37,Socal VSR
+9/18/2021,Very High,active,0,Medium Rating,0,High Rating,0,Low Rating,0.77,medium,0,2,31,50,0,4,62,Socal VSR
+9/19/2021,Very High,active,0,High Rating,2,High Rating,0,High Rating,0.79,medium,4,9,14,42,10,21,33,Socal VSR
+9/20/2021,Very High,active,0,Low Rating,2,High Rating,0,Low Rating,0.81,medium,0,0,19,30,0,0,63,Socal VSR
+9/21/2021,Very High,active,0,High Rating,5,High Rating,0,Low Rating,0.81,medium,0,10,19,39,0,26,49,Socal VSR
+9/22/2021,Very High,active,0,Medium Rating,0,High Rating,0,Low Rating,0.77,medium,0,1,13,24,0,4,54,Socal VSR
+9/23/2021,Very High,active,0,High Rating,0,High Rating,0,High Rating,0.78,medium,6,10,7,28,21,36,25,Socal VSR
+9/24/2021,Very High,active,0,High Rating,5,High Rating,0,Low Rating,0.76,medium,0,6,5,26,0,23,19,Socal VSR
+9/25/2021,Very High,active,0,High Rating,5,High Rating,0,Low Rating,0.73,low,0,13,8,39,0,33,21,Socal VSR
+9/26/2021,Very High,active,0,High Rating,8,High Rating,0,Low Rating,0.74,low,0,8,7,30,0,27,23,Socal VSR
+9/27/2021,Very High,active,0,High Rating,6,High Rating,0,Low Rating,0.72,low,0,9,29,38,0,24,76,Socal VSR
+9/28/2021,Very High,active,0,Medium Rating,3,High Rating,0,Low Rating,0.75,medium,0,2,25,30,0,7,83,Socal VSR
+9/29/2021,Very High,active,0,High Rating,0,High Rating,0,Low Rating,0.78,medium,0,3,25,26,0,12,96,Socal VSR
+9/30/2021,Very High,active,0,High Rating,14,High Rating,0,Low Rating,0.76,medium,0,18,21,34,0,53,62,Socal VSR
+10/1/2021,Very High,active,0,High Rating,0,High Rating,0,Low Rating,0.77,medium,0,23,16,37,0,62,43,Socal VSR
+10/2/2021,Very High,active,0,High Rating,9,High Rating,0,Low Rating,0.76,medium,0,9,20,28,0,32,71,Socal VSR
+10/3/2021,Very High,active,0,High Rating,11,High Rating,0,Medium Rating,0.75,medium,1,19,17,29,3,66,59,Socal VSR
+10/4/2021,Very High,active,0,High Rating,0,High Rating,0,Low Rating,0.73,low,0,3,24,28,0,11,86,Socal VSR
+10/5/2021,Very High,active,0,High Rating,0,High Rating,0,Low Rating,0.73,low,0,9,21,31,0,29,68,Socal VSR
+10/6/2021,Very High,active,0,High Rating,12,High Rating,0,Low Rating,0.75,medium,0,10,22,30,0,33,73,Socal VSR
+10/7/2021,Very High,active,0,High Rating,12,High Rating,0,Low Rating,0.77,medium,0,15,19,39,0,38,49,Socal VSR
+10/8/2021,Very High,active,0,High Rating,0,High Rating,0,Low Rating,0.76,medium,0,9,17,27,0,33,63,Socal VSR
+10/9/2021,Very High,active,0,High Rating,3,High Rating,0,Low Rating,0.75,medium,0,5,15,26,0,19,58,Socal VSR
+10/10/2021,Very High,active,0,High Rating,8,High Rating,0,High Rating,0.74,low,6,7,8,32,19,22,25,Socal VSR
+10/11/2021,Very High,active,0,High Rating,0,High Rating,0,Low Rating,0.76,medium,0,7,5,22,0,32,23,Socal VSR
+10/12/2021,Very High,active,0,High Rating,0,High Rating,0,Low Rating,0.76,medium,0,10,13,22,0,45,59,Socal VSR
+10/13/2021,Very High,active,0,High Rating,3,High Rating,0,Low Rating,0.76,medium,0,3,22,23,0,13,96,Socal VSR
+10/14/2021,Very High,active,0,Medium Rating,0,High Rating,0,Low Rating,0.71,low,0,2,23,24,0,8,96,Socal VSR
+10/15/2021,Very High,active,0,Medium Rating,11,High Rating,0,High Rating,0.71,low,4,2,24,25,16,8,96,Socal VSR
+10/16/2021,Very High,active,0,Medium Rating,13,High Rating,0,Medium Rating,0.7,low,2,2,21,23,9,9,91,Socal VSR
+10/17/2021,Very High,active,0,Medium Rating,17,High Rating,0,Low Rating,0.69,low,0,1,19,25,0,4,76,Socal VSR
+10/18/2021,Very High,active,0,Low Rating,0,High Rating,0,Low Rating,0.71,low,0,0,23,25,0,0,92,Socal VSR
+10/19/2021,Very High,active,0,Low Rating,34,High Rating,0,Low Rating,0.7,low,0,0,26,26,0,0,100,Socal VSR
+10/20/2021,Very High,active,0,Low Rating,10,High Rating,0,Medium Rating,0.72,low,1,0,21,24,4,0,88,Socal VSR
+10/21/2021,Very High,active,0,Medium Rating,21,High Rating,0,Low Rating,0.7,low,0,1,25,28,0,4,89,Socal VSR
+10/22/2021,Very High,active,0,Medium Rating,0,High Rating,0,Low Rating,0.66,low,0,1,24,26,0,4,92,Socal VSR
+10/23/2021,Very High,active,0,Medium Rating,0,High Rating,0,High Rating,0.63,low,5,2,19,29,17,7,66,Socal VSR
+10/24/2021,Very High,active,0,Low Rating,25,High Rating,0,Medium Rating,0.69,low,1,0,22,26,4,0,85,Socal VSR
+10/25/2021,Very High,active,0,High Rating,0,High Rating,0,Low Rating,0.67,low,0,3,15,27,0,11,56,Socal VSR
+10/26/2021,Very High,active,0,Medium Rating,0,High Rating,0,Low Rating,0.68,low,0,2,17,28,0,7,61,Socal VSR
+10/27/2021,Very High,active,0,Low Rating,14,High Rating,0,Low Rating,0.68,low,0,0,23,23,0,0,100,Socal VSR
+10/28/2021,Very High,active,0,Low Rating,0,High Rating,0,Low Rating,0.69,low,0,0,24,24,0,0,100,Socal VSR
+10/29/2021,Very High,active,0,Low Rating,45,High Rating,0,Low Rating,0.69,low,0,0,25,25,0,0,100,Socal VSR
+10/30/2021,Very High,active,0,Low Rating,9,High Rating,0,Low Rating,0.68,low,0,0,23,24,0,0,96,Socal VSR
+10/31/2021,Very High,active,0,Low Rating,15,High Rating,0,Low Rating,0.67,low,0,0,24,26,0,0,92,Socal VSR
+11/1/2021,High,active,0,Medium Rating,7,High Rating,0,Low Rating,0.62,low,0,1,22,24,0,4,92,Socal VSR
+11/2/2021,High,active,0,High Rating,1,High Rating,0,Low Rating,0.61,low,0,13,23,24,0,54,96,Socal VSR
+11/3/2021,Very High,active,0,Medium Rating,11,High Rating,0,Low Rating,0.6,low,0,1,23,24,0,4,96,Socal VSR
+11/4/2021,Very High,active,0,Low Rating,0,High Rating,0,Low Rating,NA,offline,0,0,23,28,0,0,82,Socal VSR
+11/5/2021,Very High,active,0,Low Rating,4,High Rating,0,Low Rating,0.6,low,0,0,24,26,0,0,92,Socal VSR
+11/6/2021,Very High,active,0,Low Rating,10,High Rating,0,Low Rating,0.6,low,0,0,22,27,0,0,81,Socal VSR
+11/7/2021,Very High,active,0,High Rating,12,High Rating,0,Low Rating,0.61,low,0,3,17,27,0,11,63,Socal VSR
+11/8/2021,High,active,0,Medium Rating,0,High Rating,0,High Rating,0.59,low,7,1,12,37,19,3,32,Socal VSR
+11/9/2021,Very High,active,0,High Rating,5,High Rating,0,High Rating,0.56,low,7,9,9,46,15,20,20,Socal VSR
+11/10/2021,Very High,active,0,High Rating,0,High Rating,0,High Rating,0.56,low,11,13,8,29,38,45,28,Socal VSR
+11/11/2021,Very High,active,0,High Rating,3,Medium Rating,0,Low Rating,0.53,low,0,4,3,29,0,14,10,Socal VSR
+11/12/2021,Very High,active,0,Medium Rating,14,High Rating,0,Low Rating,0.53,low,0,1,18,26,0,4,69,Socal VSR
+11/13/2021,Very High,active,0,High Rating,2,High Rating,0,Low Rating,0.56,low,0,11,11,27,0,41,41,Socal VSR
+11/14/2021,Very High,active,0,High Rating,2,High Rating,0,Low Rating,0.57,low,0,8,5,27,0,30,19,Socal VSR
+11/15/2021,Very High,active,0,High Rating,6,High Rating,0,Low Rating,0.59,low,0,2,8,13,0,15,62,Socal VSR
+11/16/2021,Very High,active,0,Medium Rating,0,High Rating,0,Low Rating,0.59,low,0,1,9,20,0,5,45,Socal VSR
+11/17/2021,Very High,active,0,Low Rating,0,High Rating,0,Low Rating,0.53,low,0,0,5,16,0,0,31,Socal VSR
+11/18/2021,Very High,active,0,High Rating,0,Low Rating,0,Low Rating,0.5,low,0,1,0,8,0,12,0,Socal VSR
+11/19/2021,Very High,active,0,High Rating,7,High Rating,0,Low Rating,0.48,low,0,4,8,30,0,13,27,Socal VSR
+11/20/2021,High,active,0,High Rating,2,High Rating,0,Medium Rating,0.48,low,1,24,12,44,2,55,27,Socal VSR
+11/21/2021,Very High,active,0,High Rating,0,Medium Rating,0,Low Rating,0.47,low,0,9,2,24,0,38,8,Socal VSR
+11/22/2021,Very High,active,0,High Rating,0,Low Rating,0,Low Rating,0.46,low,0,2,0,6,0,33,0,Socal VSR
+11/23/2021,Very High,active,0,Low Rating,6,Medium Rating,0,Low Rating,0.43,low,0,0,1,10,0,0,10,Socal VSR
+11/24/2021,Very High,active,0,High Rating,4,High Rating,0,Low Rating,0.42,low,0,13,10,21,0,62,48,Socal VSR
+11/25/2021,Very High,active,0,High Rating,0,Low Rating,0,Low Rating,0.33,low,0,12,0,16,0,75,0,Socal VSR
+11/26/2021,Very High,active,0,High Rating,6,Medium Rating,0,Low Rating,0.32,low,0,3,1,20,0,15,5,Socal VSR
+11/27/2021,High,active,0,High Rating,1,High Rating,0,Low Rating,0.3,low,0,2,6,17,0,12,35,Socal VSR
+11/28/2021,High,active,0,High Rating,1,Low Rating,0,Low Rating,0.33,low,0,2,0,17,0,12,0,Socal VSR
+11/29/2021,Very High,active,0,High Rating,0,Low Rating,0,High Rating,0.39,low,7,6,0,26,27,23,0,Socal VSR
+11/30/2021,Very High,active,0,High Rating,0,High Rating,0,High Rating,0.35,low,3,8,5,18,17,44,28,Socal VSR
+12/1/2021,Very High,active,0,High Rating,0,High Rating,0,Low Rating,0.36,low,0,2,7,15,0,13,47,Socal VSR
+12/2/2021,Very High,active,0,Low Rating,2,High Rating,0,Low Rating,0.34,low,0,0,2,3,0,0,67,Socal VSR
+12/3/2021,Very High,active,0,Low Rating,0,Low Rating,0,Low Rating,0.35,low,0,0,0,6,0,0,0,Socal VSR
+12/4/2021,Very High,active,0,Low Rating,0,Low Rating,0,Low Rating,0.3,low,0,0,0,4,0,0,0,Socal VSR
+12/5/2021,Very High,active,0,High Rating,0,Low Rating,0,Low Rating,0.28,low,0,9,0,13,0,69,0,Socal VSR
+12/6/2021,High,active,0,High Rating,0,Low Rating,0,Low Rating,0.27,low,0,9,0,15,0,60,0,Socal VSR
+12/7/2021,Very High,active,0,High Rating,0,Medium Rating,0,Low Rating,0.29,low,0,6,1,15,0,40,7,Socal VSR
+12/8/2021,High,active,0,High Rating,0,Low Rating,0,Low Rating,0.32,low,0,13,0,23,0,57,0,Socal VSR
+12/9/2021,High,active,0,High Rating,0,Low Rating,0,Low Rating,0.31,low,0,12,0,19,0,63,0,Socal VSR
+12/10/2021,High,active,0,High Rating,0,Low Rating,0,Low Rating,0.29,low,0,32,0,34,0,94,0,Socal VSR
+12/11/2021,High,active,0,High Rating,3,Low Rating,1,High Rating,0.19,low,3,9,0,21,14,43,0,Socal VSR
+12/12/2021,High,active,1,High Rating,0,Low Rating,0,Low Rating,0.17,low,0,12,0,15,0,80,0,Socal VSR
+12/13/2021,Very High,active,0,Low Rating,0,Low Rating,0,Low Rating,0.19,low,0,0,0,5,0,0,0,Socal VSR
+12/14/2021,Very High,active,0,High Rating,0,Low Rating,0,Low Rating,0.18,low,0,12,0,26,0,46,0,Socal VSR
+12/15/2021,Very High,active,1,High Rating,3,Low Rating,0,Low Rating,0.12,low,0,5,0,9,0,56,0,Socal VSR
+12/16/2021,Very High,inactive,0,High Rating,0,Low Rating,0,Low Rating,0.1,low,0,8,0,14,0,57,0,Socal VSR
+12/17/2021,High,inactive,0,High Rating,2,Low Rating,0,Low Rating,0.08,low,0,10,0,25,0,40,0,Socal VSR
+12/18/2021,High,inactive,0,High Rating,0,Low Rating,0,Medium Rating,0.07,low,2,20,0,34,6,59,0,Socal VSR
+12/19/2021,High,inactive,0,High Rating,2,Low Rating,0,High Rating,0.08,low,5,10,0,27,19,37,0,Socal VSR
+12/20/2021,Very High,inactive,0,High Rating,0,Low Rating,0,Low Rating,0.09,low,0,12,0,27,0,44,0,Socal VSR
+12/21/2021,Very High,inactive,0,High Rating,0,Medium Rating,0,Low Rating,0.08,low,0,9,3,28,0,32,11,Socal VSR
+12/22/2021,Very High,inactive,0,High Rating,0,High Rating,0,Low Rating,0.08,low,0,8,7,25,0,32,28,Socal VSR
+12/23/2021,Very High,inactive,0,High Rating,0,High Rating,0,Low Rating,0.09,low,0,11,9,26,0,42,35,Socal VSR
+12/24/2021,Very High,inactive,0,High Rating,0,High Rating,0,Low Rating,0.11,low,0,4,21,28,0,14,75,Socal VSR
+12/25/2021,Very High,inactive,0,High Rating,0,High Rating,0,Low Rating,0.11,low,0,8,21,28,0,29,75,Socal VSR
+12/26/2021,Very High,inactive,0,High Rating,0,High Rating,0,Low Rating,0.11,low,0,10,6,25,0,40,24,Socal VSR
+12/27/2021,Very High,inactive,0,High Rating,0,High Rating,0,Low Rating,0.11,low,0,10,7,21,0,48,33,Socal VSR
+12/28/2021,Very High,inactive,0,High Rating,0,High Rating,0,Low Rating,0.07,low,0,4,3,20,0,20,15,Socal VSR
+12/29/2021,Very High,inactive,0,High Rating,0,High Rating,0,Low Rating,0.06,low,0,20,11,39,0,51,28,Socal VSR
+12/30/2021,Very High,inactive,0,High Rating,0,High Rating,0,Low Rating,0.05,low,0,4,7,16,0,25,44,Socal VSR
+12/31/2021,Very High,inactive,0,High Rating,0,High Rating,0,Low Rating,0.06,low,0,3,8,19,0,16,42,Socal VSR
+1/1/2022,Very High,inactive,0,High Rating,0,High Rating,0,Low Rating,0.05,low,0,12,9,25,0,48,36,Socal VSR
+1/2/2022,Very High,inactive,0,High Rating,0,High Rating,0,Low Rating,0.05,low,0,4,7,19,0,21,37,Socal VSR
+1/3/2022,Very High,inactive,0,High Rating,0,High Rating,0,Low Rating,0.06,low,0,5,8,27,0,19,30,Socal VSR
+1/4/2022,Very High,inactive,0,High Rating,0,High Rating,0,Low Rating,0.05,low,0,8,9,24,0,33,38,Socal VSR
+1/5/2022,Very High,inactive,0,High Rating,0,High Rating,0,Low Rating,0.05,low,0,4,15,23,0,17,65,Socal VSR
+1/6/2022,Very High,inactive,0,Low Rating,0,High Rating,0,Low Rating,0.05,low,0,0,21,27,0,0,78,Socal VSR
+1/7/2022,Very High,inactive,0,High Rating,0,High Rating,0,Low Rating,0.05,low,0,11,24,35,0,31,69,Socal VSR
+1/8/2022,Very High,inactive,0,High Rating,0,High Rating,0,Low Rating,0.05,low,0,8,19,31,0,26,61,Socal VSR
+1/9/2022,Very High,inactive,0,High Rating,7,High Rating,0,Low Rating,0.05,low,0,3,20,26,0,12,77,Socal VSR
+1/10/2022,Very High,inactive,0,High Rating,0,High Rating,0,Low Rating,0.05,low,0,3,9,16,0,19,56,Socal VSR
+1/11/2022,Very High,inactive,0,High Rating,0,High Rating,0,Low Rating,0.05,low,0,2,12,19,0,11,63,Socal VSR
+1/12/2022,Very High,inactive,0,High Rating,0,High Rating,0,Low Rating,0.05,low,0,10,6,22,0,45,27,Socal VSR
+1/13/2022,Very High,inactive,0,High Rating,0,Medium Rating,0,Low Rating,0.04,low,0,11,2,18,0,61,11,Socal VSR
+1/14/2022,Very High,inactive,0,High Rating,0,High Rating,0,Low Rating,0.05,low,0,4,3,15,0,27,20,Socal VSR
+1/15/2022,Very High,inactive,0,High Rating,1,Low Rating,0,Low Rating,0.06,low,0,9,0,17,0,53,0,Socal VSR
+1/16/2022,Very High,inactive,2,High Rating,0,Low Rating,0,Low Rating,0.07,low,0,26,0,29,0,90,0,Socal VSR
+1/17/2022,Very High,inactive,0,High Rating,1,Low Rating,0,Low Rating,0.07,low,0,20,0,25,0,80,0,Socal VSR
+1/18/2022,Very High,inactive,0,High Rating,0,Low Rating,0,Low Rating,0.1,low,0,11,0,16,0,69,0,Socal VSR
+1/19/2022,High,inactive,0,High Rating,0,Low Rating,0,Low Rating,0.09,low,0,9,0,12,0,75,0,Socal VSR
+1/20/2022,High,inactive,0,High Rating,0,Low Rating,0,Low Rating,0.08,low,0,1,0,5,0,20,0,Socal VSR
+1/21/2022,High,inactive,0,High Rating,0,Low Rating,0,Low Rating,0.08,low,0,3,0,12,0,25,0,Socal VSR
+1/22/2022,High,inactive,0,High Rating,2,Low Rating,0,Low Rating,0.08,low,0,13,0,15,0,87,0,Socal VSR
+1/23/2022,High,inactive,0,High Rating,0,Low Rating,0,Low Rating,0.08,low,0,1,0,4,0,25,0,Socal VSR
+1/24/2022,High,inactive,0,High Rating,0,Low Rating,0,Low Rating,0.07,low,0,1,0,4,0,25,0,Socal VSR
+1/25/2022,High,inactive,0,High Rating,0,Low Rating,0,Low Rating,0.08,low,0,2,0,7,0,29,0,Socal VSR
+1/26/2022,High,inactive,0,Low Rating,3,Low Rating,0,Low Rating,0.08,low,0,0,0,2,0,0,0,Socal VSR
+1/27/2022,High,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.09,low,0,0,0,1,0,0,0,Socal VSR
+1/28/2022,High,inactive,0,High Rating,0,Low Rating,0,Low Rating,0.08,low,0,7,0,12,0,58,0,Socal VSR
+1/29/2022,High,inactive,0,Low Rating,3,Low Rating,0,Low Rating,0.08,low,0,0,0,7,0,0,0,Socal VSR
+1/30/2022,High,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.08,low,0,0,0,2,0,0,0,Socal VSR
+1/31/2022,High,inactive,0,High Rating,0,Low Rating,0,Low Rating,0.08,low,0,4,0,8,0,50,0,Socal VSR
+2/1/2022,High,inactive,0,High Rating,0,Low Rating,0,Low Rating,0.09,low,0,9,0,69,0,13,0,Socal VSR
+2/2/2022,High,inactive,0,Medium Rating,1,Low Rating,0,Low Rating,0.09,low,0,4,0,56,0,7,0,Socal VSR
+2/3/2022,High,inactive,0,Medium Rating,0,Low Rating,0,Low Rating,0.08,low,0,3,0,61,0,5,0,Socal VSR
+2/4/2022,High,inactive,0,Low Rating,4,Medium Rating,0,Low Rating,0.08,low,0,0,2,62,0,0,3,Socal VSR
+2/5/2022,High,inactive,0,Medium Rating,5,Low Rating,0,Low Rating,0.07,low,0,1,0,49,0,2,0,Socal VSR
+2/6/2022,Very High,inactive,0,High Rating,2,Low Rating,0,Low Rating,0.07,low,0,2,0,7,0,29,0,Socal VSR
+2/7/2022,Very High,inactive,0,High Rating,0,Low Rating,0,Low Rating,0.07,low,0,9,0,13,0,69,0,Socal VSR
+2/8/2022,Very High,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.07,low,0,0,0,4,0,0,0,Socal VSR
+2/9/2022,High,inactive,0,High Rating,0,High Rating,0,Low Rating,0.08,low,0,1,4,9,0,11,44,Socal VSR
+2/10/2022,High,inactive,0,High Rating,0,High Rating,0,Low Rating,0.09,low,0,4,5,11,0,36,45,Socal VSR
+2/11/2022,Very High,inactive,0,High Rating,0,Low Rating,0,Low Rating,0.11,low,0,4,0,13,0,31,0,Socal VSR
+2/12/2022,Very High,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.16,low,0,0,0,11,0,0,0,Socal VSR
+2/13/2022,Very High,inactive,0,High Rating,2,Low Rating,0,Low Rating,0.22,low,0,6,0,11,0,55,0,Socal VSR
+2/14/2022,Very High,inactive,0,High Rating,0,Low Rating,0,Low Rating,NA,offline,0,5,0,16,0,31,0,Socal VSR
+2/15/2022,High,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.17,low,0,0,0,3,0,0,0,Socal VSR
+2/16/2022,High,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.11,low,0,0,0,38,0,0,0,Socal VSR
+2/17/2022,High,inactive,0,Medium Rating,0,Medium Rating,0,Low Rating,0.09,low,0,1,6,59,0,2,10,Socal VSR
+2/18/2022,High,inactive,0,High Rating,0,High Rating,0,Low Rating,0.09,low,0,4,9,40,0,10,22,Socal VSR
+2/19/2022,Very High,inactive,0,High Rating,0,Low Rating,0,Low Rating,0.09,low,0,10,0,65,0,15,0,Socal VSR
+2/20/2022,High,inactive,0,Medium Rating,0,Low Rating,0,Low Rating,0.09,low,0,5,0,62,0,8,0,Socal VSR
+2/21/2022,High,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.08,low,0,0,0,51,0,0,0,Socal VSR
+2/22/2022,High,inactive,0,Medium Rating,0,Medium Rating,0,Low Rating,0.07,low,0,1,1,67,0,1,1,Socal VSR
+2/23/2022,High,inactive,0,Medium Rating,0,Medium Rating,0,Low Rating,0.06,low,0,3,1,52,0,6,2,Socal VSR
+2/24/2022,High,inactive,0,Medium Rating,0,Medium Rating,0,Low Rating,0.05,low,0,3,4,58,0,5,7,Socal VSR
+2/25/2022,High,inactive,0,Medium Rating,0,Medium Rating,0,Low Rating,0.04,low,0,3,1,64,0,5,2,Socal VSR
+2/26/2022,High,inactive,0,Low Rating,2,High Rating,0,Low Rating,0.04,low,0,0,11,55,0,0,20,Socal VSR
+2/27/2022,High,inactive,0,High Rating,4,High Rating,0,Low Rating,0.04,low,0,6,10,51,0,12,20,Socal VSR
+2/28/2022,Very High,inactive,0,Medium Rating,0,Low Rating,0,Low Rating,0.04,low,0,3,0,67,0,4,0,Socal VSR
+3/1/2022,Very High,inactive,0,High Rating,1,Low Rating,0,Low Rating,0.05,low,0,6,0,55,0,11,0,Socal VSR
+3/2/2022,Very High,inactive,0,High Rating,1,Low Rating,0,Low Rating,0.08,low,0,11,0,51,0,22,0,Socal VSR
+3/3/2022,Very High,inactive,0,Medium Rating,0,Low Rating,0,Low Rating,0.13,low,0,4,0,69,0,6,0,Socal VSR
+3/4/2022,High,inactive,0,Medium Rating,0,Medium Rating,0,Low Rating,0.07,low,0,3,2,64,0,5,3,Socal VSR
+3/5/2022,High,inactive,0,Medium Rating,0,Low Rating,0,Low Rating,0.05,low,0,4,0,67,0,6,0,Socal VSR
+3/6/2022,High,inactive,0,Medium Rating,0,High Rating,0,Low Rating,0.04,low,0,1,14,50,0,2,28,Socal VSR
+3/7/2022,High,inactive,0,Medium Rating,0,Medium Rating,0,Low Rating,0.04,low,0,1,8,60,0,2,13,Socal VSR
+3/8/2022,Very High,inactive,0,High Rating,0,High Rating,0,Low Rating,0.04,low,0,11,9,51,0,22,18,Socal VSR
+3/9/2022,High,inactive,0,High Rating,0,Medium Rating,0,Low Rating,0.04,low,0,12,7,55,0,22,13,Socal VSR
+3/10/2022,Very High,inactive,0,High Rating,0,Medium Rating,0,Low Rating,0.05,low,0,6,1,58,0,10,2,Socal VSR
+3/11/2022,Very High,inactive,0,Medium Rating,0,Low Rating,0,Low Rating,0.06,low,0,5,0,75,0,7,0,Socal VSR
+3/12/2022,High,inactive,0,High Rating,0,Medium Rating,0,Low Rating,0.08,low,0,7,3,65,0,11,5,Socal VSR
+3/13/2022,High,inactive,0,Medium Rating,0,Medium Rating,0,Low Rating,0.09,low,0,3,7,63,0,5,11,Socal VSR
+3/14/2022,High,inactive,0,Low Rating,4,Medium Rating,0,Low Rating,0.11,low,0,0,2,67,0,0,3,Socal VSR
+3/15/2022,High,inactive,0,Medium Rating,0,Medium Rating,0,Low Rating,0.12,low,0,1,1,60,0,2,2,Socal VSR
+3/16/2022,High,inactive,0,Medium Rating,0,Low Rating,0,Low Rating,0.14,low,0,5,0,69,0,7,0,Socal VSR
+3/17/2022,High,inactive,0,Medium Rating,0,Low Rating,0,Low Rating,0.13,low,0,6,0,65,0,9,0,Socal VSR
+3/18/2022,High,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.15,low,0,0,0,71,0,0,0,Socal VSR
+3/19/2022,High,inactive,0,Low Rating,0,Medium Rating,0,Low Rating,0.18,low,0,0,10,82,0,0,12,Socal VSR
+3/20/2022,High,inactive,0,Low Rating,0,Medium Rating,0,Low Rating,0.14,low,0,0,8,86,0,0,9,Socal VSR
+3/21/2022,Very High,inactive,0,Medium Rating,0,High Rating,0,Low Rating,0.1,low,0,1,17,41,0,2,41,Socal VSR
+3/22/2022,Very High,inactive,0,Low Rating,0,High Rating,0,Low Rating,0.12,low,0,0,14,70,0,0,20,Socal VSR
+3/23/2022,Very High,inactive,0,Medium Rating,1,Medium Rating,0,Low Rating,0.2,low,0,6,8,77,0,8,10,Socal VSR
+3/24/2022,Very High,inactive,0,Medium Rating,0,Medium Rating,0,Low Rating,0.35,low,0,2,7,72,0,3,10,Socal VSR
+3/25/2022,Very High,inactive,0,Medium Rating,4,High Rating,0,Low Rating,0.29,low,0,1,16,48,0,2,33,Socal VSR
+3/26/2022,Very High,inactive,0,Medium Rating,3,Medium Rating,0,Low Rating,0.23,low,0,4,6,62,0,6,10,Socal VSR
+3/27/2022,Very High,inactive,0,Medium Rating,0,High Rating,0,Low Rating,0.19,low,0,1,10,61,0,2,16,Socal VSR
+3/28/2022,High,inactive,0,Medium Rating,0,High Rating,0,Low Rating,0.15,low,0,4,15,50,0,8,30,Socal VSR
+3/29/2022,Very High,inactive,0,Low Rating,0,High Rating,0,Low Rating,0.19,low,0,0,26,36,0,0,72,Socal VSR
+3/30/2022,Very High,inactive,0,Medium Rating,3,High Rating,0,Low Rating,0.15,low,0,1,22,28,0,4,79,Socal VSR
+3/31/2022,Very High,inactive,0,Low Rating,8,High Rating,0,Low Rating,0.17,low,0,0,16,49,0,0,33,Socal VSR
+4/1/2022,Very High,inactive,0,Low Rating,13,High Rating,0,Low Rating,0.22,low,0,0,16,43,0,0,37,Socal VSR
+4/2/2022,Very High,inactive,0,High Rating,4,High Rating,0,Low Rating,0.23,low,0,10,13,41,0,24,32,Socal VSR
+4/3/2022,Very High,inactive,3,Medium Rating,32,High Rating,0,Low Rating,0.27,low,0,1,24,42,0,2,57,Socal VSR
+4/4/2022,Very High,inactive,0,High Rating,12,High Rating,0,Low Rating,0.27,low,0,7,26,47,0,15,55,Socal VSR
+4/5/2022,Very High,inactive,0,High Rating,0,High Rating,0,Low Rating,0.3,low,0,4,20,37,0,11,54,Socal VSR
+4/6/2022,Very High,inactive,0,Medium Rating,25,High Rating,0,Low Rating,0.29,low,0,1,20,38,0,3,53,Socal VSR
+4/7/2022,Very High,inactive,0,High Rating,3,High Rating,0,Low Rating,0.41,low,0,5,23,33,0,15,70,Socal VSR
+4/8/2022,Very High,inactive,1,Medium Rating,3,High Rating,0,Low Rating,0.53,low,0,2,24,43,0,5,56,Socal VSR
+4/9/2022,Very High,inactive,0,Medium Rating,19,High Rating,0,Low Rating,0.53,low,0,1,15,54,0,2,28,Socal VSR
+4/10/2022,Very High,inactive,0,Medium Rating,4,High Rating,0,Low Rating,0.52,low,0,1,19,41,0,2,46,Socal VSR
+4/11/2022,Very High,inactive,0,Medium Rating,0,High Rating,0,Low Rating,0.45,low,0,3,15,66,0,5,23,Socal VSR
+4/12/2022,Very High,inactive,0,Medium Rating,0,High Rating,0,Low Rating,0.22,low,0,3,12,58,0,5,21,Socal VSR
+4/13/2022,Very High,inactive,0,Medium Rating,0,High Rating,1,Low Rating,NA,offline,0,2,8,52,0,4,15,Socal VSR
+4/14/2022,Very High,inactive,0,Medium Rating,0,High Rating,0,Low Rating,0.16,low,0,3,17,62,0,5,27,Socal VSR
+4/15/2022,High,inactive,0,Medium Rating,0,High Rating,0,Low Rating,0.17,low,0,4,15,58,0,7,26,Socal VSR
+4/16/2022,Very High,inactive,0,Medium Rating,0,High Rating,0,Low Rating,0.18,low,0,1,18,55,0,2,33,Socal VSR
+4/17/2022,Very High,inactive,0,Medium Rating,0,High Rating,0,Low Rating,0.18,low,0,2,22,26,0,8,85,Socal VSR
+4/18/2022,Very High,inactive,0,Low Rating,0,High Rating,0,Low Rating,0.16,low,0,0,17,37,0,0,46,Socal VSR
+4/19/2022,Very High,inactive,0,Low Rating,0,High Rating,0,Low Rating,0.17,low,0,0,21,51,0,0,41,Socal VSR
+4/20/2022,Very High,inactive,0,Medium Rating,0,High Rating,0,Low Rating,0.18,low,0,2,10,56,0,4,18,Socal VSR
+4/21/2022,Very High,inactive,0,Medium Rating,2,High Rating,0,Low Rating,0.18,low,0,3,10,46,0,7,22,Socal VSR
+4/22/2022,High,inactive,0,Medium Rating,0,Medium Rating,0,Low Rating,0.13,low,0,3,6,66,0,5,9,Socal VSR
+4/23/2022,Very High,inactive,0,High Rating,0,High Rating,0,Low Rating,0.12,low,0,5,19,41,0,12,46,Socal VSR
+4/24/2022,Very High,inactive,0,Medium Rating,13,High Rating,0,Low Rating,0.12,low,0,1,11,42,0,2,26,Socal VSR
+4/25/2022,Very High,inactive,0,Low Rating,2,High Rating,0,Low Rating,0.14,low,0,0,26,41,0,0,63,Socal VSR
+4/26/2022,Very High,inactive,0,Medium Rating,0,High Rating,0,Low Rating,0.23,low,0,1,16,45,0,2,36,Socal VSR
+4/27/2022,Very High,inactive,0,Medium Rating,5,Medium Rating,0,Low Rating,NA,offline,0,2,1,85,0,2,1,Socal VSR
+4/28/2022,Very High,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.22,low,0,0,0,90,0,0,0,Socal VSR
+4/29/2022,Very High,inactive,0,Medium Rating,1,High Rating,0,Low Rating,0.2,low,0,1,10,66,0,2,15,Socal VSR
+4/30/2022,High,inactive,0,Low Rating,0,Medium Rating,0,Low Rating,0.22,low,0,0,4,60,0,0,7,Socal VSR
+5/1/2022,High,active,0,Medium Rating,0,High Rating,0,Low Rating,0.28,low,0,1,26,56,0,2,46,Socal VSR
+5/2/2022,Very High,active,0,Medium Rating,0,Medium Rating,0,Low Rating,0.32,low,0,4,8,59,0,7,14,Socal VSR
+5/3/2022,Very High,active,0,Low Rating,1,High Rating,0,Low Rating,0.35,low,0,0,13,63,0,0,21,Socal VSR
+5/4/2022,Very High,active,0,Low Rating,1,High Rating,0,Low Rating,0.36,low,0,0,13,62,0,0,21,Socal VSR
+5/5/2022,Very High,active,0,Medium Rating,0,Medium Rating,0,Low Rating,0.4,low,0,1,7,58,0,2,12,Socal VSR
+5/6/2022,High,active,0,High Rating,2,Medium Rating,0,Low Rating,0.39,low,0,12,6,68,0,18,9,Socal VSR
+5/7/2022,High,active,0,High Rating,0,High Rating,0,Low Rating,0.36,low,0,11,13,55,0,20,24,Socal VSR
+5/8/2022,Very High,active,0,Low Rating,0,Medium Rating,0,Low Rating,0.39,low,0,0,9,76,0,0,12,Socal VSR
+5/9/2022,Very High,active,0,Medium Rating,0,Medium Rating,0,Low Rating,0.28,low,0,1,5,86,0,1,6,Socal VSR
+5/10/2022,Very High,active,0,Low Rating,0,High Rating,0,Low Rating,0.21,low,0,0,16,72,0,0,22,Socal VSR
+5/11/2022,Very High,active,0,Low Rating,0,Low Rating,0,Low Rating,0.17,low,0,0,0,88,0,0,0,Socal VSR
+5/12/2022,Very High,active,0,Medium Rating,2,Medium Rating,0,Low Rating,0.17,low,0,1,2,92,0,1,2,Socal VSR
+5/13/2022,High,active,0,Medium Rating,0,Medium Rating,0,Low Rating,0.18,low,0,2,6,72,0,3,8,Socal VSR
+5/14/2022,High,active,0,Medium Rating,2,Medium Rating,0,Low Rating,0.26,low,0,3,5,73,0,4,7,Socal VSR
+5/15/2022,High,active,0,High Rating,0,Medium Rating,0,Low Rating,0.41,low,0,15,2,66,0,23,3,Socal VSR
+5/16/2022,High,active,0,High Rating,0,Medium Rating,0,Medium Rating,0.39,low,2,10,3,81,2,12,4,Socal VSR
+5/17/2022,High,active,0,Medium Rating,0,Low Rating,0,Low Rating,0.34,low,0,5,0,57,0,9,0,Socal VSR
+5/18/2022,High,active,0,High Rating,4,Medium Rating,0,Low Rating,0.3,low,0,6,3,60,0,10,5,Socal VSR
+5/19/2022,High,active,0,Medium Rating,0,Low Rating,0,Low Rating,0.33,low,0,2,0,75,0,3,0,Socal VSR
+5/20/2022,High,active,0,Medium Rating,0,Low Rating,0,Low Rating,0.29,low,0,3,0,66,0,5,0,Socal VSR
+5/21/2022,High,active,0,Medium Rating,7,Medium Rating,0,Low Rating,NA,offline,0,6,2,73,0,8,3,Socal VSR
+5/22/2022,Very High,active,0,Medium Rating,0,Low Rating,0,Medium Rating,0.4,low,1,4,0,75,1,5,0,Socal VSR
+5/23/2022,Very High,active,0,Low Rating,7,Medium Rating,0,Low Rating,0.38,low,0,0,3,83,0,0,4,Socal VSR
+5/24/2022,Very High,active,0,Low Rating,9,Medium Rating,0,Low Rating,0.37,low,0,0,2,74,0,0,3,Socal VSR
+5/25/2022,Very High,active,0,Low Rating,10,Low Rating,0,Low Rating,0.45,low,0,0,0,83,0,0,0,Socal VSR
+5/26/2022,Very High,active,0,Low Rating,0,Low Rating,0,Low Rating,0.54,low,0,0,0,63,0,0,0,Socal VSR
+5/27/2022,Very High,active,0,High Rating,0,Low Rating,0,Low Rating,0.5,low,0,6,0,58,0,10,0,Socal VSR
+5/28/2022,Very High,active,0,Medium Rating,4,Low Rating,0,Low Rating,0.54,low,0,2,0,56,0,4,0,Socal VSR
+5/29/2022,Very High,active,0,Medium Rating,0,Low Rating,0,Low Rating,0.49,low,0,1,0,53,0,2,0,Socal VSR
+5/30/2022,Very High,active,0,Medium Rating,0,Low Rating,0,Low Rating,0.48,low,0,4,0,77,0,5,0,Socal VSR
+5/31/2022,High,active,0,Medium Rating,0,Medium Rating,0,Low Rating,0.49,low,0,6,1,73,0,8,1,Socal VSR
+6/1/2022,High,active,0,High Rating,0,Low Rating,0,Low Rating,0.47,low,0,5,0,52,0,10,0,Socal VSR
+6/2/2022,High,active,0,High Rating,2,Low Rating,0,Medium Rating,0.53,low,1,15,0,64,2,23,0,Socal VSR
+6/3/2022,High,active,0,High Rating,0,Low Rating,0,Low Rating,0.58,low,0,11,0,58,0,19,0,Socal VSR
+6/4/2022,High,active,0,Medium Rating,0,Low Rating,0,Low Rating,0.55,low,0,3,0,63,0,5,0,Socal VSR
+6/5/2022,High,active,0,Medium Rating,0,Low Rating,0,Medium Rating,0.55,low,5,4,0,81,6,5,0,Socal VSR
+6/6/2022,High,active,0,Medium Rating,0,Low Rating,0,Medium Rating,0.56,low,1,3,0,77,1,4,0,Socal VSR
+6/7/2022,High,active,0,Medium Rating,0,Low Rating,0,Low Rating,0.58,low,0,1,0,77,0,1,0,Socal VSR
+6/8/2022,High,active,0,Medium Rating,0,Low Rating,0,Low Rating,0.59,low,0,2,0,64,0,3,0,Socal VSR
+6/9/2022,High,active,0,Medium Rating,0,Low Rating,0,Low Rating,0.57,low,0,1,0,84,0,1,0,Socal VSR
+6/10/2022,High,active,0,Medium Rating,0,Low Rating,0,Low Rating,0.64,low,0,3,0,66,0,5,0,Socal VSR
+6/11/2022,High,active,0,Low Rating,1,Low Rating,0,Low Rating,0.68,low,0,0,0,73,0,0,0,Socal VSR
+6/12/2022,High,active,0,Medium Rating,0,Low Rating,0,Low Rating,0.7,low,0,2,0,82,0,2,0,Socal VSR
+6/13/2022,High,active,0,Low Rating,0,Low Rating,0,Medium Rating,0.67,low,1,0,0,63,2,0,0,Socal VSR
+6/14/2022,High,active,0,Low Rating,0,Low Rating,0,Low Rating,0.62,low,0,0,0,61,0,0,0,Socal VSR
+6/15/2022,High,active,0,Low Rating,0,Low Rating,0,Low Rating,0.66,low,0,0,0,69,0,0,0,Socal VSR
+6/16/2022,High,active,0,Low Rating,0,Low Rating,0,Medium Rating,0.71,low,1,0,0,78,1,0,0,Socal VSR
+6/17/2022,Medium,active,0,Low Rating,3,Low Rating,0,Low Rating,0.71,low,0,0,0,84,0,0,0,Socal VSR
+6/18/2022,Medium,active,0,Medium Rating,0,Low Rating,0,Medium Rating,0.65,low,1,1,0,68,1,1,0,Socal VSR
+6/19/2022,High,active,0,Low Rating,0,Low Rating,0,Low Rating,0.64,low,0,0,0,68,0,0,0,Socal VSR
+6/20/2022,High,active,0,Low Rating,0,Low Rating,0,Low Rating,0.68,low,0,0,0,50,0,0,0,Socal VSR
+6/21/2022,Very High,active,0,Low Rating,1,Low Rating,5,Low Rating,0.67,low,0,0,0,38,0,0,0,Socal VSR
+6/22/2022,Very High,active,0,Low Rating,0,Low Rating,0,Low Rating,0.71,low,0,0,0,48,0,0,0,Socal VSR
+6/23/2022,High,active,0,Low Rating,0,Low Rating,0,Low Rating,0.74,low,0,0,0,53,0,0,0,Socal VSR
+6/24/2022,High,active,0,Low Rating,4,Low Rating,4,Low Rating,0.7,low,0,0,0,59,0,0,0,Socal VSR
+6/25/2022,High,active,0,Low Rating,2,Low Rating,0,Low Rating,0.73,low,0,0,0,45,0,0,0,Socal VSR
+6/26/2022,High,active,0,Low Rating,2,Low Rating,0,Low Rating,0.72,low,0,0,0,67,0,0,0,Socal VSR
+6/27/2022,High,active,0,Low Rating,0,Low Rating,0,Low Rating,0.7,low,0,0,0,55,0,0,0,Socal VSR
+6/28/2022,High,active,0,Low Rating,0,Low Rating,0,Low Rating,NA,offline,0,0,0,56,0,0,0,Socal VSR
+6/29/2022,High,active,0,Low Rating,0,Low Rating,0,Low Rating,0.72,low,0,0,0,58,0,0,0,Socal VSR
+6/30/2022,High,active,0,Low Rating,1,Low Rating,0,Low Rating,0.75,medium,0,0,0,70,0,0,0,Socal VSR
+7/1/2022,High,active,0,Low Rating,0,Low Rating,0,Low Rating,0.75,medium,0,0,0,73,0,0,0,Socal VSR
+7/2/2022,High,active,0,Medium Rating,2,Medium Rating,0,Low Rating,0.74,low,0,4,1,54,0,7,2,Socal VSR
+7/3/2022,Very High,active,0,Medium Rating,0,Low Rating,0,Low Rating,0.74,low,0,1,0,79,0,1,0,Socal VSR
+7/4/2022,Very High,active,0,Low Rating,0,Low Rating,0,Low Rating,0.77,medium,0,0,0,70,0,0,0,Socal VSR
+7/5/2022,Very High,active,0,Low Rating,0,Low Rating,0,Low Rating,0.77,medium,0,0,0,51,0,0,0,Socal VSR
+7/6/2022,Very High,active,0,Medium Rating,1,Low Rating,0,High Rating,0.77,medium,8,1,0,50,16,2,0,Socal VSR
+7/7/2022,Very High,active,0,Low Rating,1,Low Rating,0,Medium Rating,0.75,medium,2,0,0,67,3,0,0,Socal VSR
+7/8/2022,Very High,active,0,Low Rating,2,Low Rating,0,Low Rating,0.74,low,0,0,0,76,0,0,0,Socal VSR
+7/9/2022,Very High,active,0,Low Rating,0,Low Rating,0,Low Rating,0.74,low,0,0,0,22,0,0,0,Socal VSR
+7/10/2022,Very High,active,0,Low Rating,0,Low Rating,0,Low Rating,0.76,medium,0,0,0,69,0,0,0,Socal VSR
+7/11/2022,High,active,0,Low Rating,0,Low Rating,0,Low Rating,0.78,medium,0,0,0,49,0,0,0,Socal VSR
+7/12/2022,High,active,0,Low Rating,0,Low Rating,0,Low Rating,0.78,medium,0,0,0,72,0,0,0,Socal VSR
+7/13/2022,High,active,0,Low Rating,0,Medium Rating,0,Low Rating,0.76,medium,0,0,2,69,0,0,3,Socal VSR
+7/14/2022,High,active,0,Low Rating,0,Low Rating,0,Low Rating,0.76,medium,0,0,0,65,0,0,0,Socal VSR
+7/15/2022,High,active,0,Low Rating,0,Low Rating,0,Low Rating,0.76,medium,0,0,0,71,0,0,0,Socal VSR
+7/16/2022,High,active,0,Low Rating,2,Low Rating,0,Low Rating,0.77,medium,0,0,0,70,0,0,0,Socal VSR
+7/17/2022,Medium,active,0,Low Rating,0,Low Rating,0,High Rating,0.78,medium,26,0,0,53,49,0,0,Socal VSR
+7/18/2022,High,active,0,Low Rating,3,Low Rating,0,High Rating,0.79,medium,13,0,0,62,21,0,0,Socal VSR
+7/19/2022,High,active,0,Low Rating,0,Low Rating,0,Medium Rating,0.77,medium,5,0,0,68,7,0,0,Socal VSR
+7/20/2022,High,active,0,Low Rating,0,Low Rating,0,Low Rating,0.78,medium,0,0,0,32,0,0,0,Socal VSR
+7/21/2022,High,active,0,Low Rating,2,Low Rating,0,Low Rating,0.77,medium,0,0,0,84,0,0,0,Socal VSR
+7/22/2022,High,active,0,offline,6,offline,0,offline,0.78,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+7/23/2022,Medium,active,0,offline,2,offline,0,offline,0.8,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+7/24/2022,Medium,active,0,offline,1,offline,1,offline,0.78,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+7/25/2022,Medium,active,0,offline,10,offline,0,offline,0.75,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+7/26/2022,High,active,0,offline,7,offline,0,offline,0.74,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+7/27/2022,High,active,0,Low Rating,0,Low Rating,0,Low Rating,0.75,medium,0,0,0,12,0,0,0,Socal VSR
+7/28/2022,High,active,0,Low Rating,3,Low Rating,0,High Rating,0.77,medium,9,0,0,77,12,0,0,Socal VSR
+7/29/2022,High,active,0,Low Rating,0,Low Rating,0,Medium Rating,0.78,medium,1,0,0,77,1,0,0,Socal VSR
+7/30/2022,Very High,active,0,Low Rating,0,Low Rating,0,Low Rating,0.79,medium,0,0,0,61,0,0,0,Socal VSR
+7/31/2022,High,active,0,Low Rating,0,Low Rating,0,Medium Rating,0.78,medium,3,0,0,70,4,0,0,Socal VSR
+8/1/2022,High,active,0,Low Rating,0,Low Rating,5,High Rating,0.8,medium,16,0,0,64,25,0,0,Socal VSR
+8/2/2022,High,active,0,Low Rating,1,Medium Rating,0,High Rating,0.8,medium,15,0,2,71,21,0,3,Socal VSR
+8/3/2022,High,active,0,Low Rating,0,Medium Rating,0,Low Rating,0.78,medium,0,0,1,81,0,0,1,Socal VSR
+8/4/2022,High,active,0,Low Rating,0,Low Rating,0,Medium Rating,0.82,medium,2,0,0,74,3,0,0,Socal VSR
+8/5/2022,High,active,0,Low Rating,0,Low Rating,0,Medium Rating,NA,offline,1,0,0,64,2,0,0,Socal VSR
+8/6/2022,High,active,0,Low Rating,0,Low Rating,0,High Rating,0.83,medium,8,0,0,75,11,0,0,Socal VSR
+8/7/2022,Medium,active,0,Low Rating,0,Low Rating,0,High Rating,0.83,medium,11,0,0,74,15,0,0,Socal VSR
+8/8/2022,High,active,0,Low Rating,3,Low Rating,0,Medium Rating,0.81,medium,5,0,0,82,6,0,0,Socal VSR
+8/9/2022,High,active,0,Low Rating,7,Low Rating,0,High Rating,0.81,medium,22,0,0,65,34,0,0,Socal VSR
+8/10/2022,Very High,active,0,Low Rating,5,Medium Rating,0,High Rating,0.81,medium,22,0,2,48,46,0,4,Socal VSR
+8/11/2022,Very High,active,0,Medium Rating,0,Medium Rating,0,Medium Rating,0.81,medium,6,1,2,68,9,1,3,Socal VSR
+8/12/2022,Very High,active,0,Medium Rating,0,Medium Rating,0,Medium Rating,0.82,medium,3,6,2,70,4,9,3,Socal VSR
+8/13/2022,Very High,active,0,Medium Rating,0,Medium Rating,0,Medium Rating,0.81,medium,1,2,3,52,2,4,6,Socal VSR
+8/14/2022,Very High,active,0,Low Rating,4,Medium Rating,0,Low Rating,0.8,medium,0,0,6,61,0,0,10,Socal VSR
+8/15/2022,Very High,active,0,Low Rating,11,Low Rating,0,Low Rating,0.78,medium,0,0,0,73,0,0,0,Socal VSR
+8/16/2022,High,active,0,Low Rating,10,Medium Rating,0,Low Rating,0.79,medium,0,0,7,58,0,0,12,Socal VSR
+8/17/2022,Very High,active,0,Medium Rating,6,Medium Rating,0,Low Rating,0.78,medium,0,5,3,53,0,9,6,Socal VSR
+8/18/2022,Very High,active,0,Low Rating,0,Medium Rating,0,Low Rating,0.78,medium,0,0,3,76,0,0,4,Socal VSR
+8/19/2022,Very High,active,0,Low Rating,0,Medium Rating,0,Low Rating,0.8,medium,0,0,4,64,0,0,6,Socal VSR
+8/20/2022,Very High,active,0,Low Rating,21,Medium Rating,0,Low Rating,0.78,medium,0,0,2,70,0,0,3,Socal VSR
+8/21/2022,Very High,active,0,Low Rating,0,Low Rating,0,Medium Rating,0.78,medium,1,0,0,57,2,0,0,Socal VSR
+8/22/2022,High,active,0,Low Rating,2,Medium Rating,0,High Rating,0.79,medium,13,0,1,65,20,0,2,Socal VSR
+8/23/2022,High,active,0,Low Rating,2,Low Rating,0,Low Rating,0.8,medium,0,0,0,69,0,0,0,Socal VSR
+8/24/2022,Very High,active,0,Low Rating,1,Low Rating,0,Low Rating,0.79,medium,0,0,0,61,0,0,0,Socal VSR
+8/25/2022,Very High,active,0,Low Rating,4,Low Rating,0,Low Rating,0.77,medium,0,0,0,72,0,0,0,Socal VSR
+8/26/2022,High,active,0,Low Rating,4,Low Rating,0,Low Rating,0.75,medium,0,0,0,73,0,0,0,Socal VSR
+8/27/2022,Medium,active,0,Medium Rating,2,Low Rating,0,Low Rating,0.77,medium,0,1,0,65,0,2,0,Socal VSR
+8/28/2022,Medium,active,0,Low Rating,0,Low Rating,0,Low Rating,0.76,medium,0,0,0,61,0,0,0,Socal VSR
+8/29/2022,High,active,0,Low Rating,1,Low Rating,0,Low Rating,0.78,medium,0,0,0,76,0,0,0,Socal VSR
+8/30/2022,High,active,0,Medium Rating,0,Medium Rating,0,Low Rating,0.81,medium,0,2,1,73,0,3,1,Socal VSR
+8/31/2022,High,active,0,Low Rating,0,Low Rating,0,Low Rating,0.82,medium,0,0,0,69,0,0,0,Socal VSR
+9/1/2022,Medium,active,0,Low Rating,0,Medium Rating,0,Low Rating,0.82,medium,0,0,1,73,0,0,1,Socal VSR
+9/2/2022,Medium,active,0,Low Rating,13,Medium Rating,0,Low Rating,0.82,medium,0,0,1,53,0,0,2,Socal VSR
+9/3/2022,High,active,0,Low Rating,9,Medium Rating,0,Low Rating,0.8,medium,0,0,3,64,0,0,5,Socal VSR
+9/4/2022,High,active,0,Low Rating,0,High Rating,0,High Rating,0.79,medium,6,0,10,61,10,0,16,Socal VSR
+9/5/2022,High,active,0,Low Rating,0,Medium Rating,0,Low Rating,0.79,medium,0,0,5,70,0,0,7,Socal VSR
+9/6/2022,High,active,0,Low Rating,5,Medium Rating,0,Low Rating,0.79,medium,0,0,5,54,0,0,9,Socal VSR
+9/7/2022,High,active,0,Low Rating,7,Medium Rating,0,Low Rating,0.79,medium,0,0,1,69,0,0,1,Socal VSR
+9/8/2022,High,active,0,Low Rating,0,Medium Rating,0,Low Rating,0.79,medium,0,0,3,61,0,0,5,Socal VSR
+9/9/2022,High,active,0,Low Rating,2,Medium Rating,0,Low Rating,0.81,medium,0,0,3,53,0,0,6,Socal VSR
+9/10/2022,Medium,active,0,Low Rating,0,Medium Rating,0,Low Rating,0.78,medium,0,0,4,60,0,0,7,Socal VSR
+9/11/2022,Medium,active,0,Low Rating,3,Medium Rating,0,Low Rating,0.72,low,0,0,1,56,0,0,2,Socal VSR
+9/12/2022,Medium,active,0,Low Rating,2,Low Rating,0,Low Rating,NA,offline,0,0,0,56,0,0,0,Socal VSR
+9/13/2022,Medium,active,0,Low Rating,6,Medium Rating,0,Low Rating,0.63,low,0,0,1,62,0,0,2,Socal VSR
+9/14/2022,Medium,active,0,Low Rating,0,Low Rating,0,Low Rating,0.72,low,0,0,0,70,0,0,0,Socal VSR
+9/15/2022,Medium,active,0,Low Rating,0,Low Rating,0,Low Rating,0.79,medium,0,0,0,81,0,0,0,Socal VSR
+9/16/2022,Medium,active,0,Low Rating,0,Low Rating,0,Low Rating,0.81,medium,0,0,0,70,0,0,0,Socal VSR
+9/17/2022,Medium,active,0,Low Rating,13,Low Rating,0,Low Rating,0.79,medium,0,0,0,63,0,0,0,Socal VSR
+9/18/2022,High,active,0,Low Rating,4,Medium Rating,0,Low Rating,0.81,medium,0,0,2,63,0,0,3,Socal VSR
+9/19/2022,High,active,0,Low Rating,0,High Rating,0,Low Rating,0.8,medium,0,0,23,45,0,0,51,Socal VSR
+9/20/2022,High,active,0,Low Rating,11,High Rating,0,Low Rating,0.8,medium,0,0,10,39,0,0,26,Socal VSR
+9/21/2022,High,active,0,Low Rating,6,High Rating,0,Low Rating,0.8,medium,0,0,15,37,0,0,41,Socal VSR
+9/22/2022,High,active,0,Low Rating,7,High Rating,0,Low Rating,0.82,medium,0,0,14,40,0,0,35,Socal VSR
+9/23/2022,High,active,0,Low Rating,10,High Rating,0,Low Rating,0.8,medium,0,0,18,30,0,0,60,Socal VSR
+9/24/2022,High,active,0,Low Rating,10,High Rating,0,Low Rating,0.76,medium,0,0,25,36,0,0,69,Socal VSR
+9/25/2022,High,active,0,Low Rating,15,High Rating,0,Low Rating,0.8,medium,0,0,19,38,0,0,50,Socal VSR
+9/26/2022,High,active,0,Low Rating,4,High Rating,0,Low Rating,0.79,medium,0,0,24,27,0,0,89,Socal VSR
+9/27/2022,High,active,0,Low Rating,12,High Rating,0,Low Rating,0.81,medium,0,0,24,30,0,0,80,Socal VSR
+9/28/2022,High,active,0,Low Rating,32,High Rating,0,Low Rating,0.82,medium,0,0,24,32,0,0,75,Socal VSR
+9/29/2022,High,active,0,Low Rating,0,High Rating,0,Low Rating,0.82,medium,0,0,21,29,0,0,72,Socal VSR
+9/30/2022,High,active,0,Low Rating,27,High Rating,0,Low Rating,0.81,medium,0,0,23,27,0,0,85,Socal VSR
+10/1/2022,High,active,0,Low Rating,13,High Rating,0,Low Rating,0.82,medium,0,0,23,24,0,0,96,Socal VSR
+10/2/2022,High,active,0,Low Rating,11,High Rating,0,Low Rating,0.82,medium,0,0,18,26,0,0,69,Socal VSR
+10/3/2022,High,active,0,Low Rating,0,High Rating,0,Low Rating,0.83,medium,0,0,16,27,0,0,59,Socal VSR
+10/4/2022,High,active,0,Low Rating,0,High Rating,0,Low Rating,0.83,medium,0,0,19,32,0,0,59,Socal VSR
+10/5/2022,High,active,0,Low Rating,13,High Rating,0,Low Rating,0.78,medium,0,0,15,42,0,0,36,Socal VSR
+10/6/2022,High,active,0,Low Rating,0,High Rating,0,Low Rating,0.75,medium,0,0,16,29,0,0,55,Socal VSR
+10/7/2022,High,active,0,Low Rating,3,High Rating,0,Low Rating,0.78,medium,0,0,20,30,0,0,67,Socal VSR
+10/8/2022,High,active,0,Low Rating,24,High Rating,0,Low Rating,0.78,medium,0,0,22,28,0,0,79,Socal VSR
+10/9/2022,High,active,0,Low Rating,6,High Rating,0,Medium Rating,0.78,medium,3,0,13,36,8,0,36,Socal VSR
+10/10/2022,High,active,0,Low Rating,0,High Rating,0,Low Rating,0.78,medium,0,0,8,38,0,0,21,Socal VSR
+10/11/2022,High,active,0,Low Rating,1,High Rating,0,Low Rating,0.82,medium,0,0,19,27,0,0,70,Socal VSR
+10/12/2022,High,active,0,Medium Rating,6,High Rating,0,Low Rating,0.8,medium,0,1,16,26,0,4,62,Socal VSR
+10/13/2022,High,active,0,Low Rating,0,High Rating,0,Low Rating,0.77,medium,0,0,21,26,0,0,81,Socal VSR
+10/14/2022,Very High,active,0,Low Rating,3,High Rating,0,Low Rating,0.78,medium,0,0,21,25,0,0,84,Socal VSR
+10/15/2022,High,active,0,Low Rating,12,High Rating,0,Low Rating,0.82,medium,0,0,13,28,0,0,46,Socal VSR
+10/16/2022,High,active,0,Low Rating,3,High Rating,0,Low Rating,0.81,medium,0,0,9,30,0,0,30,Socal VSR
+10/17/2022,High,active,0,Low Rating,4,High Rating,0,Low Rating,0.81,medium,0,0,11,29,0,0,38,Socal VSR
+10/18/2022,High,active,0,Medium Rating,0,High Rating,0,Low Rating,0.8,medium,0,1,20,26,0,4,77,Socal VSR
+10/19/2022,High,active,0,Low Rating,45,High Rating,0,Low Rating,0.82,medium,0,0,18,30,0,0,60,Socal VSR
+10/20/2022,High,active,0,Low Rating,12,High Rating,0,Low Rating,NA,offline,0,0,24,27,0,0,89,Socal VSR
+10/21/2022,High,active,0,Low Rating,0,High Rating,0,Low Rating,0.82,medium,0,0,18,28,0,0,64,Socal VSR
+10/22/2022,High,active,0,Low Rating,16,High Rating,0,Low Rating,0.81,medium,0,0,23,27,0,0,85,Socal VSR
+10/23/2022,High,active,0,Low Rating,0,High Rating,0,Low Rating,0.81,medium,0,0,10,39,0,0,26,Socal VSR
+10/24/2022,High,active,0,Low Rating,3,High Rating,0,Low Rating,0.79,medium,0,0,13,15,0,0,87,Socal VSR
+10/25/2022,High,active,0,offline,0,offline,0,offline,0.77,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+10/26/2022,High,active,0,Low Rating,11,High Rating,0,Low Rating,0.79,medium,0,0,15,15,0,0,100,Socal VSR
+10/27/2022,High,active,0,Low Rating,14,High Rating,0,Low Rating,0.76,medium,0,0,25,36,0,0,69,Socal VSR
+10/28/2022,High,active,0,Medium Rating,0,High Rating,0,Low Rating,0.73,low,0,2,25,30,0,7,83,Socal VSR
+10/29/2022,High,active,0,Low Rating,0,High Rating,0,Low Rating,0.73,low,0,0,20,53,0,0,38,Socal VSR
+10/30/2022,High,active,0,Low Rating,4,High Rating,0,Low Rating,0.73,low,0,0,26,34,0,0,76,Socal VSR
+10/31/2022,High,active,0,Low Rating,0,High Rating,0,Low Rating,0.74,low,0,0,26,34,0,0,76,Socal VSR
+11/1/2022,Medium,active,0,Low Rating,0,High Rating,0,High Rating,0.74,low,15,0,23,32,47,0,72,Socal VSR
+11/2/2022,Medium,active,0,Low Rating,0,High Rating,0,Low Rating,0.73,low,0,0,24,57,0,0,42,Socal VSR
+11/3/2022,Medium,active,0,Low Rating,0,High Rating,0,Low Rating,0.71,low,0,0,18,63,0,0,29,Socal VSR
+11/4/2022,Low,active,0,Low Rating,2,High Rating,0,Low Rating,0.61,low,0,0,27,39,0,0,69,Socal VSR
+11/5/2022,Very High,active,0,Medium Rating,25,High Rating,0,Low Rating,0.58,low,0,1,24,25,0,4,96,Socal VSR
+11/6/2022,Very High,active,0,Low Rating,6,High Rating,0,Low Rating,0.57,low,0,0,20,25,0,0,80,Socal VSR
+11/7/2022,High,active,0,Low Rating,10,High Rating,0,Low Rating,0.54,low,0,0,23,25,0,0,92,Socal VSR
+11/8/2022,High,active,0,Low Rating,0,High Rating,0,Low Rating,0.54,low,0,0,24,29,0,0,83,Socal VSR
+11/9/2022,High,active,0,Low Rating,0,High Rating,0,Low Rating,0.53,low,0,0,21,23,0,0,91,Socal VSR
+11/10/2022,Very High,active,0,Low Rating,11,High Rating,0,Low Rating,0.52,low,0,0,24,33,0,0,73,Socal VSR
+11/11/2022,High,active,0,Low Rating,14,High Rating,0,Low Rating,0.46,low,0,0,19,29,0,0,66,Socal VSR
+11/12/2022,High,active,0,Low Rating,15,High Rating,0,Low Rating,0.45,low,0,0,22,32,0,0,69,Socal VSR
+11/13/2022,High,active,0,Low Rating,16,High Rating,0,Low Rating,0.43,low,0,0,21,47,0,0,45,Socal VSR
+11/14/2022,High,active,0,Low Rating,23,High Rating,1,Low Rating,0.44,low,0,0,24,25,0,0,96,Socal VSR
+11/15/2022,High,active,0,Low Rating,0,High Rating,0,Low Rating,0.39,low,0,0,27,42,0,0,64,Socal VSR
+11/16/2022,High,active,0,Low Rating,1,High Rating,0,Low Rating,0.41,low,0,0,26,28,0,0,93,Socal VSR
+11/17/2022,High,active,0,Low Rating,6,High Rating,0,Low Rating,0.4,low,0,0,21,38,0,0,55,Socal VSR
+11/18/2022,High,active,0,Low Rating,7,High Rating,0,Low Rating,0.34,low,0,0,23,32,0,0,72,Socal VSR
+11/19/2022,High,active,0,Low Rating,15,High Rating,0,Low Rating,0.37,low,0,0,23,29,0,0,79,Socal VSR
+11/20/2022,High,active,0,Low Rating,4,High Rating,0,Low Rating,0.39,low,0,0,23,30,0,0,77,Socal VSR
+11/21/2022,High,active,0,Low Rating,0,High Rating,0,Low Rating,0.38,low,0,0,15,39,0,0,38,Socal VSR
+11/22/2022,High,active,0,Low Rating,0,Medium Rating,0,Low Rating,0.34,low,0,0,2,64,0,0,3,Socal VSR
+11/23/2022,High,active,0,Low Rating,7,High Rating,0,Low Rating,0.33,low,0,0,17,28,0,0,61,Socal VSR
+11/24/2022,High,active,0,Low Rating,0,High Rating,0,Low Rating,0.37,low,0,0,18,38,0,0,47,Socal VSR
+11/25/2022,High,active,0,Low Rating,10,High Rating,0,Low Rating,0.32,low,0,0,22,33,0,0,67,Socal VSR
+11/26/2022,High,active,0,Low Rating,5,High Rating,0,Low Rating,0.3,low,0,0,18,48,0,0,38,Socal VSR
+11/27/2022,High,active,0,Low Rating,2,High Rating,0,Low Rating,NA,offline,0,0,16,43,0,0,37,Socal VSR
+11/28/2022,High,active,0,Low Rating,0,High Rating,0,Low Rating,0.3,low,0,0,21,31,0,0,68,Socal VSR
+11/29/2022,High,active,0,Low Rating,0,High Rating,0,Low Rating,0.28,low,0,0,14,47,0,0,30,Socal VSR
+11/30/2022,High,active,0,Low Rating,7,High Rating,0,Low Rating,0.29,low,0,0,16,35,0,0,46,Socal VSR
+12/1/2022,High,active,0,Low Rating,0,High Rating,0,Low Rating,0.31,low,0,0,13,49,0,0,27,Socal VSR
+12/2/2022,High,active,0,Low Rating,0,High Rating,0,Low Rating,0.27,low,0,0,11,41,0,0,27,Socal VSR
+12/3/2022,High,active,0,Low Rating,6,High Rating,0,Low Rating,0.25,low,0,0,12,44,0,0,27,Socal VSR
+12/4/2022,High,active,0,Low Rating,0,High Rating,0,Low Rating,0.29,low,0,0,10,65,0,0,15,Socal VSR
+12/5/2022,High,active,0,Low Rating,0,Low Rating,0,Low Rating,0.32,low,0,0,0,69,0,0,0,Socal VSR
+12/6/2022,High,active,0,Low Rating,0,High Rating,0,Low Rating,0.28,low,0,0,9,54,0,0,17,Socal VSR
+12/7/2022,High,active,0,Low Rating,0,Medium Rating,0,Low Rating,0.27,low,0,0,7,63,0,0,11,Socal VSR
+12/8/2022,High,active,0,Low Rating,6,High Rating,0,Low Rating,0.27,low,0,0,20,39,0,0,51,Socal VSR
+12/9/2022,High,active,0,Low Rating,0,High Rating,0,Low Rating,0.24,low,0,0,23,34,0,0,68,Socal VSR
+12/10/2022,High,active,0,Low Rating,0,High Rating,0,Low Rating,0.2,low,0,0,9,55,0,0,16,Socal VSR
+12/11/2022,High,active,0,Low Rating,0,Medium Rating,0,Low Rating,0.18,low,0,0,5,55,0,0,9,Socal VSR
+12/12/2022,High,active,0,Low Rating,0,Medium Rating,0,Low Rating,0.16,low,0,0,1,53,0,0,2,Socal VSR
+12/13/2022,High,active,0,Low Rating,0,Low Rating,0,Low Rating,0.14,low,0,0,0,66,0,0,0,Socal VSR
+12/14/2022,High,active,0,Low Rating,0,Medium Rating,0,Low Rating,0.1,low,0,0,1,72,0,0,1,Socal VSR
+12/15/2022,Medium,active,0,Low Rating,0,Medium Rating,0,Low Rating,0.09,low,0,0,2,84,0,0,2,Socal VSR
+12/16/2022,High,inactive,0,Low Rating,0,Medium Rating,0,Low Rating,0.09,low,0,0,4,77,0,0,5,Socal VSR
+12/17/2022,Medium,inactive,0,Low Rating,4,Low Rating,0,Low Rating,0.09,low,0,0,0,82,0,0,0,Socal VSR
+12/18/2022,Medium,inactive,0,Low Rating,0,Medium Rating,0,Low Rating,0.09,low,0,0,1,72,0,0,1,Socal VSR
+12/19/2022,Medium,inactive,0,Low Rating,0,Medium Rating,0,Low Rating,0.08,low,0,0,1,67,0,0,1,Socal VSR
+12/20/2022,Medium,inactive,0,Low Rating,1,Medium Rating,0,Low Rating,0.09,low,0,0,1,89,0,0,1,Socal VSR
+12/21/2022,High,inactive,0,Low Rating,0,Medium Rating,0,Low Rating,0.08,low,0,0,1,91,0,0,1,Socal VSR
+12/22/2022,Medium,inactive,0,Medium Rating,0,Medium Rating,0,Low Rating,0.08,low,0,1,5,63,0,2,8,Socal VSR
+12/23/2022,Medium,inactive,0,Medium Rating,0,Low Rating,0,Low Rating,0.1,low,0,1,0,77,0,1,0,Socal VSR
+12/24/2022,Medium,inactive,0,Low Rating,0,Medium Rating,0,Low Rating,0.13,low,0,0,2,57,0,0,4,Socal VSR
+12/25/2022,Medium,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.11,low,0,0,0,75,0,0,0,Socal VSR
+12/26/2022,Medium,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.11,low,0,0,0,50,0,0,0,Socal VSR
+12/27/2022,Medium,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.11,low,0,0,0,51,0,0,0,Socal VSR
+12/28/2022,Medium,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.12,low,0,0,0,49,0,0,0,Socal VSR
+12/29/2022,Low,inactive,0,Low Rating,4,Medium Rating,0,Low Rating,0.11,low,0,0,2,41,0,0,5,Socal VSR
+12/30/2022,Medium,inactive,0,Low Rating,1,Medium Rating,0,Low Rating,0.1,low,0,0,3,39,0,0,8,Socal VSR
+12/31/2022,Medium,inactive,0,Medium Rating,0,Medium Rating,0,Low Rating,0.1,low,0,1,2,42,0,2,5,Socal VSR
+1/1/2023,Medium,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.1,low,0,0,0,63,0,0,0,Socal VSR
+1/2/2023,Medium,inactive,0,Low Rating,0,Medium Rating,0,Low Rating,0.09,low,0,0,2,50,0,0,4,Socal VSR
+1/3/2023,High,inactive,0,Low Rating,0,High Rating,0,Low Rating,0.09,low,0,0,9,35,0,0,26,Socal VSR
+1/4/2023,High,inactive,0,Low Rating,0,Low Rating,0,Low Rating,NA,offline,0,0,0,41,0,0,0,Socal VSR
+1/5/2023,Medium,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.08,low,0,0,0,54,0,0,0,Socal VSR
+1/6/2023,Medium,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.08,low,0,0,0,44,0,0,0,Socal VSR
+1/7/2023,Medium,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.09,low,0,0,0,64,0,0,0,Socal VSR
+1/8/2023,Medium,inactive,0,Low Rating,0,Medium Rating,0,Low Rating,0.09,low,0,0,1,49,0,0,2,Socal VSR
+1/9/2023,Medium,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.07,low,0,0,0,72,0,0,0,Socal VSR
+1/10/2023,Medium,inactive,0,Low Rating,0,Medium Rating,0,Low Rating,0.07,low,0,0,1,58,0,0,2,Socal VSR
+1/11/2023,Medium,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.08,low,0,0,0,41,0,0,0,Socal VSR
+1/12/2023,Medium,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.07,low,0,0,0,62,0,0,0,Socal VSR
+1/13/2023,Medium,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.07,low,0,0,0,30,0,0,0,Socal VSR
+1/14/2023,Medium,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.07,low,0,0,0,40,0,0,0,Socal VSR
+1/15/2023,Low,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.06,low,0,0,0,58,0,0,0,Socal VSR
+1/16/2023,Low,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.07,low,0,0,0,74,0,0,0,Socal VSR
+1/17/2023,Low,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.07,low,0,0,0,74,0,0,0,Socal VSR
+1/18/2023,Low,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.08,low,0,0,0,52,0,0,0,Socal VSR
+1/19/2023,Low,inactive,0,Medium Rating,0,Low Rating,0,Low Rating,0.1,low,0,1,0,72,0,1,0,Socal VSR
+1/20/2023,Medium,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.07,low,0,0,0,49,0,0,0,Socal VSR
+1/21/2023,Medium,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.05,low,0,0,0,45,0,0,0,Socal VSR
+1/22/2023,Medium,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.05,low,0,0,0,77,0,0,0,Socal VSR
+1/23/2023,Medium,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.04,low,0,0,0,54,0,0,0,Socal VSR
+1/24/2023,Medium,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.04,low,0,0,0,64,0,0,0,Socal VSR
+1/25/2023,Low,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.04,low,0,0,0,61,0,0,0,Socal VSR
+1/26/2023,Low,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.07,low,0,0,0,72,0,0,0,Socal VSR
+1/27/2023,Low,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.05,low,0,0,0,66,0,0,0,Socal VSR
+1/28/2023,Low,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.04,low,0,0,0,73,0,0,0,Socal VSR
+1/29/2023,Low,inactive,0,Low Rating,0,Medium Rating,0,Low Rating,0.04,low,0,0,2,59,0,0,3,Socal VSR
+1/30/2023,Low,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.04,low,0,0,0,49,0,0,0,Socal VSR
+1/31/2023,Medium,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.03,low,0,0,0,52,0,0,0,Socal VSR
+2/1/2023,Medium,inactive,0,High Rating,4,Low Rating,0,Low Rating,0.04,low,0,4,0,33,0,12,0,Socal VSR
+2/2/2023,Medium,inactive,0,Medium Rating,0,Low Rating,0,Low Rating,0.05,low,0,2,0,49,0,4,0,Socal VSR
+2/3/2023,High,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.05,low,0,0,0,46,0,0,0,Socal VSR
+2/4/2023,High,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.04,low,0,0,0,51,0,0,0,Socal VSR
+2/5/2023,High,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.04,low,0,0,0,56,0,0,0,Socal VSR
+2/6/2023,High,inactive,0,High Rating,0,Low Rating,0,Low Rating,0.05,low,0,5,0,43,0,12,0,Socal VSR
+2/7/2023,Medium,inactive,0,Medium Rating,0,Low Rating,0,Low Rating,0.05,low,0,3,0,48,0,6,0,Socal VSR
+2/8/2023,High,inactive,0,Low Rating,1,Low Rating,0,Low Rating,0.04,low,0,0,0,62,0,0,0,Socal VSR
+2/9/2023,High,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.04,low,0,0,0,48,0,0,0,Socal VSR
+2/10/2023,High,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.04,low,0,0,0,66,0,0,0,Socal VSR
+2/11/2023,High,inactive,0,Low Rating,0,Low Rating,0,Low Rating,NA,offline,0,0,0,58,0,0,0,Socal VSR
+2/12/2023,High,inactive,0,Medium Rating,0,Low Rating,0,Low Rating,0.04,low,0,1,0,46,0,2,0,Socal VSR
+2/13/2023,Low,inactive,0,Medium Rating,0,Low Rating,0,Low Rating,0.04,low,0,2,0,54,0,4,0,Socal VSR
+2/14/2023,Medium,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.04,low,0,0,0,65,0,0,0,Socal VSR
+2/15/2023,Medium,inactive,0,Low Rating,1,Low Rating,0,Low Rating,0.03,low,0,0,0,57,0,0,0,Socal VSR
+2/16/2023,Medium,inactive,0,Medium Rating,2,Low Rating,0,Low Rating,0.03,low,0,1,0,58,0,2,0,Socal VSR
+2/17/2023,High,inactive,0,Medium Rating,0,Low Rating,0,Low Rating,0.03,low,0,2,0,59,0,3,0,Socal VSR
+2/18/2023,High,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.03,low,0,0,0,55,0,0,0,Socal VSR
+2/19/2023,Medium,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.03,low,0,0,0,64,0,0,0,Socal VSR
+2/20/2023,Medium,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.04,low,0,0,0,72,0,0,0,Socal VSR
+2/21/2023,Medium,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.04,low,0,0,0,89,0,0,0,Socal VSR
+2/22/2023,Medium,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.04,low,0,0,0,68,0,0,0,Socal VSR
+2/23/2023,Low,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.03,low,0,0,0,47,0,0,0,Socal VSR
+2/24/2023,Low,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.03,low,0,0,0,63,0,0,0,Socal VSR
+2/25/2023,Low,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.02,low,0,0,0,52,0,0,0,Socal VSR
+2/26/2023,Low,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.02,low,0,0,0,52,0,0,0,Socal VSR
+2/27/2023,Low,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.03,low,0,0,0,51,0,0,0,Socal VSR
+2/28/2023,Low,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.02,low,0,0,0,46,0,0,0,Socal VSR
+3/1/2023,Low,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.03,low,0,0,0,66,0,0,0,Socal VSR
+3/2/2023,Low,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.03,low,0,0,0,51,0,0,0,Socal VSR
+3/3/2023,Low,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.02,low,0,0,0,57,0,0,0,Socal VSR
+3/4/2023,Low,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.02,low,0,0,0,66,0,0,0,Socal VSR
+3/5/2023,Low,inactive,0,Low Rating,1,Low Rating,0,Low Rating,0.02,low,0,0,0,50,0,0,0,Socal VSR
+3/6/2023,Medium,inactive,0,Low Rating,0,Medium Rating,0,Low Rating,0.02,low,0,0,2,55,0,0,4,Socal VSR
+3/7/2023,Medium,inactive,0,Low Rating,0,Medium Rating,0,Low Rating,0.02,low,0,0,1,73,0,0,1,Socal VSR
+3/8/2023,Medium,inactive,0,Low Rating,0,Medium Rating,0,Low Rating,0.02,low,0,0,4,57,0,0,7,Socal VSR
+3/9/2023,Medium,inactive,0,Low Rating,2,High Rating,0,Low Rating,0.02,low,0,0,9,50,0,0,18,Socal VSR
+3/10/2023,High,inactive,0,Low Rating,0,High Rating,0,Low Rating,0.02,low,0,0,8,50,0,0,16,Socal VSR
+3/11/2023,High,inactive,0,Low Rating,0,Medium Rating,0,Low Rating,0.02,low,0,0,6,47,0,0,13,Socal VSR
+3/12/2023,High,inactive,0,Low Rating,0,Medium Rating,0,Low Rating,0.08,low,0,0,5,49,0,0,10,Socal VSR
+3/13/2023,High,inactive,0,Low Rating,0,High Rating,0,Low Rating,0.1,low,0,0,10,48,0,0,21,Socal VSR
+3/14/2023,High,inactive,0,Low Rating,0,Medium Rating,0,Low Rating,0.09,low,0,0,7,60,0,0,12,Socal VSR
+3/15/2023,High,inactive,0,Low Rating,0,Medium Rating,0,Low Rating,0.08,low,0,0,4,62,0,0,6,Socal VSR
+3/16/2023,High,inactive,0,Low Rating,3,High Rating,0,Low Rating,0.09,low,0,0,10,44,0,0,23,Socal VSR
+3/17/2023,High,inactive,0,Low Rating,4,Medium Rating,0,Low Rating,0.08,low,0,0,7,49,0,0,14,Socal VSR
+3/18/2023,High,inactive,0,Low Rating,0,Medium Rating,0,Low Rating,0.08,low,0,0,3,45,0,0,7,Socal VSR
+3/19/2023,High,inactive,0,Low Rating,0,High Rating,0,Low Rating,0.1,low,0,0,11,57,0,0,19,Socal VSR
+3/20/2023,High,inactive,0,Low Rating,0,Medium Rating,0,Low Rating,0.09,low,0,0,3,53,0,0,6,Socal VSR
+3/21/2023,High,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.12,low,0,0,0,60,0,0,0,Socal VSR
+3/22/2023,Medium,inactive,0,Low Rating,0,High Rating,0,Low Rating,0.09,low,0,0,7,48,0,0,15,Socal VSR
+3/23/2023,Medium,inactive,0,Low Rating,0,Medium Rating,0,Low Rating,0.09,low,0,0,4,47,0,0,9,Socal VSR
+3/24/2023,High,inactive,0,Low Rating,0,High Rating,0,Low Rating,0.07,low,0,0,9,53,0,0,17,Socal VSR
+3/25/2023,High,inactive,0,Low Rating,1,High Rating,0,Low Rating,0.05,low,0,0,10,49,0,0,20,Socal VSR
+3/26/2023,High,inactive,0,Low Rating,0,High Rating,0,Low Rating,0.05,low,0,0,6,40,0,0,15,Socal VSR
+3/27/2023,High,inactive,0,Low Rating,5,High Rating,0,Low Rating,0.05,low,0,0,14,35,0,0,40,Socal VSR
+3/28/2023,High,inactive,0,Low Rating,5,High Rating,0,Low Rating,0.05,low,0,0,12,41,0,0,29,Socal VSR
+3/29/2023,High,inactive,0,Low Rating,0,Medium Rating,0,Low Rating,0.06,low,0,0,7,54,0,0,13,Socal VSR
+3/30/2023,High,inactive,0,Low Rating,4,High Rating,0,Low Rating,0.06,low,0,0,11,34,0,0,32,Socal VSR
+3/31/2023,High,inactive,0,Low Rating,0,High Rating,0,Low Rating,0.07,low,0,0,12,33,0,0,36,Socal VSR
+4/1/2023,High,inactive,0,Low Rating,1,High Rating,0,Low Rating,0.07,low,0,0,7,43,0,0,16,Socal VSR
+4/2/2023,High,inactive,0,Low Rating,1,High Rating,0,Low Rating,0.06,low,0,0,10,62,0,0,16,Socal VSR
+4/3/2023,High,inactive,0,Low Rating,0,Medium Rating,0,Low Rating,0.08,low,0,0,1,57,0,0,2,Socal VSR
+4/4/2023,High,inactive,0,Low Rating,0,Medium Rating,0,Low Rating,0.04,low,0,0,4,62,0,0,6,Socal VSR
+4/5/2023,High,inactive,0,Low Rating,1,Medium Rating,0,Low Rating,0.03,low,0,0,6,55,0,0,11,Socal VSR
+4/6/2023,High,inactive,0,Low Rating,22,Medium Rating,0,Low Rating,0.04,low,0,0,7,64,0,0,11,Socal VSR
+4/7/2023,High,inactive,0,Low Rating,15,High Rating,0,Low Rating,0.04,low,0,0,13,45,0,0,29,Socal VSR
+4/8/2023,High,inactive,0,Low Rating,20,Medium Rating,0,Low Rating,0.05,low,0,0,2,65,0,0,3,Socal VSR
+4/9/2023,High,inactive,0,Low Rating,1,Medium Rating,0,Low Rating,0.05,low,0,0,8,64,0,0,12,Socal VSR
+4/10/2023,High,inactive,0,Low Rating,0,Medium Rating,0,Low Rating,0.06,low,0,0,6,64,0,0,9,Socal VSR
+4/11/2023,High,inactive,0,Low Rating,2,Medium Rating,0,Low Rating,0.08,low,0,0,3,66,0,0,5,Socal VSR
+4/12/2023,High,inactive,0,Low Rating,2,High Rating,0,Low Rating,0.12,low,0,0,15,39,0,0,38,Socal VSR
+4/13/2023,High,inactive,0,Low Rating,12,High Rating,0,Low Rating,0.1,low,0,0,10,58,0,0,17,Socal VSR
+4/14/2023,High,inactive,0,Low Rating,7,Medium Rating,0,Low Rating,0.08,low,0,0,1,50,0,0,2,Socal VSR
+4/15/2023,High,inactive,0,Low Rating,40,Medium Rating,0,Low Rating,0.09,low,0,0,8,61,0,0,13,Socal VSR
+4/16/2023,High,inactive,0,Low Rating,11,Medium Rating,0,Low Rating,0.07,low,0,0,2,74,0,0,3,Socal VSR
+4/17/2023,High,inactive,0,Low Rating,1,Medium Rating,0,Low Rating,0.11,low,0,0,8,66,0,0,12,Socal VSR
+4/18/2023,High,inactive,0,Low Rating,0,Medium Rating,0,Low Rating,0.11,low,0,0,4,78,0,0,5,Socal VSR
+4/19/2023,High,inactive,0,Low Rating,1,Medium Rating,0,Low Rating,0.09,low,0,0,2,72,0,0,3,Socal VSR
+4/20/2023,High,inactive,0,Low Rating,13,Medium Rating,0,Low Rating,0.08,low,0,0,8,59,0,0,14,Socal VSR
+4/21/2023,High,inactive,0,Low Rating,41,Medium Rating,0,Low Rating,0.08,low,0,0,1,70,0,0,1,Socal VSR
+4/22/2023,High,inactive,0,Low Rating,18,Medium Rating,0,Low Rating,0.13,low,0,0,2,57,0,0,4,Socal VSR
+4/23/2023,High,inactive,0,Low Rating,0,High Rating,0,Low Rating,0.26,low,0,0,19,40,0,0,48,Socal VSR
+4/24/2023,High,inactive,0,Low Rating,1,High Rating,0,Low Rating,0.29,low,0,0,19,34,0,0,56,Socal VSR
+4/25/2023,High,inactive,0,Low Rating,7,High Rating,0,Low Rating,0.2,low,0,0,22,32,0,0,69,Socal VSR
+4/26/2023,High,inactive,0,Low Rating,10,High Rating,0,Low Rating,0.23,low,0,0,21,40,0,0,52,Socal VSR
+4/27/2023,High,inactive,0,Low Rating,3,High Rating,0,Low Rating,0.19,low,0,0,14,48,0,0,29,Socal VSR
+4/28/2023,High,inactive,0,Low Rating,16,High Rating,0,Low Rating,0.15,low,0,0,18,53,0,0,34,Socal VSR
+4/29/2023,High,inactive,0,Low Rating,24,High Rating,0,Low Rating,0.21,low,0,0,13,45,0,0,29,Socal VSR
+4/30/2023,High,inactive,0,Low Rating,6,High Rating,0,Low Rating,0.21,low,0,0,8,39,0,0,21,Socal VSR
+5/1/2023,High,active,0,Low Rating,0,Medium Rating,0,Low Rating,0.24,low,0,0,2,61,0,0,3,Socal VSR
+5/2/2023,High,active,0,Low Rating,7,High Rating,0,Low Rating,0.18,low,0,0,9,50,0,0,18,Socal VSR
+5/3/2023,High,active,0,Low Rating,2,High Rating,0,Low Rating,0.17,low,0,0,11,68,0,0,16,Socal VSR
+5/4/2023,High,active,0,Low Rating,10,High Rating,0,Low Rating,0.2,low,0,0,10,48,0,0,21,Socal VSR
+5/5/2023,High,active,0,Medium Rating,36,Medium Rating,0,Low Rating,0.23,low,0,1,6,55,0,2,11,Socal VSR
+5/6/2023,High,active,0,Medium Rating,11,Medium Rating,0,Low Rating,0.31,low,0,2,5,62,0,3,8,Socal VSR
+5/7/2023,High,active,0,Low Rating,7,High Rating,0,Low Rating,NA,offline,0,0,9,54,0,0,17,Socal VSR
+5/8/2023,High,active,0,Low Rating,0,Medium Rating,0,Low Rating,NA,offline,0,0,4,51,0,0,8,Socal VSR
+5/9/2023,High,active,0,Low Rating,7,Medium Rating,0,Low Rating,NA,offline,0,0,5,45,0,0,11,Socal VSR
+5/10/2023,High,active,0,Low Rating,0,Low Rating,0,Low Rating,NA,offline,0,0,0,61,0,0,0,Socal VSR
+5/11/2023,High,active,0,Low Rating,22,Low Rating,0,Low Rating,NA,offline,0,0,0,61,0,0,0,Socal VSR
+5/12/2023,High,active,0,Low Rating,21,Low Rating,0,Low Rating,NA,offline,0,0,0,55,0,0,0,Socal VSR
+5/13/2023,High,active,0,Low Rating,18,Low Rating,0,Low Rating,0.29,low,0,0,0,62,0,0,0,Socal VSR
+5/14/2023,High,active,0,Low Rating,8,Medium Rating,0,Low Rating,0.37,low,0,0,1,49,0,0,2,Socal VSR
+5/15/2023,High,active,0,Low Rating,7,Medium Rating,0,Low Rating,0.39,low,0,0,7,52,0,0,13,Socal VSR
+5/16/2023,High,active,0,Low Rating,22,Medium Rating,0,Low Rating,0.38,low,0,0,6,47,0,0,13,Socal VSR
+5/17/2023,High,active,0,Low Rating,0,Medium Rating,0,Low Rating,0.36,low,0,0,2,54,0,0,4,Socal VSR
+5/18/2023,High,active,0,Low Rating,10,Medium Rating,0,Low Rating,0.37,low,0,0,3,57,0,0,5,Socal VSR
+5/19/2023,High,active,0,Low Rating,14,High Rating,0,Low Rating,0.35,low,0,0,16,50,0,0,32,Socal VSR
+5/20/2023,High,active,0,Low Rating,11,Medium Rating,0,Low Rating,0.43,low,0,0,7,54,0,0,13,Socal VSR
+5/21/2023,High,active,0,Low Rating,13,Medium Rating,0,Low Rating,0.44,low,0,0,2,56,0,0,4,Socal VSR
+5/22/2023,High,active,0,Low Rating,7,High Rating,0,Low Rating,0.45,low,0,0,14,48,0,0,29,Socal VSR
+5/23/2023,High,active,0,Low Rating,9,High Rating,0,Medium Rating,0.48,low,1,0,14,54,2,0,26,Socal VSR
+5/24/2023,High,active,0,Low Rating,12,Medium Rating,0,Low Rating,0.44,low,0,0,3,61,0,0,5,Socal VSR
+5/25/2023,High,active,0,Low Rating,55,Medium Rating,1,Low Rating,0.42,low,0,0,2,64,0,0,3,Socal VSR
+5/26/2023,High,active,0,Medium Rating,0,Low Rating,0,Low Rating,0.38,low,0,1,0,38,0,3,0,Socal VSR
+5/27/2023,High,active,0,Low Rating,0,Low Rating,0,Low Rating,0.48,low,0,0,0,51,0,0,0,Socal VSR
+5/28/2023,High,active,0,Low Rating,4,Medium Rating,0,Low Rating,0.47,low,0,0,2,47,0,0,4,Socal VSR
+5/29/2023,High,active,0,Low Rating,6,Medium Rating,0,Low Rating,0.48,low,0,0,2,51,0,0,4,Socal VSR
+5/30/2023,Medium,active,0,Low Rating,6,Low Rating,0,Low Rating,0.51,low,0,0,0,65,0,0,0,Socal VSR
+5/31/2023,Medium,active,0,Low Rating,3,Low Rating,0,Medium Rating,0.52,low,1,0,0,75,1,0,0,Socal VSR
+6/1/2023,Medium,active,0,Low Rating,0,Low Rating,0,High Rating,0.49,low,8,0,0,77,10,0,0,Socal VSR
+6/2/2023,Very High,active,0,Low Rating,8,Medium Rating,0,Medium Rating,0.5,low,3,0,1,58,5,0,2,Socal VSR
+6/3/2023,Very High,active,0,Low Rating,11,Low Rating,0,Low Rating,0.55,low,0,0,0,58,0,0,0,Socal VSR
+6/4/2023,Very High,active,0,Low Rating,1,Low Rating,0,Low Rating,0.5,low,0,0,0,51,0,0,0,Socal VSR
+6/5/2023,Very High,active,0,Low Rating,5,High Rating,0,Medium Rating,0.52,low,1,0,7,48,2,0,15,Socal VSR
+6/6/2023,High,active,0,Low Rating,17,Medium Rating,0,Medium Rating,0.57,low,3,0,2,51,6,0,4,Socal VSR
+6/7/2023,Very High,active,0,Low Rating,12,Low Rating,0,Low Rating,0.67,low,0,0,0,58,0,0,0,Socal VSR
+6/8/2023,High,active,0,Medium Rating,15,Low Rating,0,Low Rating,0.67,low,0,3,0,67,0,4,0,Socal VSR
+6/9/2023,High,active,2,Low Rating,4,Low Rating,0,Low Rating,0.65,low,0,0,0,71,0,0,0,Socal VSR
+6/10/2023,Very High,active,0,Low Rating,11,Low Rating,0,Low Rating,0.62,low,0,0,0,60,0,0,0,Socal VSR
+6/11/2023,Very High,active,0,Low Rating,0,Low Rating,0,Low Rating,0.62,low,0,0,0,60,0,0,0,Socal VSR
+6/12/2023,Very High,active,0,Low Rating,9,Low Rating,0,Low Rating,0.61,low,0,0,0,57,0,0,0,Socal VSR
+6/13/2023,High,active,0,Low Rating,16,Low Rating,0,Low Rating,0.66,low,0,0,0,73,0,0,0,Socal VSR
+6/14/2023,High,active,0,Medium Rating,15,Low Rating,0,Low Rating,0.68,low,0,1,0,55,0,2,0,Socal VSR
+6/15/2023,High,active,0,Medium Rating,5,Low Rating,0,Medium Rating,0.68,low,3,2,0,54,6,4,0,Socal VSR
+6/16/2023,High,active,0,Low Rating,5,Medium Rating,0,Low Rating,0.68,low,0,0,1,60,0,0,2,Socal VSR
+6/17/2023,High,active,0,Low Rating,11,Low Rating,0,Medium Rating,0.7,low,1,0,0,57,2,0,0,Socal VSR
+6/18/2023,High,active,0,Low Rating,2,Low Rating,0,Low Rating,0.72,low,0,0,0,62,0,0,0,Socal VSR
+6/19/2023,High,active,0,Low Rating,4,Low Rating,0,Medium Rating,0.72,low,1,0,0,60,2,0,0,Socal VSR
+6/20/2023,High,active,0,Low Rating,15,Low Rating,0,Low Rating,0.72,low,0,0,0,56,0,0,0,Socal VSR
+6/21/2023,High,active,0,Low Rating,12,Low Rating,0,Low Rating,0.69,low,0,0,0,55,0,0,0,Socal VSR
+6/22/2023,High,active,0,Low Rating,6,Low Rating,0,Low Rating,0.66,low,0,0,0,59,0,0,0,Socal VSR
+6/23/2023,High,active,0,Low Rating,12,Low Rating,0,Low Rating,0.6,low,0,0,0,51,0,0,0,Socal VSR
+6/24/2023,High,active,0,Low Rating,26,Low Rating,0,Low Rating,0.68,low,0,0,0,49,0,0,0,Socal VSR
+6/25/2023,Medium,active,0,Low Rating,19,Low Rating,0,Low Rating,0.68,low,0,0,0,42,0,0,0,Socal VSR
+6/26/2023,Low,active,0,Low Rating,4,Low Rating,0,Low Rating,0.68,low,0,0,0,49,0,0,0,Socal VSR
+6/27/2023,High,active,0,Low Rating,16,Low Rating,0,Low Rating,0.66,low,0,0,0,51,0,0,0,Socal VSR
+6/28/2023,High,active,0,Low Rating,9,Low Rating,0,Low Rating,0.65,low,0,0,0,57,0,0,0,Socal VSR
+6/29/2023,High,active,0,Low Rating,7,Low Rating,0,Low Rating,0.64,low,0,0,0,48,0,0,0,Socal VSR
+6/30/2023,High,active,0,Low Rating,6,Low Rating,0,Low Rating,0.64,low,0,0,0,30,0,0,0,Socal VSR
+7/1/2023,High,active,0,Low Rating,8,Low Rating,0,Low Rating,0.69,low,0,0,0,33,0,0,0,Socal VSR
+7/2/2023,High,active,0,Low Rating,7,Low Rating,0,Low Rating,0.69,low,0,0,0,39,0,0,0,Socal VSR
+7/3/2023,High,active,0,Low Rating,0,Low Rating,0,Low Rating,0.68,low,0,0,0,47,0,0,0,Socal VSR
+7/4/2023,High,active,0,Low Rating,1,Low Rating,0,Low Rating,0.68,low,0,0,0,32,0,0,0,Socal VSR
+7/5/2023,High,active,0,Low Rating,23,Low Rating,0,Low Rating,0.68,low,0,0,0,35,0,0,0,Socal VSR
+7/6/2023,High,active,0,Low Rating,17,Low Rating,0,Low Rating,0.69,low,0,0,0,42,0,0,0,Socal VSR
+7/7/2023,High,active,0,Low Rating,14,Low Rating,0,Low Rating,0.69,low,0,0,0,38,0,0,0,Socal VSR
+7/8/2023,High,active,0,Low Rating,8,Low Rating,0,Low Rating,0.7,low,0,0,0,45,0,0,0,Socal VSR
+7/9/2023,High,active,0,Low Rating,2,Low Rating,0,Low Rating,0.71,low,0,0,0,46,0,0,0,Socal VSR
+7/10/2023,High,active,0,Low Rating,4,Low Rating,0,Low Rating,0.71,low,0,0,0,39,0,0,0,Socal VSR
+7/11/2023,High,active,0,Low Rating,5,Low Rating,0,Low Rating,0.71,low,0,0,0,41,0,0,0,Socal VSR
+7/12/2023,High,active,0,Low Rating,16,Low Rating,0,Low Rating,0.73,low,0,0,0,42,0,0,0,Socal VSR
+7/13/2023,High,active,0,Low Rating,8,Low Rating,0,Low Rating,0.74,low,0,0,0,43,0,0,0,Socal VSR
+7/14/2023,High,active,0,Low Rating,11,Low Rating,0,Low Rating,0.75,medium,0,0,0,46,0,0,0,Socal VSR
+7/15/2023,High,active,0,Low Rating,10,Low Rating,0,Medium Rating,0.76,medium,1,0,0,38,3,0,0,Socal VSR
+7/16/2023,High,active,0,Low Rating,7,Low Rating,0,Medium Rating,0.76,medium,2,0,0,41,5,0,0,Socal VSR
+7/17/2023,High,active,0,Low Rating,8,Low Rating,0,Low Rating,0.77,medium,0,0,0,46,0,0,0,Socal VSR
+7/18/2023,High,active,0,Low Rating,0,Medium Rating,0,Low Rating,NA,offline,0,0,1,51,0,0,2,Socal VSR
+7/19/2023,High,active,0,Low Rating,0,Low Rating,0,Medium Rating,NA,offline,3,0,0,45,7,0,0,Socal VSR
+7/20/2023,High,active,0,Low Rating,18,Low Rating,0,High Rating,NA,offline,16,0,0,51,31,0,0,Socal VSR
+7/21/2023,Very High,active,0,Low Rating,5,Low Rating,0,High Rating,NA,offline,16,0,0,47,34,0,0,Socal VSR
+7/22/2023,Very High,active,0,Low Rating,7,Low Rating,0,Low Rating,NA,offline,0,0,0,42,0,0,0,Socal VSR
+7/23/2023,Very High,active,0,Low Rating,6,Low Rating,0,Low Rating,NA,offline,0,0,0,52,0,0,0,Socal VSR
+7/24/2023,Very High,active,0,Low Rating,6,Low Rating,0,Low Rating,NA,offline,0,0,0,48,0,0,0,Socal VSR
+7/25/2023,Very High,active,0,High Rating,4,Low Rating,0,Low Rating,NA,offline,0,7,0,44,0,16,0,Socal VSR
+7/26/2023,Very High,active,0,High Rating,11,Low Rating,12,Low Rating,NA,offline,0,5,0,50,0,10,0,Socal VSR
+7/27/2023,Very High,active,0,High Rating,6,Low Rating,0,High Rating,NA,offline,10,6,0,44,23,14,0,Socal VSR
+7/28/2023,Very High,active,0,Medium Rating,3,Low Rating,0,Medium Rating,NA,offline,3,2,0,42,7,5,0,Socal VSR
+7/29/2023,Very High,active,0,Low Rating,12,Low Rating,0,Medium Rating,NA,offline,1,0,0,48,2,0,0,Socal VSR
+7/30/2023,Very High,active,0,High Rating,3,Low Rating,0,Low Rating,NA,offline,0,5,0,38,0,13,0,Socal VSR
+7/31/2023,Very High,active,0,Medium Rating,3,Medium Rating,0,Low Rating,NA,offline,0,1,2,47,0,2,4,Socal VSR
+8/1/2023,Very High,active,0,High Rating,0,Low Rating,0,Medium Rating,NA,offline,1,7,0,48,2,15,0,Socal VSR
+8/2/2023,Very High,active,0,Medium Rating,0,Medium Rating,0,Low Rating,NA,offline,0,2,1,73,0,3,1,Socal VSR
+8/3/2023,High,active,0,Medium Rating,0,Low Rating,0,Low Rating,NA,offline,0,4,0,58,0,7,0,Socal VSR
+8/4/2023,High,active,0,Medium Rating,8,Low Rating,0,Medium Rating,NA,offline,1,4,0,53,2,8,0,Socal VSR
+8/5/2023,High,active,0,Medium Rating,1,Low Rating,0,Low Rating,NA,offline,0,3,0,58,0,5,0,Socal VSR
+8/6/2023,Very High,active,0,Medium Rating,0,Low Rating,0,Medium Rating,NA,offline,1,4,0,49,2,8,0,Socal VSR
+8/7/2023,Very High,active,0,Low Rating,0,Low Rating,0,Low Rating,NA,offline,0,0,0,64,0,0,0,Socal VSR
+8/8/2023,High,active,0,Low Rating,0,Low Rating,0,Low Rating,NA,offline,0,0,0,59,0,0,0,Socal VSR
+8/9/2023,Medium,active,0,Low Rating,8,Low Rating,0,Low Rating,NA,offline,0,0,0,55,0,0,0,Socal VSR
+8/10/2023,High,active,0,Low Rating,0,Low Rating,4,Medium Rating,NA,offline,2,0,0,62,3,0,0,Socal VSR
+8/11/2023,Very High,active,0,Medium Rating,0,Low Rating,0,Low Rating,NA,offline,0,1,0,56,0,2,0,Socal VSR
+8/12/2023,Very High,active,0,High Rating,4,Low Rating,0,Low Rating,NA,offline,0,17,0,40,0,42,0,Socal VSR
+8/13/2023,Very High,active,0,High Rating,2,Low Rating,0,Low Rating,NA,offline,0,9,0,43,0,21,0,Socal VSR
+8/14/2023,Very High,active,0,High Rating,0,Low Rating,0,Low Rating,NA,offline,0,4,0,41,0,10,0,Socal VSR
+8/15/2023,High,active,0,Medium Rating,2,Low Rating,0,Low Rating,NA,offline,0,2,0,42,0,5,0,Socal VSR
+8/16/2023,High,active,0,Medium Rating,7,Low Rating,0,Medium Rating,NA,offline,2,2,0,50,4,4,0,Socal VSR
+8/17/2023,High,active,0,Medium Rating,2,Low Rating,0,Low Rating,NA,offline,0,4,0,44,0,9,0,Socal VSR
+8/18/2023,Very High,active,0,High Rating,4,Low Rating,0,Medium Rating,NA,offline,2,7,0,41,5,17,0,Socal VSR
+8/19/2023,Very High,active,0,High Rating,3,Low Rating,0,Medium Rating,NA,offline,1,8,0,53,2,15,0,Socal VSR
+8/20/2023,Very High,active,0,Medium Rating,0,Medium Rating,0,Medium Rating,NA,offline,1,2,1,51,2,4,2,Socal VSR
+8/21/2023,Very High,active,0,Medium Rating,0,Medium Rating,0,Medium Rating,NA,offline,2,2,1,44,5,5,2,Socal VSR
+8/22/2023,High,active,0,Medium Rating,5,Low Rating,0,Medium Rating,NA,offline,1,3,0,44,2,7,0,Socal VSR
+8/23/2023,High,active,0,Medium Rating,5,Low Rating,0,Medium Rating,NA,offline,1,4,0,48,2,8,0,Socal VSR
+8/24/2023,High,active,0,Medium Rating,10,Low Rating,0,Low Rating,NA,offline,0,1,0,53,0,2,0,Socal VSR
+8/25/2023,High,active,11,Low Rating,26,Low Rating,3,Low Rating,NA,offline,0,0,0,45,0,0,0,Socal VSR
+8/26/2023,Very High,active,0,Medium Rating,5,Low Rating,0,Medium Rating,NA,offline,2,4,0,48,4,8,0,Socal VSR
+8/27/2023,Very High,active,0,Medium Rating,2,Low Rating,1,Low Rating,NA,offline,0,2,0,52,0,4,0,Socal VSR
+8/28/2023,Very High,active,0,Low Rating,0,Low Rating,0,Low Rating,NA,offline,0,0,0,59,0,0,0,Socal VSR
+8/29/2023,Very High,active,0,Low Rating,4,Low Rating,0,Low Rating,NA,offline,0,0,0,59,0,0,0,Socal VSR
+8/30/2023,Medium,active,0,Medium Rating,1,Low Rating,0,Medium Rating,NA,offline,2,3,0,40,5,7,0,Socal VSR
+8/31/2023,Very High,active,0,Low Rating,0,Low Rating,0,Medium Rating,NA,offline,2,0,0,44,5,0,0,Socal VSR
+9/1/2023,High,active,0,High Rating,4,Medium Rating,0,Low Rating,NA,offline,0,7,1,34,0,21,3,Socal VSR
+9/2/2023,Medium,active,0,Medium Rating,6,Low Rating,0,Low Rating,NA,offline,0,2,0,40,0,5,0,Socal VSR
+9/3/2023,High,active,0,Medium Rating,5,Low Rating,0,Low Rating,NA,offline,0,1,0,28,0,4,0,Socal VSR
+9/4/2023,Very High,active,0,Low Rating,7,Low Rating,4,High Rating,NA,offline,8,0,0,41,20,0,0,Socal VSR
+9/5/2023,Very High,active,0,High Rating,5,Low Rating,0,Low Rating,NA,offline,0,5,0,31,0,16,0,Socal VSR
+9/6/2023,Very High,active,0,High Rating,0,Low Rating,0,Low Rating,NA,offline,0,10,0,47,0,21,0,Socal VSR
+9/7/2023,Very High,active,0,Medium Rating,2,Low Rating,0,Low Rating,NA,offline,0,5,0,55,0,9,0,Socal VSR
+9/8/2023,Very High,active,0,Medium Rating,10,Medium Rating,0,Low Rating,NA,offline,0,1,2,54,0,2,4,Socal VSR
+9/9/2023,Very High,active,0,Low Rating,4,Low Rating,1,Low Rating,NA,offline,0,0,0,47,0,0,0,Socal VSR
+9/10/2023,Very High,active,0,Low Rating,3,Low Rating,0,Low Rating,NA,offline,0,0,0,57,0,0,0,Socal VSR
+9/11/2023,Very High,active,0,Low Rating,0,Low Rating,0,Low Rating,NA,offline,0,0,0,62,0,0,0,Socal VSR
+9/12/2023,Very High,active,0,Medium Rating,0,Low Rating,0,Low Rating,NA,offline,0,1,0,53,0,2,0,Socal VSR
+9/13/2023,High,active,0,Medium Rating,4,Medium Rating,0,Low Rating,NA,offline,0,2,2,52,0,4,4,Socal VSR
+9/14/2023,Medium,active,0,Medium Rating,6,Medium Rating,0,Low Rating,NA,offline,0,1,2,44,0,2,5,Socal VSR
+9/15/2023,Medium,active,0,Low Rating,12,Medium Rating,0,Low Rating,NA,offline,0,0,1,36,0,0,3,Socal VSR
+9/16/2023,High,active,0,Low Rating,13,Medium Rating,0,High Rating,NA,offline,4,0,3,42,10,0,7,Socal VSR
+9/17/2023,High,active,0,Low Rating,4,Medium Rating,0,Medium Rating,NA,offline,1,0,5,41,2,0,12,Socal VSR
+9/18/2023,Very High,active,0,Low Rating,17,Medium Rating,0,Low Rating,NA,offline,0,0,3,44,0,0,7,Socal VSR
+9/19/2023,Very High,active,0,Medium Rating,38,Medium Rating,0,Low Rating,NA,offline,0,1,4,42,0,2,10,Socal VSR
+9/20/2023,Very High,active,0,Low Rating,20,Medium Rating,0,Medium Rating,NA,offline,1,0,2,39,3,0,5,Socal VSR
+9/21/2023,Very High,active,0,Low Rating,14,High Rating,0,Low Rating,NA,offline,0,0,15,32,0,0,47,Socal VSR
+9/22/2023,High,active,0,Low Rating,25,High Rating,0,Low Rating,NA,offline,0,0,13,26,0,0,50,Socal VSR
+9/23/2023,High,active,0,Medium Rating,5,High Rating,0,Low Rating,NA,offline,0,2,12,40,0,5,30,Socal VSR
+9/24/2023,Very High,active,0,Low Rating,22,Medium Rating,0,Low Rating,NA,offline,0,0,5,48,0,0,10,Socal VSR
+9/25/2023,High,active,0,Low Rating,0,High Rating,0,Low Rating,NA,offline,0,0,14,43,0,0,33,Socal VSR
+9/26/2023,High,active,0,Low Rating,0,High Rating,0,Low Rating,NA,offline,0,0,9,39,0,0,23,Socal VSR
+9/27/2023,High,active,0,Low Rating,5,High Rating,0,Low Rating,NA,offline,0,0,17,28,0,0,61,Socal VSR
+9/28/2023,Very High,active,0,Low Rating,13,High Rating,0,Low Rating,NA,offline,0,0,17,32,0,0,53,Socal VSR
+9/29/2023,High,active,0,Low Rating,21,High Rating,0,Low Rating,NA,offline,0,0,16,27,0,0,59,Socal VSR
+9/30/2023,High,active,0,Medium Rating,15,High Rating,0,Low Rating,NA,offline,0,4,13,48,0,8,27,Socal VSR
+10/1/2023,High,active,0,High Rating,13,High Rating,0,High Rating,NA,offline,4,3,13,28,14,11,46,Socal VSR
+10/2/2023,High,active,0,Medium Rating,0,High Rating,0,High Rating,NA,offline,10,2,15,30,33,7,50,Socal VSR
+10/3/2023,Very High,active,0,Low Rating,0,High Rating,0,Low Rating,NA,offline,0,0,19,34,0,0,56,Socal VSR
+10/4/2023,Very High,active,0,Low Rating,15,High Rating,0,Low Rating,0.75,medium,0,0,16,30,0,0,53,Socal VSR
+10/5/2023,Very High,active,0,Low Rating,3,High Rating,0,Medium Rating,0.76,medium,1,0,25,26,4,0,96,Socal VSR
+10/6/2023,Very High,active,0,Low Rating,27,High Rating,0,Low Rating,0.72,low,0,0,20,31,0,0,65,Socal VSR
+10/7/2023,Very High,active,0,Low Rating,15,High Rating,0,Low Rating,0.75,medium,0,0,13,30,0,0,43,Socal VSR
+10/8/2023,High,active,0,Low Rating,23,High Rating,0,Low Rating,0.75,medium,0,0,9,28,0,0,32,Socal VSR
+10/9/2023,High,active,0,Low Rating,0,High Rating,0,Low Rating,0.74,low,0,0,17,28,0,0,61,Socal VSR
+10/10/2023,High,active,0,Low Rating,0,High Rating,0,Low Rating,0.77,medium,0,0,12,28,0,0,43,Socal VSR
+10/11/2023,High,active,0,Low Rating,0,High Rating,0,Low Rating,0.77,medium,0,0,8,40,0,0,20,Socal VSR
+10/12/2023,High,active,0,Low Rating,16,High Rating,0,Low Rating,0.79,medium,0,0,12,29,0,0,41,Socal VSR
+10/13/2023,High,active,0,Low Rating,10,High Rating,0,Low Rating,0.76,medium,0,0,18,27,0,0,67,Socal VSR
+10/14/2023,High,active,0,Low Rating,0,High Rating,0,Low Rating,0.77,medium,0,0,18,25,0,0,72,Socal VSR
+10/15/2023,High,active,0,Low Rating,11,High Rating,0,Low Rating,0.79,medium,0,0,18,26,0,0,69,Socal VSR
+10/16/2023,High,active,0,Low Rating,0,High Rating,0,Low Rating,0.79,medium,0,0,14,33,0,0,42,Socal VSR
+10/17/2023,High,active,0,Low Rating,0,High Rating,0,Low Rating,0.78,medium,0,0,21,25,0,0,84,Socal VSR
+10/18/2023,High,active,0,Low Rating,0,High Rating,0,Low Rating,0.81,medium,0,0,22,25,0,0,88,Socal VSR
+10/19/2023,High,active,0,Low Rating,9,High Rating,0,Low Rating,0.78,medium,0,0,17,31,0,0,55,Socal VSR
+10/20/2023,High,active,0,Low Rating,0,High Rating,0,Low Rating,0.78,medium,0,0,18,31,0,0,58,Socal VSR
+10/21/2023,High,active,0,Low Rating,4,High Rating,0,Low Rating,0.79,medium,0,0,14,31,0,0,45,Socal VSR
+10/22/2023,High,active,0,Low Rating,0,High Rating,0,Low Rating,0.82,medium,0,0,15,33,0,0,45,Socal VSR
+10/23/2023,High,active,0,Low Rating,0,High Rating,0,Low Rating,0.8,medium,0,0,16,31,0,0,52,Socal VSR
+10/24/2023,High,active,0,Low Rating,3,High Rating,0,Low Rating,0.8,medium,0,0,18,26,0,0,69,Socal VSR
+10/25/2023,High,active,0,Low Rating,15,High Rating,0,Low Rating,0.81,medium,0,0,23,26,0,0,88,Socal VSR
+10/26/2023,High,active,0,Low Rating,15,High Rating,0,Low Rating,0.8,medium,0,0,16,25,0,0,64,Socal VSR
+10/27/2023,High,active,0,Medium Rating,16,High Rating,0,Low Rating,0.82,medium,0,2,12,26,0,8,46,Socal VSR
+10/28/2023,High,active,0,Low Rating,0,High Rating,0,Low Rating,0.77,medium,0,0,13,36,0,0,36,Socal VSR
+10/29/2023,High,active,0,Medium Rating,0,High Rating,0,Low Rating,0.74,low,0,1,20,24,0,4,83,Socal VSR
+10/30/2023,High,active,0,Low Rating,0,High Rating,0,Low Rating,0.74,low,0,0,17,24,0,0,71,Socal VSR
+10/31/2023,High,active,0,Low Rating,1,High Rating,0,Low Rating,0.72,low,0,0,17,25,0,0,68,Socal VSR
+11/1/2023,Very High,active,0,Low Rating,20,High Rating,0,Low Rating,0.72,low,0,0,23,24,0,0,96,Socal VSR
+11/2/2023,High,active,0,Low Rating,20,High Rating,0,Low Rating,0.73,low,0,0,22,25,0,0,88,Socal VSR
+11/3/2023,Very High,active,0,Low Rating,0,High Rating,0,Low Rating,0.73,low,0,0,17,28,0,0,61,Socal VSR
+11/4/2023,High,active,0,Low Rating,18,High Rating,0,Low Rating,0.72,low,0,0,24,24,0,0,100,Socal VSR
+11/5/2023,High,active,0,Low Rating,0,High Rating,0,Low Rating,0.72,low,0,0,21,28,0,0,75,Socal VSR
+11/6/2023,High,active,0,Low Rating,0,High Rating,0,Low Rating,0.72,low,0,0,21,26,0,0,81,Socal VSR
+11/7/2023,High,active,0,Low Rating,0,High Rating,0,Low Rating,0.72,low,0,0,8,37,0,0,22,Socal VSR
+11/8/2023,High,active,0,Medium Rating,27,High Rating,0,Low Rating,0.69,low,0,1,18,25,0,4,72,Socal VSR
+11/9/2023,High,active,0,Medium Rating,13,High Rating,0,High Rating,0.68,low,3,1,19,24,12,4,79,Socal VSR
+11/10/2023,Very High,active,0,Low Rating,8,High Rating,0,Low Rating,0.66,low,0,0,24,25,0,0,96,Socal VSR
+11/11/2023,High,active,0,Low Rating,12,High Rating,0,Low Rating,0.62,low,0,0,18,24,0,0,75,Socal VSR
+11/12/2023,High,active,0,Low Rating,1,High Rating,0,Low Rating,0.62,low,0,0,23,24,0,0,96,Socal VSR
+11/13/2023,High,active,0,Low Rating,11,High Rating,0,Low Rating,0.63,low,0,0,24,24,0,0,100,Socal VSR
+11/14/2023,High,active,0,Medium Rating,21,High Rating,0,Low Rating,0.61,low,0,1,20,24,0,4,83,Socal VSR
+11/15/2023,High,active,0,Medium Rating,0,High Rating,0,Low Rating,0.62,low,0,2,14,25,0,8,56,Socal VSR
+11/16/2023,High,active,0,Low Rating,0,High Rating,0,Low Rating,0.62,low,0,0,18,26,0,0,69,Socal VSR
+11/17/2023,High,active,0,Low Rating,7,High Rating,0,Low Rating,0.62,low,0,0,19,25,0,0,76,Socal VSR
+11/18/2023,High,active,0,Low Rating,0,High Rating,0,Low Rating,0.62,low,0,0,20,26,0,0,77,Socal VSR
+11/19/2023,Very High,active,0,Medium Rating,0,High Rating,0,Low Rating,0.61,low,0,2,7,42,0,5,17,Socal VSR
+11/20/2023,Very High,active,0,Low Rating,0,High Rating,0,Low Rating,0.6,low,0,0,18,32,0,0,56,Socal VSR
+11/21/2023,High,active,0,Low Rating,0,High Rating,0,Low Rating,0.58,low,0,0,7,33,0,0,21,Socal VSR
+11/22/2023,High,active,0,Low Rating,17,High Rating,0,Low Rating,0.55,low,0,0,22,29,0,0,76,Socal VSR
+11/23/2023,High,active,0,Low Rating,0,High Rating,0,Low Rating,0.53,low,0,0,10,61,0,0,16,Socal VSR
+11/24/2023,High,active,0,Low Rating,12,Low Rating,0,Low Rating,0.55,low,0,0,0,1,0,0,0,Socal VSR
+11/25/2023,High,active,0,offline,1,offline,0,offline,0.52,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+11/26/2023,High,active,0,offline,2,offline,0,offline,0.51,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+11/27/2023,High,active,0,offline,0,offline,0,offline,0.49,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+11/28/2023,High,active,0,offline,0,offline,0,offline,0.47,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+11/29/2023,Medium,active,0,offline,0,offline,0,offline,0.45,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+11/30/2023,Medium,active,0,offline,3,offline,0,offline,0.44,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+12/1/2023,Low,active,0,offline,0,offline,0,offline,0.46,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+12/2/2023,Low,active,0,offline,10,offline,0,offline,0.39,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+12/3/2023,High,active,0,offline,8,offline,0,offline,0.43,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+12/4/2023,High,active,0,offline,6,offline,0,offline,0.44,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+12/5/2023,High,active,0,offline,0,offline,0,offline,0.48,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+12/6/2023,High,active,0,Medium Rating,2,High Rating,0,Low Rating,0.47,low,0,1,20,39,0,3,51,Socal VSR
+12/7/2023,High,active,0,Low Rating,0,High Rating,0,Low Rating,0.47,low,0,0,20,40,0,0,50,Socal VSR
+12/8/2023,Medium,active,0,Low Rating,13,High Rating,0,Low Rating,0.44,low,0,0,11,63,0,0,17,Socal VSR
+12/9/2023,High,active,0,Medium Rating,9,Medium Rating,0,Low Rating,0.38,low,0,2,1,70,0,3,1,Socal VSR
+12/10/2023,High,active,0,Low Rating,6,Low Rating,0,Low Rating,0.35,low,0,0,0,58,0,0,0,Socal VSR
+12/11/2023,High,active,0,offline,0,offline,0,offline,0.33,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+12/12/2023,High,active,0,offline,0,offline,0,offline,0.34,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+12/13/2023,High,active,0,offline,10,offline,0,offline,0.4,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+12/14/2023,High,active,0,offline,0,offline,0,offline,0.39,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+12/15/2023,High,active,0,offline,2,offline,0,offline,0.38,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+12/16/2023,High,inactive,0,offline,2,offline,0,offline,0.36,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+12/17/2023,High,inactive,0,offline,0,offline,0,offline,0.33,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+12/18/2023,Medium,inactive,0,offline,0,offline,0,offline,0.33,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+12/19/2023,Medium,inactive,0,offline,0,offline,0,offline,0.31,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+12/20/2023,Medium,inactive,0,offline,0,offline,0,offline,0.32,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+12/21/2023,Low,inactive,0,offline,0,offline,0,offline,0.34,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+12/22/2023,Low,inactive,0,offline,0,offline,0,offline,0.31,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+12/23/2023,Low,inactive,0,offline,1,offline,0,offline,0.28,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+12/24/2023,Medium,inactive,0,offline,0,offline,0,offline,0.3,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+12/25/2023,Medium,inactive,0,offline,0,offline,0,offline,0.32,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+12/26/2023,Medium,inactive,0,offline,0,offline,0,offline,0.31,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+12/27/2023,Medium,inactive,0,offline,0,offline,0,offline,0.32,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+12/28/2023,Low,inactive,0,offline,2,offline,0,offline,0.33,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+12/29/2023,Medium,inactive,0,offline,0,offline,0,offline,0.29,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+12/30/2023,Medium,inactive,0,offline,0,offline,0,offline,0.3,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+12/31/2023,Medium,inactive,0,offline,0,offline,0,offline,0.32,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+1/1/2024,Medium,inactive,0,offline,0,offline,0,offline,0.36,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+1/2/2024,Low,inactive,0,offline,0,offline,0,offline,0.28,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+1/3/2024,Low,inactive,0,offline,0,offline,0,offline,0.27,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+1/4/2024,Low,inactive,0,offline,0,offline,0,offline,0.28,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+1/5/2024,Low,inactive,0,offline,0,offline,0,offline,0.19,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+1/6/2024,Low,inactive,0,offline,0,offline,0,offline,0.17,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+1/7/2024,Low,inactive,0,offline,0,offline,0,offline,0.14,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+1/8/2024,Low,inactive,0,offline,0,offline,0,offline,0.11,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+1/9/2024,Low,inactive,0,offline,0,offline,0,offline,0.1,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+1/10/2024,Low,inactive,0,offline,0,offline,0,offline,0.09,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+1/11/2024,Low,inactive,0,offline,0,offline,0,offline,0.07,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+1/12/2024,Low,inactive,0,offline,0,offline,0,offline,0.06,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+1/13/2024,Low,inactive,0,offline,1,offline,0,offline,0.06,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+1/14/2024,Medium,inactive,0,offline,1,offline,0,offline,0.06,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+1/15/2024,Medium,inactive,0,offline,0,offline,0,offline,0.07,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+1/16/2024,Medium,inactive,0,offline,0,offline,0,offline,0.07,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+1/17/2024,Medium,inactive,0,offline,0,offline,0,offline,0.07,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+1/18/2024,Medium,inactive,0,offline,0,offline,0,offline,0.06,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+1/19/2024,Low,inactive,0,offline,0,offline,0,offline,0.08,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+1/20/2024,Low,inactive,0,offline,1,offline,0,offline,0.07,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+1/21/2024,Medium,inactive,0,offline,2,offline,0,offline,0.07,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+1/22/2024,Medium,inactive,0,offline,0,offline,0,offline,0.1,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+1/23/2024,Medium,inactive,0,offline,0,offline,0,offline,0.12,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+1/24/2024,Medium,inactive,0,offline,0,offline,0,offline,0.1,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+1/25/2024,Medium,inactive,0,offline,0,offline,0,offline,0.11,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+1/26/2024,Medium,inactive,6,offline,0,offline,0,offline,0.12,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+1/27/2024,High,inactive,0,offline,0,offline,0,offline,0.12,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+1/28/2024,High,inactive,0,offline,4,offline,0,offline,0.14,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+1/29/2024,High,inactive,0,offline,0,offline,0,offline,0.2,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+1/30/2024,High,inactive,0,offline,0,offline,0,offline,0.22,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+1/31/2024,Medium,inactive,0,offline,0,offline,0,offline,0.23,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+2/1/2024,Medium,inactive,0,offline,0,offline,0,offline,0.22,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+2/2/2024,Low,inactive,0,offline,0,offline,0,offline,0.22,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+2/3/2024,Low,inactive,0,offline,0,offline,0,offline,0.15,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+2/4/2024,Low,inactive,0,offline,0,offline,0,offline,0.12,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+2/5/2024,Low,inactive,0,offline,0,offline,0,offline,0.1,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+2/6/2024,Low,inactive,0,offline,0,offline,0,offline,0.11,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+2/7/2024,Low,inactive,0,offline,0,offline,0,offline,0.07,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+2/8/2024,Low,inactive,0,offline,0,offline,0,offline,0.09,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+2/9/2024,Low,inactive,0,offline,0,offline,0,offline,0.07,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+2/10/2024,Low,inactive,0,offline,6,offline,0,offline,0.07,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+2/11/2024,Medium,inactive,0,offline,1,offline,0,offline,0.07,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+2/12/2024,Medium,inactive,0,offline,0,offline,0,offline,0.07,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+2/13/2024,Medium,inactive,0,offline,12,offline,0,offline,0.06,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+2/14/2024,High,inactive,0,offline,25,offline,0,offline,0.07,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+2/15/2024,High,inactive,0,offline,0,offline,0,offline,0.06,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+2/16/2024,High,inactive,0,offline,2,offline,0,offline,0.07,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+2/17/2024,High,inactive,0,offline,12,offline,0,offline,0.08,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+2/18/2024,High,inactive,0,offline,7,offline,0,offline,0.1,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+2/19/2024,High,inactive,0,offline,0,offline,0,offline,0.11,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+2/20/2024,High,inactive,0,offline,0,offline,0,offline,0.13,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+2/21/2024,High,inactive,0,offline,0,offline,0,offline,0.18,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+2/22/2024,High,inactive,0,offline,26,offline,0,offline,0.19,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+2/23/2024,High,inactive,0,offline,18,offline,0,offline,0.18,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+2/24/2024,High,inactive,0,offline,6,offline,0,offline,0.21,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+2/25/2024,High,inactive,0,offline,10,offline,0,offline,0.24,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+2/26/2024,High,inactive,0,offline,2,offline,0,offline,0.19,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+2/27/2024,High,inactive,0,offline,0,offline,0,offline,0.19,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+2/28/2024,High,inactive,0,offline,10,offline,0,offline,0.2,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+2/29/2024,High,inactive,0,offline,17,offline,0,offline,0.23,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+3/1/2024,High,inactive,0,offline,0,offline,0,offline,0.21,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+3/2/2024,High,inactive,0,offline,0,offline,0,offline,0.16,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+3/3/2024,High,inactive,0,offline,0,offline,0,offline,0.12,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+3/4/2024,High,inactive,0,offline,0,offline,0,offline,0.1,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+3/5/2024,Low,inactive,0,offline,1,offline,0,offline,0.08,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+3/6/2024,Medium,inactive,0,offline,0,offline,0,offline,0.13,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+3/7/2024,Medium,inactive,0,offline,0,offline,0,offline,0.14,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+3/8/2024,Medium,inactive,0,offline,0,offline,0,offline,0.17,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+3/9/2024,Medium,inactive,0,offline,23,offline,0,offline,0.19,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+3/10/2024,High,inactive,0,offline,6,offline,0,offline,0.24,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+3/11/2024,High,inactive,0,offline,2,offline,0,offline,0.23,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+3/12/2024,High,inactive,0,offline,0,offline,0,offline,0.22,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+3/13/2024,High,inactive,0,offline,0,offline,0,offline,0.21,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+3/14/2024,High,inactive,0,offline,0,offline,0,offline,0.25,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+3/15/2024,Medium,inactive,0,offline,9,offline,0,offline,0.23,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+3/16/2024,High,inactive,0,offline,45,offline,0,offline,0.24,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+3/17/2024,High,inactive,0,offline,4,offline,0,offline,0.3,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+3/18/2024,High,inactive,0,offline,3,offline,0,offline,0.42,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+3/19/2024,High,inactive,0,offline,4,offline,0,offline,0.46,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+3/20/2024,High,inactive,0,offline,8,offline,0,offline,0.61,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+3/21/2024,High,inactive,0,offline,28,offline,0,offline,0.62,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+3/22/2024,High,inactive,0,offline,4,offline,0,offline,0.5,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+3/23/2024,High,inactive,0,offline,0,offline,0,offline,0.46,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+3/24/2024,High,inactive,0,offline,0,offline,0,offline,0.35,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+3/25/2024,High,inactive,0,offline,0,offline,0,offline,0.22,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+3/26/2024,Medium,inactive,0,offline,1,offline,0,offline,0.22,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+3/27/2024,Medium,inactive,0,offline,1,offline,0,offline,0.26,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+3/28/2024,Medium,inactive,0,offline,6,offline,0,offline,0.28,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+3/29/2024,Medium,inactive,0,offline,0,offline,0,offline,0.25,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+3/30/2024,Medium,inactive,0,offline,0,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+3/31/2024,Medium,inactive,0,offline,0,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+4/1/2024,Medium,inactive,0,offline,12,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+4/2/2024,High,inactive,0,offline,18,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+4/3/2024,High,inactive,0,offline,29,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+4/4/2024,High,inactive,0,offline,0,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+4/5/2024,High,inactive,0,offline,0,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+4/6/2024,High,inactive,0,offline,67,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+4/7/2024,High,inactive,0,offline,8,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+4/8/2024,High,inactive,0,offline,8,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+4/9/2024,High,inactive,0,offline,2,offline,0,offline,0.06,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+4/10/2024,High,inactive,0,offline,0,offline,0,offline,0.08,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+4/11/2024,High,inactive,0,offline,0,offline,0,offline,0.12,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+4/12/2024,High,inactive,0,offline,0,offline,0,offline,0.12,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+4/13/2024,Medium,inactive,0,offline,2,offline,0,offline,0.13,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+4/14/2024,Medium,inactive,0,offline,0,offline,0,offline,0.12,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+4/15/2024,Medium,inactive,0,offline,2,offline,0,offline,0.1,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+4/16/2024,Medium,inactive,0,offline,30,offline,0,offline,0.11,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+4/17/2024,High,inactive,0,offline,0,offline,0,offline,0.14,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+4/18/2024,High,inactive,0,offline,2,offline,0,offline,0.21,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+4/19/2024,High,inactive,0,offline,4,offline,0,offline,0.24,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+4/20/2024,High,inactive,0,offline,0,offline,0,offline,0.23,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+4/21/2024,Medium,inactive,0,offline,6,offline,0,offline,0.21,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+4/22/2024,Medium,inactive,0,offline,2,offline,0,offline,0.29,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+4/23/2024,Medium,inactive,1,offline,1,offline,0,offline,0.28,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+4/24/2024,Medium,inactive,0,offline,2,offline,0,offline,0.2,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+4/25/2024,Medium,inactive,0,offline,4,offline,0,offline,0.17,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+4/26/2024,Medium,inactive,0,offline,0,offline,0,offline,0.13,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+4/27/2024,Medium,inactive,0,offline,0,offline,0,offline,0.09,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+4/28/2024,Medium,inactive,0,offline,2,offline,0,offline,0.09,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+4/29/2024,Medium,inactive,0,offline,0,offline,0,offline,0.15,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+4/30/2024,Medium,inactive,0,Low Rating,4,Low Rating,0,Low Rating,0.24,low,0,0,0,33,0,0,0,Socal VSR
+5/1/2024,Medium,active,0,Low Rating,0,Low Rating,0,Medium Rating,0.23,low,2,0,0,90,2,0,0,Socal VSR
+5/2/2024,Medium,active,0,Low Rating,1,Medium Rating,0,Low Rating,0.29,low,0,0,4,80,0,0,5,Socal VSR
+5/3/2024,Medium,active,0,Low Rating,0,Low Rating,0,Low Rating,0.35,low,0,0,0,83,0,0,0,Socal VSR
+5/4/2024,Medium,active,0,Medium Rating,0,Medium Rating,0,Low Rating,0.32,low,0,3,1,78,0,4,1,Socal VSR
+5/5/2024,Medium,active,0,Low Rating,0,Low Rating,0,Low Rating,0.22,low,0,0,0,89,0,0,0,Socal VSR
+5/6/2024,Medium,active,0,Low Rating,8,Low Rating,0,Low Rating,0.14,low,0,0,0,85,0,0,0,Socal VSR
+5/7/2024,High,active,0,Low Rating,0,Low Rating,0,Low Rating,0.15,low,0,0,0,86,0,0,0,Socal VSR
+5/8/2024,High,active,2,Medium Rating,0,Medium Rating,2,Low Rating,0.24,low,0,1,1,79,0,1,1,Socal VSR
+5/9/2024,Very High,active,0,Medium Rating,11,Medium Rating,2,Low Rating,0.29,low,0,5,2,76,0,7,3,Socal VSR
+5/10/2024,Very High,active,0,High Rating,8,Low Rating,0,Low Rating,0.36,low,0,24,0,77,0,31,0,Socal VSR
+5/11/2024,Very High,active,0,High Rating,16,Low Rating,0,Medium Rating,0.29,low,1,10,0,80,1,12,0,Socal VSR
+5/12/2024,Very High,active,0,High Rating,7,Low Rating,0,Low Rating,0.26,low,0,14,0,75,0,19,0,Socal VSR
+5/13/2024,Very High,active,0,High Rating,0,Low Rating,0,Low Rating,0.29,low,0,10,0,85,0,12,0,Socal VSR
+5/14/2024,Very High,active,0,High Rating,0,Low Rating,0,Medium Rating,0.3,low,1,13,0,61,2,21,0,Socal VSR
+5/15/2024,Very High,active,2,High Rating,3,Low Rating,0,Low Rating,0.29,low,0,16,0,61,0,26,0,Socal VSR
+5/16/2024,Very High,active,1,High Rating,2,Low Rating,0,Low Rating,0.27,low,0,10,0,48,0,21,0,Socal VSR
+5/17/2024,High,active,0,High Rating,15,Medium Rating,0,Low Rating,0.29,low,0,7,2,60,0,12,3,Socal VSR
+5/18/2024,Very High,active,0,Medium Rating,19,Low Rating,0,Low Rating,0.28,low,0,4,0,43,0,9,0,Socal VSR
+5/19/2024,Very High,active,0,High Rating,0,Low Rating,0,Low Rating,0.27,low,0,1,0,4,0,25,0,Socal VSR
+5/20/2024,Very High,active,0,offline,0,offline,0,offline,0.3,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+5/21/2024,Very High,active,0,offline,1,offline,0,offline,0.27,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+5/22/2024,Very High,active,0,offline,6,offline,0,offline,0.27,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+5/23/2024,Medium,active,0,offline,0,offline,0,offline,0.3,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+5/24/2024,Medium,active,0,offline,0,offline,1,offline,0.31,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+5/25/2024,Medium,active,0,offline,2,offline,2,offline,0.31,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+5/26/2024,High,active,1,offline,2,offline,1,offline,0.24,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+5/27/2024,High,active,0,offline,9,offline,8,offline,0.25,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+5/28/2024,Very High,active,2,offline,5,offline,0,offline,0.23,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+5/29/2024,Very High,active,0,Medium Rating,4,Low Rating,0,Low Rating,0.22,low,0,1,0,22,0,5,0,Socal VSR
+5/30/2024,Very High,active,1,Low Rating,13,Medium Rating,3,Medium Rating,0.33,low,2,0,2,80,3,0,3,Socal VSR
+5/31/2024,Very High,active,0,Low Rating,0,Low Rating,0,High Rating,0.4,low,12,0,0,77,16,0,0,Socal VSR
+6/1/2024,Very High,active,0,Low Rating,10,Medium Rating,6,High Rating,0.38,low,20,0,2,63,32,0,3,Socal VSR
+6/2/2024,Very High,active,0,Low Rating,2,High Rating,1,High Rating,0.4,low,12,0,12,73,16,0,16,Socal VSR
+6/3/2024,Very High,active,0,Low Rating,2,Medium Rating,0,Medium Rating,0.42,low,7,0,1,83,8,0,1,Socal VSR
+6/4/2024,Very High,active,0,Low Rating,9,Medium Rating,2,Medium Rating,0.48,low,6,0,6,78,8,0,8,Socal VSR
+6/5/2024,Very High,active,0,Low Rating,7,Medium Rating,3,High Rating,0.55,low,15,0,8,74,20,0,11,Socal VSR
+6/6/2024,Very High,active,0,Low Rating,0,Medium Rating,1,High Rating,0.44,low,17,0,2,74,23,0,3,Socal VSR
+6/7/2024,Very High,active,11,Low Rating,0,Medium Rating,0,Medium Rating,0.43,low,6,0,2,77,8,0,3,Socal VSR
+6/8/2024,Very High,active,0,Low Rating,2,Medium Rating,7,High Rating,0.43,low,23,0,3,80,29,0,4,Socal VSR
+6/9/2024,Very High,active,0,Low Rating,2,Medium Rating,2,Medium Rating,0.49,low,3,0,1,76,4,0,1,Socal VSR
+6/10/2024,Very High,active,0,Low Rating,0,Medium Rating,0,Medium Rating,0.55,low,2,0,2,77,3,0,3,Socal VSR
+6/11/2024,Very High,active,0,Low Rating,4,Medium Rating,14,Medium Rating,0.59,low,2,0,8,74,3,0,11,Socal VSR
+6/12/2024,Very High,active,17,Low Rating,26,High Rating,41,Medium Rating,0.59,low,3,0,14,52,6,0,27,Socal VSR
+6/13/2024,Very High,active,4,Medium Rating,0,Low Rating,18,High Rating,0.66,low,11,4,0,63,17,6,0,Socal VSR
+6/14/2024,Very High,active,0,Low Rating,0,Low Rating,9,Low Rating,0.62,low,0,0,0,46,0,0,0,Socal VSR
+6/15/2024,Very High,active,0,Low Rating,0,Low Rating,0,Low Rating,0.6,low,0,0,0,83,0,0,0,Socal VSR
+6/16/2024,Very High,active,0,Low Rating,0,Low Rating,0,Low Rating,0.64,low,0,0,0,57,0,0,0,Socal VSR
+6/17/2024,Very High,active,0,Low Rating,4,Low Rating,0,Low Rating,0.63,low,0,0,0,20,0,0,0,Socal VSR
+6/18/2024,High,active,0,Low Rating,2,Low Rating,5,Low Rating,0.63,low,0,0,0,23,0,0,0,Socal VSR
+6/19/2024,High,active,0,offline,2,offline,8,offline,0.65,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+6/20/2024,High,active,0,offline,0,offline,4,offline,0.66,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+6/21/2024,High,active,0,offline,3,offline,36,offline,0.62,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+6/22/2024,High,active,1,offline,0,offline,5,offline,0.66,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+6/23/2024,High,active,0,offline,2,offline,9,offline,0.72,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+6/24/2024,High,active,0,offline,6,offline,4,offline,0.74,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+6/25/2024,High,active,16,offline,6,offline,11,offline,0.72,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+6/26/2024,Very High,active,1,offline,1,offline,13,offline,0.75,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+6/27/2024,Very High,active,0,offline,2,offline,22,offline,0.75,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+6/28/2024,Very High,active,0,offline,0,offline,30,offline,0.75,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+6/29/2024,Very High,active,2,offline,1,offline,14,offline,0.72,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+6/30/2024,Very High,active,1,offline,1,offline,8,offline,0.74,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+7/1/2024,Very High,active,0,offline,2,offline,9,offline,0.76,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+7/2/2024,Very High,active,1,offline,4,offline,20,offline,0.76,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+7/3/2024,Very High,active,0,offline,0,offline,7,offline,0.75,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+7/4/2024,High,active,0,offline,3,offline,0,offline,0.77,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+7/5/2024,High,active,0,offline,3,offline,1,offline,0.8,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+7/6/2024,High,active,0,offline,2,offline,6,offline,0.82,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+7/7/2024,High,active,0,offline,16,offline,1,offline,0.82,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+7/8/2024,Very High,active,1,offline,4,offline,0,offline,0.78,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+7/9/2024,Very High,active,2,offline,8,offline,0,offline,0.77,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+7/10/2024,Very High,active,0,offline,36,offline,0,offline,0.74,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+7/11/2024,Very High,active,0,offline,15,offline,0,offline,0.75,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+7/12/2024,Very High,active,0,offline,47,offline,0,offline,0.74,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+7/13/2024,Very High,active,0,offline,10,offline,0,offline,0.74,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+7/14/2024,High,active,0,offline,6,offline,0,offline,0.75,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+7/15/2024,High,active,2,offline,7,offline,7,offline,0.75,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+7/16/2024,Very High,active,0,offline,1,offline,0,offline,0.76,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+7/17/2024,Very High,active,0,offline,3,offline,2,offline,0.78,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+7/18/2024,Very High,active,0,offline,26,offline,0,offline,0.78,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+7/19/2024,Very High,active,0,offline,17,offline,0,offline,0.76,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+7/20/2024,Very High,active,0,offline,3,offline,0,offline,0.78,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+7/21/2024,Very High,active,0,offline,1,offline,0,offline,0.78,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+7/22/2024,High,active,0,offline,5,offline,0,offline,0.78,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+7/23/2024,High,active,0,offline,6,offline,0,offline,0.77,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+7/24/2024,Medium,active,0,offline,2,offline,18,offline,0.78,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+7/25/2024,High,active,0,offline,7,offline,0,offline,0.8,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+7/26/2024,Very High,active,0,offline,12,offline,0,offline,0.81,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+7/27/2024,Very High,active,0,offline,11,offline,0,offline,0.8,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+7/28/2024,Very High,active,0,offline,8,offline,0,offline,0.79,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+7/29/2024,High,active,0,offline,1,offline,0,offline,0.76,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+7/30/2024,High,active,1,offline,3,offline,0,offline,0.77,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+7/31/2024,High,active,0,offline,1,offline,0,offline,0.74,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+8/1/2024,High,active,0,offline,5,offline,0,offline,0.73,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+8/2/2024,Medium,active,0,offline,4,offline,2,offline,0.74,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+8/3/2024,High,active,0,offline,0,offline,0,offline,0.76,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+8/4/2024,High,active,0,offline,1,offline,0,offline,0.76,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+8/5/2024,High,active,0,offline,0,offline,0,offline,0.73,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+8/6/2024,High,active,0,offline,4,offline,18,offline,0.71,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+8/7/2024,High,active,0,offline,0,offline,48,offline,0.73,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+8/8/2024,High,active,0,offline,0,offline,2,offline,0.75,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+8/9/2024,High,active,0,offline,0,offline,2,offline,0.75,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+8/10/2024,High,active,0,offline,0,offline,5,offline,0.76,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+8/11/2024,High,active,0,offline,0,offline,0,offline,0.77,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+8/12/2024,High,active,0,offline,0,offline,9,offline,0.77,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+8/13/2024,High,active,0,offline,1,offline,0,offline,0.78,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+8/14/2024,High,active,0,offline,4,offline,0,offline,0.77,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+8/15/2024,High,active,0,offline,3,offline,0,offline,0.76,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+8/16/2024,High,active,0,Low Rating,0,Low Rating,0,Low Rating,0.76,medium,0,0,0,1,0,0,0,Socal VSR
+8/17/2024,Medium,active,0,Low Rating,5,Low Rating,0,Low Rating,0.76,medium,0,0,0,34,0,0,0,Socal VSR
+8/18/2024,Medium,active,0,Low Rating,1,Low Rating,0,Low Rating,0.74,low,0,0,0,33,0,0,0,Socal VSR
+8/19/2024,Medium,active,0,Low Rating,4,Low Rating,1,Low Rating,0.74,low,0,0,0,37,0,0,0,Socal VSR
+8/20/2024,Medium,active,0,Low Rating,0,Low Rating,0,Low Rating,0.76,medium,0,0,0,41,0,0,0,Socal VSR
+8/21/2024,Medium,active,0,Low Rating,0,Low Rating,0,Low Rating,0.77,medium,0,0,0,57,0,0,0,Socal VSR
+8/22/2024,Medium,active,0,Low Rating,5,Low Rating,0,Low Rating,0.75,medium,0,0,0,23,0,0,0,Socal VSR
+8/23/2024,Medium,active,0,offline,3,offline,0,offline,0.73,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+8/24/2024,Medium,active,0,Low Rating,0,Low Rating,0,Low Rating,0.76,medium,0,0,0,22,0,0,0,Socal VSR
+8/25/2024,Medium,active,0,Low Rating,0,Low Rating,0,Low Rating,0.78,medium,0,0,0,2,0,0,0,Socal VSR
+8/26/2024,Medium,active,0,Low Rating,2,Low Rating,0,Low Rating,0.79,medium,0,0,0,22,0,0,0,Socal VSR
+8/27/2024,Medium,active,0,Low Rating,0,Low Rating,0,Low Rating,0.77,medium,0,0,0,32,0,0,0,Socal VSR
+8/28/2024,Medium,active,0,Low Rating,0,Low Rating,0,Low Rating,0.79,medium,0,0,0,34,0,0,0,Socal VSR
+8/29/2024,Medium,active,0,Low Rating,0,Low Rating,0,Low Rating,0.8,medium,0,0,0,44,0,0,0,Socal VSR
+8/30/2024,Medium,active,0,Low Rating,0,Low Rating,0,Low Rating,0.81,medium,0,0,0,27,0,0,0,Socal VSR
+8/31/2024,Low,active,0,Low Rating,0,Low Rating,0,Low Rating,0.79,medium,0,0,0,19,0,0,0,Socal VSR
+9/1/2024,Low,active,0,Low Rating,0,Low Rating,0,Low Rating,0.74,low,0,0,0,34,0,0,0,Socal VSR
+9/2/2024,Low,active,0,Low Rating,0,Low Rating,0,Low Rating,0.76,medium,0,0,0,18,0,0,0,Socal VSR
+9/3/2024,Low,active,0,Low Rating,3,Low Rating,0,Low Rating,0.79,medium,0,0,0,40,0,0,0,Socal VSR
+9/4/2024,Medium,active,0,Low Rating,0,Low Rating,0,Low Rating,0.82,medium,0,0,0,45,0,0,0,Socal VSR
+9/5/2024,Medium,active,0,Low Rating,4,Low Rating,0,Low Rating,0.8,medium,0,0,0,14,0,0,0,Socal VSR
+9/6/2024,Medium,active,0,Low Rating,9,Low Rating,0,Low Rating,NA,offline,0,0,0,27,0,0,0,Socal VSR
+9/7/2024,High,active,0,Low Rating,5,Low Rating,0,Low Rating,NA,offline,0,0,0,45,0,0,0,Socal VSR
+9/8/2024,High,active,0,Low Rating,3,Low Rating,0,Low Rating,NA,offline,0,0,0,14,0,0,0,Socal VSR
+9/9/2024,High,active,0,Low Rating,0,Low Rating,0,Low Rating,NA,offline,0,0,0,64,0,0,0,Socal VSR
+9/10/2024,High,active,0,Low Rating,0,Low Rating,0,Low Rating,NA,offline,0,0,0,69,0,0,0,Socal VSR
+9/11/2024,Medium,active,0,offline,0,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+9/12/2024,Medium,active,0,offline,8,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+9/13/2024,Medium,active,0,offline,9,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+9/14/2024,High,active,0,offline,0,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+9/15/2024,High,active,0,offline,3,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+9/16/2024,High,active,0,offline,0,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+9/17/2024,High,active,0,offline,0,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+9/18/2024,Medium,active,0,offline,10,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+9/19/2024,High,active,0,offline,0,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+9/20/2024,High,active,0,offline,24,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+9/21/2024,High,active,0,offline,9,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+9/22/2024,High,active,0,offline,0,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+9/23/2024,High,active,0,offline,0,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+9/24/2024,High,active,0,offline,0,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+9/25/2024,High,active,0,offline,0,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+9/26/2024,Low,active,0,offline,6,offline,0,offline,0.76,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+9/27/2024,Medium,active,0,offline,0,offline,0,offline,0.78,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+9/28/2024,Medium,active,0,offline,4,offline,0,offline,0.77,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+9/29/2024,Medium,active,0,offline,12,offline,0,offline,0.78,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+9/30/2024,High,active,0,offline,0,offline,0,offline,0.76,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+10/1/2024,High,active,0,offline,0,offline,0,offline,0.77,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+10/2/2024,High,active,0,offline,4,offline,0,offline,0.77,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+10/3/2024,High,active,0,offline,0,offline,0,offline,0.77,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+10/4/2024,Medium,active,0,offline,12,offline,0,offline,0.72,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+10/5/2024,High,active,0,offline,6,offline,0,offline,0.74,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+10/6/2024,High,active,0,offline,4,offline,0,offline,0.79,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+10/7/2024,High,active,0,offline,0,offline,0,offline,0.81,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+10/8/2024,High,active,0,offline,0,offline,0,offline,0.76,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+10/9/2024,Medium,active,0,offline,2,offline,0,offline,0.77,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+10/10/2024,Medium,active,0,offline,1,offline,0,offline,0.79,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+10/11/2024,Medium,active,0,offline,13,offline,0,offline,0.8,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+10/12/2024,High,active,0,offline,22,offline,0,offline,0.78,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+10/13/2024,High,active,0,offline,9,offline,0,offline,0.8,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+10/14/2024,High,active,0,offline,0,offline,0,offline,0.81,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+10/15/2024,High,active,0,offline,3,offline,0,offline,0.8,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+10/16/2024,High,active,0,offline,1,offline,0,offline,0.77,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+10/17/2024,Very High,active,0,offline,3,offline,0,offline,0.77,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+10/18/2024,High,active,0,offline,0,offline,0,offline,0.77,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+10/19/2024,High,active,0,offline,16,offline,0,offline,0.78,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+10/20/2024,Very High,active,0,offline,8,offline,0,offline,0.76,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+10/21/2024,Very High,active,0,offline,6,offline,0,offline,0.75,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+10/22/2024,Very High,active,0,offline,0,offline,0,offline,0.77,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+10/23/2024,High,active,0,offline,8,offline,0,offline,0.77,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+10/24/2024,High,active,0,offline,1,offline,0,offline,0.76,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+10/25/2024,High,active,0,offline,2,offline,0,offline,0.78,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+10/26/2024,High,active,0,offline,13,offline,0,offline,0.78,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+10/27/2024,High,active,0,offline,10,offline,0,offline,0.78,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+10/28/2024,High,active,0,offline,0,offline,0,offline,0.79,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+10/29/2024,High,active,0,offline,0,offline,0,offline,0.78,medium,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+10/30/2024,High,active,0,offline,23,offline,0,offline,0.74,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+10/31/2024,High,active,0,offline,0,offline,0,offline,0.73,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+11/1/2024,High,active,0,offline,0,offline,0,offline,0.74,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+11/2/2024,High,active,0,offline,2,offline,0,offline,0.72,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+11/3/2024,High,active,0,offline,0,offline,0,offline,0.66,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+11/4/2024,Medium,active,0,offline,0,offline,0,offline,0.62,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+11/5/2024,Medium,active,0,offline,0,offline,0,offline,0.6,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+11/6/2024,Medium,active,0,offline,3,offline,0,offline,0.61,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+11/7/2024,Medium,active,0,offline,21,offline,0,offline,0.6,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+11/8/2024,High,active,0,offline,12,offline,0,offline,0.58,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+11/9/2024,High,active,0,offline,13,offline,5,offline,0.6,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+11/10/2024,Very High,active,0,offline,7,offline,0,offline,0.56,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+11/11/2024,Very High,active,0,offline,9,offline,0,offline,0.57,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+11/12/2024,Very High,active,0,offline,0,offline,0,offline,0.57,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+11/13/2024,Very High,active,0,offline,3,offline,0,offline,0.51,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+11/14/2024,High,active,0,offline,0,offline,0,offline,0.51,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+11/15/2024,High,active,0,offline,0,offline,0,offline,0.52,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+11/16/2024,Low,active,0,offline,20,offline,0,offline,0.43,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+11/17/2024,High,active,0,offline,0,offline,0,offline,0.28,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+11/18/2024,High,active,0,offline,0,offline,0,offline,0.27,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+11/19/2024,High,active,0,offline,0,offline,0,offline,0.26,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+11/20/2024,High,active,0,offline,0,offline,0,offline,0.26,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+11/21/2024,Low,active,0,offline,16,offline,0,offline,0.23,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+11/22/2024,High,active,0,offline,3,offline,0,offline,0.25,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+11/23/2024,High,active,0,offline,2,offline,0,offline,0.25,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+11/24/2024,High,active,0,offline,6,offline,0,offline,0.17,low,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+11/25/2024,High,active,0,offline,0,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+11/26/2024,Medium,active,0,offline,0,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+11/27/2024,Medium,active,0,offline,1,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+11/28/2024,Medium,active,0,offline,0,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+11/29/2024,Medium,active,0,offline,3,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+11/30/2024,Medium,active,0,offline,12,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+12/1/2024,High,active,0,offline,0,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+12/2/2024,High,active,0,offline,0,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+12/3/2024,High,active,0,offline,0,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+12/4/2024,High,active,0,offline,0,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+12/5/2024,Low,active,0,offline,0,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+12/6/2024,Low,active,0,offline,7,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+12/7/2024,High,active,0,offline,27,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+12/8/2024,High,active,0,offline,0,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+12/9/2024,High,active,0,offline,0,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+12/10/2024,High,active,0,offline,0,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+12/11/2024,High,active,0,offline,0,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+12/12/2024,Low,active,0,offline,0,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+12/13/2024,Low,active,0,offline,3,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+12/14/2024,Medium,active,0,offline,2,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+12/15/2024,Medium,active,0,offline,0,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+12/16/2024,Medium,active,0,offline,1,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+12/17/2024,Medium,active,0,offline,4,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+12/18/2024,Medium,active,0,offline,0,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+12/19/2024,Medium,active,0,offline,0,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+12/20/2024,Medium,active,0,offline,5,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+12/21/2024,Medium,active,0,offline,17,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+12/22/2024,High,active,0,offline,4,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+12/23/2024,High,active,0,offline,0,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+12/24/2024,High,active,0,offline,0,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+12/25/2024,High,active,0,offline,0,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+12/26/2024,Medium,active,0,offline,0,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+12/27/2024,Low,active,0,offline,0,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+12/28/2024,Low,active,0,offline,2,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+12/29/2024,Medium,active,0,offline,0,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+12/30/2024,Medium,active,0,offline,0,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+12/31/2024,Medium,active,0,offline,4,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+1/1/2025,Medium,active,0,offline,1,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+1/2/2025,Medium,active,0,offline,0,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+1/3/2025,Medium,active,0,offline,0,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+1/4/2025,Medium,active,0,offline,0,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+1/5/2025,Medium,active,0,offline,0,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+1/6/2025,Low,active,0,offline,0,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+1/7/2025,Low,active,0,offline,0,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+1/8/2025,Low,active,0,offline,0,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+1/9/2025,Low,active,0,offline,0,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+1/10/2025,Low,active,0,offline,0,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+1/11/2025,Low,active,0,offline,0,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+1/12/2025,Low,active,0,offline,0,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+1/13/2025,Low,active,0,offline,0,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+1/14/2025,Low,active,0,offline,0,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR
+1/15/2025,Low,active,0,offline,0,offline,0,offline,NA,offline,NA,NA,NA,NA,NA,NA,NA,Socal VSR

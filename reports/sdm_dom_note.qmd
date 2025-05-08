@@ -39,15 +39,20 @@ ms_theme <- function(){
 }
 
 # whale presence rating (wpr) data
-sf_wpr <- read.csv(here("data/wpr/sf_whale_data.csv"))
-socal_wpr <- read.csv(here("data/wpr/socal_whale_data.csv"))
+# sf_wpr <- read.csv(here("data/wpr/sf_whale_data.csv"))
+# socal_wpr <- read.csv(here("data/wpr/socal_whale_data.csv"))
+
+#new data with raw acoustics percentages
+sf_wpr <- read.csv(here("data/wpr/sf_whale_data_updated_acoustics.csv"))
+socal_wpr <- read.csv(here("data/wpr/socal_whale_data_updated_acoustics.csv"))
 
 wpr <- rbind(sf_wpr, socal_wpr)
 wpr <- wpr %>%
   mutate(date_pt = as.Date(date_pt, format = "%m/%d/%Y"), 
          year = year(date_pt), 
          mo = month(date_pt),
-         yr_mo = zoo::as.yearmon(date_pt))
+         yr_mo = zoo::as.yearmon(date_pt), 
+         id = paste0(date_pt, " ", zone))
 
 #vessel speed reduction (vsr) data
 mb_vsr <- read.csv(here("data/vsr/monterey_vsr.csv")) 
@@ -173,20 +178,20 @@ socal_ww_na <- as.data.frame(table(socal_zone$bwmv_rating)) %>%
 
 
 #HSI scores need to be on x-axis for gam to run
-wpr_join %>% 
+wpr %>% 
   distinct(id, .keep_all = TRUE) %>%
-  ggplot(aes(bwmv, bw_ac_score, color = zone)) + 
+  ggplot(aes(bwmv, blue_acoustic_percent, color = zone)) + 
   geom_point()+ 
   geom_smooth(method = "gam")+
   scale_color_manual(values = c("#1F2D3D", "#4682B4"))+
   facet_wrap(~zone)+
-  ylab("Acoustinc rating")+
+  ylab("Acoustic percent (%)")+
   xlab("Whale Watch HSI score") + 
   labs(color = "") +
   ms_theme()+
   theme(legend.position = "none")
 
-wpr_join %>% 
+wpr %>% 
   distinct(id, .keep_all = TRUE) %>%
   ggplot(aes(bwmv, s_bluecount, color = zone)) + 
   geom_point()+ 
@@ -209,14 +214,14 @@ wpr_join %>%
 #| warning: false
 #| label: blue whale data stream comparison corr test, pear acou
 
-sf_corr <- wpr_join %>% filter(zone == "SF VSR")
-socal_corr <- wpr_join %>% filter(zone == "Socal VSR")
+sf_corr <- wpr %>% filter(zone == "SF VSR")
+socal_corr <- wpr %>% filter(zone == "Socal VSR")
 
 #SF
-cor.test(sf_corr$bwmv, sf_corr$bw_ac_score)
+cor.test(sf_corr$bwmv, sf_corr$blue_acoustic_percent)
 
 #Socal
-cor.test(socal_corr$bwmv, socal_corr$bw_ac_score)
+cor.test(socal_corr$bwmv, socal_corr$blue_acoustic_percent)
 
 
 ```
@@ -228,11 +233,11 @@ cor.test(socal_corr$bwmv, socal_corr$bw_ac_score)
 #| label: blue whale data stream comparison corr test, spear acou
 
 #SF
-cor.test(sf_corr$bwmv, sf_corr$bw_ac_score, method = "spearman")
+cor.test(sf_corr$bwmv, sf_corr$blue_acoustic_percent, method = "spearman")
 
 
 #Socal
-cor.test(socal_corr$bwmv, socal_corr$bw_ac_score, method = "spearman")
+cor.test(socal_corr$bwmv, socal_corr$blue_acoustic_percent, method = "spearman")
 
 ```
 
@@ -243,10 +248,10 @@ cor.test(socal_corr$bwmv, socal_corr$bw_ac_score, method = "spearman")
 #| label: blue whale data stream comparison corr test, ken acou
 
 #SF
-cor.test(sf_corr$bwmv, sf_corr$bw_ac_score, method = "kendall")
+cor.test(sf_corr$bwmv, sf_corr$blue_acoustic_percent, method = "kendall")
 
 #Socal
-cor.test(socal_corr$bwmv, socal_corr$bw_ac_score, method = "kendall")
+cor.test(socal_corr$bwmv, socal_corr$blue_acoustic_percent, method = "kendall")
 
 ```
 
@@ -322,7 +327,7 @@ cor_suite_test <- function(col1, col2, df){
     corr_temp$Correlation <- paste0(col1, "~", col2)
     corr_temp$Method <- cor_methods[i]
     corr_temp$`Correlation metric` <- sf$estimate
-    
+
     corr_results <- rbind(corr_results, corr_temp)
   } #end for loop
   
@@ -334,7 +339,7 @@ cor_suite_test <- function(col1, col2, df){
     corr_temp$Correlation <- paste0(col1, "~", col2)
     corr_temp$Method <- cor_methods[i]
     corr_temp$`Correlation metric` <- socal$estimate
-    
+
     corr_results <- rbind(corr_results, corr_temp)
   } #end for loop
   
@@ -343,17 +348,17 @@ cor_suite_test <- function(col1, col2, df){
 } #end function
 
 #run function for both correlations
-acous_ww_corr <- cor_suite_test(col1 = "bw_ac_score", col2 = "bwmv", df = wpr_join)
-sight_ww_corr <- cor_suite_test(col1 = "s_bluecount", col2 = "bwmv", df = wpr_join)
+acous_ww_corr <- cor_suite_test(col1 = "blue_acoustic_percent", col2 = "bwmv", df = wpr)
+sight_ww_corr <- cor_suite_test(col1 = "s_bluecount", col2 = "bwmv", df = wpr)
 
 #print as tables
-kbl(acous_ww_corr[,2:4]) %>%
+kbl(acous_ww_corr[,2:5]) %>%
   kable_styling(bootstrap_options = c("striped", "hover")) %>%
   pack_rows("San Francisco", 1,3, label_row_css = "background-color: #134f5c ; color: #fff;") %>%
   pack_rows("Southern California", 4, 6, label_row_css = "background-color: #134f5c ; color: #fff;")
 
 
-kbl(sight_ww_corr[,2:4]) %>%
+kbl(sight_ww_corr[,2:5]) %>%
   kable_styling(bootstrap_options = c("striped", "hover")) %>%
   pack_rows("San Francisco", 1,3, label_row_css = "background-color: #134f5c ; color: #fff;") %>%
   pack_rows("Southern California", 4, 6, label_row_css = "background-color: #134f5c ; color: #fff;") 

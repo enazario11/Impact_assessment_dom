@@ -1,0 +1,849 @@
+date_pt,whale_presence_rating,vsr_season,s_fincount,fin_acoustic,s_humpbackcount,humpback_acoustic,s_bluecount,blue_acoustic,bwmv,bwmv_rating,blue_acoustic_count,fin_acoustic_count,humpback_acoustic_count,n_periods,blue_acoustic_percent,fin_acoustic_percent,humpback_acoustic_percent,zone
+9/21/2022,Very High,active,0,Low Rating,42,High Rating,0,High Rating,0.68,low,11,0,24,24,46,0,100,SF VSR
+9/22/2022,Very High,active,0,Low Rating,15,High Rating,0,High Rating,0.75,medium,8,0,24,24,33,0,100,SF VSR
+9/23/2022,Very High,active,0,Low Rating,2,High Rating,0,High Rating,0.78,medium,12,0,24,24,50,0,100,SF VSR
+9/24/2022,Very High,active,0,Low Rating,17,High Rating,0,High Rating,0.83,medium,7,0,24,24,29,0,100,SF VSR
+9/25/2022,Very High,active,0,Low Rating,97,High Rating,0,High Rating,0.77,medium,12,0,24,24,50,0,100,SF VSR
+9/26/2022,Very High,active,0,Low Rating,9,High Rating,0,High Rating,0.7,medium,3,0,24,24,12,0,100,SF VSR
+9/27/2022,Very High,active,0,Low Rating,60,High Rating,0,Medium Rating,0.72,medium,1,0,24,24,4,0,100,SF VSR
+9/28/2022,Very High,active,0,Low Rating,0,High Rating,0,Medium Rating,0.78,medium,2,0,23,23,9,0,100,SF VSR
+9/29/2022,Very High,active,0,Low Rating,2,High Rating,0,High Rating,0.83,medium,3,0,24,24,12,0,100,SF VSR
+9/30/2022,Very High,active,0,Low Rating,0,High Rating,0,High Rating,0.85,medium,7,0,24,24,29,0,100,SF VSR
+10/1/2022,Very High,active,0,Low Rating,19,High Rating,0,Medium Rating,0.83,medium,2,0,24,24,8,0,100,SF VSR
+10/2/2022,Very High,active,0,Low Rating,19,High Rating,0,High Rating,0.77,medium,9,0,24,25,36,0,96,SF VSR
+10/3/2022,Very High,active,0,Low Rating,4,High Rating,0,High Rating,0.71,medium,4,0,24,24,17,0,100,SF VSR
+10/4/2022,Very High,active,0,Low Rating,0,High Rating,0,High Rating,0.78,medium,10,0,24,25,40,0,96,SF VSR
+10/5/2022,Very High,active,0,Low Rating,0,High Rating,0,High Rating,0.85,medium,7,0,24,24,29,0,100,SF VSR
+10/6/2022,Very High,active,0,Low Rating,4,High Rating,0,High Rating,0.86,medium,4,0,24,24,17,0,100,SF VSR
+10/7/2022,Very High,active,0,Low Rating,2,High Rating,0,High Rating,0.81,medium,10,0,24,24,42,0,100,SF VSR
+10/8/2022,Very High,active,0,Low Rating,0,High Rating,0,High Rating,0.78,medium,9,0,24,24,38,0,100,SF VSR
+10/9/2022,Very High,active,0,Low Rating,0,High Rating,1,High Rating,0.78,medium,16,0,23,23,70,0,100,SF VSR
+10/10/2022,Very High,active,0,Low Rating,0,High Rating,0,High Rating,0.78,medium,9,0,23,23,39,0,100,SF VSR
+10/11/2022,Very High,active,0,Low Rating,1,High Rating,0,High Rating,0.77,medium,4,0,24,24,17,0,100,SF VSR
+10/12/2022,Very High,active,0,Low Rating,0,High Rating,0,High Rating,0.75,medium,14,0,24,24,58,0,100,SF VSR
+10/13/2022,Very High,active,0,Low Rating,0,High Rating,0,High Rating,0.76,medium,16,0,24,24,67,0,100,SF VSR
+10/14/2022,Very High,active,0,Low Rating,11,High Rating,0,High Rating,0.76,medium,12,0,22,23,52,0,96,SF VSR
+10/15/2022,Very High,active,1,Low Rating,5,High Rating,0,High Rating,0.72,medium,5,0,24,25,20,0,96,SF VSR
+10/16/2022,Very High,active,0,Low Rating,73,High Rating,5,High Rating,0.7,medium,8,0,20,20,40,0,100,SF VSR
+10/17/2022,Very High,active,0,Low Rating,18,High Rating,0,Medium Rating,0.6,low,1,0,24,24,4,0,100,SF VSR
+10/18/2022,Very High,active,0,Low Rating,27,High Rating,0,Medium Rating,0.64,low,1,0,24,24,4,0,100,SF VSR
+10/19/2022,Very High,active,0,Low Rating,0,High Rating,0,High Rating,0.63,low,14,0,25,25,56,0,100,SF VSR
+10/20/2022,Very High,active,0,Low Rating,0,High Rating,0,High Rating,NA,offline,4,0,24,24,17,0,100,SF VSR
+10/21/2022,Very High,active,0,Low Rating,3,High Rating,0,High Rating,0.73,medium,4,0,24,25,16,0,96,SF VSR
+10/22/2022,Very High,active,0,Low Rating,0,High Rating,0,Medium Rating,0.74,medium,2,0,29,31,6,0,94,SF VSR
+10/23/2022,Very High,active,0,Low Rating,0,High Rating,0,High Rating,0.79,medium,4,0,27,28,14,0,96,SF VSR
+10/24/2022,Very High,active,0,Low Rating,3,High Rating,0,High Rating,0.8,medium,7,0,23,24,29,0,96,SF VSR
+10/25/2022,Very High,active,0,Low Rating,1,High Rating,0,Medium Rating,0.73,medium,1,0,23,27,4,0,85,SF VSR
+10/26/2022,Very High,active,0,Low Rating,0,High Rating,0,High Rating,0.78,medium,10,0,22,22,45,0,100,SF VSR
+10/27/2022,Very High,active,0,Low Rating,1,High Rating,0,High Rating,0.76,medium,10,0,29,34,29,0,85,SF VSR
+10/28/2022,Very High,active,0,Low Rating,0,High Rating,0,High Rating,0.59,low,23,0,23,24,96,0,96,SF VSR
+10/29/2022,Very High,active,0,Low Rating,3,High Rating,10,High Rating,0.6,low,12,0,22,25,48,0,88,SF VSR
+10/30/2022,Very High,active,0,Low Rating,0,High Rating,2,High Rating,0.63,low,6,0,24,24,25,0,100,SF VSR
+10/31/2022,Very High,active,0,Low Rating,0,High Rating,0,High Rating,0.62,low,8,0,25,25,32,0,100,SF VSR
+11/1/2022,Very High,active,0,Low Rating,0,High Rating,0,High Rating,0.59,low,8,0,18,18,44,0,100,SF VSR
+11/2/2022,Very High,active,0,Low Rating,0,High Rating,0,High Rating,0.54,low,5,0,24,24,21,0,100,SF VSR
+11/3/2022,Very High,active,0,Low Rating,22,High Rating,0,High Rating,0.56,low,5,0,24,25,20,0,96,SF VSR
+11/4/2022,Very High,active,0,Low Rating,1,High Rating,0,Medium Rating,0.42,low,2,0,24,24,8,0,100,SF VSR
+11/5/2022,Very High,active,0,Low Rating,1,High Rating,0,Medium Rating,0.44,low,2,0,24,24,8,0,100,SF VSR
+11/6/2022,Very High,active,0,Low Rating,17,High Rating,0,High Rating,0.44,low,11,0,25,25,44,0,100,SF VSR
+11/7/2022,Very High,active,0,Low Rating,0,High Rating,0,High Rating,0.42,low,10,0,24,24,42,0,100,SF VSR
+11/8/2022,Very High,active,0,Low Rating,5,High Rating,0,High Rating,0.41,low,12,0,21,22,55,0,95,SF VSR
+11/9/2022,Very High,active,0,Low Rating,18,High Rating,0,High Rating,0.41,low,18,0,24,24,75,0,100,SF VSR
+11/10/2022,Very High,active,0,Low Rating,17,High Rating,0,High Rating,0.44,low,18,0,24,24,75,0,100,SF VSR
+11/11/2022,Very High,active,0,Medium Rating,19,High Rating,0,High Rating,0.33,low,10,1,24,24,42,4,100,SF VSR
+11/12/2022,Very High,active,0,Low Rating,2,High Rating,0,High Rating,0.31,low,11,0,25,25,44,0,100,SF VSR
+11/13/2022,Very High,active,0,Low Rating,52,High Rating,0,High Rating,0.3,low,20,0,24,24,83,0,100,SF VSR
+11/14/2022,Very High,active,0,Low Rating,52,High Rating,0,High Rating,0.32,low,17,0,25,25,68,0,100,SF VSR
+11/15/2022,Very High,active,0,Low Rating,14,High Rating,0,High Rating,0.32,low,14,0,24,24,58,0,100,SF VSR
+11/16/2022,Very High,active,0,Low Rating,0,High Rating,0,High Rating,0.32,low,6,0,24,24,25,0,100,SF VSR
+11/17/2022,Very High,active,0,Low Rating,11,High Rating,0,High Rating,0.33,low,7,0,25,25,28,0,100,SF VSR
+11/18/2022,Very High,active,0,Low Rating,0,High Rating,0,Low Rating,0.21,low,0,0,24,24,0,0,100,SF VSR
+11/19/2022,Very High,active,0,Low Rating,0,High Rating,0,High Rating,0.2,low,4,0,20,20,20,0,100,SF VSR
+11/20/2022,Very High,active,0,Low Rating,12,High Rating,1,High Rating,0.2,low,4,0,25,26,15,0,96,SF VSR
+11/21/2022,Very High,active,0,Low Rating,7,High Rating,0,High Rating,0.2,low,21,0,26,26,81,0,100,SF VSR
+11/22/2022,Very High,active,0,Low Rating,9,High Rating,0,High Rating,0.2,low,15,0,24,30,50,0,80,SF VSR
+11/23/2022,Very High,active,0,Low Rating,0,High Rating,0,High Rating,0.2,low,11,0,29,35,31,0,83,SF VSR
+11/24/2022,Very High,active,0,Low Rating,0,High Rating,0,High Rating,0.16,low,7,0,23,24,29,0,96,SF VSR
+11/25/2022,Very High,active,0,Low Rating,7,High Rating,0,High Rating,0.05,low,9,0,23,24,38,0,96,SF VSR
+11/26/2022,Very High,active,0,Low Rating,8,High Rating,0,High Rating,0.03,low,19,0,22,22,86,0,100,SF VSR
+11/27/2022,Very High,active,0,Low Rating,0,High Rating,0,High Rating,NA,offline,5,0,24,24,21,0,100,SF VSR
+11/28/2022,Very High,active,0,Low Rating,0,High Rating,0,High Rating,0.03,low,7,0,27,29,24,0,93,SF VSR
+11/29/2022,Very High,active,0,Medium Rating,4,High Rating,0,High Rating,0.02,low,7,1,25,28,25,4,89,SF VSR
+11/30/2022,Very High,active,0,Low Rating,12,High Rating,0,Low Rating,0.02,low,0,0,25,31,0,0,81,SF VSR
+12/1/2022,Very High,active,0,Low Rating,0,High Rating,0,Low Rating,0.05,low,0,0,22,22,0,0,100,SF VSR
+12/2/2022,Very High,active,0,Low Rating,0,High Rating,0,Low Rating,0.03,low,0,0,25,38,0,0,66,SF VSR
+12/3/2022,Very High,active,0,Medium Rating,0,High Rating,0,Low Rating,0.02,low,0,1,23,35,0,3,66,SF VSR
+12/4/2022,Very High,active,0,Low Rating,3,High Rating,0,Low Rating,0.03,low,0,0,19,25,0,0,76,SF VSR
+12/5/2022,High,active,0,Low Rating,0,High Rating,0,High Rating,0.05,low,5,0,26,32,16,0,81,SF VSR
+12/6/2022,High,active,0,Low Rating,1,High Rating,0,Medium Rating,0.02,low,2,0,27,31,6,0,87,SF VSR
+12/7/2022,Very High,active,0,Low Rating,28,High Rating,0,High Rating,0.02,low,4,0,25,41,10,0,61,SF VSR
+12/8/2022,Very High,active,0,Low Rating,0,High Rating,0,Low Rating,0.02,low,0,0,27,32,0,0,84,SF VSR
+12/9/2022,Very High,active,0,Low Rating,4,High Rating,0,Low Rating,0.02,low,0,0,23,44,0,0,52,SF VSR
+12/10/2022,Very High,active,0,Low Rating,0,High Rating,0,Low Rating,0.02,low,0,0,13,62,0,0,21,SF VSR
+12/11/2022,Very High,active,0,Low Rating,0,High Rating,0,Medium Rating,0.02,low,2,0,18,47,4,0,38,SF VSR
+12/12/2022,Very High,active,0,Low Rating,0,High Rating,0,High Rating,0.02,low,4,0,17,41,10,0,41,SF VSR
+12/13/2022,High,active,0,Low Rating,7,High Rating,0,Medium Rating,0.02,low,1,0,25,32,3,0,78,SF VSR
+12/14/2022,Very High,active,0,Low Rating,0,High Rating,0,Medium Rating,0.04,low,2,0,17,49,4,0,35,SF VSR
+12/15/2022,High,active,0,Low Rating,1,High Rating,0,Medium Rating,0.03,low,3,0,23,51,6,0,45,SF VSR
+12/16/2022,High,inactive,0,Low Rating,0,High Rating,0,Low Rating,0.03,low,0,0,31,37,0,0,84,SF VSR
+12/17/2022,Very High,inactive,0,Low Rating,0,High Rating,0,High Rating,0.03,low,19,0,13,40,48,0,32,SF VSR
+12/18/2022,High,inactive,0,Low Rating,0,High Rating,0,Medium Rating,0.02,low,1,0,26,48,2,0,54,SF VSR
+12/19/2022,Very High,inactive,0,Medium Rating,0,High Rating,0,Low Rating,0.02,low,0,1,24,49,0,2,49,SF VSR
+12/20/2022,Very High,inactive,0,Low Rating,0,High Rating,0,Low Rating,0.02,low,0,0,22,63,0,0,35,SF VSR
+12/21/2022,Very High,inactive,0,Low Rating,0,High Rating,0,Medium Rating,0.02,low,1,0,20,53,2,0,38,SF VSR
+12/22/2022,Very High,inactive,0,Low Rating,0,High Rating,0,High Rating,0.02,low,9,0,24,56,16,0,43,SF VSR
+12/23/2022,High,inactive,0,Medium Rating,0,High Rating,0,High Rating,0.03,low,15,1,22,34,44,3,65,SF VSR
+12/24/2022,Very High,inactive,0,Medium Rating,0,High Rating,0,High Rating,0.02,low,11,1,21,39,28,3,54,SF VSR
+12/25/2022,Very High,inactive,0,Low Rating,0,High Rating,0,High Rating,0.05,low,13,0,25,27,48,0,93,SF VSR
+12/26/2022,Very High,inactive,0,Low Rating,0,High Rating,0,High Rating,0.03,low,9,0,24,26,35,0,92,SF VSR
+12/27/2022,Very High,inactive,0,Low Rating,0,High Rating,0,High Rating,0.03,low,5,0,23,25,20,0,92,SF VSR
+12/28/2022,Very High,inactive,0,Low Rating,0,High Rating,0,Medium Rating,0.03,low,1,0,22,24,4,0,92,SF VSR
+12/29/2022,Very High,inactive,0,Low Rating,0,High Rating,0,High Rating,0.02,low,4,0,24,24,17,0,100,SF VSR
+12/30/2022,Very High,inactive,0,Low Rating,0,High Rating,0,Low Rating,0.03,low,0,0,25,25,0,0,100,SF VSR
+12/31/2022,Very High,inactive,0,Low Rating,0,High Rating,0,Medium Rating,0.02,low,1,0,22,34,3,0,65,SF VSR
+1/1/2023,Very High,inactive,0,Low Rating,0,High Rating,0,Low Rating,0.02,low,0,0,30,41,0,0,73,SF VSR
+1/2/2023,Very High,inactive,0,Low Rating,0,High Rating,0,Low Rating,0.02,low,0,0,31,38,0,0,82,SF VSR
+1/3/2023,High,inactive,0,Medium Rating,0,High Rating,0,Low Rating,0.02,low,0,2,13,35,0,6,37,SF VSR
+1/4/2023,High,inactive,0,Low Rating,0,High Rating,0,Low Rating,NA,offline,0,0,18,54,0,0,33,SF VSR
+1/5/2023,High,inactive,0,Medium Rating,0,Medium Rating,0,Low Rating,0.02,low,0,1,1,31,0,3,3,SF VSR
+1/6/2023,High,inactive,0,Low Rating,0,Medium Rating,0,Medium Rating,0.04,low,1,0,3,50,2,0,6,SF VSR
+1/7/2023,High,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.03,low,0,0,0,66,0,0,0,SF VSR
+1/8/2023,High,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.02,low,0,0,0,52,0,0,0,SF VSR
+1/9/2023,High,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.02,low,0,0,0,62,0,0,0,SF VSR
+1/10/2023,Medium,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.03,low,0,0,0,58,0,0,0,SF VSR
+1/11/2023,Medium,inactive,0,Medium Rating,0,Medium Rating,0,Low Rating,0.02,low,0,1,7,56,0,2,12,SF VSR
+1/12/2023,High,inactive,0,Medium Rating,0,Low Rating,0,Low Rating,0.02,low,0,3,0,53,0,6,0,SF VSR
+1/13/2023,High,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.02,low,0,0,0,36,0,0,0,SF VSR
+1/14/2023,High,inactive,0,Medium Rating,0,Medium Rating,0,Low Rating,0.02,low,0,2,6,49,0,4,12,SF VSR
+1/15/2023,High,inactive,0,Low Rating,0,Medium Rating,0,Low Rating,0.07,low,0,0,6,46,0,0,13,SF VSR
+1/16/2023,High,inactive,0,Low Rating,0,Medium Rating,0,Low Rating,0.03,low,0,0,4,53,0,0,8,SF VSR
+1/17/2023,Very High,inactive,0,Medium Rating,0,Low Rating,0,Low Rating,0.04,low,0,2,0,55,0,4,0,SF VSR
+1/18/2023,High,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.06,low,0,0,0,47,0,0,0,SF VSR
+1/19/2023,Very High,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.03,low,0,0,0,60,0,0,0,SF VSR
+1/20/2023,Medium,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.03,low,0,0,0,74,0,0,0,SF VSR
+1/21/2023,Medium,inactive,0,Medium Rating,0,Low Rating,0,Low Rating,0.04,low,0,1,0,60,0,2,0,SF VSR
+1/22/2023,High,inactive,0,Low Rating,0,Medium Rating,0,Low Rating,0.03,low,0,0,9,72,0,0,12,SF VSR
+1/23/2023,High,inactive,0,Medium Rating,0,Medium Rating,0,Low Rating,0.02,low,0,3,5,51,0,6,10,SF VSR
+1/24/2023,Medium,inactive,0,Low Rating,0,High Rating,0,Low Rating,0.02,low,0,0,19,52,0,0,37,SF VSR
+1/25/2023,High,inactive,0,Low Rating,0,Medium Rating,0,Low Rating,0.02,low,0,0,5,57,0,0,9,SF VSR
+1/26/2023,High,inactive,0,Low Rating,0,High Rating,0,Low Rating,0.03,low,0,0,19,47,0,0,40,SF VSR
+1/27/2023,High,inactive,0,Low Rating,0,High Rating,0,Low Rating,0.03,low,0,0,26,45,0,0,58,SF VSR
+1/28/2023,High,inactive,0,Low Rating,0,High Rating,0,Low Rating,0.03,low,0,0,13,60,0,0,22,SF VSR
+1/29/2023,High,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.02,low,0,0,0,68,0,0,0,SF VSR
+1/30/2023,High,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.02,low,0,0,0,71,0,0,0,SF VSR
+1/31/2023,High,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.02,low,0,0,0,60,0,0,0,SF VSR
+2/1/2023,High,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.01,low,0,0,0,72,0,0,0,SF VSR
+2/2/2023,Medium,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.02,low,0,0,0,63,0,0,0,SF VSR
+2/3/2023,Low,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.05,low,0,0,0,60,0,0,0,SF VSR
+2/4/2023,Low,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.02,low,0,0,0,63,0,0,0,SF VSR
+2/5/2023,Low,inactive,0,Low Rating,0,Medium Rating,0,Low Rating,0.02,low,0,0,1,54,0,0,2,SF VSR
+2/6/2023,Low,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.02,low,0,0,0,53,0,0,0,SF VSR
+2/7/2023,Medium,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.01,low,0,0,0,72,0,0,0,SF VSR
+2/8/2023,Medium,inactive,0,Low Rating,0,Medium Rating,0,Low Rating,0.01,low,0,0,5,60,0,0,8,SF VSR
+2/9/2023,Medium,inactive,0,Low Rating,0,Medium Rating,0,Low Rating,0.02,low,0,0,5,57,0,0,9,SF VSR
+2/10/2023,High,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.01,low,0,0,0,72,0,0,0,SF VSR
+2/11/2023,High,inactive,0,Low Rating,0,Low Rating,0,Low Rating,NA,offline,0,0,0,65,0,0,0,SF VSR
+2/12/2023,High,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.02,low,0,0,0,56,0,0,0,SF VSR
+2/13/2023,High,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.02,low,0,0,0,82,0,0,0,SF VSR
+2/14/2023,Low,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.02,low,0,0,0,81,0,0,0,SF VSR
+2/15/2023,Low,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.02,low,0,0,0,65,0,0,0,SF VSR
+2/16/2023,Low,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.01,low,0,0,0,79,0,0,0,SF VSR
+2/17/2023,Low,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.01,low,0,0,0,77,0,0,0,SF VSR
+2/18/2023,Low,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.01,low,0,0,0,72,0,0,0,SF VSR
+2/19/2023,Low,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.01,low,0,0,0,62,0,0,0,SF VSR
+2/20/2023,Low,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.02,low,0,0,0,56,0,0,0,SF VSR
+2/21/2023,Low,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.01,low,0,0,0,82,0,0,0,SF VSR
+2/22/2023,Low,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.01,low,0,0,0,59,0,0,0,SF VSR
+2/23/2023,Low,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.01,low,0,0,0,62,0,0,0,SF VSR
+2/24/2023,Low,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.01,low,0,0,0,55,0,0,0,SF VSR
+2/25/2023,Low,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.01,low,0,0,0,68,0,0,0,SF VSR
+2/26/2023,Low,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.02,low,0,0,0,58,0,0,0,SF VSR
+2/27/2023,Low,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.02,low,0,0,0,61,0,0,0,SF VSR
+2/28/2023,Low,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.02,low,0,0,0,55,0,0,0,SF VSR
+3/1/2023,Low,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.02,low,0,0,0,86,0,0,0,SF VSR
+3/2/2023,Low,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.02,low,0,0,0,78,0,0,0,SF VSR
+3/3/2023,Low,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.01,low,0,0,0,74,0,0,0,SF VSR
+3/4/2023,Low,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.01,low,0,0,0,72,0,0,0,SF VSR
+3/5/2023,Low,inactive,0,Low Rating,1,Low Rating,0,Low Rating,0.01,low,0,0,0,64,0,0,0,SF VSR
+3/6/2023,Low,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.01,low,0,0,0,53,0,0,0,SF VSR
+3/7/2023,Medium,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.01,low,0,0,0,44,0,0,0,SF VSR
+3/8/2023,Medium,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.01,low,0,0,0,67,0,0,0,SF VSR
+3/9/2023,Medium,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.02,low,0,0,0,88,0,0,0,SF VSR
+3/10/2023,Low,inactive,0,Low Rating,0,Medium Rating,0,Low Rating,0.02,low,0,0,1,52,0,0,2,SF VSR
+3/11/2023,Medium,inactive,0,Low Rating,0,Medium Rating,0,Low Rating,0.02,low,0,0,2,49,0,0,4,SF VSR
+3/12/2023,Medium,inactive,0,Low Rating,0,High Rating,0,Low Rating,0.02,low,0,0,7,48,0,0,15,SF VSR
+3/13/2023,High,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.02,low,0,0,0,67,0,0,0,SF VSR
+3/14/2023,High,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.02,low,0,0,0,85,0,0,0,SF VSR
+3/15/2023,High,inactive,0,Low Rating,0,Medium Rating,0,Low Rating,0.03,low,0,0,2,75,0,0,3,SF VSR
+3/16/2023,High,inactive,0,Low Rating,0,Medium Rating,0,Low Rating,0.02,low,0,0,2,72,0,0,3,SF VSR
+3/17/2023,High,inactive,0,Low Rating,0,Medium Rating,0,Low Rating,0.02,low,0,0,5,62,0,0,8,SF VSR
+3/18/2023,Medium,inactive,0,Medium Rating,0,High Rating,0,Low Rating,0.02,low,0,1,14,61,0,2,23,SF VSR
+3/19/2023,High,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.02,low,0,0,0,83,0,0,0,SF VSR
+3/20/2023,High,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.02,low,0,0,0,55,0,0,0,SF VSR
+3/21/2023,High,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.02,low,0,0,0,65,0,0,0,SF VSR
+3/22/2023,High,inactive,0,Low Rating,0,Medium Rating,0,Low Rating,0.02,low,0,0,2,61,0,0,3,SF VSR
+3/23/2023,Medium,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.02,low,0,0,0,81,0,0,0,SF VSR
+3/24/2023,Medium,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.02,low,0,0,0,87,0,0,0,SF VSR
+3/25/2023,Medium,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.01,low,0,0,0,90,0,0,0,SF VSR
+3/26/2023,Medium,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.01,low,0,0,0,82,0,0,0,SF VSR
+3/27/2023,Medium,inactive,0,Low Rating,0,Medium Rating,0,Low Rating,0.01,low,0,0,4,51,0,0,8,SF VSR
+3/28/2023,Medium,inactive,0,Low Rating,0,Medium Rating,0,Low Rating,0.01,low,0,0,8,75,0,0,11,SF VSR
+3/29/2023,High,inactive,0,Low Rating,0,Medium Rating,0,Low Rating,0.01,low,0,0,2,47,0,0,4,SF VSR
+3/30/2023,Medium,inactive,0,Low Rating,0,Medium Rating,0,Low Rating,0.01,low,0,0,5,52,0,0,10,SF VSR
+3/31/2023,Medium,inactive,0,Low Rating,5,Medium Rating,0,Low Rating,0.01,low,0,0,5,63,0,0,8,SF VSR
+4/1/2023,Medium,inactive,0,Low Rating,0,High Rating,0,Low Rating,0.05,low,0,0,13,48,0,0,27,SF VSR
+4/2/2023,High,inactive,0,Low Rating,4,High Rating,0,Low Rating,0.06,low,0,0,11,60,0,0,18,SF VSR
+4/3/2023,High,inactive,0,Low Rating,0,Medium Rating,0,Low Rating,0.02,low,0,0,3,90,0,0,3,SF VSR
+4/4/2023,High,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.01,low,0,0,0,90,0,0,0,SF VSR
+4/5/2023,High,inactive,0,Medium Rating,3,Medium Rating,0,Low Rating,0.02,low,0,1,2,77,0,1,3,SF VSR
+4/6/2023,High,inactive,0,Low Rating,2,High Rating,0,Low Rating,0.02,low,0,0,10,68,0,0,15,SF VSR
+4/7/2023,Medium,inactive,0,Low Rating,0,High Rating,0,Low Rating,0.02,low,0,0,9,60,0,0,15,SF VSR
+4/8/2023,High,inactive,0,Low Rating,2,Low Rating,0,Low Rating,0.02,low,0,0,0,68,0,0,0,SF VSR
+4/9/2023,High,inactive,0,Low Rating,8,Medium Rating,0,Low Rating,0.06,low,0,0,3,64,0,0,5,SF VSR
+4/10/2023,High,inactive,0,Low Rating,0,Medium Rating,0,Low Rating,0.06,low,0,0,4,68,0,0,6,SF VSR
+4/11/2023,High,inactive,0,Low Rating,0,Medium Rating,0,Low Rating,0.05,low,0,0,2,70,0,0,3,SF VSR
+4/12/2023,High,inactive,0,Low Rating,0,Medium Rating,0,Low Rating,0.02,low,0,0,1,86,0,0,1,SF VSR
+4/13/2023,High,inactive,0,Low Rating,0,Medium Rating,0,Low Rating,0.01,low,0,0,10,86,0,0,12,SF VSR
+4/14/2023,Medium,inactive,0,Low Rating,0,Medium Rating,0,Low Rating,0.01,low,0,0,5,70,0,0,7,SF VSR
+4/15/2023,Medium,inactive,0,Low Rating,1,Medium Rating,0,Low Rating,0.02,low,0,0,3,64,0,0,5,SF VSR
+4/16/2023,High,inactive,0,Low Rating,2,Medium Rating,0,Medium Rating,0.02,low,3,0,4,70,4,0,6,SF VSR
+4/17/2023,High,inactive,0,Medium Rating,0,Medium Rating,0,High Rating,0.01,low,10,1,5,71,14,1,7,SF VSR
+4/18/2023,Very High,inactive,0,Low Rating,0,Medium Rating,0,Low Rating,0.02,low,0,0,3,61,0,0,5,SF VSR
+4/19/2023,High,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.02,low,0,0,0,76,0,0,0,SF VSR
+4/20/2023,High,inactive,0,Low Rating,0,Medium Rating,0,Low Rating,0.02,low,0,0,4,78,0,0,5,SF VSR
+4/21/2023,High,inactive,0,Low Rating,0,Low Rating,0,Medium Rating,0.02,low,2,0,0,94,2,0,0,SF VSR
+4/22/2023,Medium,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.02,low,0,0,0,89,0,0,0,SF VSR
+4/23/2023,Medium,inactive,0,Low Rating,0,Low Rating,0,Medium Rating,0.02,low,1,0,0,94,1,0,0,SF VSR
+4/24/2023,Medium,inactive,0,Low Rating,0,Medium Rating,0,Low Rating,0.02,low,0,0,2,96,0,0,2,SF VSR
+4/25/2023,High,inactive,0,Low Rating,0,Medium Rating,0,Low Rating,0.01,low,0,0,1,78,0,0,1,SF VSR
+4/26/2023,Medium,inactive,0,Low Rating,0,Low Rating,0,Low Rating,0.01,low,0,0,0,78,0,0,0,SF VSR
+4/27/2023,Medium,inactive,0,Low Rating,0,Medium Rating,0,Medium Rating,0.05,low,3,0,6,64,5,0,9,SF VSR
+4/28/2023,Medium,inactive,0,Low Rating,0,Medium Rating,0,Medium Rating,0.09,low,1,0,3,69,1,0,4,SF VSR
+4/29/2023,High,inactive,0,Low Rating,0,Medium Rating,0,Medium Rating,0.23,low,1,0,4,67,1,0,6,SF VSR
+4/30/2023,Medium,inactive,0,Low Rating,0,Medium Rating,0,Low Rating,0.13,low,0,0,1,92,0,0,1,SF VSR
+5/1/2023,Medium,active,0,Low Rating,0,Low Rating,0,Low Rating,0.04,low,0,0,0,80,0,0,0,SF VSR
+5/2/2023,Medium,active,0,Low Rating,0,Medium Rating,0,Medium Rating,0.02,low,1,0,3,87,1,0,3,SF VSR
+5/3/2023,Medium,active,0,Low Rating,0,Medium Rating,0,High Rating,0.03,low,9,0,4,56,16,0,7,SF VSR
+5/4/2023,Medium,active,0,Low Rating,0,Medium Rating,0,Medium Rating,0.03,low,4,0,1,71,6,0,1,SF VSR
+5/5/2023,High,active,0,Low Rating,4,Medium Rating,0,Medium Rating,0.07,low,3,0,5,62,5,0,8,SF VSR
+5/6/2023,High,active,0,Low Rating,0,High Rating,0,Low Rating,0.07,low,0,0,10,58,0,0,17,SF VSR
+5/7/2023,Very High,active,0,Low Rating,4,High Rating,0,High Rating,NA,offline,8,0,10,50,16,0,20,SF VSR
+5/8/2023,Very High,active,0,Low Rating,0,High Rating,0,High Rating,NA,offline,7,0,14,55,13,0,25,SF VSR
+5/9/2023,Very High,active,0,Low Rating,0,Medium Rating,0,Medium Rating,NA,offline,1,0,8,58,2,0,14,SF VSR
+5/10/2023,Very High,active,0,Low Rating,0,High Rating,0,Low Rating,NA,offline,0,0,18,56,0,0,32,SF VSR
+5/11/2023,Very High,active,0,Low Rating,18,High Rating,0,Medium Rating,NA,offline,3,0,17,73,4,0,23,SF VSR
+5/12/2023,Very High,active,0,Low Rating,0,Medium Rating,0,Low Rating,NA,offline,0,0,6,69,0,0,9,SF VSR
+5/13/2023,Very High,active,0,Low Rating,5,Medium Rating,0,High Rating,0.04,low,7,0,5,54,13,0,9,SF VSR
+5/14/2023,High,active,0,Low Rating,0,Medium Rating,0,Low Rating,0.08,low,0,0,9,66,0,0,14,SF VSR
+5/15/2023,High,active,0,Low Rating,0,Medium Rating,0,Medium Rating,0.22,low,1,0,2,64,2,0,3,SF VSR
+5/16/2023,Medium,active,0,Low Rating,0,Medium Rating,0,High Rating,0.15,low,23,0,3,71,32,0,4,SF VSR
+5/17/2023,High,active,0,Low Rating,0,Medium Rating,0,High Rating,0.05,low,11,0,8,80,14,0,10,SF VSR
+5/18/2023,Very High,active,0,Low Rating,0,Medium Rating,0,High Rating,0.05,low,12,0,8,85,14,0,9,SF VSR
+5/19/2023,High,active,0,Low Rating,0,Medium Rating,0,High Rating,0.03,low,22,0,11,80,28,0,14,SF VSR
+5/20/2023,High,active,0,Low Rating,0,High Rating,0,High Rating,0.03,low,26,0,14,67,39,0,21,SF VSR
+5/21/2023,Very High,active,0,Medium Rating,0,Medium Rating,0,High Rating,0.03,low,19,1,4,60,32,2,7,SF VSR
+5/22/2023,Very High,active,0,Low Rating,0,High Rating,0,High Rating,0.08,low,43,0,16,54,80,0,30,SF VSR
+5/23/2023,Very High,active,0,Medium Rating,0,High Rating,0,High Rating,0.15,low,16,3,15,76,21,4,20,SF VSR
+5/24/2023,Very High,active,0,Low Rating,0,High Rating,0,High Rating,0.13,low,18,0,15,76,24,0,20,SF VSR
+5/25/2023,Very High,active,0,Low Rating,0,Medium Rating,0,Medium Rating,0.13,low,4,0,4,84,5,0,5,SF VSR
+5/26/2023,Very High,active,0,Low Rating,4,Medium Rating,0,Medium Rating,0.13,low,1,0,1,69,1,0,1,SF VSR
+5/27/2023,Very High,active,0,Low Rating,8,Medium Rating,0,Medium Rating,0.13,low,5,0,4,66,8,0,6,SF VSR
+5/28/2023,Very High,active,0,Low Rating,0,Medium Rating,0,Medium Rating,0.12,low,5,0,8,65,8,0,12,SF VSR
+5/29/2023,Very High,active,0,Low Rating,6,Medium Rating,0,High Rating,0.17,low,9,0,6,81,11,0,7,SF VSR
+5/30/2023,Very High,active,0,Low Rating,59,Medium Rating,0,Medium Rating,0.21,low,3,0,5,80,4,0,6,SF VSR
+5/31/2023,Very High,active,0,Medium Rating,0,Medium Rating,0,High Rating,0.19,low,17,1,6,58,29,2,10,SF VSR
+6/1/2023,Very High,active,0,Low Rating,0,Medium Rating,0,High Rating,0.14,low,21,0,5,67,31,0,7,SF VSR
+6/2/2023,Very High,active,0,Low Rating,0,Medium Rating,0,High Rating,0.18,low,24,0,5,60,40,0,8,SF VSR
+6/3/2023,Very High,active,0,Medium Rating,0,Medium Rating,0,High Rating,0.35,low,5,1,4,49,10,2,8,SF VSR
+6/4/2023,Very High,active,0,Low Rating,0,High Rating,0,Medium Rating,0.21,low,3,0,11,58,5,0,19,SF VSR
+6/5/2023,Very High,active,0,Low Rating,0,High Rating,0,High Rating,0.24,low,8,0,13,58,14,0,22,SF VSR
+6/6/2023,Very High,active,0,Low Rating,0,High Rating,0,High Rating,0.23,low,11,0,11,60,18,0,18,SF VSR
+6/7/2023,Very High,active,0,Low Rating,26,High Rating,0,Medium Rating,0.24,low,2,0,14,41,5,0,34,SF VSR
+6/8/2023,Very High,active,0,Low Rating,148,Medium Rating,0,Medium Rating,0.21,low,2,0,1,63,3,0,2,SF VSR
+6/9/2023,Very High,active,0,Low Rating,36,Low Rating,0,Medium Rating,0.24,low,1,0,0,77,1,0,0,SF VSR
+6/10/2023,Very High,active,0,Low Rating,16,Low Rating,0,Medium Rating,0.36,low,3,0,0,77,4,0,0,SF VSR
+6/11/2023,Very High,active,0,Low Rating,0,Low Rating,0,Medium Rating,0.51,low,4,0,0,55,7,0,0,SF VSR
+6/12/2023,High,active,0,Low Rating,27,Low Rating,0,High Rating,0.49,low,14,0,0,66,21,0,0,SF VSR
+6/13/2023,Very High,active,0,Low Rating,41,Low Rating,8,High Rating,0.34,low,14,0,0,62,23,0,0,SF VSR
+6/14/2023,Very High,active,0,Low Rating,0,Low Rating,0,High Rating,0.37,low,18,0,0,77,23,0,0,SF VSR
+6/15/2023,Very High,active,0,Medium Rating,10,Low Rating,0,High Rating,0.4,low,28,2,0,54,52,4,0,SF VSR
+6/16/2023,Very High,active,0,Low Rating,0,Medium Rating,0,Medium Rating,0.53,low,4,0,3,60,7,0,5,SF VSR
+6/17/2023,Very High,active,0,Medium Rating,25,Medium Rating,0,High Rating,0.57,low,9,1,3,60,15,2,5,SF VSR
+6/18/2023,Very High,active,0,Medium Rating,0,Medium Rating,0,High Rating,0.54,low,16,1,2,51,31,2,4,SF VSR
+6/19/2023,Very High,active,0,Low Rating,0,Low Rating,0,High Rating,0.64,low,19,0,0,68,28,0,0,SF VSR
+6/20/2023,Very High,active,0,Low Rating,0,Low Rating,0,High Rating,0.53,low,16,0,0,52,31,0,0,SF VSR
+6/21/2023,Very High,active,0,Low Rating,0,Low Rating,0,Medium Rating,0.55,low,1,0,0,39,3,0,0,SF VSR
+6/22/2023,High,active,0,Low Rating,0,Low Rating,0,Medium Rating,0.56,low,1,0,0,64,2,0,0,SF VSR
+6/23/2023,Very High,active,0,Low Rating,0,Low Rating,0,Medium Rating,0.54,low,2,0,0,52,4,0,0,SF VSR
+6/24/2023,High,active,0,Low Rating,3,Low Rating,0,Low Rating,0.61,low,0,0,0,56,0,0,0,SF VSR
+6/25/2023,High,active,0,Low Rating,0,Low Rating,0,Low Rating,0.68,low,0,0,0,55,0,0,0,SF VSR
+6/26/2023,Medium,active,0,Low Rating,0,Low Rating,0,Low Rating,0.7,medium,0,0,0,63,0,0,0,SF VSR
+6/27/2023,Medium,active,0,Low Rating,0,Low Rating,0,High Rating,0.72,medium,14,0,0,46,30,0,0,SF VSR
+6/28/2023,High,active,0,Low Rating,0,Medium Rating,0,High Rating,0.74,medium,10,0,1,41,24,0,2,SF VSR
+6/29/2023,High,active,0,Low Rating,2,Low Rating,0,Medium Rating,0.71,medium,1,0,0,67,1,0,0,SF VSR
+6/30/2023,High,active,0,Low Rating,0,Low Rating,0,Low Rating,0.72,medium,0,0,0,44,0,0,0,SF VSR
+7/1/2023,High,active,0,Low Rating,1,Low Rating,0,Low Rating,0.88,medium,0,0,0,50,0,0,0,SF VSR
+7/2/2023,High,active,0,Low Rating,3,Low Rating,1,Low Rating,0.83,medium,0,0,0,41,0,0,0,SF VSR
+7/3/2023,High,active,0,Low Rating,7,Low Rating,0,Medium Rating,0.75,medium,1,0,0,50,2,0,0,SF VSR
+7/4/2023,Medium,active,0,Low Rating,13,Low Rating,0,Medium Rating,0.67,low,3,0,0,59,5,0,0,SF VSR
+7/5/2023,Medium,active,0,Low Rating,24,Low Rating,3,Medium Rating,0.63,low,5,0,0,53,9,0,0,SF VSR
+7/6/2023,Medium,active,0,Medium Rating,0,Medium Rating,0,Medium Rating,0.69,low,3,2,1,52,6,4,2,SF VSR
+7/7/2023,Medium,active,0,Medium Rating,0,Low Rating,0,High Rating,0.73,medium,6,2,0,57,11,4,0,SF VSR
+7/8/2023,High,active,0,Low Rating,0,Low Rating,0,Medium Rating,0.75,medium,3,0,0,68,4,0,0,SF VSR
+7/9/2023,High,active,0,Low Rating,9,Low Rating,0,Medium Rating,0.75,medium,2,0,0,60,3,0,0,SF VSR
+7/10/2023,High,active,0,Low Rating,0,Low Rating,0,High Rating,0.81,medium,12,0,0,47,26,0,0,SF VSR
+7/11/2023,High,active,0,Low Rating,0,Low Rating,0,High Rating,0.82,medium,5,0,0,45,11,0,0,SF VSR
+7/12/2023,Very High,active,0,Low Rating,0,Low Rating,0,High Rating,0.86,medium,7,0,0,54,13,0,0,SF VSR
+7/13/2023,Very High,active,0,Low Rating,1,Medium Rating,0,Medium Rating,0.84,medium,4,0,1,50,8,0,2,SF VSR
+7/14/2023,Very High,active,0,Low Rating,0,Low Rating,0,High Rating,0.82,medium,27,0,0,70,39,0,0,SF VSR
+7/15/2023,High,active,0,Low Rating,0,Low Rating,0,High Rating,0.86,medium,14,0,0,69,20,0,0,SF VSR
+7/16/2023,High,active,0,Low Rating,4,Low Rating,0,High Rating,0.82,medium,30,0,0,62,48,0,0,SF VSR
+7/17/2023,High,active,0,Low Rating,0,Low Rating,0,High Rating,0.81,medium,31,0,0,59,53,0,0,SF VSR
+7/18/2023,High,active,0,Low Rating,0,Low Rating,0,High Rating,NA,offline,17,0,0,46,37,0,0,SF VSR
+7/19/2023,High,active,0,Low Rating,1,Low Rating,0,High Rating,NA,offline,21,0,0,47,45,0,0,SF VSR
+7/20/2023,High,active,0,Low Rating,0,Low Rating,0,High Rating,NA,offline,25,0,0,55,45,0,0,SF VSR
+7/21/2023,High,active,0,Low Rating,0,Medium Rating,0,High Rating,NA,offline,17,0,1,32,53,0,3,SF VSR
+7/22/2023,High,active,0,Low Rating,0,Low Rating,0,Medium Rating,NA,offline,4,0,0,43,9,0,0,SF VSR
+7/23/2023,High,active,0,Low Rating,0,Low Rating,0,Low Rating,NA,offline,0,0,0,58,0,0,0,SF VSR
+7/24/2023,High,active,0,Medium Rating,0,Low Rating,0,High Rating,NA,offline,11,2,0,50,22,4,0,SF VSR
+7/25/2023,High,active,0,Medium Rating,0,Low Rating,0,High Rating,NA,offline,22,4,0,58,38,7,0,SF VSR
+7/26/2023,High,active,0,Low Rating,0,Low Rating,0,High Rating,NA,offline,17,0,0,51,33,0,0,SF VSR
+7/27/2023,High,active,0,Medium Rating,0,Medium Rating,0,High Rating,NA,offline,27,1,1,53,51,2,2,SF VSR
+7/28/2023,High,active,0,Medium Rating,0,Medium Rating,0,High Rating,NA,offline,20,1,5,36,56,3,14,SF VSR
+7/29/2023,High,active,0,Low Rating,18,Medium Rating,0,High Rating,NA,offline,8,0,3,46,17,0,7,SF VSR
+7/30/2023,High,active,0,Low Rating,0,Medium Rating,0,Medium Rating,NA,offline,1,0,2,54,2,0,4,SF VSR
+7/31/2023,High,active,0,Low Rating,0,High Rating,0,Medium Rating,NA,offline,4,0,9,60,7,0,15,SF VSR
+8/1/2023,Very High,active,0,Medium Rating,0,High Rating,0,Medium Rating,NA,offline,1,1,11,56,2,2,20,SF VSR
+8/2/2023,Very High,active,0,Low Rating,0,High Rating,0,Medium Rating,NA,offline,2,0,13,65,3,0,20,SF VSR
+8/3/2023,Very High,active,0,Medium Rating,0,High Rating,0,High Rating,NA,offline,10,1,17,37,27,3,46,SF VSR
+8/4/2023,Very High,active,0,Medium Rating,0,High Rating,0,High Rating,NA,offline,11,1,12,33,33,3,36,SF VSR
+8/5/2023,Very High,active,0,Medium Rating,0,High Rating,0,High Rating,NA,offline,9,2,14,37,24,5,38,SF VSR
+8/6/2023,Very High,active,0,Low Rating,0,High Rating,0,High Rating,NA,offline,8,0,17,47,17,0,36,SF VSR
+8/7/2023,Very High,active,0,Low Rating,0,High Rating,0,High Rating,NA,offline,13,0,14,33,39,0,42,SF VSR
+8/8/2023,Very High,active,0,Medium Rating,0,Medium Rating,0,High Rating,NA,offline,12,1,7,53,23,2,13,SF VSR
+8/9/2023,Very High,active,0,Medium Rating,0,High Rating,0,High Rating,NA,offline,8,1,15,53,15,2,28,SF VSR
+8/10/2023,Very High,active,0,Low Rating,5,High Rating,0,High Rating,NA,offline,16,0,9,39,41,0,23,SF VSR
+8/11/2023,Very High,active,0,Low Rating,27,High Rating,0,High Rating,NA,offline,11,0,10,31,35,0,32,SF VSR
+8/12/2023,Very High,active,0,Medium Rating,1,High Rating,0,High Rating,NA,offline,5,1,26,51,10,2,51,SF VSR
+8/13/2023,Very High,active,0,Low Rating,31,High Rating,0,Low Rating,NA,offline,0,0,14,41,0,0,34,SF VSR
+8/14/2023,Very High,active,0,Low Rating,5,High Rating,0,Medium Rating,NA,offline,2,0,15,45,4,0,33,SF VSR
+8/15/2023,Very High,active,0,Low Rating,0,High Rating,0,Medium Rating,NA,offline,1,0,13,40,3,0,32,SF VSR
+8/16/2023,Very High,active,0,Low Rating,32,High Rating,0,Low Rating,NA,offline,0,0,15,34,0,0,44,SF VSR
+8/17/2023,High,active,0,Low Rating,0,High Rating,0,Low Rating,NA,offline,0,0,7,31,0,0,23,SF VSR
+8/18/2023,High,active,0,Low Rating,28,High Rating,0,Low Rating,NA,offline,0,0,15,29,0,0,52,SF VSR
+8/19/2023,High,active,0,Medium Rating,3,High Rating,0,High Rating,NA,offline,6,1,14,35,17,3,40,SF VSR
+8/20/2023,High,active,0,Low Rating,6,High Rating,0,Low Rating,NA,offline,0,0,19,29,0,0,66,SF VSR
+8/21/2023,Very High,active,0,Medium Rating,0,High Rating,0,Low Rating,NA,offline,0,1,10,29,0,3,34,SF VSR
+8/22/2023,Very High,active,0,Low Rating,2,High Rating,0,Medium Rating,NA,offline,3,0,8,54,6,0,15,SF VSR
+8/23/2023,Very High,active,0,Low Rating,12,High Rating,0,High Rating,NA,offline,6,0,12,49,12,0,24,SF VSR
+8/24/2023,Very High,active,0,Medium Rating,4,High Rating,0,High Rating,NA,offline,14,1,7,43,33,2,16,SF VSR
+8/25/2023,Very High,active,0,Medium Rating,6,High Rating,0,High Rating,NA,offline,7,3,18,40,17,7,45,SF VSR
+8/26/2023,Very High,active,0,Medium Rating,1,High Rating,0,Low Rating,NA,offline,0,3,14,43,0,7,33,SF VSR
+8/27/2023,Very High,active,0,Medium Rating,0,High Rating,0,Low Rating,NA,offline,0,4,19,62,0,6,31,SF VSR
+8/28/2023,Very High,active,0,Low Rating,0,High Rating,0,High Rating,NA,offline,6,0,20,41,15,0,49,SF VSR
+8/29/2023,Very High,active,0,Low Rating,1,High Rating,0,Low Rating,NA,offline,0,0,19,61,0,0,31,SF VSR
+8/30/2023,Very High,active,0,Low Rating,0,High Rating,0,Medium Rating,NA,offline,4,0,17,51,8,0,33,SF VSR
+8/31/2023,Very High,active,0,Low Rating,0,High Rating,0,High Rating,NA,offline,9,0,18,37,24,0,49,SF VSR
+9/1/2023,High,active,0,Medium Rating,2,High Rating,0,Medium Rating,NA,offline,2,1,15,36,6,3,42,SF VSR
+9/2/2023,Very High,active,0,Low Rating,2,High Rating,0,Medium Rating,NA,offline,4,0,27,44,9,0,61,SF VSR
+9/3/2023,Very High,active,0,Low Rating,2,High Rating,0,High Rating,NA,offline,10,0,22,50,20,0,44,SF VSR
+9/4/2023,Very High,active,0,Low Rating,2,High Rating,0,High Rating,NA,offline,22,0,26,41,54,0,63,SF VSR
+9/5/2023,Very High,active,0,Medium Rating,0,High Rating,0,High Rating,NA,offline,20,2,23,46,43,4,50,SF VSR
+9/6/2023,Very High,active,0,Low Rating,2,High Rating,0,High Rating,NA,offline,21,0,21,62,34,0,34,SF VSR
+9/7/2023,Very High,active,0,Low Rating,21,High Rating,0,High Rating,NA,offline,20,0,22,49,41,0,45,SF VSR
+9/8/2023,Very High,active,0,Low Rating,9,High Rating,0,High Rating,NA,offline,14,0,26,47,30,0,55,SF VSR
+9/9/2023,Very High,active,0,Low Rating,0,High Rating,0,High Rating,NA,offline,15,0,24,39,38,0,62,SF VSR
+9/10/2023,Very High,active,0,Low Rating,2,High Rating,0,High Rating,NA,offline,11,0,24,34,32,0,71,SF VSR
+9/11/2023,Very High,active,0,Low Rating,3,High Rating,0,High Rating,NA,offline,4,0,27,33,12,0,82,SF VSR
+9/12/2023,Very High,active,0,Low Rating,0,High Rating,0,Medium Rating,NA,offline,1,0,29,30,3,0,97,SF VSR
+9/13/2023,Very High,active,0,Low Rating,0,High Rating,0,Medium Rating,NA,offline,3,0,29,34,9,0,85,SF VSR
+9/14/2023,Very High,active,0,Low Rating,10,High Rating,0,High Rating,NA,offline,8,0,22,24,33,0,92,SF VSR
+9/15/2023,Very High,active,0,Low Rating,49,High Rating,0,High Rating,NA,offline,14,0,24,24,58,0,100,SF VSR
+9/16/2023,Very High,active,0,Low Rating,59,High Rating,0,High Rating,NA,offline,8,0,23,27,30,0,85,SF VSR
+9/17/2023,Very High,active,0,Low Rating,61,High Rating,0,Medium Rating,NA,offline,2,0,23,24,8,0,96,SF VSR
+9/18/2023,Very High,active,0,Low Rating,16,High Rating,0,Low Rating,NA,offline,0,0,20,24,0,0,83,SF VSR
+9/19/2023,Very High,active,0,Low Rating,0,High Rating,0,Low Rating,NA,offline,0,0,23,26,0,0,88,SF VSR
+9/20/2023,Very High,active,0,Low Rating,0,High Rating,0,Medium Rating,NA,offline,2,0,23,23,9,0,100,SF VSR
+9/21/2023,Very High,active,0,Low Rating,5,High Rating,0,Medium Rating,NA,offline,1,0,23,23,4,0,100,SF VSR
+9/22/2023,Very High,active,0,Low Rating,7,High Rating,0,High Rating,NA,offline,9,0,24,27,33,0,89,SF VSR
+9/23/2023,Very High,active,0,Medium Rating,24,High Rating,0,High Rating,NA,offline,7,1,23,32,22,3,72,SF VSR
+9/24/2023,Very High,active,0,Low Rating,0,High Rating,0,Low Rating,NA,offline,0,0,26,28,0,0,93,SF VSR
+9/25/2023,Very High,active,0,Low Rating,2,High Rating,0,Low Rating,NA,offline,0,0,24,25,0,0,96,SF VSR
+9/26/2023,Very High,active,0,Low Rating,0,High Rating,0,Low Rating,NA,offline,0,0,24,24,0,0,100,SF VSR
+9/27/2023,Very High,active,0,Low Rating,11,High Rating,0,Low Rating,NA,offline,0,0,22,24,0,0,92,SF VSR
+9/28/2023,Very High,active,0,Low Rating,0,High Rating,0,Low Rating,NA,offline,0,0,22,22,0,0,100,SF VSR
+9/29/2023,High,active,0,offline,6,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+9/30/2023,High,active,0,offline,0,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+10/1/2023,High,active,0,offline,0,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+10/2/2023,High,active,0,offline,0,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+10/3/2023,High,active,0,offline,0,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+10/4/2023,Medium,active,0,offline,2,offline,0,offline,0.82,medium,0,0,0,0,NA,NA,NA,SF VSR
+10/5/2023,Medium,active,0,offline,7,offline,0,offline,0.72,medium,0,0,0,0,NA,NA,NA,SF VSR
+10/6/2023,High,active,0,offline,1,offline,0,offline,0.68,low,0,0,0,0,NA,NA,NA,SF VSR
+10/7/2023,High,active,0,offline,0,offline,0,offline,0.63,low,0,0,0,0,NA,NA,NA,SF VSR
+10/8/2023,High,active,0,offline,0,offline,0,offline,0.67,low,0,0,0,0,NA,NA,NA,SF VSR
+10/9/2023,High,active,0,offline,3,offline,0,offline,0.68,low,0,0,0,0,NA,NA,NA,SF VSR
+10/10/2023,Medium,active,0,offline,5,offline,0,offline,0.65,low,0,0,0,0,NA,NA,NA,SF VSR
+10/11/2023,Medium,active,0,offline,0,offline,0,offline,0.67,low,0,0,0,0,NA,NA,NA,SF VSR
+10/12/2023,Medium,active,0,offline,3,offline,0,offline,0.74,medium,0,0,0,0,NA,NA,NA,SF VSR
+10/13/2023,Medium,active,0,offline,53,offline,0,offline,0.75,medium,0,0,0,0,NA,NA,NA,SF VSR
+10/14/2023,High,active,0,offline,6,offline,0,offline,0.67,low,0,0,0,0,NA,NA,NA,SF VSR
+10/15/2023,High,active,0,offline,2,offline,0,offline,0.61,low,0,0,0,0,NA,NA,NA,SF VSR
+10/16/2023,High,active,0,offline,28,offline,0,offline,0.6,low,0,0,0,0,NA,NA,NA,SF VSR
+10/17/2023,High,active,0,offline,0,offline,0,offline,0.65,low,0,0,0,0,NA,NA,NA,SF VSR
+10/18/2023,High,active,0,offline,0,offline,0,offline,0.76,medium,0,0,0,0,NA,NA,NA,SF VSR
+10/19/2023,High,active,0,offline,22,offline,0,offline,0.75,medium,0,0,0,0,NA,NA,NA,SF VSR
+10/20/2023,High,active,0,offline,0,offline,0,offline,0.63,low,0,0,0,0,NA,NA,NA,SF VSR
+10/21/2023,High,active,0,offline,15,offline,0,offline,0.58,low,0,0,0,0,NA,NA,NA,SF VSR
+10/22/2023,High,active,0,offline,0,offline,0,offline,0.69,low,0,0,0,0,NA,NA,NA,SF VSR
+10/23/2023,High,active,0,offline,0,offline,0,offline,0.7,medium,0,0,0,0,NA,NA,NA,SF VSR
+10/24/2023,High,active,0,offline,0,offline,0,offline,0.8,medium,0,0,0,0,NA,NA,NA,SF VSR
+10/25/2023,High,active,0,offline,8,offline,0,offline,0.79,medium,0,0,0,0,NA,NA,NA,SF VSR
+10/26/2023,High,active,0,offline,4,offline,0,offline,0.79,medium,0,0,0,0,NA,NA,NA,SF VSR
+10/27/2023,High,active,0,offline,0,offline,0,offline,0.82,medium,0,0,0,0,NA,NA,NA,SF VSR
+10/28/2023,High,active,0,offline,0,offline,0,offline,0.69,low,0,0,0,0,NA,NA,NA,SF VSR
+10/29/2023,High,active,0,offline,7,offline,0,offline,0.61,low,0,0,0,0,NA,NA,NA,SF VSR
+10/30/2023,High,active,0,offline,0,offline,0,offline,0.61,low,0,0,0,0,NA,NA,NA,SF VSR
+10/31/2023,High,active,0,offline,0,offline,0,offline,0.6,low,0,0,0,0,NA,NA,NA,SF VSR
+11/1/2023,High,active,0,offline,1,offline,0,offline,0.61,low,0,0,0,0,NA,NA,NA,SF VSR
+11/2/2023,High,active,0,offline,4,offline,0,offline,0.64,low,0,0,0,0,NA,NA,NA,SF VSR
+11/3/2023,Medium,active,0,offline,4,offline,0,offline,0.67,low,0,0,0,0,NA,NA,NA,SF VSR
+11/4/2023,Medium,active,0,offline,3,offline,0,offline,0.56,low,0,0,0,0,NA,NA,NA,SF VSR
+11/5/2023,Medium,active,0,offline,0,offline,0,offline,0.57,low,0,0,0,0,NA,NA,NA,SF VSR
+11/6/2023,Medium,active,0,offline,0,offline,0,offline,0.56,low,0,0,0,0,NA,NA,NA,SF VSR
+11/7/2023,Medium,active,0,offline,2,offline,0,offline,0.59,low,0,0,0,0,NA,NA,NA,SF VSR
+11/8/2023,Medium,active,0,offline,2,offline,0,offline,0.56,low,0,0,0,0,NA,NA,NA,SF VSR
+11/9/2023,Medium,active,0,offline,15,offline,0,offline,0.54,low,0,0,0,0,NA,NA,NA,SF VSR
+11/10/2023,High,active,0,offline,0,offline,0,offline,0.53,low,0,0,0,0,NA,NA,NA,SF VSR
+11/11/2023,High,active,0,offline,11,offline,0,offline,0.39,low,0,0,0,0,NA,NA,NA,SF VSR
+11/12/2023,High,active,0,offline,25,offline,0,offline,0.38,low,0,0,0,0,NA,NA,NA,SF VSR
+11/13/2023,High,active,0,offline,8,offline,0,offline,0.35,low,0,0,0,0,NA,NA,NA,SF VSR
+11/14/2023,High,active,0,offline,0,offline,0,offline,0.35,low,0,0,0,0,NA,NA,NA,SF VSR
+11/15/2023,High,active,0,offline,0,offline,0,offline,0.31,low,0,0,0,0,NA,NA,NA,SF VSR
+11/16/2023,High,active,0,offline,2,offline,0,offline,0.28,low,0,0,0,0,NA,NA,NA,SF VSR
+11/17/2023,High,active,0,offline,0,offline,0,offline,0.3,low,0,0,0,0,NA,NA,NA,SF VSR
+11/18/2023,Medium,active,0,offline,0,offline,0,offline,0.22,low,0,0,0,0,NA,NA,NA,SF VSR
+11/19/2023,Medium,active,0,offline,0,offline,0,offline,0.24,low,0,0,0,0,NA,NA,NA,SF VSR
+11/20/2023,Medium,active,0,offline,0,offline,0,offline,0.23,low,0,0,0,0,NA,NA,NA,SF VSR
+11/21/2023,Medium,active,0,offline,0,offline,0,offline,0.19,low,0,0,0,0,NA,NA,NA,SF VSR
+11/22/2023,Low,active,0,offline,0,offline,0,offline,0.18,low,0,0,0,0,NA,NA,NA,SF VSR
+11/23/2023,Low,active,0,offline,0,offline,0,offline,0.17,low,0,0,0,0,NA,NA,NA,SF VSR
+11/24/2023,Low,active,0,offline,2,offline,0,offline,0.18,low,0,0,0,0,NA,NA,NA,SF VSR
+11/25/2023,Medium,active,0,offline,4,offline,0,offline,0.06,low,0,0,0,0,NA,NA,NA,SF VSR
+11/26/2023,Medium,active,0,offline,4,offline,0,offline,0.05,low,0,0,0,0,NA,NA,NA,SF VSR
+11/27/2023,Medium,active,0,offline,2,offline,0,offline,0.05,low,0,0,0,0,NA,NA,NA,SF VSR
+11/28/2023,Medium,active,0,offline,0,offline,0,offline,0.04,low,0,0,0,0,NA,NA,NA,SF VSR
+11/29/2023,Medium,active,0,offline,1,offline,0,offline,0.05,low,0,0,0,0,NA,NA,NA,SF VSR
+11/30/2023,Medium,active,0,offline,0,offline,0,offline,0.04,low,0,0,0,0,NA,NA,NA,SF VSR
+12/1/2023,Medium,active,0,offline,0,offline,0,offline,0.04,low,0,0,0,0,NA,NA,NA,SF VSR
+12/2/2023,Low,active,0,offline,1,offline,0,offline,0.04,low,0,0,0,0,NA,NA,NA,SF VSR
+12/3/2023,Medium,active,0,offline,0,offline,0,offline,0.05,low,0,0,0,0,NA,NA,NA,SF VSR
+12/4/2023,Medium,active,0,offline,0,offline,0,offline,0.07,low,0,0,0,0,NA,NA,NA,SF VSR
+12/5/2023,Medium,active,0,offline,4,offline,0,offline,0.07,low,0,0,0,0,NA,NA,NA,SF VSR
+12/6/2023,Medium,active,0,offline,0,offline,0,offline,0.06,low,0,0,0,0,NA,NA,NA,SF VSR
+12/7/2023,Medium,active,0,offline,0,offline,0,offline,0.06,low,0,0,0,0,NA,NA,NA,SF VSR
+12/8/2023,Medium,active,0,offline,7,offline,0,offline,0.05,low,0,0,0,0,NA,NA,NA,SF VSR
+12/9/2023,High,active,0,offline,0,offline,0,offline,0.05,low,0,0,0,0,NA,NA,NA,SF VSR
+12/10/2023,High,active,0,offline,0,offline,0,offline,0.03,low,0,0,0,0,NA,NA,NA,SF VSR
+12/11/2023,High,active,0,offline,0,offline,0,offline,0.04,low,0,0,0,0,NA,NA,NA,SF VSR
+12/12/2023,High,active,0,offline,0,offline,0,offline,0.04,low,0,0,0,0,NA,NA,NA,SF VSR
+12/13/2023,Medium,active,0,offline,3,offline,0,offline,0.04,low,0,0,0,0,NA,NA,NA,SF VSR
+12/14/2023,Medium,active,0,offline,0,offline,0,offline,0.04,low,0,0,0,0,NA,NA,NA,SF VSR
+12/15/2023,Medium,active,0,offline,0,offline,0,offline,0.04,low,0,0,0,0,NA,NA,NA,SF VSR
+12/16/2023,Medium,inactive,0,offline,0,offline,0,offline,0.03,low,0,0,0,0,NA,NA,NA,SF VSR
+12/17/2023,Medium,inactive,0,offline,0,offline,0,offline,0.04,low,0,0,0,0,NA,NA,NA,SF VSR
+12/18/2023,Low,inactive,0,offline,0,offline,0,offline,0.06,low,0,0,0,0,NA,NA,NA,SF VSR
+12/19/2023,Low,inactive,0,offline,0,offline,0,offline,0.05,low,0,0,0,0,NA,NA,NA,SF VSR
+12/20/2023,Low,inactive,0,offline,0,offline,0,offline,0.05,low,0,0,0,0,NA,NA,NA,SF VSR
+12/21/2023,Low,inactive,0,offline,0,offline,0,offline,0.06,low,0,0,0,0,NA,NA,NA,SF VSR
+12/22/2023,Low,inactive,0,offline,0,offline,0,offline,0.09,low,0,0,0,0,NA,NA,NA,SF VSR
+12/23/2023,Low,inactive,0,offline,0,offline,0,offline,0.06,low,0,0,0,0,NA,NA,NA,SF VSR
+12/24/2023,Low,inactive,0,offline,0,offline,0,offline,0.08,low,0,0,0,0,NA,NA,NA,SF VSR
+12/25/2023,Low,inactive,0,offline,0,offline,0,offline,0.05,low,0,0,0,0,NA,NA,NA,SF VSR
+12/26/2023,Low,inactive,0,offline,0,offline,0,offline,0.06,low,0,0,0,0,NA,NA,NA,SF VSR
+12/27/2023,Low,inactive,0,offline,0,offline,0,offline,0.06,low,0,0,0,0,NA,NA,NA,SF VSR
+12/28/2023,Low,inactive,0,offline,0,offline,0,offline,0.07,low,0,0,0,0,NA,NA,NA,SF VSR
+12/29/2023,Low,inactive,0,offline,0,offline,0,offline,0.06,low,0,0,0,0,NA,NA,NA,SF VSR
+12/30/2023,Low,inactive,0,offline,0,offline,0,offline,0.06,low,0,0,0,0,NA,NA,NA,SF VSR
+12/31/2023,Low,inactive,0,offline,0,offline,0,offline,0.04,low,0,0,0,0,NA,NA,NA,SF VSR
+1/1/2024,Low,inactive,0,offline,0,offline,0,offline,0.06,low,0,0,0,0,NA,NA,NA,SF VSR
+1/2/2024,Low,inactive,0,offline,0,offline,0,offline,0.07,low,0,0,0,0,NA,NA,NA,SF VSR
+1/3/2024,Low,inactive,0,offline,0,offline,0,offline,0.07,low,0,0,0,0,NA,NA,NA,SF VSR
+1/4/2024,Low,inactive,0,offline,0,offline,0,offline,0.06,low,0,0,0,0,NA,NA,NA,SF VSR
+1/5/2024,Low,inactive,0,offline,0,offline,0,offline,0.04,low,0,0,0,0,NA,NA,NA,SF VSR
+1/6/2024,Low,inactive,0,offline,0,offline,0,offline,0.04,low,0,0,0,0,NA,NA,NA,SF VSR
+1/7/2024,Low,inactive,0,offline,0,offline,0,offline,0.04,low,0,0,0,0,NA,NA,NA,SF VSR
+1/8/2024,Low,inactive,0,offline,0,offline,0,offline,0.04,low,0,0,0,0,NA,NA,NA,SF VSR
+1/9/2024,Low,inactive,0,offline,0,offline,0,offline,0.03,low,0,0,0,0,NA,NA,NA,SF VSR
+1/10/2024,Low,inactive,0,offline,0,offline,0,offline,0.02,low,0,0,0,0,NA,NA,NA,SF VSR
+1/11/2024,Low,inactive,0,offline,5,offline,0,offline,0.02,low,0,0,0,0,NA,NA,NA,SF VSR
+1/12/2024,Medium,inactive,0,offline,4,offline,0,offline,0.02,low,0,0,0,0,NA,NA,NA,SF VSR
+1/13/2024,Medium,inactive,0,offline,0,offline,0,offline,0.02,low,0,0,0,0,NA,NA,NA,SF VSR
+1/14/2024,Medium,inactive,0,offline,0,offline,0,offline,0.02,low,0,0,0,0,NA,NA,NA,SF VSR
+1/15/2024,Medium,inactive,0,offline,8,offline,0,offline,0.02,low,0,0,0,0,NA,NA,NA,SF VSR
+1/16/2024,High,inactive,0,offline,0,offline,0,offline,0.02,low,0,0,0,0,NA,NA,NA,SF VSR
+1/17/2024,High,inactive,0,offline,0,offline,0,offline,0.02,low,0,0,0,0,NA,NA,NA,SF VSR
+1/18/2024,High,inactive,0,offline,0,offline,0,offline,0.02,low,0,0,0,0,NA,NA,NA,SF VSR
+1/19/2024,High,inactive,0,offline,0,offline,0,offline,0.03,low,0,0,0,0,NA,NA,NA,SF VSR
+1/20/2024,Low,inactive,0,offline,0,offline,0,offline,0.02,low,0,0,0,0,NA,NA,NA,SF VSR
+1/21/2024,Low,inactive,0,offline,0,offline,0,offline,0.03,low,0,0,0,0,NA,NA,NA,SF VSR
+1/22/2024,Low,inactive,0,offline,5,offline,0,offline,0.04,low,0,0,0,0,NA,NA,NA,SF VSR
+1/23/2024,Medium,inactive,0,offline,2,offline,0,offline,0.03,low,0,0,0,0,NA,NA,NA,SF VSR
+1/24/2024,Medium,inactive,0,offline,0,offline,0,offline,0.03,low,0,0,0,0,NA,NA,NA,SF VSR
+1/25/2024,Medium,inactive,0,offline,0,offline,0,offline,0.04,low,0,0,0,0,NA,NA,NA,SF VSR
+1/26/2024,Medium,inactive,0,offline,0,offline,0,offline,0.03,low,0,0,0,0,NA,NA,NA,SF VSR
+1/27/2024,Medium,inactive,0,offline,0,offline,0,offline,0.03,low,0,0,0,0,NA,NA,NA,SF VSR
+1/28/2024,Low,inactive,0,offline,0,offline,0,offline,0.04,low,0,0,0,0,NA,NA,NA,SF VSR
+1/29/2024,Low,inactive,0,offline,11,offline,0,offline,0.05,low,0,0,0,0,NA,NA,NA,SF VSR
+1/30/2024,High,inactive,0,offline,0,offline,0,offline,0.05,low,0,0,0,0,NA,NA,NA,SF VSR
+1/31/2024,High,inactive,0,offline,0,offline,0,offline,0.07,low,0,0,0,0,NA,NA,NA,SF VSR
+2/1/2024,High,inactive,0,offline,0,offline,0,offline,0.06,low,0,0,0,0,NA,NA,NA,SF VSR
+2/2/2024,High,inactive,0,offline,0,offline,0,offline,0.04,low,0,0,0,0,NA,NA,NA,SF VSR
+2/3/2024,High,inactive,0,offline,0,offline,0,offline,0.04,low,0,0,0,0,NA,NA,NA,SF VSR
+2/4/2024,Low,inactive,0,offline,0,offline,0,offline,0.04,low,0,0,0,0,NA,NA,NA,SF VSR
+2/5/2024,Low,inactive,0,offline,0,offline,0,offline,0.05,low,0,0,0,0,NA,NA,NA,SF VSR
+2/6/2024,Low,inactive,0,offline,0,offline,0,offline,0.05,low,0,0,0,0,NA,NA,NA,SF VSR
+2/7/2024,Low,inactive,0,offline,0,offline,0,offline,0.04,low,0,0,0,0,NA,NA,NA,SF VSR
+2/8/2024,Low,inactive,0,offline,0,offline,0,offline,0.05,low,0,0,0,0,NA,NA,NA,SF VSR
+2/9/2024,Low,inactive,0,offline,0,offline,0,offline,0.05,low,0,0,0,0,NA,NA,NA,SF VSR
+2/10/2024,Low,inactive,0,offline,0,offline,0,offline,0.03,low,0,0,0,0,NA,NA,NA,SF VSR
+2/11/2024,Low,inactive,0,offline,0,offline,0,offline,0.02,low,0,0,0,0,NA,NA,NA,SF VSR
+2/12/2024,Low,inactive,0,offline,1,offline,0,offline,0.03,low,0,0,0,0,NA,NA,NA,SF VSR
+2/13/2024,Medium,inactive,0,offline,0,offline,0,offline,0.04,low,0,0,0,0,NA,NA,NA,SF VSR
+2/14/2024,Medium,inactive,0,offline,0,offline,0,offline,0.03,low,0,0,0,0,NA,NA,NA,SF VSR
+2/15/2024,Medium,inactive,0,offline,0,offline,0,offline,0.03,low,0,0,0,0,NA,NA,NA,SF VSR
+2/16/2024,Medium,inactive,0,offline,0,offline,0,offline,0.03,low,0,0,0,0,NA,NA,NA,SF VSR
+2/17/2024,Low,inactive,0,offline,0,offline,0,offline,0.03,low,0,0,0,0,NA,NA,NA,SF VSR
+2/18/2024,Low,inactive,0,offline,0,offline,0,offline,0.03,low,0,0,0,0,NA,NA,NA,SF VSR
+2/19/2024,Low,inactive,0,offline,0,offline,0,offline,0.04,low,0,0,0,0,NA,NA,NA,SF VSR
+2/20/2024,Low,inactive,0,offline,0,offline,0,offline,0.05,low,0,0,0,0,NA,NA,NA,SF VSR
+2/21/2024,Low,inactive,0,offline,0,offline,0,offline,0.03,low,0,0,0,0,NA,NA,NA,SF VSR
+2/22/2024,Low,inactive,0,offline,0,offline,0,offline,0.03,low,0,0,0,0,NA,NA,NA,SF VSR
+2/23/2024,Low,inactive,0,offline,0,offline,0,offline,0.05,low,0,0,0,0,NA,NA,NA,SF VSR
+2/24/2024,Low,inactive,0,offline,0,offline,0,offline,0.04,low,0,0,0,0,NA,NA,NA,SF VSR
+2/25/2024,Low,inactive,0,offline,0,offline,0,offline,0.04,low,0,0,0,0,NA,NA,NA,SF VSR
+2/26/2024,Low,inactive,0,offline,0,offline,0,offline,0.04,low,0,0,0,0,NA,NA,NA,SF VSR
+2/27/2024,Low,inactive,0,offline,1,offline,0,offline,0.05,low,0,0,0,0,NA,NA,NA,SF VSR
+2/28/2024,Medium,inactive,0,offline,0,offline,0,offline,0.06,low,0,0,0,0,NA,NA,NA,SF VSR
+2/29/2024,Medium,inactive,0,offline,0,offline,0,offline,0.06,low,0,0,0,0,NA,NA,NA,SF VSR
+3/1/2024,Medium,inactive,0,offline,0,offline,0,offline,0.06,low,0,0,0,0,NA,NA,NA,SF VSR
+3/2/2024,Medium,inactive,0,offline,0,offline,0,offline,0.16,low,0,0,0,0,NA,NA,NA,SF VSR
+3/3/2024,Low,inactive,0,offline,2,offline,0,offline,0.13,low,0,0,0,0,NA,NA,NA,SF VSR
+3/4/2024,Low,inactive,0,offline,0,offline,0,offline,0.13,low,0,0,0,0,NA,NA,NA,SF VSR
+3/5/2024,Medium,inactive,0,offline,0,offline,0,offline,0.13,low,0,0,0,0,NA,NA,NA,SF VSR
+3/6/2024,Medium,inactive,0,offline,0,offline,0,offline,0.12,low,0,0,0,0,NA,NA,NA,SF VSR
+3/7/2024,Medium,inactive,0,offline,0,offline,0,offline,0.09,low,0,0,0,0,NA,NA,NA,SF VSR
+3/8/2024,Medium,inactive,0,offline,0,offline,3,offline,0.1,low,0,0,0,0,NA,NA,NA,SF VSR
+3/9/2024,High,inactive,0,offline,0,offline,0,offline,0.08,low,0,0,0,0,NA,NA,NA,SF VSR
+3/10/2024,High,inactive,0,offline,2,offline,0,offline,0.14,low,0,0,0,0,NA,NA,NA,SF VSR
+3/11/2024,High,inactive,0,offline,0,offline,0,offline,0.15,low,0,0,0,0,NA,NA,NA,SF VSR
+3/12/2024,High,inactive,0,offline,0,offline,0,offline,0.15,low,0,0,0,0,NA,NA,NA,SF VSR
+3/13/2024,High,inactive,0,offline,0,offline,0,offline,0.18,low,0,0,0,0,NA,NA,NA,SF VSR
+3/14/2024,Medium,inactive,0,offline,0,offline,0,offline,0.07,low,0,0,0,0,NA,NA,NA,SF VSR
+3/15/2024,Low,inactive,0,offline,0,offline,0,offline,0.05,low,0,0,0,0,NA,NA,NA,SF VSR
+3/16/2024,Low,inactive,0,offline,0,offline,0,offline,0.04,low,0,0,0,0,NA,NA,NA,SF VSR
+3/17/2024,Low,inactive,0,offline,0,offline,0,offline,0.07,low,0,0,0,0,NA,NA,NA,SF VSR
+3/18/2024,Low,inactive,0,offline,1,offline,0,offline,0.32,low,0,0,0,0,NA,NA,NA,SF VSR
+3/19/2024,Medium,inactive,0,offline,3,offline,0,offline,0.4,low,0,0,0,0,NA,NA,NA,SF VSR
+3/20/2024,Medium,inactive,0,offline,1,offline,0,offline,0.48,low,0,0,0,0,NA,NA,NA,SF VSR
+3/21/2024,Medium,inactive,0,offline,5,offline,0,offline,0.55,low,0,0,0,0,NA,NA,NA,SF VSR
+3/22/2024,Medium,inactive,0,offline,1,offline,0,offline,0.16,low,0,0,0,0,NA,NA,NA,SF VSR
+3/23/2024,Medium,inactive,0,offline,0,offline,0,offline,0.17,low,0,0,0,0,NA,NA,NA,SF VSR
+3/24/2024,Medium,inactive,0,offline,0,offline,0,offline,0.11,low,0,0,0,0,NA,NA,NA,SF VSR
+3/25/2024,Medium,inactive,0,offline,0,offline,0,offline,0.06,low,0,0,0,0,NA,NA,NA,SF VSR
+3/26/2024,Medium,inactive,0,offline,0,offline,0,offline,0.05,low,0,0,0,0,NA,NA,NA,SF VSR
+3/27/2024,Low,inactive,0,offline,0,offline,0,offline,0.05,low,0,0,0,0,NA,NA,NA,SF VSR
+3/28/2024,Low,inactive,0,offline,0,offline,0,offline,0.04,low,0,0,0,0,NA,NA,NA,SF VSR
+3/29/2024,Low,inactive,0,offline,0,offline,0,offline,0.05,low,0,0,0,0,NA,NA,NA,SF VSR
+3/30/2024,Low,inactive,0,offline,0,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+3/31/2024,Low,inactive,0,offline,0,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+4/1/2024,Low,inactive,0,offline,0,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+4/2/2024,Low,inactive,0,offline,2,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+4/3/2024,Low,inactive,0,offline,0,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+4/4/2024,Medium,inactive,0,offline,0,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+4/5/2024,Medium,inactive,0,offline,0,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+4/6/2024,Medium,inactive,0,offline,0,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+4/7/2024,Low,inactive,0,offline,0,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+4/8/2024,Low,inactive,0,offline,0,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+4/9/2024,Low,inactive,0,offline,0,offline,0,offline,0.04,low,0,0,0,0,NA,NA,NA,SF VSR
+4/10/2024,Low,inactive,0,offline,0,offline,0,offline,0.05,low,0,0,0,0,NA,NA,NA,SF VSR
+4/11/2024,Low,inactive,0,offline,0,offline,0,offline,0.06,low,0,0,0,0,NA,NA,NA,SF VSR
+4/12/2024,Low,inactive,0,offline,0,offline,0,offline,0.06,low,0,0,0,0,NA,NA,NA,SF VSR
+4/13/2024,Low,inactive,0,offline,0,offline,0,offline,0.05,low,0,0,0,0,NA,NA,NA,SF VSR
+4/14/2024,Low,inactive,0,offline,2,offline,0,offline,0.04,low,0,0,0,0,NA,NA,NA,SF VSR
+4/15/2024,Medium,inactive,0,offline,0,offline,0,offline,0.06,low,0,0,0,0,NA,NA,NA,SF VSR
+4/16/2024,Medium,inactive,0,offline,0,offline,0,offline,0.07,low,0,0,0,0,NA,NA,NA,SF VSR
+4/17/2024,Medium,inactive,0,offline,0,offline,0,offline,0.08,low,0,0,0,0,NA,NA,NA,SF VSR
+4/18/2024,Medium,inactive,0,offline,0,offline,0,offline,0.1,low,0,0,0,0,NA,NA,NA,SF VSR
+4/19/2024,Low,inactive,0,offline,0,offline,0,offline,0.12,low,0,0,0,0,NA,NA,NA,SF VSR
+4/20/2024,Low,inactive,0,offline,3,offline,0,offline,0.11,low,0,0,0,0,NA,NA,NA,SF VSR
+4/21/2024,Medium,inactive,0,offline,0,offline,0,offline,0.1,low,0,0,0,0,NA,NA,NA,SF VSR
+4/22/2024,Medium,inactive,0,offline,0,offline,0,offline,0.08,low,0,0,0,0,NA,NA,NA,SF VSR
+4/23/2024,Medium,inactive,0,offline,0,offline,0,offline,0.14,low,0,0,0,0,NA,NA,NA,SF VSR
+4/24/2024,Medium,inactive,0,offline,1,offline,0,offline,0.09,low,0,0,0,0,NA,NA,NA,SF VSR
+4/25/2024,Medium,inactive,0,offline,0,offline,0,offline,0.13,low,0,0,0,0,NA,NA,NA,SF VSR
+4/26/2024,Medium,inactive,0,offline,0,offline,0,offline,0.09,low,0,0,0,0,NA,NA,NA,SF VSR
+4/27/2024,Medium,inactive,0,offline,0,offline,0,offline,0.13,low,0,0,0,0,NA,NA,NA,SF VSR
+4/28/2024,Medium,inactive,0,offline,0,offline,0,offline,0.04,low,0,0,0,0,NA,NA,NA,SF VSR
+4/29/2024,Low,inactive,0,offline,0,offline,0,offline,0.03,low,0,0,0,0,NA,NA,NA,SF VSR
+4/30/2024,Low,inactive,0,offline,0,offline,0,offline,0.02,low,0,0,0,0,NA,NA,NA,SF VSR
+5/1/2024,Low,active,0,offline,1,offline,0,offline,0.02,low,0,0,0,0,NA,NA,NA,SF VSR
+5/2/2024,Medium,active,0,offline,0,offline,0,offline,0.02,low,0,0,0,0,NA,NA,NA,SF VSR
+5/3/2024,Medium,active,0,offline,0,offline,0,offline,0.02,low,0,0,0,0,NA,NA,NA,SF VSR
+5/4/2024,Medium,active,0,offline,0,offline,0,offline,0.03,low,0,0,0,0,NA,NA,NA,SF VSR
+5/5/2024,Medium,active,0,offline,0,offline,0,offline,0.02,low,0,0,0,0,NA,NA,NA,SF VSR
+5/6/2024,Low,active,0,offline,0,offline,0,offline,0.02,low,0,0,0,0,NA,NA,NA,SF VSR
+5/7/2024,Low,active,0,offline,0,offline,0,offline,0.03,low,0,0,0,0,NA,NA,NA,SF VSR
+5/8/2024,Low,active,0,offline,0,offline,0,offline,0.02,low,0,0,0,0,NA,NA,NA,SF VSR
+5/9/2024,Low,active,0,offline,4,offline,0,offline,0.03,low,0,0,0,0,NA,NA,NA,SF VSR
+5/10/2024,Medium,active,0,offline,0,offline,5,offline,0.06,low,0,0,0,0,NA,NA,NA,SF VSR
+5/11/2024,High,active,0,offline,1,offline,0,offline,0.11,low,0,0,0,0,NA,NA,NA,SF VSR
+5/12/2024,High,active,0,offline,1,offline,0,offline,0.16,low,0,0,0,0,NA,NA,NA,SF VSR
+5/13/2024,High,active,0,offline,0,offline,0,offline,0.1,low,0,0,0,0,NA,NA,NA,SF VSR
+5/14/2024,High,active,0,offline,0,offline,0,offline,0.08,low,0,0,0,0,NA,NA,NA,SF VSR
+5/15/2024,Medium,active,0,offline,0,offline,0,offline,0.07,low,0,0,0,0,NA,NA,NA,SF VSR
+5/16/2024,Medium,active,0,offline,0,offline,0,offline,0.06,low,0,0,0,0,NA,NA,NA,SF VSR
+5/17/2024,Medium,active,0,offline,0,offline,0,offline,0.18,low,0,0,0,0,NA,NA,NA,SF VSR
+5/18/2024,Low,active,0,offline,0,offline,0,offline,0.11,low,0,0,0,0,NA,NA,NA,SF VSR
+5/19/2024,Low,active,0,offline,0,offline,0,offline,0.31,low,0,0,0,0,NA,NA,NA,SF VSR
+5/20/2024,Low,active,0,offline,0,offline,0,offline,0.28,low,0,0,0,0,NA,NA,NA,SF VSR
+5/21/2024,Low,active,0,offline,0,offline,0,offline,0.11,low,0,0,0,0,NA,NA,NA,SF VSR
+5/22/2024,Low,active,0,offline,0,offline,0,offline,0.16,low,0,0,0,0,NA,NA,NA,SF VSR
+5/23/2024,Low,active,0,offline,0,offline,0,offline,0.07,low,0,0,0,0,NA,NA,NA,SF VSR
+5/24/2024,Low,active,0,offline,0,offline,0,offline,0.03,low,0,0,0,0,NA,NA,NA,SF VSR
+5/25/2024,Low,active,0,offline,0,offline,0,offline,0.03,low,0,0,0,0,NA,NA,NA,SF VSR
+5/26/2024,Low,active,0,offline,0,offline,0,offline,0.02,low,0,0,0,0,NA,NA,NA,SF VSR
+5/27/2024,Low,active,0,offline,0,offline,0,offline,0.04,low,0,0,0,0,NA,NA,NA,SF VSR
+5/28/2024,Low,active,0,offline,0,offline,0,offline,0.04,low,0,0,0,0,NA,NA,NA,SF VSR
+5/29/2024,Low,active,0,offline,0,offline,0,offline,0.04,low,0,0,0,0,NA,NA,NA,SF VSR
+5/30/2024,Low,active,0,offline,0,offline,0,offline,0.02,low,0,0,0,0,NA,NA,NA,SF VSR
+5/31/2024,Low,active,0,offline,0,offline,0,offline,0.03,low,0,0,0,0,NA,NA,NA,SF VSR
+6/1/2024,Low,active,0,offline,0,offline,0,offline,0.07,low,0,0,0,0,NA,NA,NA,SF VSR
+6/2/2024,Low,active,0,offline,0,offline,0,offline,0.19,low,0,0,0,0,NA,NA,NA,SF VSR
+6/3/2024,Low,active,0,offline,0,offline,0,offline,0.17,low,0,0,0,0,NA,NA,NA,SF VSR
+6/4/2024,Low,active,0,offline,0,offline,0,offline,0.19,low,0,0,0,0,NA,NA,NA,SF VSR
+6/5/2024,Low,active,0,offline,0,offline,0,offline,0.19,low,0,0,0,0,NA,NA,NA,SF VSR
+6/6/2024,Low,active,0,offline,0,offline,0,offline,0.23,low,0,0,0,0,NA,NA,NA,SF VSR
+6/7/2024,Low,active,0,offline,0,offline,0,offline,0.3,low,0,0,0,0,NA,NA,NA,SF VSR
+6/8/2024,Low,active,0,offline,0,offline,0,offline,0.2,low,0,0,0,0,NA,NA,NA,SF VSR
+6/9/2024,Low,active,0,offline,0,offline,0,offline,0.37,low,0,0,0,0,NA,NA,NA,SF VSR
+6/10/2024,Low,active,0,offline,0,offline,0,offline,0.45,low,0,0,0,0,NA,NA,NA,SF VSR
+6/11/2024,Low,active,0,offline,0,offline,0,offline,0.45,low,0,0,0,0,NA,NA,NA,SF VSR
+6/12/2024,Low,active,0,offline,0,offline,0,offline,0.44,low,0,0,0,0,NA,NA,NA,SF VSR
+6/13/2024,Low,active,0,offline,0,offline,0,offline,0.51,low,0,0,0,0,NA,NA,NA,SF VSR
+6/14/2024,Low,active,0,offline,0,offline,0,offline,0.52,low,0,0,0,0,NA,NA,NA,SF VSR
+6/15/2024,Low,active,0,offline,0,offline,0,offline,0.43,low,0,0,0,0,NA,NA,NA,SF VSR
+6/16/2024,Low,active,0,offline,0,offline,0,offline,0.52,low,0,0,0,0,NA,NA,NA,SF VSR
+6/17/2024,Low,active,0,offline,0,offline,0,offline,0.52,low,0,0,0,0,NA,NA,NA,SF VSR
+6/18/2024,Low,active,0,offline,0,offline,0,offline,0.53,low,0,0,0,0,NA,NA,NA,SF VSR
+6/19/2024,Low,active,0,offline,0,offline,0,offline,0.51,low,0,0,0,0,NA,NA,NA,SF VSR
+6/20/2024,Low,active,0,offline,0,offline,0,offline,0.54,low,0,0,0,0,NA,NA,NA,SF VSR
+6/21/2024,Low,active,0,offline,0,offline,0,offline,0.56,low,0,0,0,0,NA,NA,NA,SF VSR
+6/22/2024,Low,active,0,offline,0,offline,0,offline,0.54,low,0,0,0,0,NA,NA,NA,SF VSR
+6/23/2024,Low,active,0,offline,3,offline,0,offline,0.74,medium,0,0,0,0,NA,NA,NA,SF VSR
+6/24/2024,Medium,active,0,offline,0,offline,0,offline,0.72,medium,0,0,0,0,NA,NA,NA,SF VSR
+6/25/2024,Medium,active,0,offline,3,offline,0,offline,0.7,medium,0,0,0,0,NA,NA,NA,SF VSR
+6/26/2024,Medium,active,0,offline,0,offline,3,offline,0.68,low,0,0,0,0,NA,NA,NA,SF VSR
+6/27/2024,High,active,0,offline,1,offline,3,offline,0.62,low,0,0,0,0,NA,NA,NA,SF VSR
+6/28/2024,High,active,0,offline,1,offline,0,offline,0.7,medium,0,0,0,0,NA,NA,NA,SF VSR
+6/29/2024,High,active,0,offline,0,offline,0,offline,0.74,medium,0,0,0,0,NA,NA,NA,SF VSR
+6/30/2024,High,active,0,offline,0,offline,0,offline,0.9,medium,0,0,0,0,NA,NA,NA,SF VSR
+7/1/2024,High,active,0,offline,2,offline,2,offline,0.92,medium,0,0,0,0,NA,NA,NA,SF VSR
+7/2/2024,High,active,0,offline,0,offline,0,offline,0.9,medium,0,0,0,0,NA,NA,NA,SF VSR
+7/3/2024,High,active,0,offline,5,offline,0,offline,0.82,medium,0,0,0,0,NA,NA,NA,SF VSR
+7/4/2024,High,active,0,offline,0,offline,0,offline,0.75,medium,0,0,0,0,NA,NA,NA,SF VSR
+7/5/2024,High,active,2,offline,40,offline,0,offline,0.8,medium,0,0,0,0,NA,NA,NA,SF VSR
+7/6/2024,Very High,active,0,offline,0,offline,0,offline,0.79,medium,0,0,0,0,NA,NA,NA,SF VSR
+7/7/2024,Very High,active,0,offline,15,offline,0,offline,0.78,medium,0,0,0,0,NA,NA,NA,SF VSR
+7/8/2024,Very High,active,0,offline,0,offline,0,offline,0.81,medium,0,0,0,0,NA,NA,NA,SF VSR
+7/9/2024,Very High,active,0,offline,3,offline,0,offline,0.71,medium,0,0,0,0,NA,NA,NA,SF VSR
+7/10/2024,Very High,active,0,offline,0,offline,0,offline,0.64,low,0,0,0,0,NA,NA,NA,SF VSR
+7/11/2024,High,active,0,offline,0,offline,0,offline,0.65,low,0,0,0,0,NA,NA,NA,SF VSR
+7/12/2024,Medium,active,0,offline,0,offline,0,offline,0.79,medium,0,0,0,0,NA,NA,NA,SF VSR
+7/13/2024,Medium,active,3,offline,26,offline,5,offline,0.82,medium,0,0,0,0,NA,NA,NA,SF VSR
+7/14/2024,Very High,active,4,offline,9,offline,5,offline,0.83,medium,0,0,0,0,NA,NA,NA,SF VSR
+7/15/2024,Very High,active,0,offline,11,offline,10,offline,0.85,medium,0,0,0,0,NA,NA,NA,SF VSR
+7/16/2024,Very High,active,1,offline,10,offline,4,offline,0.71,medium,0,0,0,0,NA,NA,NA,SF VSR
+7/17/2024,Very High,active,0,offline,0,offline,0,offline,0.68,low,0,0,0,0,NA,NA,NA,SF VSR
+7/18/2024,Very High,active,0,offline,0,offline,0,offline,0.73,medium,0,0,0,0,NA,NA,NA,SF VSR
+7/19/2024,Very High,active,0,offline,0,offline,0,offline,0.81,medium,0,0,0,0,NA,NA,NA,SF VSR
+7/20/2024,Very High,active,0,offline,0,offline,0,offline,0.86,medium,0,0,0,0,NA,NA,NA,SF VSR
+7/21/2024,Low,active,0,offline,0,offline,0,offline,0.86,medium,0,0,0,0,NA,NA,NA,SF VSR
+7/22/2024,Medium,active,0,offline,0,offline,0,offline,0.85,medium,0,0,0,0,NA,NA,NA,SF VSR
+7/23/2024,Medium,active,0,offline,0,offline,0,offline,0.82,medium,0,0,0,0,NA,NA,NA,SF VSR
+7/24/2024,Low,active,0,offline,2,offline,5,offline,0.71,medium,0,0,0,0,NA,NA,NA,SF VSR
+7/25/2024,High,active,0,offline,1,offline,5,offline,0.73,medium,0,0,0,0,NA,NA,NA,SF VSR
+7/26/2024,High,active,0,offline,0,offline,0,offline,0.78,medium,0,0,0,0,NA,NA,NA,SF VSR
+7/27/2024,High,active,0,offline,16,offline,0,offline,0.82,medium,0,0,0,0,NA,NA,NA,SF VSR
+7/28/2024,High,active,6,offline,28,offline,19,offline,0.82,medium,0,0,0,0,NA,NA,NA,SF VSR
+7/29/2024,Very High,active,0,offline,0,offline,0,offline,0.82,medium,0,0,0,0,NA,NA,NA,SF VSR
+7/30/2024,Very High,active,1,offline,20,offline,9,offline,0.82,medium,0,0,0,0,NA,NA,NA,SF VSR
+7/31/2024,Very High,active,0,offline,0,offline,0,offline,0.83,medium,0,0,0,0,NA,NA,NA,SF VSR
+8/1/2024,Very High,active,0,offline,0,offline,0,offline,0.73,medium,0,0,0,0,NA,NA,NA,SF VSR
+8/2/2024,Very High,active,0,offline,0,offline,0,offline,0.69,low,0,0,0,0,NA,NA,NA,SF VSR
+8/3/2024,Very High,active,0,offline,6,offline,0,offline,0.79,medium,0,0,0,0,NA,NA,NA,SF VSR
+8/4/2024,Very High,active,0,offline,0,offline,0,offline,0.81,medium,0,0,0,0,NA,NA,NA,SF VSR
+8/5/2024,Medium,active,0,offline,0,offline,0,offline,0.82,medium,0,0,0,0,NA,NA,NA,SF VSR
+8/6/2024,Medium,active,0,offline,0,offline,0,offline,0.81,medium,0,0,0,0,NA,NA,NA,SF VSR
+8/7/2024,Medium,active,0,offline,0,offline,0,offline,0.79,medium,0,0,0,0,NA,NA,NA,SF VSR
+8/8/2024,Medium,active,0,offline,0,offline,0,offline,0.72,medium,0,0,0,0,NA,NA,NA,SF VSR
+8/9/2024,Low,active,0,offline,1,offline,2,offline,0.75,medium,0,0,0,0,NA,NA,NA,SF VSR
+8/10/2024,High,active,0,offline,0,offline,0,offline,0.78,medium,0,0,0,0,NA,NA,NA,SF VSR
+8/11/2024,High,active,0,offline,0,offline,0,offline,0.81,medium,0,0,0,0,NA,NA,NA,SF VSR
+8/12/2024,High,active,1,offline,9,offline,5,offline,0.8,medium,0,0,0,0,NA,NA,NA,SF VSR
+8/13/2024,Very High,active,0,offline,22,offline,4,offline,0.82,medium,0,0,0,0,NA,NA,NA,SF VSR
+8/14/2024,Very High,active,0,offline,0,offline,0,offline,0.83,medium,0,0,0,0,NA,NA,NA,SF VSR
+8/15/2024,Very High,active,0,offline,0,offline,0,offline,0.83,medium,0,0,0,0,NA,NA,NA,SF VSR
+8/16/2024,Very High,active,0,offline,0,offline,0,offline,0.84,medium,0,0,0,0,NA,NA,NA,SF VSR
+8/17/2024,Very High,active,0,offline,1,offline,0,offline,0.85,medium,0,0,0,0,NA,NA,NA,SF VSR
+8/18/2024,Medium,active,1,offline,26,offline,2,offline,0.77,medium,0,0,0,0,NA,NA,NA,SF VSR
+8/19/2024,Very High,active,0,offline,0,offline,6,offline,0.77,medium,0,0,0,0,NA,NA,NA,SF VSR
+8/20/2024,Very High,active,1,offline,0,offline,5,offline,0.8,medium,0,0,0,0,NA,NA,NA,SF VSR
+8/21/2024,Very High,active,1,offline,3,offline,11,offline,0.79,medium,0,0,0,0,NA,NA,NA,SF VSR
+8/22/2024,Very High,active,0,offline,7,offline,7,offline,0.82,medium,0,0,0,0,NA,NA,NA,SF VSR
+8/23/2024,Very High,active,0,offline,7,offline,0,offline,0.79,medium,0,0,0,0,NA,NA,NA,SF VSR
+8/24/2024,Very High,active,0,offline,7,offline,3,offline,0.71,medium,0,0,0,0,NA,NA,NA,SF VSR
+8/25/2024,Very High,active,0,offline,5,offline,0,offline,0.73,medium,0,0,0,0,NA,NA,NA,SF VSR
+8/26/2024,Very High,active,0,offline,0,offline,0,offline,0.78,medium,0,0,0,0,NA,NA,NA,SF VSR
+8/27/2024,Very High,active,0,offline,12,offline,0,offline,0.78,medium,0,0,0,0,NA,NA,NA,SF VSR
+8/28/2024,Very High,active,0,offline,3,offline,0,offline,0.82,medium,0,0,0,0,NA,NA,NA,SF VSR
+8/29/2024,High,active,0,offline,32,offline,0,offline,0.8,medium,0,0,0,0,NA,NA,NA,SF VSR
+8/30/2024,High,active,0,offline,24,offline,0,offline,0.79,medium,0,0,0,0,NA,NA,NA,SF VSR
+8/31/2024,High,active,1,offline,24,offline,0,offline,0.84,medium,0,0,0,0,NA,NA,NA,SF VSR
+9/1/2024,High,active,0,offline,10,offline,3,offline,0.79,medium,0,0,0,0,NA,NA,NA,SF VSR
+9/2/2024,Very High,active,0,offline,23,offline,5,offline,0.84,medium,0,0,0,0,NA,NA,NA,SF VSR
+9/3/2024,Very High,active,0,offline,0,offline,0,offline,0.85,medium,0,0,0,0,NA,NA,NA,SF VSR
+9/4/2024,Very High,active,0,offline,0,offline,0,offline,0.81,medium,0,0,0,0,NA,NA,NA,SF VSR
+9/5/2024,Very High,active,0,offline,0,offline,0,offline,0.82,medium,0,0,0,0,NA,NA,NA,SF VSR
+9/6/2024,Very High,active,0,offline,0,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+9/7/2024,Medium,active,0,offline,53,offline,1,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+9/8/2024,Medium,active,0,offline,0,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+9/9/2024,Medium,active,0,offline,17,offline,1,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+9/10/2024,High,active,0,offline,8,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+9/11/2024,High,active,0,offline,0,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+9/12/2024,High,active,0,offline,0,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+9/13/2024,High,active,0,offline,0,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+9/14/2024,High,active,0,offline,19,offline,3,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+9/15/2024,Low,active,0,offline,0,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+9/16/2024,Low,active,0,offline,0,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+9/17/2024,Very High,active,0,offline,4,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+9/18/2024,Very High,active,0,offline,0,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+9/19/2024,Medium,active,0,offline,0,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+9/20/2024,Medium,active,0,offline,0,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+9/21/2024,Medium,active,2,offline,47,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+9/22/2024,Medium,active,0,offline,0,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+9/23/2024,Low,active,0,offline,18,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+9/24/2024,High,active,0,offline,15,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+9/25/2024,High,active,0,offline,43,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+9/26/2024,High,active,0,offline,0,offline,0,offline,0.82,medium,0,0,0,0,NA,NA,NA,SF VSR
+9/27/2024,High,active,0,offline,8,offline,0,offline,0.83,medium,0,0,0,0,NA,NA,NA,SF VSR
+9/28/2024,High,active,0,offline,26,offline,0,offline,0.83,medium,0,0,0,0,NA,NA,NA,SF VSR
+9/29/2024,High,active,0,offline,2,offline,0,offline,0.83,medium,0,0,0,0,NA,NA,NA,SF VSR
+9/30/2024,High,active,0,offline,0,offline,0,offline,0.74,medium,0,0,0,0,NA,NA,NA,SF VSR
+10/1/2024,High,active,0,offline,1,offline,0,offline,0.72,medium,0,0,0,0,NA,NA,NA,SF VSR
+10/2/2024,High,active,0,offline,3,offline,0,offline,0.71,medium,0,0,0,0,NA,NA,NA,SF VSR
+10/3/2024,Medium,active,0,offline,11,offline,0,offline,0.73,medium,0,0,0,0,NA,NA,NA,SF VSR
+10/4/2024,High,active,0,offline,0,offline,0,offline,0.72,medium,0,0,0,0,NA,NA,NA,SF VSR
+10/5/2024,High,active,5,offline,43,offline,2,offline,0.74,medium,0,0,0,0,NA,NA,NA,SF VSR
+10/6/2024,High,active,0,offline,17,offline,0,offline,0.77,medium,0,0,0,0,NA,NA,NA,SF VSR
+10/7/2024,High,active,0,offline,0,offline,0,offline,0.79,medium,0,0,0,0,NA,NA,NA,SF VSR
+10/8/2024,Very High,active,0,offline,0,offline,0,offline,0.79,medium,0,0,0,0,NA,NA,NA,SF VSR
+10/9/2024,Very High,active,0,offline,0,offline,0,offline,0.81,medium,0,0,0,0,NA,NA,NA,SF VSR
+10/10/2024,High,active,0,offline,6,offline,0,offline,0.8,medium,0,0,0,0,NA,NA,NA,SF VSR
+10/11/2024,Medium,active,0,offline,21,offline,0,offline,0.79,medium,0,0,0,0,NA,NA,NA,SF VSR
+10/12/2024,High,active,0,offline,0,offline,0,offline,0.78,medium,0,0,0,0,NA,NA,NA,SF VSR
+10/13/2024,High,active,0,offline,1,offline,0,offline,0.79,medium,0,0,0,0,NA,NA,NA,SF VSR
+10/14/2024,High,active,0,offline,0,offline,0,offline,0.75,medium,0,0,0,0,NA,NA,NA,SF VSR
+10/15/2024,High,active,0,offline,0,offline,0,offline,0.78,medium,0,0,0,0,NA,NA,NA,SF VSR
+10/16/2024,High,active,0,offline,26,offline,0,offline,0.77,medium,0,0,0,0,NA,NA,NA,SF VSR
+10/17/2024,High,active,0,offline,0,offline,0,offline,0.8,medium,0,0,0,0,NA,NA,NA,SF VSR
+10/18/2024,High,active,0,offline,0,offline,0,offline,0.83,medium,0,0,0,0,NA,NA,NA,SF VSR
+10/19/2024,High,active,0,offline,19,offline,0,offline,0.8,medium,0,0,0,0,NA,NA,NA,SF VSR
+10/20/2024,High,active,0,offline,25,offline,0,offline,0.73,medium,0,0,0,0,NA,NA,NA,SF VSR
+10/21/2024,High,active,0,offline,20,offline,0,offline,0.69,low,0,0,0,0,NA,NA,NA,SF VSR
+10/22/2024,High,active,0,offline,19,offline,0,offline,0.71,medium,0,0,0,0,NA,NA,NA,SF VSR
+10/23/2024,High,active,0,offline,13,offline,0,offline,0.75,medium,0,0,0,0,NA,NA,NA,SF VSR
+10/24/2024,High,active,0,offline,2,offline,0,offline,0.75,medium,0,0,0,0,NA,NA,NA,SF VSR
+10/25/2024,High,active,0,offline,11,offline,0,offline,0.72,medium,0,0,0,0,NA,NA,NA,SF VSR
+10/26/2024,High,active,0,offline,44,offline,0,offline,0.7,medium,0,0,0,0,NA,NA,NA,SF VSR
+10/27/2024,High,active,0,offline,0,offline,0,offline,0.54,low,0,0,0,0,NA,NA,NA,SF VSR
+10/28/2024,High,active,0,offline,14,offline,0,offline,0.48,low,0,0,0,0,NA,NA,NA,SF VSR
+10/29/2024,High,active,0,offline,8,offline,0,offline,0.53,low,0,0,0,0,NA,NA,NA,SF VSR
+10/30/2024,High,active,0,offline,10,offline,0,offline,0.52,low,0,0,0,0,NA,NA,NA,SF VSR
+10/31/2024,High,active,0,offline,2,offline,0,offline,0.49,low,0,0,0,0,NA,NA,NA,SF VSR
+11/1/2024,High,active,0,offline,0,offline,0,offline,0.48,low,0,0,0,0,NA,NA,NA,SF VSR
+11/2/2024,High,active,0,offline,0,offline,0,offline,0.49,low,0,0,0,0,NA,NA,NA,SF VSR
+11/3/2024,High,active,0,offline,0,offline,0,offline,0.42,low,0,0,0,0,NA,NA,NA,SF VSR
+11/4/2024,High,active,0,offline,0,offline,0,offline,0.45,low,0,0,0,0,NA,NA,NA,SF VSR
+11/5/2024,Low,active,0,offline,7,offline,0,offline,0.46,low,0,0,0,0,NA,NA,NA,SF VSR
+11/6/2024,High,active,0,offline,0,offline,0,offline,0.45,low,0,0,0,0,NA,NA,NA,SF VSR
+11/7/2024,High,active,0,offline,6,offline,0,offline,0.41,low,0,0,0,0,NA,NA,NA,SF VSR
+11/8/2024,High,active,0,offline,6,offline,0,offline,0.42,low,0,0,0,0,NA,NA,NA,SF VSR
+11/9/2024,High,active,0,offline,5,offline,0,offline,0.4,low,0,0,0,0,NA,NA,NA,SF VSR
+11/10/2024,Medium,active,0,offline,12,offline,0,offline,0.29,low,0,0,0,0,NA,NA,NA,SF VSR
+11/11/2024,High,active,0,offline,25,offline,0,offline,0.29,low,0,0,0,0,NA,NA,NA,SF VSR
+11/12/2024,High,active,0,offline,6,offline,0,offline,0.28,low,0,0,0,0,NA,NA,NA,SF VSR
+11/13/2024,High,active,0,offline,18,offline,0,offline,0.32,low,0,0,0,0,NA,NA,NA,SF VSR
+11/14/2024,High,active,0,offline,17,offline,0,offline,0.32,low,0,0,0,0,NA,NA,NA,SF VSR
+11/15/2024,High,active,0,offline,0,offline,0,offline,0.35,low,0,0,0,0,NA,NA,NA,SF VSR
+11/16/2024,High,active,0,offline,5,offline,0,offline,0.35,low,0,0,0,0,NA,NA,NA,SF VSR
+11/17/2024,High,active,0,offline,0,offline,0,offline,0.15,low,0,0,0,0,NA,NA,NA,SF VSR
+11/18/2024,High,active,0,offline,4,offline,0,offline,0.14,low,0,0,0,0,NA,NA,NA,SF VSR
+11/19/2024,Medium,active,0,offline,5,offline,0,offline,0.14,low,0,0,0,0,NA,NA,NA,SF VSR
+11/20/2024,Medium,active,0,offline,0,offline,0,offline,0.16,low,0,0,0,0,NA,NA,NA,SF VSR
+11/21/2024,Medium,active,0,offline,0,offline,0,offline,0.14,low,0,0,0,0,NA,NA,NA,SF VSR
+11/22/2024,Medium,active,0,offline,0,offline,0,offline,0.15,low,0,0,0,0,NA,NA,NA,SF VSR
+11/23/2024,Medium,active,0,offline,14,offline,0,offline,0.16,low,0,0,0,0,NA,NA,NA,SF VSR
+11/24/2024,High,active,0,offline,0,offline,0,offline,0.03,low,0,0,0,0,NA,NA,NA,SF VSR
+11/25/2024,High,active,0,offline,0,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+11/26/2024,High,active,0,offline,0,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+11/27/2024,High,active,0,offline,1,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+11/28/2024,Medium,active,0,offline,0,offline,1,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+11/29/2024,Medium,active,0,offline,0,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+11/30/2024,Medium,active,0,offline,0,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+12/1/2024,Medium,active,0,offline,1,offline,1,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+12/2/2024,Medium,active,0,offline,52,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+12/3/2024,Medium,active,0,offline,0,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+12/4/2024,Medium,active,0,offline,4,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+12/5/2024,Medium,active,0,offline,2,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+12/6/2024,High,active,0,offline,0,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+12/7/2024,Medium,active,0,offline,2,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+12/8/2024,Medium,active,0,offline,0,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+12/9/2024,Medium,active,0,offline,0,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+12/10/2024,Low,active,0,offline,0,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+12/11/2024,Low,active,0,offline,0,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+12/12/2024,Low,active,0,offline,0,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+12/13/2024,Low,active,0,offline,0,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+12/14/2024,Low,active,0,offline,0,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+12/15/2024,Low,active,0,offline,0,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+12/16/2024,Low,active,0,offline,0,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+12/17/2024,Low,active,0,offline,0,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+12/18/2024,Low,active,0,offline,3,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+12/19/2024,Medium,active,0,offline,0,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+12/20/2024,Medium,active,0,offline,0,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+12/21/2024,Medium,active,0,offline,0,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+12/22/2024,Medium,active,0,offline,0,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+12/23/2024,Low,active,0,offline,0,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+12/24/2024,Low,active,0,offline,0,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+12/25/2024,Low,active,0,offline,0,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+12/26/2024,Low,active,0,offline,0,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+12/27/2024,Low,active,0,offline,0,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+12/28/2024,Low,active,0,offline,0,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+12/29/2024,Low,active,0,offline,0,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+12/30/2024,Low,active,0,offline,0,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+12/31/2024,Low,active,0,offline,0,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+1/1/2025,Low,active,0,offline,0,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+1/2/2025,Low,active,0,offline,0,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+1/3/2025,Low,active,0,offline,0,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+1/4/2025,Low,active,0,offline,0,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+1/5/2025,Low,active,0,offline,0,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+1/6/2025,Low,active,0,offline,0,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+1/7/2025,Low,active,0,offline,0,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+1/8/2025,Low,active,0,offline,0,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+1/9/2025,Low,active,0,offline,0,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+1/10/2025,Low,active,0,offline,3,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+1/11/2025,Medium,active,0,offline,0,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+1/12/2025,Medium,active,0,offline,0,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+1/13/2025,Medium,active,0,offline,0,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+1/14/2025,Medium,active,0,offline,0,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
+1/15/2025,Low,active,0,offline,0,offline,0,offline,NA,offline,0,0,0,0,NA,NA,NA,SF VSR
