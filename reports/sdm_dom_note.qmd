@@ -28,6 +28,8 @@ library(kableExtra) #table
 library(webr) #donut plot
 library(MetBrewer)
 library(ggridges)
+library(glmmTMB)
+set.seed(0902)
 
 ms_theme <- function(){
   theme_tq() %+replace%
@@ -149,6 +151,7 @@ sf_ac_na <- as.data.frame(table(sf_zone$blue_acoustic)) %>%
   mutate(prop_time = Freq/sf_length)
 socal_ac_na <- as.data.frame(table(socal_zone$blue_acoustic))%>%
   mutate(prop_time = Freq/socal_length)
+#socal_zone %>% group_by(blue_acoustic) %>% summarise(n = n())
 
 sf_ww_na <- as.data.frame(table(sf_zone$bwmv_rating)) %>%
   mutate(prop_time = Freq/sf_length)
@@ -165,6 +168,58 @@ socal_ww_na <- as.data.frame(table(socal_zone$bwmv_rating)) %>%
 | Southern California (n = 1579) | Whale Watch | 11.40%               |
 
 : Proportion of days per region data was offline
+
+# Revised analysis: GLMM/GAMM
+
+```{r}
+#| warning: false
+#| label: glmm revise
+
+wpr <- wpr %>% mutate(j_day = format(date_pt, "%j"), 
+                      blu_acou_deci = blue_acoustic_percent/100, 
+                      blu_acou_deci = ifelse(blu_acou_deci == 0, 0.00001, 
+                                                ifelse(blu_acou_deci == 1, 0.99999, blu_acou_deci)))
+
+#sightings ~ sdm
+sight_sdm <- glmmTMB(s_bluecount ~ bwmv + zone + mo + (1|year), 
+                    ziformula = ~1,
+                    family = poisson,
+                    data = wpr) #also consider day of year and year covars
+
+summary(sight_sdm)
+sight_sdm_resid <- simulateResiduals(sight_sdm)
+plot(sight_sdm_resid)
+
+# Create a prediction grid
+# Vary the variable of interest (e.g., bwmv) while holding others constant
+pred_data <- expand.grid(
+  bwmv = seq(min(wpr$bwmv, na.rm = TRUE), max(wpr$bwmv, na.rm = TRUE), length.out = 100),
+  zone = unique(wpr$zone),   # hold at reference level
+  mo   = unique(wpr$mo),     # hold at reference level
+  year = NA                  # NA = population-level (exclude random effect)
+)
+
+# Predict on the response scale (counts), excluding random effects
+pred_data$fit <- predict(sight_sdm,
+                         newdata  = pred_data,
+                         type     = "response",   # back-transforms from log scale
+                         re.form  = NULL)
+
+ggplot(pred_data, aes(bwmv, fit)) + 
+    geom_point()+
+    facet_grid(zone~mo) + 
+    ms_theme()
+
+#acoustics ~ sdm
+acou_sdm <- glmmTMB(blu_acou_deci ~ bwmv + zone + mo + (1|year), 
+                    family = beta_family,
+                    data = wpr) #also consider day of year and year covars
+
+summary(acou_sdm)
+acou_sdm_resid <- simulateResiduals(acou_sdm)
+plot(acou_sdm_resid)
+
+```
 
 # Correlation analysis
 
@@ -233,11 +288,16 @@ cor.test(socal_corr$bwmv, socal_corr$blue_acoustic_percent)
 #| label: blue whale data stream comparison corr test, spear acou
 
 #SF
-cor.test(sf_corr$bwmv, sf_corr$blue_acoustic_percent, method = "spearman")
+cor.test(sf_corr$bwmv, sf_corr$blue_acoustic_percent, method = "spearman", use = "complete.obs")
 
+sum(complete.cases(sf_corr$bwmv, sf_corr$blue_acoustic_percent))
+se.spear(0.68, 290)
 
 #Socal
-cor.test(socal_corr$bwmv, socal_corr$blue_acoustic_percent, method = "spearman")
+cor.test(socal_corr$bwmv, socal_corr$blue_acoustic_percent, method = "spearman", use = "complete.obs")
+
+sum(complete.cases(socal_corr$bwmv, socal_corr$blue_acoustic_percent))
+se.spear(0.19, 1089)
 
 ```
 
@@ -248,10 +308,17 @@ cor.test(socal_corr$bwmv, socal_corr$blue_acoustic_percent, method = "spearman")
 #| label: blue whale data stream comparison corr test, ken acou
 
 #SF
-cor.test(sf_corr$bwmv, sf_corr$blue_acoustic_percent, method = "kendall")
+cor.test(sf_corr$bwmv, sf_corr$blue_acoustic_percent, method = "kendall", use = "complete.obs")
+
+n = sum(complete.cases(sf_corr$bwmv, sf_corr$blue_acoustic_percent))
+sqrt((2 * (2 * n + 5)) / (9 * n * (n - 1)))
+
 
 #Socal
-cor.test(socal_corr$bwmv, socal_corr$blue_acoustic_percent, method = "kendall")
+cor.test(socal_corr$bwmv, socal_corr$blue_acoustic_percent, method = "kendall", use = "complete.obs")
+
+n = sum(complete.cases(socal_corr$bwmv, socal_corr$blue_acoustic_percent))
+sqrt((2 * (2 * n + 5)) / (9 * n * (n - 1)))
 
 ```
 
@@ -278,11 +345,16 @@ cor.test(socal_corr$bwmv, socal_corr$s_bluecount)
 #| label: blue whale data stream comparison corr test, spear sight
 
 #SF
-cor.test(sf_corr$bwmv, sf_corr$s_bluecount, method = "spearman")
+cor.test(sf_corr$bwmv, sf_corr$s_bluecount, method = "spearman", use = "complete.obs")
 
+sum(complete.cases(sf_corr$bwmv, sf_corr$s_bluecount))
+se.spear(0.249, 678)
 
 #Socal
-cor.test(socal_corr$bwmv, socal_corr$s_bluecount, method = "spearman")
+cor.test(socal_corr$bwmv, socal_corr$s_bluecount, method = "spearman", use = "complete.obs")
+
+sum(complete.cases(socal_corr$bwmv, socal_corr$s_bluecount))
+se.spear(0.16, 1402)
 
 ```
 
@@ -293,10 +365,18 @@ cor.test(socal_corr$bwmv, socal_corr$s_bluecount, method = "spearman")
 #| label: blue whale data stream comparison corr test, ken sight
 
 #SF
-cor.test(sf_corr$bwmv, sf_corr$s_bluecount, method = "kendall")
+cor.test(sf_corr$bwmv, sf_corr$s_bluecount, method = "kendall", use = "complete.obs")
+
+n = sum(complete.cases(sf_corr$bwmv, sf_corr$s_bluecount))
+sqrt((2 * (2 * n + 5)) / (9 * n * (n - 1)))
+
 
 #Socal
-cor.test(socal_corr$bwmv, socal_corr$s_bluecount, method = "kendall")
+cor.test(socal_corr$bwmv, socal_corr$s_bluecount, method = "kendall", use = "complete.obs")
+
+n = sum(complete.cases(socal_corr$bwmv, socal_corr$s_bluecount))
+sqrt((2 * (2 * n + 5)) / (9 * n * (n - 1)))
+
 
 ```
 :::

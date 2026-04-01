@@ -41,11 +41,11 @@ ms_theme <- function(){
 }
 
 # whale presence rating (wpr) data
-sf_wpr <- read.csv(here("data/wpr/sf_whale_data.csv"))
-socal_wpr <- read.csv(here("data/wpr/socal_whale_data.csv"))
+# sf_wpr <- read.csv(here("data/wpr/sf_whale_data.csv"))
+# socal_wpr <- read.csv(here("data/wpr/socal_whale_data.csv"))
 
-sf_wpr2 <- read.csv(here("data/wpr/sf_whale_data_updated_acoustics.csv"))
-socal_wpr2 <- read.csv(here("data/wpr/socal_whale_data_updated_acoustics.csv"))
+sf_wpr <- read.csv(here("data/wpr/sf_whale_data_updated_acoustics.csv"))
+socal_wpr <- read.csv(here("data/wpr/socal_whale_data_updated_acoustics.csv"))
 
 wpr <- rbind(sf_wpr, socal_wpr)
 wpr <- wpr %>%
@@ -707,9 +707,9 @@ sf_sight <- wpr %>%
   geom_point(aes(y = sight_blu), size = 3, color = "#1F2D3D")+
   geom_path(aes(y = sight_blu), size = 1.5, alpha = 0.8, color = "#1F2D3D")+
   xlab("")+
-  labs(title = "SF VSR")+
+  labs(title = "San Francisco VSR")+
   ylab("Sightings (No. whales)") +
-  scale_x_date(date_breaks = "5 month",
+  scale_x_date(date_breaks = "6 month",
                date_labels = "%b %Y",
                oob = scales::oob_keep,
                limits = as.Date(c('2022-09-01','2025-01-01'), format = "%Y-%m-%d"))+
@@ -732,7 +732,7 @@ sf_ac <- wpr %>%
   geom_path(aes(y = acou_blu), size = 1.5, alpha = 0.8, color = "#1F2D3D")+
   xlab("")+
   scale_y_continuous(name = "Acoustics detection percentage (%)")+
-  scale_x_date(date_breaks = "5 month",
+  scale_x_date(date_breaks = "6 month",
                  date_labels = "%b %Y",
                  oob = scales::oob_keep,
                  limits = as.Date(c('2022-09-01','2025-01-01'), format = "%Y-%m-%d"))+
@@ -755,7 +755,7 @@ sf_ww <- wpr %>%
   geom_path(aes(y = ww_blu), size = 1.5, alpha = 0.8, color = "#1F2D3D")+
   xlab("")+
   ylab("Habitat suitability index") +
-  scale_x_date(date_breaks = "5 month",
+  scale_x_date(date_breaks = "6 month",
                  date_labels = "%b %Y",
                  oob = scales::oob_keep,
                  limits = as.Date(c('2022-09-01','2025-01-01'), format = "%Y-%m-%d"))+
@@ -770,7 +770,7 @@ sf_ww <- wpr %>%
 
 all_sf <- sf_sight/sf_ac/sf_ww
 all_sf
-# ggsave(here("figs/blue_ts/sf.png"), all_sf, height = 10, width = 9, units = c("in"), bg= 'transparent')
+ #ggsave(here("figs/blue_ts/sf.png"), all_sf, height = 10, width = 9, units = c("in"), bg= 'transparent')
 ```
 
 ```{r}
@@ -791,9 +791,9 @@ socal_sight <- wpr %>%
   geom_point(aes(y = sight_blu), size = 3, color = "#1F2D3D")+
   geom_path(aes(y = sight_blu), size = 1.5, alpha = 0.8, color = "#1F2D3D")+
   xlab("")+
-  labs(title = "Socal VSR")+
+  labs(title = "Santa Barbara Channel VSR")+
   ylab("Sightings (No. whales)") +
-  scale_x_date(date_breaks = "9 month",
+  scale_x_date(date_breaks = "6 month",
                  date_labels = "%b %Y",
                  oob = scales::oob_keep,
                  limits = as.Date(c('2020-10-01','2025-01-01'), format = "%Y-%m-%d"))+
@@ -816,7 +816,7 @@ socal_ac <- wpr %>%
   geom_path(aes(y = acou_blu), size = 1.5, alpha = 0.8, color = "#1F2D3D")+
   xlab("")+
   scale_y_continuous(name = "Acoustics detection percentage (%)")+
-  scale_x_date(date_breaks = "9 month",
+  scale_x_date(date_breaks = "6 month",
                  date_labels = "%b %Y",
                  oob = scales::oob_keep,
                  limits = as.Date(c('2020-10-01','2025-01-01'), format = "%Y-%m-%d"))+
@@ -839,7 +839,7 @@ socal_ww <- wpr %>%
   geom_path(aes(y = ww_blu), size = 1.5, alpha = 0.8, color = "#1F2D3D")+
   xlab("")+
   ylab("Habitat suitability index") +
-  scale_x_date(date_breaks = "9 month",
+  scale_x_date(date_breaks = "6 month",
                  date_labels = "%b %Y",
                  oob = scales::oob_keep,
                  limits = as.Date(c('2020-10-01','2025-01-01'), format = "%Y-%m-%d"))+
@@ -854,7 +854,7 @@ socal_ww <- wpr %>%
 
 all_socal <- socal_sight/socal_ac/socal_ww
 all_socal
-# ggsave(here("figs/blue_ts/socal.png"), all_socal, height = 10, width = 9, units = c("in"),bg= 'transparent')
+#ggsave(here("figs/blue_ts/socal.png"), all_socal, height = 10, width = 9, units = c("in"),bg= 'transparent')
 ```
 
 ### Blue whale data stream time series x year
