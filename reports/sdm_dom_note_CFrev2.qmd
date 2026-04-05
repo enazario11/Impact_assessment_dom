@@ -25,11 +25,11 @@ library(here)
 library(tidyquant)
 library(patchwork)
 library(kableExtra) #table
-library(webr) #donut plot
 library(MetBrewer)
-library(ggridges)
 library(glmmTMB)
 library(DHARMa)
+library(broom.mixed)
+library(emmeans)
 set.seed(0902)
 
 ms_theme <- function(){
@@ -180,9 +180,10 @@ socal_ww_na <- as.data.frame(table(socal_zone$bwmv_rating)) %>%
 
 wpr <- wpr %>% mutate(j_day = format(date_pt, "%j"), 
                       blu_acou_deci = blue_acoustic_percent/100)
+wpr$year_c <- wpr$year - mean(wpr$year) #center to make intercept value more interpretable
 
 #sightings ~ sdm
-sight_sdm <- glmmTMB(s_bluecount ~ bwmv + zone + mo + (1|year), 
+sight_sdm <- glmmTMB(s_bluecount ~ bwmv:zone + mo + year_c, 
                     ziformula = ~1,
                     family = poisson,
                     data = wpr)
@@ -191,24 +192,9 @@ summary(sight_sdm)
 sight_sdm_resid <- simulateResiduals(sight_sdm)
 plot(sight_sdm_resid)
 
-# Create a prediction grid
-pred_data <- expand.grid(
-  bwmv = seq(min(wpr$bwmv, na.rm = TRUE), max(wpr$bwmv, na.rm = TRUE), length.out = 100),
-  zone = unique(wpr$zone),   
-  mo   = unique(wpr$mo),     
-  year = NA                  # NA = exclude random effect
-)
+exp(fixef(sight_sdm)$cond["(Intercept)"]) #baseline for SF VSR at mean year, mean month, and bwmv = 0
+emtrends(sight_sdm, pairwise ~ zone, var = "bwmv")
 
-# Predict on the response scale
-pred_data$fit <- predict(sight_sdm,
-                         newdata  = pred_data,
-                         type     = "response",  
-                         re.form  = NULL)
-
-ggplot(pred_data, aes(bwmv, fit)) + 
-    geom_point()+
-    facet_grid(zone~mo) + 
-    ms_theme()
 
 ```
 
@@ -219,8 +205,8 @@ ggplot(pred_data, aes(bwmv, fit)) +
 #| label: glmm revise, acou ~ sdm
 
 #acoustics ~ sdm
-acou_sdm <- glmmTMB(blu_acou_deci ~ bwmv + zone + mo + (1|year), 
-                    zi = ~1,
+acou_sdm <- glmmTMB(blu_acou_deci ~ bwmv:zone + mo + year_c, 
+                    ziformula = ~zone,
                     family = beta_family(link = "logit"),
                     data = wpr) 
 
@@ -228,22 +214,48 @@ summary(acou_sdm)
 acou_sdm_resid <- simulateResiduals(acou_sdm)
 plot(acou_sdm_resid)
 
-# Create a prediction grid
-pred_data <- expand.grid(
-  bwmv = seq(min(wpr$bwmv, na.rm = TRUE), max(wpr$bwmv, na.rm = TRUE), length.out = 100),
-  zone = unique(wpr$zone),   
-  mo   = unique(wpr$mo),     
-  year = NA                  # NA = exclude random effect
-)
+plogis(fixef(acou_sdm)$cond["(Intercept)"]) #baseline for SF VSR at mean year, mean month, and bwmv = 0
+emtrends(acou_sdm, pairwise ~ zone, var = "bwmv")
 
-# Predict on the response scale
-pred_data$fit <- predict(acou_sdm,
-                         newdata  = pred_data,
-                         type     = "response", 
-                         re.form  = NULL)
+```
 
-ggplot(pred_data, aes(bwmv, fit)) + 
-    geom_point()+
-    facet_grid(zone~mo) + 
-    ms_theme()
+## Compare results between models
+
+```{r}
+#| warning: false
+#| echo: false
+#| label: summary table
+
+acou_tidy <- tidy(acou_sdm, effects = "fixed", component = "cond") %>%
+  select(term, estimate, p.value) %>%
+  mutate(
+    sig = case_when(
+      p.value < 0.001 ~ "***",
+      p.value < 0.01  ~ "**",
+      p.value < 0.05  ~ "*",
+      p.value < 0.1   ~ ".",
+      TRUE            ~ ""
+    ),
+    estimate = round(estimate, 3)
+  ) %>%
+  rename(acou_est = estimate, acou_sig = sig) %>%
+  select(-p.value)
+
+sight_tidy <- tidy(sight_sdm, effects = "fixed", component = "cond") %>%
+  select(term, estimate, p.value) %>%
+  mutate(
+    sig = case_when(
+      p.value < 0.001 ~ "***",
+      p.value < 0.01  ~ "**",
+      p.value < 0.05  ~ "*",
+      p.value < 0.1   ~ ".",
+      TRUE            ~ ""
+    ),
+    estimate = round(estimate, 3)
+  ) %>%
+  rename(sight_est = estimate, sight_sig = sig) %>%
+  select(-p.value)
+
+left_join(acou_tidy, sight_tidy, by = "term") %>%
+  print()
 ```
