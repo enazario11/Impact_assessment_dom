@@ -176,6 +176,17 @@ socal_ww_na <- as.data.frame(table(socal_zone$bwmv_rating)) %>%
 
 ```{r}
 #| warning: false
+#| label: vis sight raw data
+
+ggplot(wpr, aes(bwmv, s_bluecount)) + 
+geom_point(aes(color = zone)) + 
+geom_smooth(data = wpr, aes(bwmv, s_bluecount), color = "black", method = "lm") + 
+geom_smooth(method = "lm", aes(color = zone)) + 
+theme_minimal()
+```
+
+```{r}
+#| warning: false
 #| label: glmm revise, sight ~ sdm
 
 wpr <- wpr %>% mutate(j_day = format(date_pt, "%j"), 
@@ -183,7 +194,7 @@ wpr <- wpr %>% mutate(j_day = format(date_pt, "%j"),
 wpr$year_c <- wpr$year - mean(wpr$year) #center to make intercept value more interpretable
 
 #sightings ~ sdm
-sight_sdm <- glmmTMB(s_bluecount ~ bwmv:zone + mo + year_c, 
+sight_sdm <- glmmTMB(s_bluecount ~ bwmv:zone + mo + (1|year_c), 
                     ziformula = ~1,
                     family = poisson,
                     data = wpr)
@@ -192,9 +203,7 @@ summary(sight_sdm)
 sight_sdm_resid <- simulateResiduals(sight_sdm)
 plot(sight_sdm_resid)
 
-exp(fixef(sight_sdm)$cond["(Intercept)"]) #baseline for SF VSR at mean year, mean month, and bwmv = 0
 emtrends(sight_sdm, pairwise ~ zone, var = "bwmv")
-
 
 ```
 
@@ -202,10 +211,21 @@ emtrends(sight_sdm, pairwise ~ zone, var = "bwmv")
 
 ```{r}
 #| warning: false
+#| label: vis acou raw data
+
+ggplot(wpr, aes(bwmv, blu_acou_deci)) + 
+geom_point(aes(color = zone)) + 
+geom_smooth(data = wpr, aes(bwmv, blu_acou_deci), color = "black", method = "lm", se = FALSE) + 
+geom_smooth(method = "lm", aes(color = zone), se = FALSE) + 
+theme_minimal()
+```
+
+```{r}
+#| warning: false
 #| label: glmm revise, acou ~ sdm
 
 #acoustics ~ sdm
-acou_sdm <- glmmTMB(blu_acou_deci ~ bwmv:zone + mo + year_c, 
+acou_sdm <- glmmTMB(blu_acou_deci ~ bwmv:zone + mo + (1|year_c), 
                     ziformula = ~zone,
                     family = beta_family(link = "logit"),
                     data = wpr) 
