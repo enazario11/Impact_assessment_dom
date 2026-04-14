@@ -190,12 +190,18 @@ theme_minimal()
 #| label: glmm revise, sight ~ sdm
 
 wpr <- wpr %>% mutate(j_day = format(date_pt, "%j"), 
-                      blu_acou_deci = blue_acoustic_percent/100)
+                      blu_acou_deci = blue_acoustic_percent/100, 
+                      zone = as.factor(zone), 
+                      month_sin = sin((2*pi*mo)/12), 
+                      month_cos = cos((2*pi*mo)/12))
 wpr$year_c <- wpr$year - mean(wpr$year) #center to make intercept value more interpretable
+wpr$zone <- relevel(wpr$zone, ref = "Socal VSR")
+n_sight_mod <- wpr %>% filter(!is.na(bwmv)) %>% group_by(zone) #no NAs in sighting data
+count(n_sight_mod)
 
 #sightings ~ sdm
-sight_sdm <- glmmTMB(s_bluecount ~ bwmv:zone + mo + (1|year_c), 
-                    ziformula = ~1,
+sight_sdm <- glmmTMB(s_bluecount ~ bwmv*zone + month_sin + month_cos + (1|year_c), 
+                    ziformula = ~zone,
                     family = poisson,
                     data = wpr)
 
@@ -203,6 +209,16 @@ summary(sight_sdm)
 sight_sdm_resid <- simulateResiduals(sight_sdm)
 plot(sight_sdm_resid)
 
+
+```
+
+For the sightings data, we see a marginally non-significant difference between zones (0.0792) suggesting that the relationship between WhaleWatch and sightings may differ between zones. We do see that WhaleWatch has a positive significant relationship with sightings data in Socal (our reference level) and when HSI = 1, we expect a 2.6x increase in whales compared to when HSI = 0.
+
+```{r}
+#| warning: false
+#| label: interpret socal sight sdm output
+
+exp(fixef(sight_sdm)$cond)
 emtrends(sight_sdm, pairwise ~ zone, var = "bwmv")
 
 ```
@@ -224,8 +240,11 @@ theme_minimal()
 #| warning: false
 #| label: glmm revise, acou ~ sdm
 
+n_acou_mod <- wpr %>% filter(!is.na(blu_acou_deci)) %>% filter(!is.na(bwmv)) %>% group_by(zone)
+count(n_acou_mod, "zone")
+
 #acoustics ~ sdm
-acou_sdm <- glmmTMB(blu_acou_deci ~ bwmv:zone + mo + (1|year_c), 
+acou_sdm <- glmmTMB(blu_acou_deci ~ bwmv*zone + month_sin + month_cos + (1|year_c), 
                     ziformula = ~zone,
                     family = beta_family(link = "logit"),
                     data = wpr) 
@@ -233,49 +252,15 @@ acou_sdm <- glmmTMB(blu_acou_deci ~ bwmv:zone + mo + (1|year_c),
 summary(acou_sdm)
 acou_sdm_resid <- simulateResiduals(acou_sdm)
 plot(acou_sdm_resid)
-
-plogis(fixef(acou_sdm)$cond["(Intercept)"]) #baseline for SF VSR at mean year, mean month, and bwmv = 0
-emtrends(acou_sdm, pairwise ~ zone, var = "bwmv")
-
 ```
 
-## Compare results between models
+For the acoustics data, we see significant difference between zones (p < 0.0001) suggesting that the relationship between WhaleWatch and summary periods with positive acoustic detections likely differ between zones. We do see that WhaleWatch has a positive significant relationship with sightings data in Socal (our reference level) and when HSI = 1, we expect a 0.053x increase in whales compared to when HSI = 0. 
 
 ```{r}
 #| warning: false
-#| echo: false
-#| label: summary table
+#| label: interpret acou outputs
 
-acou_tidy <- tidy(acou_sdm, effects = "fixed", component = "cond") %>%
-  select(term, estimate, p.value) %>%
-  mutate(
-    sig = case_when(
-      p.value < 0.001 ~ "***",
-      p.value < 0.01  ~ "**",
-      p.value < 0.05  ~ "*",
-      p.value < 0.1   ~ ".",
-      TRUE            ~ ""
-    ),
-    estimate = round(estimate, 3)
-  ) %>%
-  rename(acou_est = estimate, acou_sig = sig) %>%
-  select(-p.value)
+plogis(fixef(acou_sdm)$cond)*100 #baseline for SF VSR at mean year, mean month, and bwmv = 0
 
-sight_tidy <- tidy(sight_sdm, effects = "fixed", component = "cond") %>%
-  select(term, estimate, p.value) %>%
-  mutate(
-    sig = case_when(
-      p.value < 0.001 ~ "***",
-      p.value < 0.01  ~ "**",
-      p.value < 0.05  ~ "*",
-      p.value < 0.1   ~ ".",
-      TRUE            ~ ""
-    ),
-    estimate = round(estimate, 3)
-  ) %>%
-  rename(sight_est = estimate, sight_sig = sig) %>%
-  select(-p.value)
-
-left_join(acou_tidy, sight_tidy, by = "term") %>%
-  print()
+emtrends(acou_sdm, pairwise ~ zone, var = "bwmv")
 ```
