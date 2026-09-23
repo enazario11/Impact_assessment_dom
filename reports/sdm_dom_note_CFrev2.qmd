@@ -93,33 +93,33 @@ San Francisco: September 21, 2022
 
 Southern California:
 
--   June 4 - December 31, 2018:
+- June 4 - December 31, 2018:
 
--   May 15 - December 15, 2019
+- May 15 - December 15, 2019
 
--   May 15 - December 15, 2020
+- May 15 - December 15, 2020
 
--   May 15 - December 15, 2021
+- May 15 - December 15, 2021
 
--   May 1 - December 15, 2022
+- May 1 - December 15, 2022
 
--   May 1 - December 15, 2023
+- May 1 - December 15, 2023
 
--   May 1 , 2024 - January 15, 2025
+- May 1 , 2024 - January 15, 2025
 
 San Francisco
 
--   May 1 - November 15, 2019
+- May 1 - November 15, 2019
 
--   May 1 - November 15, 2020
+- May 1 - November 15, 2020
 
--   May 1 - November 15, 2021
+- May 1 - November 15, 2021
 
--   May 1 - December 15, 2022
+- May 1 - December 15, 2022
 
--   May 1 - December 15, 2023
+- May 1 - December 15, 2023
 
--   May 1 , 2024 - January 15, 2025
+- May 1 , 2024 - January 15, 2025
 
 ## WPR data notes
 
@@ -221,6 +221,7 @@ For the sightings data, we see a marginally non-significant difference between z
 exp(fixef(sight_sdm)$cond)
 emtrends(sight_sdm, pairwise ~ zone, var = "bwmv")
 
+exp(confint(sight_sdm, parm = "beta_")[, 1:2])
 ```
 
 ## Acoustics \~ SDM
@@ -254,13 +255,25 @@ acou_sdm_resid <- simulateResiduals(acou_sdm)
 plot(acou_sdm_resid)
 ```
 
-For the acoustics data, we see significant difference between zones (p < 0.0001) suggesting that the relationship between WhaleWatch and summary periods with positive acoustic detections likely differ between zones. We do see that WhaleWatch has a positive significant relationship with sightings data in Socal (our reference level) and when HSI = 1, we expect a 0.053x increase in whales compared to when HSI = 0. 
+For the acoustics data, we see significant difference between zones (p \< 0.0001) suggesting that the relationship between WhaleWatch and summary periods with positive acoustic detections likely differ between zones. We do see that WhaleWatch has a positive significant relationship with sightings data in Socal (our reference level) and when HSI = 1, we expect a 0.053x increase in whales compared to when HSI = 0.
 
 ```{r}
 #| warning: false
 #| label: interpret acou outputs
 
+#two approaches to transforming coefficient estimates on response scale
+ggeffects::predict_response(acou_sdm, terms = "zone")
+emmeans(acou_sdm, ~ bwmv|zone, type = "response")
+
+#predicted values across interaction terms and combinations
+interaction_preds <- ggeffects::predict_response(acou_sdm, terms = c("bwmv", "zone"))
+plot(interaction_preds)
+
+
 plogis(fixef(acou_sdm)$cond)*100 #baseline for SF VSR at mean year, mean month, and bwmv = 0
 
 emtrends(acou_sdm, pairwise ~ zone, var = "bwmv")
+
+plogis(confint(acou_sdm, parm = "beta_")[, 1:2])*100
+
 ```
